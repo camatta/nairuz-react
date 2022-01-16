@@ -6,18 +6,23 @@ import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import NewsletterNz from '../components/NewsletterNz'
 import CarrosselCases from '../components/CarrosselCases'
+import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div className='page-home'>
+    <>
       <Head>
         <title>Nairuz</title>
         <meta name="description" content="Nairuz Digital e Consultoria" />
         <link rel="icon" href="/favicon.png" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </Head>
+
+      <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
+
+      <div className='page-home'>
+
 
       <Headerhome />
       <HeaderMob />
@@ -462,5 +467,7 @@ export default function Home() {
 
       <Footergeral />
     </div>
+    </>
+
   )
 }
