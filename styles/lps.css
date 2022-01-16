@@ -1,0 +1,654 @@
+#temas {
+  background-image: url(/bg-temas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 11rem;
+  position: relative;
+}
+
+.title-temas h1 {
+  font-weight: 800;
+  color: #fff;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.buttons-temas {
+  margin-top: 2rem;
+}
+
+.saiba-mais-temas {
+  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  padding: 0.6rem 2.1rem;
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.consultor-temas {
+  border-radius: 25px;
+  padding: 0.6rem 2.1rem;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 0.9rem;
+}
+
+.buttons-temas a:hover {
+  color: #fff;
+}
+
+#apresentacao-temas {
+  padding: 6rem 0;
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
+}
+
+.title-apresentacao h2 {
+  font-weight: 800;
+  color: #0D0326;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.title-apresentacao h2:before {
+  content: 'nossas soluções';
+    position: absolute;
+    left: -13rem;
+    top: -4rem;
+    color: #58DBAA;
+    font-size: 4.7rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .15;
+}
+
+.conteudo-apresentacao p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.buttons-apresentacao {
+  margin-top: 2rem;
+}
+
+.buttons-apresentacao a:hover {
+  color: unset;
+}
+
+.consultor-apresentacao {
+  border-radius: 25px;
+  padding: 0.6rem 2.1rem;
+  color: #2D2D2D;
+  border: 2px solid #2D2D2D;
+  font-size: 0.9rem;
+}
+
+.img-apresentacao {
+  text-align: right;
+}
+
+#modelos-temas {
+  padding: 6rem 0;
+  background-image: url(/bg-modelos-temas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-modelos h3 {
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.text-modelos p {
+  color: #fff;
+  width: 55%;
+  line-height: 1.5;
+  margin: auto;
+  margin-bottom: 3rem;
+  font-size: 0.95rem;
+}
+
+.modelo-tema-card {
+  padding: 3rem;
+}
+
+.header-modelo {
+  position: relative;
+}
+
+.logo-modelo {
+  position: absolute;
+  bottom: -3.6rem;
+  left: 10.5rem;
+}
+
+.icon-modelo {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.footer-modelo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.descricao-modelo {
+  width: 50%;
+}
+
+.descricao-modelo p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.descricao-modelo p b {
+  font-weight: 600;
+}
+
+.btn-modelo {
+  background: transparent linear-gradient(90deg, #392BA1 0%, #6316C9 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    padding: 0.6rem 2rem;
+    font-size: 0.9rem;
+}
+
+.button-modelo-footer button {
+  background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: unset;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 1rem 6rem;
+  letter-spacing: 2.8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#form-temas {
+  padding: 6rem 0;
+  background-image: url(/bg-form-temas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-header-form p {
+  color: #fff;
+  line-height: 1.5;
+}
+
+.text-header-form p b {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.text-header-form p span {
+  font-weight: 600;
+  color: #68FC9C;
+  font-size: 1.3rem;
+}
+
+.descricao-form {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.linha-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.linha-form .form-nome {
+  margin-right: 2rem;
+}
+
+.linha-form input {
+  border-radius: 5px;
+  border: unset;
+  margin-top: 0.5rem;
+  padding: 0.6rem 4rem 0.6rem 1rem;
+  font-size: 0.85rem;
+}
+
+.linha-form label {
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+.button-form-temas {
+  background: transparent -webkit-gradient(linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
+  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(
+90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: unset;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 1rem 6rem;
+  letter-spacing: 2.8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 48%;
+}
+
+.button-form-consultor {
+  text-align: center;
+}
+
+.form-selects {
+  width: 48%;
+}
+
+.page-temas #behance-nairuz {
+  background-color: #0D0326;
+}
+
+#plataformas-temas {
+  padding: 4rem 0;
+}
+
+.page-temas #copy-temas {
+  background-color: #0D0326;
+}
+
+.page-temas .copyright {
+  margin-top: 1rem;
+}
+
+.page-temas .nav-footer ul {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #0D0326;
+  justify-content: center;
+}
+
+.page-temas .nav-footer ul li a {
+  color: #0D0326;
+  margin-right: 2rem;
+  letter-spacing: 1.4px;
+}
+
+.page-temas .footer-logo {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  padding-right: 0rem;
+}
+
+#performance {
+  background-image: url(/bg-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 11rem;
+  position: relative;
+}
+
+#performance .title-temas h1 {
+  color: #68FC9C;
+}
+
+#clientes-performance {
+  padding: 7rem 0;
+}
+
+.text-clientes-performance h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  width: 80%;
+  line-height: 1.3;
+}
+
+.text-clientes-performance p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.text-clientes-performance .saiba-mais-temas {
+  background-color: #58DBAA;
+  background-image: unset;
+}
+
+#marketing-performance {
+  background-image: url(/bg-marketing-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+.title-marketing-performance h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  width: 80%;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.text-marketing-performance {
+  display: flex;
+}
+
+.text-marketing-performance p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 35%;
+  margin-right: 4rem;
+}
+
+.button-marketing-performance {
+  margin-top: 3rem;
+}
+
+.button-marketing-performance .saiba-mais-temas {
+  background: #0D0326;
+  background-image: unset;;
+}
+
+.title-marketing-performance h3:before {
+  content: '#wearedatadriven';
+  position: absolute;
+  left: -1rem;
+  top: 6rem;
+  color: #FFFFFF;
+  font-size: 4.7rem;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  opacity: .19;
+}
+
+#apresentacao-performance {
+  padding: 7rem 0;
+}
+
+#apresentacao-performance .title-apresentacao h2 {
+  font-size: 2rem;
+  margin-bottom: 8rem;
+}
+
+#apresentacao-performance .title-apresentacao h2:before {
+  content: 'nossos serviços';
+  position: absolute;
+  left: -13rem;
+  top: -4rem;
+  color: #58DBAA;
+  font-size: 4.7rem;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  opacity: .15;
+}
+
+.title-servico-performance h4 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #2D2D2D;
+  position: relative;
+  right: 4rem;
+}
+
+.content-servico-performance p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 85%;
+  margin-top: 2rem;
+}
+
+.button-servico-performance {
+  margin-top: 3rem;
+}
+
+.button-servico-performance a {
+  letter-spacing: 1.3px;
+  background-color: #58DBAA;
+  background-image: unset;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+a:hover {
+  color: unset;
+}
+
+.img-servico-performance.right {
+  text-align: right;
+}
+
+.box-icon-title {
+  display: flex;
+  align-items: center;
+}
+
+.img-servico-performance {
+  position: relative;
+  bottom: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.icon-servico-performance {
+  position: relative;
+  right: 6rem;
+}
+
+.img-servico-performance.layout:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    background: -moz-linear-gradient(275deg, rgba(88,219,170,1) 0%, rgba(44,110,85,1) 88%);
+    background: linear-gradient(175deg, rgba(88,219,170,1) 0%, rgba(44,110,85,1) 88%);
+    position: absolute;
+    top: 1rem;
+    right: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.midias:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    background: rgb(193,0,214);
+    background: linear-gradient(175deg, rgba(193,0,214,1) 61%, rgba(97,0,107,1) 100%);
+    position: absolute;
+    top: 1rem;
+    right: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.seo:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    background: rgb(245,0,187);
+    background: linear-gradient(175deg, rgba(245,0,187,1) 0%, rgba(123,0,94,1) 88%);
+    position: absolute;
+    top: 1rem;
+    right: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.website:after {
+    content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background: rgb(245,0,187);
+    background: linear-gradient(175deg, rgba(245,0,187,1) 61%, rgba(123,0,94,1) 100%);
+    position: absolute;
+    top: 1rem;
+    left: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.inbound:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background: rgb(104,252,156);
+    background: linear-gradient(175deg, rgba(104,252,156,1) 61%, rgba(52,126,78,1) 100%);
+    position: absolute;
+    top: 1rem;
+    left: -13rem;
+    z-index: -1;
+}
+
+.text-servico-performance {
+  padding-left: 3rem;
+}
+
+#parceiros-temas {
+  margin-top: 6rem;
+}
+
+#resultados-performance {
+  background-image: url(/bg-resultados-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 11rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.title-resultados h4 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.text-resultados-performance p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.icon-resultados {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.carrossel-resultados-performance .card-cases {
+  padding: 0.6rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel {
+  position: relative;
+}
+
+.carrossel-resultados-performance .cases-carrossel .owl-nav {
+  position: absolute;
+  top: 33%;
+}
+
+.carrossel-resultados-performance .cases-carrossel .owl-prev {
+  position: absolute;
+  right: 3rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel .owl-next {
+  position: absolute;
+  right: -72rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel button img {
+  filter: brightness(7.5);
+}
+
+.button-resultado-performance a {
+  letter-spacing: 1.3px;
+  background-color: #58DBAA;
+  background-image: unset;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.carrossel-resultados-performance .cases-carrossel {
+  margin-bottom: 0;
+}
+
+/* LP Layout */
+
+.page-layout #apresentacao-performance .title-apresentacao h2 {
+  margin-bottom: 2rem;
+}
+
+.page-layout #apresentacao-performance .title-apresentacao p {
+  margin-bottom: 8rem;
+  font-size: 0.85rem;
+}
+
+.page-layout #apresentacao-performance .title-apresentacao h2:before {
+  content: 'nossas soluções';
+}
+
+.page-layout .content-servico-performance p {
+  margin-bottom: 2rem;
+}
+
+.caracteristicas-layout ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.caracteristicas-layout p {
+  font-size: 0.85rem;
+  margin-left: 0.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.page-layout .button-servico-performance {
+  margin-bottom: 7rem;
+}
+
+.page-layout .img-servico-performance.website:after {
+  background: rgb(57,43,161);
+  background: linear-gradient(175deg, rgba(57,43,161,1) 53%, rgba(29,22,81,1) 94%);
+}
+
+.saiba-mais-temas.website {
+  background-color: #392BA1;
+}

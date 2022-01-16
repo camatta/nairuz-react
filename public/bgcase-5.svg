@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="190" viewBox="0 0 418 190">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#392ba1"/>
+      <stop offset="1" stop-color="#f500bb"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_202" data-name="Retângulo 202" width="418" height="190" rx="20" transform="translate(210 3248)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_370" data-name="Grupo 370" transform="translate(-658 -3053)">
+    <rect id="Retângulo_201" data-name="Retângulo 201" width="418" height="190" rx="20" transform="translate(658 3053)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_de_máscara_18" data-name="Grupo de máscara 18" transform="translate(448 -195)" clip-path="url(#clip-path)">
+      <path id="Caminho_359" data-name="Caminho 359" d="M57.666,136q-18.809,0-32.562-6.067A89.466,89.466,0,0,1,.228,113.555L22.677,87.263A84.537,84.537,0,0,0,39.666,98.589a39.186,39.186,0,0,0,17.393,4.045q9.708,0,15.27-4.449A14.705,14.705,0,0,0,77.891,86.05v-.4a14.232,14.232,0,0,0-5.764-12.034q-5.764-4.348-15.067-4.348a34.953,34.953,0,0,0-12.034,2.022,61.318,61.318,0,0,0-10.618,5.056L11.149,63.4,15.194-8.4h94.652V23.96H46.138L44.925,45.4a63.2,63.2,0,0,1,10.213-3.64,48.955,48.955,0,0,1,12.438-1.416,61.4,61.4,0,0,1,18.3,2.73,45.4,45.4,0,0,1,15.472,8.191,39.836,39.836,0,0,1,10.719,13.955q4.045,8.494,4.045,20.022v.4a49.6,49.6,0,0,1-4.348,21.236,45.582,45.582,0,0,1-12.034,15.775,53.632,53.632,0,0,1-18.4,9.91A77.168,77.168,0,0,1,57.666,136Z" transform="translate(192.772 3316.995)" fill="#221a61" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="190" viewBox="0 0 418 190">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#392ba1"/>
+      <stop offset="1" stop-color="#f500bb"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_194" data-name="Retângulo 194" width="418" height="190" rx="20" transform="translate(658 3028)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_369" data-name="Grupo 369" transform="translate(-1554 -2808)">
+    <rect id="Retângulo_193" data-name="Retângulo 193" width="418" height="190" rx="20" transform="translate(1554 2808)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_de_máscara_15" data-name="Grupo de máscara 15" transform="translate(896 -220)" clip-path="url(#clip-path)">
+      <path id="Caminho_295" data-name="Caminho 295" d="M75.19,77.5V36.843L41.414,77.5Zm0,29.124H6.628L.156,78.911,73.572-8.46h39.64V77.293h18v29.326h-18v27.506H75.19Z" transform="translate(623.821 3097.5)" fill="#221a61" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
