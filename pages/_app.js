@@ -13,18 +13,21 @@ function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 
-WebFont.load({
-  google: {
-    families: ['Montserrat:300,400,500,600,700,800', 'sans-serif']
-  }
-});
-
 if (typeof window !== "undefined") {
   require("jquery");
+  WebFont.load({
+    google: {
+      families: ['Montserrat:300,400,500,600,700,800', 'sans-serif']
+    }
+  });
 }
 
 if (typeof window !== "undefined") {
-  // browser code
+  WebFont.load({
+    google: {
+      families: ['Montserrat:300,400,500,600,700,800', 'sans-serif']
+    }
+  });
 }
 
 
