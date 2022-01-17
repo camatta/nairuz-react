@@ -108,7 +108,6 @@ const Footergeral = () => (
   </div>
   <ContatoPopup />
 </footer>
-<Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
 <Script src='https://nairuz.com.br/react/script.js' />
 </>
 );

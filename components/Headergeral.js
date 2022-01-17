@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Script from 'next/script'
 
 const Headergeral = () => (
   <header className="container-fluid" id="header-geral">
@@ -14,11 +15,11 @@ const Headergeral = () => (
           <div className="menu">
             <nav>
               <ul>
-                <li><Link href="/"><a>Home</a></Link></li>
-                <li><Link href="/quem-somos"><a>Quem Somos</a></Link></li>
-                <li><Link href="/servicos"><a>Serviços</a></Link></li>
-                <li><Link href="/cases"><a>Cases</a></Link></li>
-                <li><Link href="/vagas"><a>Funcionairuz</a></Link></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/quem-somos">Quem Somos</a></li>
+                <li><a href="/servicos">Serviços</a></li>
+                <li><a href="/cases">Cases</a></li>
+                <li><a href="/vagas">Funcionairuz</a></li>
                 <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
               </ul>
             </nav>
@@ -31,6 +32,7 @@ const Headergeral = () => (
         </div>
       </div>
     </div>
+    <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
   </header>
 );
 
