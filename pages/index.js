@@ -46,8 +46,8 @@ export default function Home() {
                         Desenvolvemos web sites, one pages, landing pages, implementação e desenvolvimento de layout para e-commerce. Somos apaixonados por usabilidade e nossos projetos são todos personalizados, pautados nas boas práticas de User Interface - UI e User Experience - UX com foco nos resultados. Além disso, trabalhamos com as mais recentes tecnologias do mercado.
                       </p>
                       <div className="buttons-servicos">
-                        <button id="detalhes-servicos">Ver Detalhes</button>
-                        <button id="contratar-servicos">Quero Contratar!</button>
+                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -59,8 +59,8 @@ export default function Home() {
                         Desenvolvemos web sites, one pages, landing pages, implementação e desenvolvimento de layout para e-commerce. Somos apaixonados por usabilidade e nossos projetos são todos personalizados, pautados nas boas práticas de User Interface - UI e User Experience - UX com foco nos resultados. Além disso, trabalhamos com as mais recentes tecnologias do mercado.
                       </p>
                       <div className="buttons-servicos">
-                        <button id="detalhes-servicos">Ver Detalhes</button>
-                        <button id="contratar-servicos">Quero Contratar!</button>
+                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -72,8 +72,8 @@ export default function Home() {
                         As mídias sociais também são responsáveis por atrair clientes e, por este motivo, é fundamental estar conectado em redes sociais relevantes para seu nicho de atuação com foco no gerenciamento, vendas, relacionamento e monitoramento de sua empresa.
                       </p>
                       <div className="buttons-servicos">
-                        <button id="detalhes-servicos">Ver Detalhes</button>
-                        <button id="contratar-servicos">Quero Contratar!</button>
+                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -85,8 +85,8 @@ export default function Home() {
                         O Inbound Marketing, também conhecido como Marketing de Atração, é uma metodologia de marketing digital totalmente focada na conversão dos visitantes do seu negócio em clientes ativos, conduzindo-os pela jornada de compra de forma automatizada.
                       </p>
                       <div className="buttons-servicos">
-                        <button id="detalhes-servicos">Ver Detalhes</button>
-                        <button id="contratar-servicos">Quero Contratar!</button>
+                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -98,8 +98,8 @@ export default function Home() {
                         Nossa equipe irá fazer análises de seu site, de concorrentes e palavras-chave. Assim, através de otimizações, produção de conteúdos relevantes e link building, seu site apresentará crescimento organicamente.
                       </p>
                       <div className="buttons-servicos">
-                        <button id="detalhes-servicos">Ver Detalhes</button>
-                        <button id="contratar-servicos">Quero Contratar!</button>
+                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -210,8 +210,8 @@ export default function Home() {
                   <p>Através de estratégias personalizadas, atingimos números e objetivos acima do esperado, listamos abaixo alguns de nossos cases de sucesso. Que tal ser o próximo?</p>
                 </div>
                 <div className="buttons-cases">
-                  <a href="#" className="ver-cases">Ver Cases</a>
-                  <a href="#" className="ser-case">Quero ser um case de sucesso</a>
+                  <Link href="/cases"><a className="ver-cases">Ver Cases</a></Link>
+                  <button className="ser-case open-popup-contato">Quero ser um case de sucesso</button>
                 </div>
               </div>
             </div>
@@ -407,7 +407,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="vermais-blog">
-                  <Link href="/"><a href="#">Ver mais no Blog</a></Link>
+                  <a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Ver mais no Blog</a>
                 </div>
               </div>
             </div>

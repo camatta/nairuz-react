@@ -17,7 +17,6 @@ if (typeof window !== "undefined") {
 }
 
 if (typeof window !== "undefined") {
-  // browser code
 }
 
 

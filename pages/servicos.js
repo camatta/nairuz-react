@@ -86,7 +86,7 @@ export default function Servicos() {
                   </div>
                 </div>
                 <div className="button-orcamento-servico">
-                  <button id="orcamento-servico">Quero fazer um orçamento!</button>
+                  <button id="orcamento-servico" className="open-popup-contato">Quero fazer um orçamento!</button>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Servicos() {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eget semper metus. Proin consectetur a nunc mollis interdum. Aliquam sed lectus ut lacus hendrerit mollis. Nam vitae rhoncus sapien.</p>
                 </div>
                 <div className="button-orcamento-servico">
-                  <button id="orcamento-servico">Quero fazer um orçamento!</button>
+                  <button id="orcamento-servico" className="open-popup-contato">Quero fazer um orçamento!</button>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Servicos() {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eget semper metus. Proin consectetur a nunc mollis interdum. Aliquam sed lectus ut lacus hendrerit mollis. Nam vitae rhoncus sapien.</p>
                 </div>
                 <div className="button-orcamento-servico">
-                  <button id="orcamento-servico">Quero fazer um orçamento!</button>
+                  <button id="orcamento-servico" className="open-popup-contato">Quero fazer um orçamento!</button>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function Servicos() {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eget semper metus. Proin consectetur a nunc mollis interdum. Aliquam sed lectus ut lacus hendrerit mollis. Nam vitae rhoncus sapien.</p>
                 </div>
                 <div className="button-orcamento-servico">
-                  <button id="orcamento-servico">Quero fazer um orçamento!</button>
+                  <button id="orcamento-servico" className="open-popup-contato">Quero fazer um orçamento!</button>
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function Servicos() {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eget semper metus. Proin consectetur a nunc mollis interdum. Aliquam sed lectus ut lacus hendrerit mollis. Nam vitae rhoncus sapien.</p>
                 </div>
                 <div className="button-orcamento-servico">
-                  <button id="orcamento-servico">Quero fazer um orçamento!</button>
+                  <button id="orcamento-servico" className="open-popup-contato">Quero fazer um orçamento!</button>
                 </div>
               </div>
             </div>
@@ -207,6 +207,7 @@ export default function Servicos() {
       </main>
 
       <Footergeral />
+
     </div>
     
     </>
