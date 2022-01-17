@@ -17,6 +17,10 @@
     display: none;
   }
 
+  .owl-carousel .owl-stage-outer {
+    overflow-x: hidden !important;
+  }
+
   /* Header */
 
   #header-home {

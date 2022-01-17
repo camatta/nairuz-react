@@ -72,23 +72,29 @@ a:hover, a {
 /* Header */
 
 @media (min-width: 1200px) {
-  #header-home .container:first-child,
-  #header-home2 .container:first-child {
+  #header-home .container:first-child {
       max-width: 1400px;
   }
 }
 
 #header-home {
-  background-image: url('/bg-bialetti-home.png');
-  padding: 4rem 0 12rem 0;
+  background: transparent;
+  padding: 4rem 0 0 0;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+#bg-carrossel1 {
+  background-image: url(/bg-bialetti-home2.png);
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
 }
 
-#header-home2 {
+#bg-carrossel2 {
   background-image: url('/bg-nairuz-home.png');
-  padding: 4rem 0 12rem 0;
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
@@ -136,7 +142,7 @@ a:hover, a {
   background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
   border-radius: 25px;
   padding: 0.7rem 1.4rem;
-  font-size: 14.4px;
+  font-size: 0.9rem;
   color: #fff;
   border: none;
 }
@@ -215,6 +221,10 @@ a:hover, a {
   margin-left: 1rem;
 }
 
+.footer-infos a:hover {
+  color: #ed02bc;
+}
+
 .title-footer {
   letter-spacing: 2.2px;
   text-transform: uppercase;
@@ -262,6 +272,8 @@ a:hover, a {
   display: none;
   opacity: 0;
   transition: opacity 2s;
+  height: 13px;
+  overflow: hidden;
 }
 
 .wpp-footer a p b {
@@ -277,10 +289,118 @@ a:hover, a {
   width: 390px;
 }
 
+/* Pop-up Contato */
+
+#contato-popup {
+  max-width: 1000px;
+  background: transparent linear-gradient(180deg, #58DBAA 0%, #6316C9 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 15px #0000000d;
+  border-radius: 20px;
+  padding: 5rem 2rem;
+}
+
+.left-popup {
+  color: #fff;
+}
+
+.logo-popup {
+  width: 70%;
+  position: relative;
+  right: 5rem;
+  bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title-popup p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.8rem;
+}
+
+.title-popup p span {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.text-popup p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4rem;
+  width: 80%;
+}
+
+.title-popup p.fale-conosco {
+  font-weight: 600;
+  position: relative;
+  bottom: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.linha-form.grid {
+  flex-direction: column;
+}
+
+.linha-form.grid .form-selects {
+  width: 100%;
+}
+
+.button-form-temas.popup {
+  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+    background: transparent -webkit-gradient( linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
+    background: transparent -moz-linear-gradient( left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient( 
+90deg
+, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    border: unset;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(96 66 194 / 12%);
+  z-index: 99;
+  display: none;
+}
+
+.secondary-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-popup {
+  position: relative;
+}
+
+.close-popup {
+  position: absolute;
+  top: -3rem;
+  right: -1rem;
+}
+
+.close-popup button {
+  background: unset;
+  border: none;
+}
+
 /* Banner Carrossel Home */
 
 #carrossel {
-  margin-top: 10rem;
+  padding-top: 16rem;
+  padding-bottom: 12rem;
 }
 
 .left-carrossel p {
@@ -351,12 +471,24 @@ a:hover, a {
 .descricao-right button {
   background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
   border-radius: 25px;
-  padding: 0.7rem 1.4rem;
+  padding: 0.6rem 1.6rem;
   border: none;
 }
 
 .descricao-right button a {
   color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.carrossel-principal .right-carrossel .cards {
+  transform: translate3d(0, 0, 0);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.carrossel-principal .right-carrossel .cards:hover {
+  transform: translate3d(2rem, -0.2rem, 10px);
 }
 
 /* Newsletter */
@@ -451,7 +583,7 @@ a:hover, a {
 
 #servicos-home {
   padding: 8rem 0 12rem 0;
-  background: transparent linear-gradient(180deg, #0c1dcf  0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #362aa4  0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
 }
 
 #servicos-home > .container {
@@ -594,15 +726,15 @@ a:hover, a {
 }
 
 .bg-rosa {
-  background: transparent linear-gradient(180deg, #0c1dcf 0%, #F500BB 100%) 0% 0% no-repeat padding-box !important;
+  background: transparent linear-gradient(180deg, #362aa4 0%, #F500BB 100%) 0% 0% no-repeat padding-box !important;
 }
 
 .bg-roxo {
-  background: transparent linear-gradient(180deg, #0c1dcf 0%, #C100D6 100%) 0% 0% no-repeat padding-box !important;
+  background: transparent linear-gradient(180deg, #362aa4 0%, #C100D6 100%) 0% 0% no-repeat padding-box !important;
 }
 
 .bg-azul {
-  background: transparent linear-gradient(180deg, #0c1dcf 0%, #58DBAA 100%) 0% 0% no-repeat padding-box !important;
+  background: transparent linear-gradient(180deg, #362aa4 0%, #58DBAA 100%) 0% 0% no-repeat padding-box !important;
 }
 
 /* Clientes Home */
@@ -1090,11 +1222,20 @@ a:hover, a {
 
 #fotos-nossacasa {
   padding: 0;
+  position: relative;
+  top: 0.2rem;
 }
 
 #fotos-nossacasa ul {
   display: flex;
+  justify-content: center;
 }
+
+#fotos-nossacasa ul:first-child {
+  position: relative;
+  top: 0.2rem;
+}
+
 #fotos-nossacasa ul li img {
   width: 100%;
   vertical-align: top;
@@ -1398,6 +1539,18 @@ a:hover, a {
 #botoes-dinamicos {
   margin-bottom: 4rem;
   position: relative;
+}
+
+.page-servicos .title-cases:after {
+  content: '';
+  width: 2.3rem;
+  height: 20rem;
+  position: absolute;
+  top: 0;
+  left: 31rem;
+  background-image: url(/icons-servicos.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #botoes-dinamicos::after {
