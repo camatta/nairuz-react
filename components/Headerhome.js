@@ -98,7 +98,7 @@ const Headerhome = () => (
               <div className="row">
                 <div className="col-12 col-md-4">
                   <div className="left-carrossel">
-                    <p>Veja como a Bialetti Shop <b>aumentou seu faturamento em 800%</b> em menos de um ano!</p>
+                    <p>Somos uma empresa de marketing e tecnologia apaixonada por fazer <b>você crescer!</b></p>
                   </div>
                 </div>
                 <div className="col-3 desktoponly">
@@ -109,7 +109,7 @@ const Headerhome = () => (
                     <div className="cards d-flex text-center">
                       <div className="card1">
                         <div className="img-card">
-                          <Image src="/icon-user-top.svg" alt="Usuários" width={51} height={51} />
+                          <Image src="/icon-nairuz-full.svg" alt="Nairuz" width={51} height={51} />
                         </div>
                         <div className="title-card">
                           <p>+ de <b>14mil</b> usuários mensais</p>
@@ -131,7 +131,7 @@ const Headerhome = () => (
                       </div>
                     </div>
                     <div className="descricao-right">
-                      <p className="desktoponly">Para isso, a empresa então utilizou o marketing digital de uma maneira construtiva, na qual o seu sucesso aqui no Brasil foi garantido, aumentando suas vendas em diversos patamares. Mas como isso foi possível?</p>
+                      <p className="desktoponly">Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
                       <div className="button-right">
                         <button><a href="#">Saiba Mais</a></button>
                       </div>

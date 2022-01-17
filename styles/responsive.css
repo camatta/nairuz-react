@@ -18,14 +18,25 @@
   }
 
   .owl-carousel .owl-stage-outer {
+    position: relative;
     overflow-x: hidden !important;
+    overflow-y: hidden !important;
+  }
+
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   /* Header */
 
-  #header-home {
+  #bg-carrossel1,
+  #bg-carrossel2 {
     background-image: url(/bg-header-mob.png);
     padding: 4rem 0 8rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 3rem;
   }
 
   .headermob {
@@ -40,6 +51,16 @@
     background-color: #0D0326;
     padding: 2rem 0;
     z-index: 9;
+  }
+
+  #carrossel {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  }
+
+  .right-carrossel {
+    position: relative;
+    top: 7.3rem;
   }
 
   .wpp-menumob {
@@ -64,11 +85,11 @@
     font-size: 1rem;
     color: #fff;
     line-height: 1.5;
-    width: 80%;
+    width: 95%;
     margin: auto;
     text-align: center;
     position: relative;
-    bottom: 5rem;
+    bottom: 0;
   }
 
   .descricao-right {
@@ -142,6 +163,10 @@
     margin-bottom: 1.5rem;
   }
 
+  .text-servicos {
+    height: 250px;
+  }
+
   /* Clientes Home */
 
   #clientes-home > .container::before {
@@ -166,6 +191,10 @@
     padding-left: 0 !important;
   }
 
+  .clientes-nairuz .owl-nav {
+    display: none;
+  }
+
   /* Cases de Sucesso */
 
   .buttons-cases {
@@ -185,9 +214,42 @@
     font-size: 1rem;
   }
 
+  .card1-case,
+  .card2-case, 
+  .card3-case, 
+  .card4-case, 
+  .card5-case {
+    flex-direction: column;
+    background-size: cover;
+    align-items: flex-start !important;
+  }
+
   .card1-case {
     background-image: url(/bgcase-mob1.png);
   }
+
+  .card2-case {
+    background-image: url(/bgcase-mob2.svg);
+  }
+
+  .card3-case {
+    background-image: url(/bgcase-mob3.png);
+  }
+
+  .card4-case {
+    background-image: url(/bgcase-mob4.png);
+  }
+
+  .card5-case {
+    background-image: url(/bgcase-mob5.png);
+  }
+
+  .card-cases .infos-case ul li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 2.4rem;
+    width: 80%;
+}
 
   .card-cases {
     display: none;
@@ -195,6 +257,15 @@
 
   .card-cases:first-child {
     display: block;
+  }
+
+  .card-cases {
+    width: 100%;
+  }
+
+  .card-cases .logo-case {
+    padding: 0;
+    margin-bottom: 2rem;
   }
 
   /* Clientes Home */
@@ -239,6 +310,53 @@
 
   .title-parcerias h4 {
     text-align: center;
+  }
+
+  .parcerias ul {
+    width: 100%;
+  }
+
+  .parcerias ul li {
+    display: inline-block;
+    width: 25%;
+  }
+
+  /* Blog e Materiais Ricos */
+
+  #blog-materiais {
+    background: linear-gradient(to bottom, #0D0326 0%, #6316C9 50%, #6316C9 51%, #F500BB 100%);
+  }
+
+  .blog-home .post-blog:last-child,
+  .materiais-home .post-rico:last-child {
+    display: none;
+  }
+
+  .title-cases-home,
+  .text-materiais,
+  .vermais-blog  {
+    text-align: center;
+  }
+
+  .vermais-blog {
+    margin-top: 2rem;
+  }
+
+  .materiais-home {
+    padding-left: 0;
+    margin-top: 6rem;
+  }
+
+  .post-blog {
+    padding: 0;
+  }
+
+  .img-post span {
+    width: 100% !important;
+  }
+
+  .post-rico {
+    margin-right: 0;
   }
 
   /* Newsletter */
@@ -307,6 +425,10 @@
     width: 70%;
     text-align: center;
     margin: 2rem auto 1rem auto;
+  }
+
+  .wpp-footer {
+    display: none;
   }
 
 /* Quem Somos */
