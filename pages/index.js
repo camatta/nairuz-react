@@ -409,7 +409,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="vermais-blog">
-                  <a href="https://blog.nairuz.com.br" target="_blank">Ver mais no Blog</a>
+                  <a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Ver mais no Blog</a>
                 </div>
               </div>
             </div>

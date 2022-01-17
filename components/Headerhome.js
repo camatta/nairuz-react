@@ -21,7 +21,7 @@ const Headerhome = () => (
                   <li><Link href="/servicos"><a>Serviços</a></Link></li>
                   <li><Link href="/cases"><a>Cases</a></Link></li>
                   <li><Link href="/vagas"><a>Funcionairuz</a></Link></li>
-                  <li><a href="https://blog.nairuz.com.br" target="_blank">Blog</a></li>
+                  <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
                 </ul>
               </nav>
             </div>

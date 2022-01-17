@@ -27,10 +27,10 @@ const Footergeral = () => (
           </div>
           <div className="sociais">
             <ul>
-              <li><a href="https://www.facebook.com/NairuzConsultoriaDigital" target="_blank"><Image src="/face.svg" alt="Facebook" width={40} height={40} /></a></li>
-              <li><a href="https://www.instagram.com/nairuzconsultoria" target="_blank"><Image src="/instagram.svg" alt="Instagram" width={40} height={40}  /></a></li>
-              <li><a href="https://www.linkedin.com/company/nairuz" target="_blank"><Image src="/youtube.svg" alt="YouTube" width={40} height={40}  /></a></li>
-              <li><a href="https://www.youtube.com/channel/UCu70MAqws64Vk2dYQlCFVYg" target="_blank"><Image src="/linkedin.svg" alt="LinkedIn" width={40} height={40}  /></a></li>
+              <li><a href="https://www.facebook.com/NairuzConsultoriaDigital" target="_blank" rel="noopener noreferrer"><Image src="/face.svg" alt="Facebook" width={40} height={40} /></a></li>
+              <li><a href="https://www.instagram.com/nairuzconsultoria" target="_blank" rel="noopener noreferrer"><Image src="/instagram.svg" alt="Instagram" width={40} height={40}  /></a></li>
+              <li><a href="https://www.linkedin.com/company/nairuz" target="_blank" rel="noopener noreferrer"><Image src="/youtube.svg" alt="YouTube" width={40} height={40}  /></a></li>
+              <li><a href="https://www.youtube.com/channel/UCu70MAqws64Vk2dYQlCFVYg" target="_blank" rel="noopener noreferrer"><Image src="/linkedin.svg" alt="LinkedIn" width={40} height={40}  /></a></li>
             </ul>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Footergeral = () => (
             <li><Link href="/"><a>Home</a></Link></li>
             <li><Link href="/quem-somos"><a>Quem Somos</a></Link></li>
             <li><Link href="/cases"><a>Cases</a></Link></li>
-            <li><a href="https://blog.nairuz.com.br" target="_blank">Blog</a></li>
+            <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
           </ul>
         </div>
       </div>
@@ -77,7 +77,7 @@ const Footergeral = () => (
                 <Image src="/icon-phone.svg" alt="Telefone" width={12} height={12} />
               </div>
               <div className="phone-footer">
-                <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank">+ 55 19 99140.6111</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer">+ 55 19 99140.6111</a></li>
                 <li><a href="tel:1932176400">+ 55 19 3217-6400</a></li>
                 <li><a href="tel:1147501714">+ 55 11 4750-1714 (São Paulo)</a></li>
               </div>
@@ -88,7 +88,7 @@ const Footergeral = () => (
             </div>
             <div className="local-footer">
               <Image src="/icon-local.svg" alt="Localização" width={12} height={12} />
-              <li><a href="https://goo.gl/maps/vbRekKqcfRnjm1si7" target="_blank">Rua 25 de Janeiro, nº 112 - Centro. Monte Mor - SP</a></li>
+              <li><a href="https://goo.gl/maps/vbRekKqcfRnjm1si7" target="_blank" rel="noopener noreferrer">Rua 25 de Janeiro, nº 112 - Centro. Monte Mor - SP</a></li>
             </div>
           </ul>
         </div>
@@ -104,7 +104,7 @@ const Footergeral = () => (
     </div>
   </div>
   <div className="wpp-footer">
-    <a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank"><p>Quer ser nosso próximo sucesso? <b>Fale com a gente!</b></p><Image src="/icon-wpp.svg" alt="WhatsApp Nairuz" width={26} height={20}/></a>
+    <a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer"><p>Quer ser nosso próximo sucesso? <b>Fale com a gente!</b></p><Image src="/icon-wpp.svg" alt="WhatsApp Nairuz" width={26} height={20}/></a>
   </div>
   <ContatoPopup />
 </footer>
