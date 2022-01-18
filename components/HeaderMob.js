@@ -15,7 +15,7 @@ const HeaderMob = () => (
               <Link href="/"><a><Image src="/logo-header.svg" alt="Logo Nairuz" width={120} height={22}/></a></Link>
             </div>
             <div className="wpp-menumob">
-              <Link href="/"><a><Image src="/icon-wpp.svg" alt="WhatsApp Nairuz" width={18} height={14}/></a></Link>
+              <a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer"><Image src="/icon-wpp.svg" alt="WhatsApp Nairuz" width={18} height={14}/></a>
             </div>
           </div>
         </div>

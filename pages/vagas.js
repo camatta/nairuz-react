@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Headergeral from '../components/Headergeral'
 import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import NewsletterNz from '../components/NewsletterNz'
+import VagasPopup from '../components/VagasPopup';
 
 export default function Vagas() {
   return (
@@ -91,8 +91,8 @@ export default function Vagas() {
         </section>
         <NewsletterNz />
       </main>
-
       <Footergeral />
+      <VagasPopup />
     </div>
   )
 }

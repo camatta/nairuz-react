@@ -152,14 +152,24 @@ strategy="beforeInteractive" />
   
   //Open Modal Contato
   $('.open-popup-contato').click(function(){
-      $('.modal-overlay').show(800);
+      $('.modal-overlay').show(500);
   })
   
-  //Close Modal Contato
+    //Open Modal Vagas
+  $('.candidatarme-vaga').click(function(){
+      $('.modal-overlay-vagas').show(500);
+  })
+
+  //Open Modal Vagas
+  $('.button-outras-vagas button').click(function(){
+      $('.modal-overlay-vagas').show(500);
+  })
+  
+  //Close Modal Geral
   $('.close-popup').click(function(){
       $('.modal-overlay').hide(800);
+      $('.modal-overlay-vagas').hide(500);
   })
-  
   
   // Clicks dinÃ¢micos serviÃ§os
   $('.nav-servicos button').click(function() {
