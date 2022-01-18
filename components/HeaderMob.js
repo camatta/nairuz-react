@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import MenuMobile from '../components/MenuMobile'
 
 const HeaderMob = () => (
   <header className="container-fluid" id="header-mob">
@@ -8,7 +9,7 @@ const HeaderMob = () => (
         <div className="col-12">
           <div className="headermob">
             <div className="bar-menumob">
-            <Link href="/"><a><Image src="/icon-menuburguer.svg" alt="Menu Mobile" width={20} height={28}/></a></Link>
+              <Image src="/icon-menuburguer.svg" alt="Menu Mobile" width={20} height={28}/>
             </div>
             <div className="logo-menumob">
               <Link href="/"><a><Image src="/logo-header.svg" alt="Logo Nairuz" width={120} height={22}/></a></Link>
@@ -20,6 +21,7 @@ const HeaderMob = () => (
         </div>
       </div>
     </div>
+    <MenuMobile />
   </header>
 );
 

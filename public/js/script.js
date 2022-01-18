@@ -106,3 +106,15 @@ $('#seo').click(function() {
   $('#botoes-dinamicos .dinamico').removeClass('ativo2');
   $('#botoes-dinamicos .dinamico.seo').addClass('ativo2');
 });
+
+//Open Menu Mobile
+$('.close-menu-mob').click(function(){
+  $('#menu-mobile ').css('left','-100%');
+});
+
+console.log('teste');
+
+//Close Menu Mobile
+$('.bar-menumob').click(function(){
+  $('#menu-mobile ').css('left','0');
+});

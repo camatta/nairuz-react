@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Headergeral from '../components/Headergeral'
+import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import NewsletterNz from '../components/NewsletterNz'
 
@@ -14,12 +15,13 @@ export default function Vagas() {
       </Head>
 
       <Headergeral />
+      <HeaderMob />
 
       <main>
         <section className="container-fluid" id="vagas">
           <div className="container">
             <div className="row">
-              <div className="col-4">
+              <div className="col-12 col-md-4">
                 <div className="text-quemsomos">
                   <p>Aceleramos o crescimento dos nossos clientes no ambiente digital através de projetos completos e escaláveis. Nossos times de desenvolvimento, design, marketing, atendimento e comercial atuam de forma colaborativa para entregar os melhores resultados de forma crescente e contínua, todos os dias.</p>
                 </div>
@@ -34,7 +36,7 @@ export default function Vagas() {
             </div>
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Inbound Marketing</span></h3>
                 <h4>DISPONÍVEL ATÉ 25/12/2021</h4>
@@ -45,7 +47,7 @@ export default function Vagas() {
                 <button className="candidatarme-vaga" id="vaga1">Candidatar-me</button>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Designer Junior</span></h3>
                 <h4>DISPONÍVEL ATÉ 25/12/2021</h4>
@@ -56,7 +58,7 @@ export default function Vagas() {
                 <button className="candidatarme-vaga" id="vaga2">Candidatar-me</button>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Atendimento</span></h3>
                 <h4>DISPONÍVEL ATÉ 25/12/2021</h4>

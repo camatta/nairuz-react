@@ -5,6 +5,22 @@ const urlHome = () => {
   document.location.href = '/';
 }
 
+const urlQuemSomos = () => {
+  document.location.href = '/quem-somos';
+}
+
+const urlServicos = () => {
+  document.location.href = '/servicos';
+}
+
+const urlCases = () => {
+  document.location.href = '/cases';
+}
+
+const urlVagas = () => {
+  document.location.href = '/vagas';
+}
+
 const Headergeral = () => (
   <header className="container-fluid" id="header-geral">
     <div className="container">
@@ -19,10 +35,10 @@ const Headergeral = () => (
             <nav>
               <ul>
                 <li><a onClick={urlHome}>Home</a></li>
-                <li><Link href="/quem-somos"><a>Quem Somos</a></Link></li>
-                <li><Link href="/servicos"><a>Serviços</a></Link></li>
-                <li><Link href="/cases"><a>Cases</a></Link></li>
-                <li><Link href="/vagas"><a>Funcionairuz</a></Link></li>
+                <li><a onClick={urlQuemSomos}>Quem Somos</a></li>
+                <li><a onClick={urlServicos}>Serviços</a></li>
+                <li><a onClick={urlCases}>Cases</a></li>
+                <li><a onClick={urlVagas}>Funcionairuz</a></li>
                 <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
               </ul>
             </nav>

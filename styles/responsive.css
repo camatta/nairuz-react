@@ -100,6 +100,55 @@
     margin-top: 3rem;
   }
 
+  #menu-mobile {
+    width: 85%;
+    height: 100vh;
+    background-color: #0d0326;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition-property: left;
+    transition-duration: 1s;
+  }
+
+  .nav-mob {
+    padding-top: 6rem;
+  }
+
+  .nav-mob ul li {
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-mob ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 3.36px;
+  }
+
+  .contato.btn-mobile {
+    margin-top: 5rem;
+  }
+
+  .logo-menu-mobile {
+    position: absolute;
+    bottom: 2rem;
+  }
+
+  .close-menu-mob {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+  }
+
+  .close-menu-mob button {
+    border: none;
+    background: unset;
+  }
+
   /*Servicos Home*/
 
   #servicos-home > .container::before {
@@ -478,6 +527,101 @@
 
 .img-cultura {
   margin-bottom: 3rem;
+}
+
+/* Serviços */
+
+.page-servicos .title-cases:after,
+#botoes-dinamicos::after {
+  display: none;
+}
+
+.botoes-servicos ul {
+  flex-direction: column;
+}
+
+.botoes-servicos ul li {
+  margin-bottom: 1rem;
+}
+
+.left-servicos {
+  text-align: center;
+}
+
+.botoes-servicos {
+  margin-bottom: 3rem;
+}
+
+.page-servicos .text-cases {
+  background-color: #0d0326ab;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+#servicos {
+  background-position-x: right;
+}
+
+.page-servicos .title-cases h1 {
+  color: #68FC9C;
+}
+
+.icon-arrow-servico {
+  display: none;
+}
+
+#orcamento-servico {
+  margin-bottom: 2rem;
+}
+
+.behance {
+  flex-direction: column;
+}
+
+.behance a {
+  margin-top: 1rem;
+  margin-left: 0;
+}
+
+.behance p {
+  width: 75%;
+  margin: auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Cases */
+
+.title-cases:after {
+  display: none;
+}
+
+.page-cases .text-cases {
+  background-color: #0d0326ab;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.cases ul {
+  flex-direction: column;
+}
+
+.cases ul li {
+  margin-bottom: 1rem;
+}
+
+/* Vagas */
+
+#vagas-disponiveis .card {
+  margin-bottom: 1rem;
+}
+
+#vagas-off {
+  width: 100%;
+}
+
+.title-outras-vagas p {
+  line-height: 1.4;
 }
 
 }

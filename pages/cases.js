@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Headergeral from '../components/Headergeral'
+import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import BehanceNz from '../components/BehanceNz'
 
@@ -15,12 +16,12 @@ export default function Cases() {
       </Head>
 
       <Headergeral />
-
+      <HeaderMob />
       <main>
         <section className="container-fluid" id="cases">
           <div className="container">
             <div className="row">
-              <div className="col-4">
+              <div className="col-12 col-md-4">
                 <div className="title-cases">
                   <h1>Cases de Sucesso</h1>
                 </div>

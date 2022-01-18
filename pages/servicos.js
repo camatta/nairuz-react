@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Headergeral from '../components/Headergeral'
+import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import BehanceNz from '../components/BehanceNz'
 import Script from 'next/script'
@@ -19,12 +20,13 @@ export default function Servicos() {
       <div className="page-servicos">
 
       <Headergeral />
+      <HeaderMob />
 
       <main>
         <section className="container-fluid" id="servicos">
           <div className="container">
             <div className="row">
-              <div className="col-5">
+              <div className="col-12 col-md-5">
                 <div className="title-cases">
                   <h1>Nossos Serviços</h1>
                 </div>
@@ -54,7 +56,7 @@ export default function Servicos() {
             </div>
           </div>
           <div className="row dinamico layout ativo2">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <div className="left-servicos">
                 <div className="categoria-nz">
                   <h3>SERVIÇOS DE <span>TECNOLOGIA</span></h3>
@@ -73,7 +75,7 @@ export default function Servicos() {
                   <div className="content-accordion">
                     <div className="accordion">
                       <h5>Layout Customizado</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eget semper metus. Proin consectetur a nunc mollis interdum. Aliquam sed lectus ut lacus hendrerit mollis. Nam vitae rhoncus sapien.</p>
+                      <p className="accordion-ativo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis eget semper metus. Proin consectetur a nunc mollis interdum. Aliquam sed lectus ut lacus hendrerit mollis. Nam vitae rhoncus sapien.</p>
                     </div>
                     <div className="accordion">
                       <h5>Layout Personalizado</h5>
@@ -90,7 +92,7 @@ export default function Servicos() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
                   <Image src="/img-layout.png" alt="Layout Personalizado" width={540} height={966} />
@@ -99,7 +101,7 @@ export default function Servicos() {
             </div>
           </div>
           <div className="row dinamico website">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <div className="left-servicos">
                 <div className="categoria-nz">
                   <h3>SERVIÇOS DE <span>TECNOLOGIA</span></h3>
@@ -116,7 +118,7 @@ export default function Servicos() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
                   <Image src="/img-website.png" alt="Website" width={540} height={882} />
@@ -125,7 +127,7 @@ export default function Servicos() {
             </div>
           </div>
           <div className="row dinamico midias-pagas">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <div className="left-servicos">
                 <div className="categoria-nz">
                   <h3>SERVIÇOS DE <span>MARKETING</span></h3>
@@ -142,7 +144,7 @@ export default function Servicos() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
                   <Image src="/img-midias.png" alt="Mídias Pagas" width={540} height={575} />
@@ -151,7 +153,7 @@ export default function Servicos() {
             </div>
           </div>
           <div className="row dinamico inbound">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <div className="left-servicos">
                 <div className="categoria-nz">
                   <h3>SERVIÇOS DE <span>MARKETING</span></h3>
@@ -168,7 +170,7 @@ export default function Servicos() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
                   <Image src="/img-inbound.png" alt="Inbound Marketing" width={540} height={696} />
@@ -177,7 +179,7 @@ export default function Servicos() {
             </div>
           </div>
           <div className="row dinamico seo">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <div className="left-servicos">
                 <div className="categoria-nz">
                   <h3>SERVIÇOS DE <span>MARKETING</span></h3>
@@ -194,7 +196,7 @@ export default function Servicos() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
                   <Image src="/img-seo.png" alt="SEO" width={540} height={597} />

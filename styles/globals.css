@@ -123,6 +123,11 @@ a:hover, a {
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 3.36px;
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
 }
 
 .page-home .menu ul li:nth-child(1) a,
@@ -1636,6 +1641,36 @@ a:hover, a {
   color: #2D2D2D;
   font-size: 1rem;
   font-weight: 600;
+  position: relative;
+}
+
+.accordion-servico-nz h5:after {
+  content: '';
+  width: 0.8rem;
+  height: 0.8rem;
+  background-image: url(/icon-accordion.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+}
+
+.accordion-servico-nz h5:hover {
+  cursor: pointer;
+}
+
+.accordion-servico-nz .accordion p {
+  height: 0;
+  overflow: hidden;
+  transition-property: height;
+  transition-duration: 2ms;
+}
+
+.accordion-servico-nz .accordion.accordion-ativo p {
+  height: auto;
+  transition-property: height;
+  transition-duration: 2ms;
 }
 
 .accordion-servico-nz p {

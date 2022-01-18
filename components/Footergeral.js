@@ -152,12 +152,12 @@ strategy="beforeInteractive" />
   
   //Open Modal Contato
   $('.open-popup-contato').click(function(){
-      $('.modal-overlay').show(1600);
+      $('.modal-overlay').show(800);
   })
   
   //Close Modal Contato
   $('.close-popup').click(function(){
-      $('.modal-overlay').hide(1600);
+      $('.modal-overlay').hide(800);
   })
   
   
@@ -224,7 +224,22 @@ strategy="beforeInteractive" />
     $('#botoes-dinamicos .dinamico').removeClass('ativo2');
     $('#botoes-dinamicos .dinamico.seo').addClass('ativo2');
   });
-  
+
+  //Open Menu Mobile
+    $('.close-menu-mob').click(function(){
+      $('#menu-mobile ').css('left','-100%');
+    });
+
+    //Close Menu Mobile
+    $('.bar-menumob').click(function(){
+      $('#menu-mobile ').css('left','0');
+    });
+
+    //Accordion
+    $('.accordion').click(function(){
+      $(this).toggleClass('accordion-ativo');
+    });
+
   `}
 </Script>
 

@@ -16,8 +16,4 @@ if (typeof window !== "undefined") {
   require("jquery");
 }
 
-if (typeof window !== "undefined") {
-}
-
-
 export default MyApp
