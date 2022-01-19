@@ -1,3 +1,29 @@
+/* Geral */
+
+.menu ul li button {
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 3.36px;
+  cursor: pointer;
+  background: unset;
+  border: none;
+}
+
+/* Temas */
+
+.page-temas main {
+  margin-top: 8rem;
+}
+
+.page-temas #header-geral {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  padding: 3rem 0;
+}
+
 #temas {
   background-image: url(/bg-temas.png);
   background-size: cover;
@@ -17,6 +43,7 @@
 
 .buttons-temas {
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .saiba-mais-temas {
@@ -26,6 +53,11 @@
   color: #fff;
   margin-right: 1rem;
   font-size: 0.9rem;
+}
+
+.saiba-mais-temas > span {
+  left: 0.6rem;
+  top: 0.1rem;
 }
 
 .consultor-temas {
@@ -38,6 +70,13 @@
 
 .buttons-temas a:hover {
   color: #fff;
+}
+
+.separator-temas {
+  position: absolute;
+  bottom: -3.2rem;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 #apresentacao-temas {
@@ -75,6 +114,7 @@
 
 .buttons-apresentacao {
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .buttons-apresentacao a:hover {
@@ -126,8 +166,8 @@
 
 .logo-modelo {
   position: absolute;
-  bottom: -3.6rem;
-  left: 10.5rem;
+  bottom: -3.3rem;
+  left: 11.1rem;
 }
 
 .icon-modelo {
@@ -183,6 +223,32 @@
   background-image: url(/bg-form-temas.png);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+#form-temas::after {
+  content: '';
+  width: 66px;
+  height: 202px;
+  position: absolute;
+  top: 8rem;
+  left: 13rem;
+  background-image: url(/icon-cases.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form-temas::before {
+  content: '#negócio fechado';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  opacity: .1;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 4.5rem;
 }
 
 .text-header-form p {
@@ -218,6 +284,7 @@
 
 .linha-form .form-nome {
   margin-right: 2rem;
+  width: 23.5%;
 }
 
 .linha-form input {
@@ -610,6 +677,18 @@ a:hover {
 
 /* LP Layout */
 
+.page-layout .menu ul {
+  justify-content: center;
+}
+
+.page-layout .menu ul li {
+  justify-content: center;
+}
+
+.page-layout .menu ul li {
+  margin: 0 1rem;
+}
+
 .page-layout #apresentacao-performance .title-apresentacao h2 {
   margin-bottom: 2rem;
 }
@@ -647,6 +726,18 @@ a:hover {
 .page-layout .img-servico-performance.website:after {
   background: rgb(57,43,161);
   background: linear-gradient(175deg, rgba(57,43,161,1) 53%, rgba(29,22,81,1) 94%);
+}
+
+.page-layout #performance .title-temas h1 {
+  color: #fff;
+}
+
+.page-layout #performance {
+  background-image: url(/bg-layout.png);
+}
+
+.page-layout .box-icon-title {
+  display: block;
 }
 
 .saiba-mais-temas.website {
