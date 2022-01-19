@@ -1,10 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
-import Headergeral from '../components/Headergeral'
-import HeaderMob from '../components/HeaderMob'
-import Footergeral from '../components/Footergeral'
 import BehanceNz from '../components/BehanceNz'
+import Script from 'next/script';
 
 const rollApresentacao = () => {
   document.location.href = '#apresentacao-temas';
