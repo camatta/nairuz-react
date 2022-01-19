@@ -189,6 +189,11 @@ a:hover, a {
   text-transform: uppercase;
 }
 
+.footer-infos a:not([href]):not([class]) {
+  color: #fff;
+  cursor: pointer;
+}
+
 .page-home .sitemap-footer ul li:nth-child(1) a,
 .page-quemsomos .sitemap-footer ul li:nth-child(2) a,
 .page-cases .sitemap-footer ul li:nth-child(3) a {
@@ -226,8 +231,10 @@ a:hover, a {
   margin-left: 1rem;
 }
 
-.footer-infos a:hover {
+.footer-infos a:hover,
+.footer-infos a:not([href]):not([class]):hover {
   color: #ed02bc;
+  cursor: pointer;
 }
 
 .title-footer {
@@ -427,6 +434,15 @@ a:hover, a {
   line-height: 1.4;
 }
 
+#bg-carrossel2 .op-0 {
+  opacity: 0;
+}
+
+#bg-carrossel2 .descricao-right {
+  bottom: 2rem;
+  top: 0;
+}
+
 .card1, .card2 {
   width: 40%;
   margin: auto;
@@ -478,6 +494,7 @@ a:hover, a {
   border-radius: 25px;
   padding: 0.6rem 1.6rem;
   border: none;
+  color: #fff;
 }
 
 .descricao-right button a {
@@ -834,6 +851,7 @@ a:hover, a {
   border: 2px solid #2D2D2D;
   font-weight: 600;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .buttons-cases .ser-case {
@@ -1369,9 +1387,12 @@ a:hover, a {
   font-weight: 700;
 }
 
-.cases .hide-case,
-.cases .button-case {
+
+.cases .button-case,
+.cases .tags-case,
+.cases .servicos-case {
   opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .visible-case {
@@ -1386,6 +1407,8 @@ a:hover, a {
   transform: translate(-50%);
   z-index: 2;
   width: 100px;
+  transition-property: transform;
+  transition-duration: 2s;
 }
 
 .cases ul li {
@@ -1393,9 +1416,12 @@ a:hover, a {
   width: 100%;
 }
 
-.cases ul li:hover .hide-case,
-.cases ul li:hover .button-case {
-  animation: fadein 2s;
+
+.cases ul li:hover .button-case,
+.cases ul li:hover .descricao-case,
+.cases ul li:hover .button-case,
+.cases ul li:hover .tags-case,
+.cases ul li:hover .servicos-case  {
   opacity: 1;
 }
 
@@ -1425,6 +1451,8 @@ a:hover, a {
   display: grid;
   left: 1rem;
   color: #2D2D2D;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .tags-case span {
@@ -1446,6 +1474,8 @@ a:hover, a {
   color: #fff;
   font-size: 12px;
   line-height: 1.5;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .servicos-case {
@@ -1455,6 +1485,8 @@ a:hover, a {
   left: 1rem;
   color: #fff;
   font-size: 12px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .servicos-case p {
@@ -1572,6 +1604,18 @@ a:hover, a {
   z-index: -1;
 }
 
+.page-servicos .after-rosa::after {
+  background-color: #F500BB !important;
+}
+
+.page-servicos .after-roxo::after {
+  background-color: #C100D6 !important;
+}
+
+.page-servicos .after-verde::after {
+  background-color: #68FC9C !important;
+}
+
 .imagens-servico img {
   width: 100%;
 }
@@ -1655,6 +1699,10 @@ a:hover, a {
   position: absolute;
   right: 0;
   top: 0.5rem;
+}
+
+.accordion-servico-nz .accordion-ativo h5:after {
+  transform: rotate(45deg);
 }
 
 .accordion-servico-nz h5:hover {

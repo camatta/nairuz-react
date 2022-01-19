@@ -3,19 +3,40 @@ import Image from 'next/image';
 import Script from 'next/script';
 import ContatoPopup from './ContatoPopup';
 
+const urlHome = () => {
+  document.location.href = '/';
+}
+
+const urlQuemSomos = () => {
+  document.location.href = '/quem-somos';
+}
+
+const urlServicos = () => {
+  document.location.href = '/servicos';
+}
+
+const urlCases = () => {
+  document.location.href = '/cases';
+}
+
+const urlVagas = () => {
+  document.location.href = '/vagas';
+}
+
+
 const Footergeral = () => (
   <>
   <footer className="container-fluid" id="footer">
   <div className="instagram-feed">
     <ul className="insta d-flex justify-content-center">
-      <li><Image src="/insta1.png" alt="Instagram Nairuz" width={200} height={200} /></li>
-      <li><Image src="/insta2.png" alt="Instagram Nairuz" width={200} height={200} /></li>
-      <li><Image src="/insta3.png" alt="Instagram Nairuz" width={200} height={200} /></li>
-      <li><Image src="/insta4.png" alt="Instagram Nairuz" width={200} height={200} /></li>
-      <li><Image src="/insta5.png" alt="Instagram Nairuz" width={200} height={200} /></li>
-      <li><Image src="/insta6.png" alt="Instagram Nairuz" width={200} height={200} /></li>
-      <li><Image src="/insta7.png" alt="Instagram Nairuz" width={200} height={200} /></li>
-      <li><Image src="/insta8.png" alt="Instagram Nairuz" width={200} height={200} /></li>
+      <li><a href="https://www.instagram.com/p/CY1ERjps1Xu/" target="_blank" rel="noopener noreferrer"><Image src="/insta1.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CYv6u9HsuSN/" target="_blank" rel="noopener noreferrer"><Image src="/insta2.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CYoMYO3sURg/" target="_blank" rel="noopener noreferrer"><Image src="/insta3.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CYlnfmEsEMh/" target="_blank" rel="noopener noreferrer"><Image src="/insta4.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CYjCuuigsGu/" target="_blank" rel="noopener noreferrer"><Image src="/insta5.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CYcSAxWlyDe/" target="_blank" rel="noopener noreferrer"><Image src="/insta6.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CYbUag-MotV/" target="_blank" rel="noopener noreferrer"><Image src="/insta7.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CYYvfyosWWx/" target="_blank" rel="noopener noreferrer"><Image src="/insta8.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
     </ul>
   </div>
   <div className="container">
@@ -40,9 +61,9 @@ const Footergeral = () => (
       <div className="col-12 col-md-3">
         <div className="sitemap-footer mobcenter">
           <ul>
-            <li><Link href="/"><a>Home</a></Link></li>
-            <li><Link href="/quem-somos"><a>Quem Somos</a></Link></li>
-            <li><Link href="/cases"><a>Cases</a></Link></li>
+            <li><a onClick={urlHome}>Home</a></li>
+            <li><a onClick={urlQuemSomos}>Quem Somos</a></li>
+            <li><a onClick={urlCases}>Cases</a></li>
             <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
           </ul>
         </div>
@@ -50,21 +71,21 @@ const Footergeral = () => (
       <div className="col-12 col-md-3">
         <div className="servicos-footer mobcenter">
           <ul>
-            <li><Link href="/servicos"><a className="title-footer">Serviços</a></Link></li>
-            <li><Link href="/servicos"><a>Layout para e-commerce</a></Link></li>
-            <li><Link href="/servicos"><a>Websites</a></Link></li>
-            <li><Link href="/servicos"><a>Mídias Pagas</a></Link></li>
-            <li><Link href="/servicos"><a>Inbound Marketing</a></Link></li>
-            <li><Link href="/servicos"><a>SEO</a></Link></li>
+            <li><a className="title-footer">Serviços</a></li>
+            <li><a onClick={urlServicos}>Layout para e-commerce</a></li>
+            <li><a onClick={urlServicos}>Websites</a></li>
+            <li><a onClick={urlServicos}>Mídias Pagas</a></li>
+            <li><a onClick={urlServicos}>Inbound Marketing</a></li>
+            <li><a onClick={urlServicos}>SEO</a></li>
           </ul>
         </div>
       </div>
       <div className="col-12 col-md-3">
         <div className="funcionairuz-footer mobcenter">
           <ul>
-            <li><Link href="/vagas"><a className="title-footer">Funcionairuz</a></Link></li>
-            <li><Link href="/vagas"><a>Nosso Time</a></Link></li>
-            <li><Link href="/vagas"><a>Vagas</a></Link></li>
+            <li><a className="title-footer" onClick={urlVagas}>Funcionairuz</a></li>
+            <li><a onClick={urlVagas}>Nosso Time</a></li>
+            <li><a onClick={urlVagas}>Vagas</a></li>
           </ul>
         </div>
       </div>
@@ -189,6 +210,9 @@ strategy="beforeInteractive" />
     $(this).addClass('ativo');
     $('#botoes-dinamicos .dinamico').removeClass('ativo2');
     $('#botoes-dinamicos .dinamico.layout').addClass('ativo2');
+    $('#botoes-dinamicos').removeClass('after-roxo');
+    $('#botoes-dinamicos').removeClass('after-rosa');
+    $('#botoes-dinamicos').addClass('after-verde');
   });
   
   $('#website').click(function() {
@@ -200,6 +224,9 @@ strategy="beforeInteractive" />
     $(this).addClass('ativo');
     $('#botoes-dinamicos .dinamico').removeClass('ativo2');
     $('#botoes-dinamicos .dinamico.website').addClass('ativo2');
+    $('#botoes-dinamicos').removeClass('after-roxo');
+    $('#botoes-dinamicos').removeClass('after-verde');
+    $('#botoes-dinamicos').addClass('after-rosa');
   });
   
   $('#midias-pagas').click(function() {
@@ -211,6 +238,9 @@ strategy="beforeInteractive" />
     $(this).addClass('ativo');
     $('#botoes-dinamicos .dinamico').removeClass('ativo2');
     $('#botoes-dinamicos .dinamico.midias-pagas').addClass('ativo2');
+    $('#botoes-dinamicos').removeClass('after-verde');
+    $('#botoes-dinamicos').removeClass('after-rosa');
+    $('#botoes-dinamicos').addClass('after-roxo');
   });
   
   $('#inbound').click(function() {
@@ -222,6 +252,9 @@ strategy="beforeInteractive" />
     $(this).addClass('ativo');
     $('#botoes-dinamicos .dinamico').removeClass('ativo2');
     $('#botoes-dinamicos .dinamico.inbound').addClass('ativo2');
+    $('#botoes-dinamicos').removeClass('after-roxo');
+    $('#botoes-dinamicos').removeClass('after-rosa');
+    $('#botoes-dinamicos').addClass('after-verde');
   });
   
   $('#seo').click(function() {
@@ -233,6 +266,9 @@ strategy="beforeInteractive" />
     $(this).addClass('ativo');
     $('#botoes-dinamicos .dinamico').removeClass('ativo2');
     $('#botoes-dinamicos .dinamico.seo').addClass('ativo2');
+    $('#botoes-dinamicos').removeClass('after-roxo');
+    $('#botoes-dinamicos').removeClass('after-verde');
+    $('#botoes-dinamicos').addClass('after-rosa');
   });
 
   //Open Menu Mobile
@@ -249,6 +285,45 @@ strategy="beforeInteractive" />
     $('.accordion').click(function(){
       $(this).toggleClass('accordion-ativo');
     });
+
+    //Verificar Url - Serviços
+
+    $(document).ready(function() {
+      if (window.location.href.indexOf("#websites") > -1) {
+        $('#botoes-dinamicos .botoes-servicos button').removeClass('ativo');
+        $('#botoes-dinamicos .botoes-servicos button#website').addClass('ativo');
+        $('#botoes-dinamicos .dinamico').removeClass('ativo2');
+        $('#botoes-dinamicos .dinamico.website').addClass('ativo2');
+      }
+    });
+
+    $(document).ready(function() {
+      if (window.location.href.indexOf("#midias") > -1) {
+        $('#botoes-dinamicos .botoes-servicos button').removeClass('ativo');
+        $('#botoes-dinamicos .botoes-servicos button#midias-pagas').addClass('ativo');
+        $('#botoes-dinamicos .dinamico').removeClass('ativo2');
+        $('#botoes-dinamicos .dinamico.midias-pagas').addClass('ativo2');
+      }
+    });
+
+    $(document).ready(function() {
+      if (window.location.href.indexOf("#inbound") > -1) {
+        $('#botoes-dinamicos .botoes-servicos button').removeClass('ativo');
+        $('#botoes-dinamicos .botoes-servicos button#inbound').addClass('ativo');
+        $('#botoes-dinamicos .dinamico').removeClass('ativo2');
+        $('#botoes-dinamicos .dinamico.inbound').addClass('ativo2');
+      }
+    });
+
+    $(document).ready(function() {
+      if (window.location.href.indexOf("#seo") > -1) {
+        $('#botoes-dinamicos .botoes-servicos button').removeClass('ativo');
+        $('#botoes-dinamicos .botoes-servicos button#seo').addClass('ativo');
+        $('#botoes-dinamicos .dinamico').removeClass('ativo2');
+        $('#botoes-dinamicos .dinamico.seo').addClass('ativo2');
+      }
+    });
+
 
   `}
 </Script>

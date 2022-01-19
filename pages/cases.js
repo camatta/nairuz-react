@@ -29,7 +29,7 @@ export default function Cases() {
                 <div className="text-cases">
                   <p>Através de estratégias personalizadas, atingimos números e objetivos acima do esperado, listamos abaixo alguns de nossos cases de sucesso. Que tal ser o próximo?</p>
                 </div>
-                <div className="button-cases">
+                <div className="button-cases open-popup-contato">
                   <button>Quero ser um case de sucesso</button>
                 </div>
               </div>

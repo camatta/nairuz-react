@@ -8,6 +8,42 @@ import NewsletterNz from '../components/NewsletterNz'
 import CarrosselCases from '../components/CarrosselCases'
 import Script from 'next/script'
 
+const urlHome = () => {
+  document.location.href = '/';
+}
+
+const urlQuemSomos = () => {
+  document.location.href = '/quem-somos';
+}
+
+const urlServicos = () => {
+  document.location.href = '/servicos';
+}
+
+const urlServicosWebsites = () => {
+  document.location.href = '/servicos#websites';
+}
+
+const urlServicosMidias = () => {
+  document.location.href = '/servicos#midias';
+}
+
+const urlServicosInbound = () => {
+  document.location.href = '/servicos#inbound';
+}
+
+const urlServicosSeo = () => {
+  document.location.href = '/servicos#seo';
+}
+
+const urlCases = () => {
+  document.location.href = '/cases';
+}
+
+const urlVagas = () => {
+  document.location.href = '/vagas';
+}
+
 export default function Home() {
   return (
     <>
@@ -47,7 +83,7 @@ export default function Home() {
                         Desenvolvemos web sites, one pages, landing pages, implementação e desenvolvimento de layout para e-commerce. Somos apaixonados por usabilidade e nossos projetos são todos personalizados, pautados nas boas práticas de User Interface - UI e User Experience - UX com foco nos resultados. Além disso, trabalhamos com as mais recentes tecnologias do mercado.
                       </p>
                       <div className="buttons-servicos">
-                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <a onClick={urlServicos}><button id="detalhes-servicos">Ver Detalhes</button></a>
                         <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
@@ -60,7 +96,7 @@ export default function Home() {
                         Desenvolvemos web sites, one pages, landing pages, implementação e desenvolvimento de layout para e-commerce. Somos apaixonados por usabilidade e nossos projetos são todos personalizados, pautados nas boas práticas de User Interface - UI e User Experience - UX com foco nos resultados. Além disso, trabalhamos com as mais recentes tecnologias do mercado.
                       </p>
                       <div className="buttons-servicos">
-                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <a onClick={urlServicosWebsites}><button id="detalhes-servicos">Ver Detalhes</button></a>
                         <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
@@ -73,7 +109,7 @@ export default function Home() {
                         As mídias sociais também são responsáveis por atrair clientes e, por este motivo, é fundamental estar conectado em redes sociais relevantes para seu nicho de atuação com foco no gerenciamento, vendas, relacionamento e monitoramento de sua empresa.
                       </p>
                       <div className="buttons-servicos">
-                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <a onClick={urlServicosMidias}><button id="detalhes-servicos">Ver Detalhes</button></a>
                         <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
@@ -86,7 +122,7 @@ export default function Home() {
                         O Inbound Marketing, também conhecido como Marketing de Atração, é uma metodologia de marketing digital totalmente focada na conversão dos visitantes do seu negócio em clientes ativos, conduzindo-os pela jornada de compra de forma automatizada.
                       </p>
                       <div className="buttons-servicos">
-                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <a onClick={urlServicosInbound}><button id="detalhes-servicos">Ver Detalhes</button></a>
                         <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
@@ -99,7 +135,7 @@ export default function Home() {
                         Nossa equipe irá fazer análises de seu site, de concorrentes e palavras-chave. Assim, através de otimizações, produção de conteúdos relevantes e link building, seu site apresentará crescimento organicamente.
                       </p>
                       <div className="buttons-servicos">
-                        <Link href="/servicos"><button id="detalhes-servicos">Ver Detalhes</button></Link>
+                        <a onClick={urlServicosSeo}><button id="detalhes-servicos">Ver Detalhes</button></a>
                         <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
@@ -211,7 +247,7 @@ export default function Home() {
                   <p>Através de estratégias personalizadas, atingimos números e objetivos acima do esperado, listamos abaixo alguns de nossos cases de sucesso. Que tal ser o próximo?</p>
                 </div>
                 <div className="buttons-cases">
-                  <Link href="/cases"><a className="ver-cases">Ver Cases</a></Link>
+                  <a onClick={urlCases} className="ver-cases">Ver Cases</a>
                   <button className="ser-case open-popup-contato">Quero ser um case de sucesso</button>
                 </div>
               </div>

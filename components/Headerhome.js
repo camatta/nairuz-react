@@ -99,7 +99,7 @@ const Headerhome = () => (
                     <div className="descricao-right">
                       <p className="desktoponly">Para isso, a empresa então utilizou o marketing digital de uma maneira construtiva, na qual o seu sucesso aqui no Brasil foi garantido, aumentando suas vendas em diversos patamares. Mas como isso foi possível?</p>
                       <div className="button-right">
-                        <button><a href="#">Saiba Mais</a></button>
+                        <button><a onClick={urlCases}>Saiba Mais</a></button>
                       </div>
                     </div>
                   </div>
@@ -131,14 +131,14 @@ const Headerhome = () => (
                         <div className="img-card">
                           <Image src="/icon-nairuz-full.svg" alt="Nairuz" width={51} height={51} />
                         </div>
-                        <div className="title-card">
+                        <div className="title-card op-0">
                           <p>+ de <b>14mil</b> usuários mensais</p>
                         </div>
-                        <div className="desc-card">
+                        <div className="desc-card op-0">
                           <p>Média mensal de usuários que acessam o e-commerce.</p>
                         </div>
                       </div>
-                      <div className="card2">
+                      <div className="card2 op-0">
                         <div className="img-card">
                           <Image src="/icon-money-top.svg" alt="Usuários" width={51} height={51} />
                         </div>
@@ -153,7 +153,7 @@ const Headerhome = () => (
                     <div className="descricao-right">
                       <p className="desktoponly">Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
                       <div className="button-right">
-                        <button><a href="#">Saiba Mais</a></button>
+                        <button><a onClick={urlServicos}>Saiba Mais</a></button>
                       </div>
                     </div>
                   </div>
