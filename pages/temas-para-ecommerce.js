@@ -123,7 +123,7 @@ export default function Temas() {
                       <Image src="/logo-diamond.svg" alt="Diamond Logo" width={120} height={120} />
                     </div>
                     <div className="icon-modelo">
-                      <Image src="/icon-modelo.svg" alt="Diamond" width={45} height={45} />
+                      <a href="https://xd.adobe.com/view/b1b45360-74fa-4e50-9cfa-186ed5ab1406-e4e7/screen/dd83d470-2033-4985-afa7-bff6bbdf72df/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Diamond" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -146,7 +146,7 @@ export default function Temas() {
                       <Image src="/logo-decora.svg" alt="Decora Logo" width={100} height={100} />
                     </div>
                     <div className="icon-modelo">
-                      <Image src="/icon-modelo.svg" alt="Decora" width={45} height={45} />
+                      <a href="https://xd.adobe.com/view/b1b45360-74fa-4e50-9cfa-186ed5ab1406-e4e7/screen/1d25a69c-65cc-40a5-93aa-741f8ac7fd3b/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Diamond" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -171,7 +171,7 @@ export default function Temas() {
                       <Image src="/logo-food.png" alt="Food Logo" width={100} height={100} />
                     </div>
                     <div className="icon-modelo">
-                      <Image src="/icon-modelo.svg" alt="Food" width={45} height={45} />
+                    <a href="https://xd.adobe.com/view/b1b45360-74fa-4e50-9cfa-186ed5ab1406-e4e7/screen/82882fec-62b1-47e2-b2e2-3d44e3e331fb/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Easy Food" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -194,7 +194,7 @@ export default function Temas() {
                       <Image src="/logo-ruby.svg" alt="Ruby Logo" width={100} height={100} />
                     </div>
                     <div className="icon-modelo">
-                      <Image src="/icon-modelo.svg" alt="Ruby" width={45} height={45} />
+                      <a href="https://xd.adobe.com/view/b1b45360-74fa-4e50-9cfa-186ed5ab1406-e4e7/screen/db254b4c-aed8-4952-b8a8-4ceb083915e1/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Ruby" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -219,7 +219,7 @@ export default function Temas() {
                       <Image src="/logo-athletic.png" alt="Athletic Logo" width={100} height={100} />
                     </div>
                     <div className="icon-modelo">
-                      <Image src="/icon-modelo.svg" alt="Athletic" width={45} height={45} />
+                      <a href="https://xd.adobe.com/view/b1b45360-74fa-4e50-9cfa-186ed5ab1406-e4e7/screen/32ba54a7-7587-47b7-a6a8-91e677f35535/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Athletic" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -242,7 +242,7 @@ export default function Temas() {
                       <Image src="/logo-gaming.png" alt="Gaming Logo" width={100} height={100} />
                     </div>
                     <div className="icon-modelo">
-                      <Image src="/icon-modelo.svg" alt="Gaming" width={45} height={45} />
+                      <a href="https://xd.adobe.com/view/b1b45360-74fa-4e50-9cfa-186ed5ab1406-e4e7/screen/4088e223-f4ae-4697-a4cb-e6d63068de0a/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Athletic" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
