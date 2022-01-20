@@ -6,6 +6,24 @@ import HeaderMob from '../components/HeaderMob'
 import CarrosselCases from '../components/CarrosselCases'
 import Script from 'next/script'
 
+const rollServicos = () => {
+  document.location.href = '#apresentacao-performance';
+}
+
+const rollClientes = () => {
+  document.location.href = '#clientes-performance';
+}
+
+const rollResultados = () => {
+  document.location.href = '#resultados-performance';
+}
+
+const rollOrcamento = () => {
+  document.location.href = '#form-temas';
+}
+
+
+
 export default function Performance() {
   return (
     <>
@@ -22,8 +40,34 @@ export default function Performance() {
 
       <div className="page-temas page-performance">
 
-        <Headergeral />
-        <HeaderMob />
+        <header className="container-fluid" id="header-geral">
+          <div className="container">
+            <div className="row d-flex align-items-center">
+              <div className="col-2">
+                <div className="logo">
+                  <Image src="/logo-header.svg" alt="Logo Nairuz" width={150} height={28}/>
+                </div>
+              </div>
+              <div className="col-8">
+                <div className="menu">
+                  <nav>
+                    <ul>
+                      <li><button onClick={rollClientes}>Clientes</button></li>
+                      <li><button onClick={rollServicos}>Serviços</button></li>
+                      <li><button onClick={rollResultados}>Resultados</button></li>
+                      <li><button onClick={rollOrcamento}>Orçamento</button></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div className="col-2 text-right">
+                <div className="contato">
+                  <button onClick={rollOrcamento} className="btn-contato">Entrar em contato</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
 
         <main>
           <section className="container-fluid" id="performance">
@@ -37,10 +81,13 @@ export default function Performance() {
                     <p>A era digital está cada vez mais presente na vida das pessoas. Por isso, adentrar esse mundo é o sucesso que você precisa para alavancar suas vendas virtuais e, nada melhor que fazer isso através de estratégias de marketing digital de qualidade, não é mesmo? Por isso, aqui na Nairuz contamos com especialistas no assunto!</p>
                   </div>
                   <div className="buttons-temas">
-                    <Link href="#"><a className="saiba-mais-temas">Fale conosco</a></Link>
+                    <a className="saiba-mais-temas" onClick={rollOrcamento}><Image src="/icon-wpp.svg" alt="WhatsApp" width={12} height={12} /> Fale conosco</a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="separator-temas">
+              <Image src="/icon-nairuz-full.svg" alt="Logo Nairuz" width={100} height={100} />
             </div>
           </section>
           <section className="container" id="clientes-performance">
@@ -88,7 +135,7 @@ export default function Performance() {
                     <p>Ultrapassar as expectativas de nossos clientes: este é o nosso compromisso! Por isso, unimos tecnologia, estratégias de marketing e performance e know-how de uma equipe de especialistas experientes em entregar soluções e o melhor resultado para nossos parceiros! Quer descobrir como podemos impulsionar o seu negócio? Conheça nossos clientes e saiba o que dizem sobre nós!</p>
                   </div>
                   <div className="buttons-temas">
-                    <Link href="#"><a className="saiba-mais-temas">Quero me tornar um case de sucesso</a></Link>
+                    <a className="saiba-mais-temas" onClick={rollOrcamento}>Quero me tornar um case de sucesso</a>
                   </div>
                 </div>
               </div>
@@ -106,7 +153,7 @@ export default function Performance() {
                     <p>Nossa meta é o crescimento contínuo de nossos clientes parceiros e, por isso, promovemos um atendimento personalizado e planos sólidos de marketing digital, totalmente adaptados às necessidades de cada empresa. Quer saber como sua empresa pode alavancar os resultados com o Jeito Nairuz de desenvolver estratégias objetivas e assertivas para cada tipo de negócio?</p>
                   </div>
                   <div className="button-marketing-performance">
-                    <Link href="#"><a className="saiba-mais-temas">Quero alavancar minhas vendas com o marketing digital</a></Link>
+                    <a className="saiba-mais-temas" onClick={rollOrcamento}>Quero alavancar minhas vendas com o marketing digital</a>
                   </div>
                 </div>
               </div>
@@ -268,7 +315,7 @@ export default function Performance() {
                     <CarrosselCases />
                   </div>
                   <div className="button-resultado-performance text-center">
-                      <Link href="#"><a className="saiba-mais-temas">QUERO SER UM CASE DE SUCESSO</a></Link>
+                      <a className="saiba-mais-temas" onClick={rollOrcamento}>QUERO SER UM CASE DE SUCESSO</a>
                   </div>
                 </div>
               </div>
@@ -283,6 +330,9 @@ export default function Performance() {
                     <p><b>Case de sucesso!</b></p>
                     <p><span>Fale conosco!</span></p>
                     <p className="descricao-form">Preencha os campos do formulário e retornaremos o mais breve possível! Não divulgaremos suas informações e nem enviaremos spam.</p>
+                  </div>
+                  <div className="formRd-tema performance">
+                    <div role="main" id="lp-performance-2022-42b46d59437b7ee7c847"></div>
                   </div>
                   <div className="form-tema">
                     <form>
@@ -372,18 +422,18 @@ export default function Performance() {
                 </div>
                 <div className="nav-footer">
                   <ul>
-                    <li><a href="#">SITE OFICIAL</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">SOBRE NÓS</a></li>
-                    <li><a href="#">CASES DE SUCESSO</a></li>
+                    <li><a href="https://nairuz.com.br">SITE OFICIAL</a></li>
+                    <li><a href="https://blog.nairuz.com.br">BLOG</a></li>
+                    <li><a href="https://nairuz.com.br/quem-somos">SOBRE NÓS</a></li>
+                    <li><a href="https://nairuz.com.br/cases">CASES DE SUCESSO</a></li>
                   </ul>
                 </div>
                 <div className="sociais">
                   <ul>
-                    <li><a href="#"><Image src="/icon-face-tema.png" alt="Facebook" width={25} height={25} /></a></li>
-                    <li><a href="#"><Image src="/icon-instagram-tema.png" alt="Instagram" width={25} height={25}  /></a></li>
-                    <li><a href="#"><Image src="/icon-youtube-tema.png" alt="YouTube" width={25} height={25}  /></a></li>
-                    <li><a href="#"><Image src="/icon-linkedin-tema.png" alt="LinkedIn" width={25} height={25}  /></a></li>
+                    <li><a href="https://www.facebook.com/NairuzConsultoriaDigital" target="_blank" rel="noopener noreferrer"><Image src="/icon-face-tema.png" alt="Facebook" width={25} height={25} /></a></li>
+                    <li><a href="https://www.instagram.com/nairuzconsultoria" target="_blank" rel="noopener noreferrer"><Image src="/icon-instagram-tema.png" alt="Instagram" width={25} height={25}  /></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCu70MAqws64Vk2dYQlCFVYg" target="_blank" rel="noopener noreferrer"><Image src="/icon-youtube-tema.png" alt="YouTube" width={25} height={25}  /></a></li>
+                    <li><a href="https://www.linkedin.com/company/nairuz" target="_blank" rel="noopener noreferrer"><Image src="/icon-linkedin-tema.png" alt="LinkedIn" width={25} height={25}  /></a></li>
                   </ul>
                 </div>
               </div>
@@ -406,7 +456,43 @@ export default function Performance() {
         </div>
 
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-        <Script src='https://nairuz.com.br/react/script.js' />
+        <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+        <Script id="show-banner" strategy="lazyOnload">
+  {`
+
+  // Carrossel geral
+  $(document).ready(function(){
+    $(".owl-carousel.owl-default").owlCarousel({
+      items: 3,
+      nav: true,
+      navText: ["<img src='/arrow-left.svg'>","<img src='/arrow-right.svg'>"],
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:true
+          },
+          600:{
+              items:1,
+              nav:false
+          },
+          1000:{
+              items:3,
+              nav:true,
+              loop:false
+          }
+      }
+    });
+  });
+
+  if (window.RDStationForms) {
+    new RDStationForms('lp-performance-2022-42b46d59437b7ee7c847', 'UA-48773259-1').createForm();
+  }
+  
+  `}
+</Script>
+
+
     </>
 
   )

@@ -273,6 +273,9 @@ export default function Temas() {
                   <p><span>Fale conosco!</span></p>
                   <p className="descricao-form">Preencha os campos do formulário e retornaremos o mais breve possível! Não divulgaremos suas informações e nem enviaremos spam.</p>
                 </div>
+                <div className="formRd-tema">
+                  <div role="main" id="lp-temas-2022-f5a70d1232b0935e9145"></div>
+                </div>
                 <div className="form-tema">
                   <form>
                     <div className="linha-form">
@@ -363,6 +366,17 @@ export default function Temas() {
         </div>
       </div>
       <Script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/58f2af1b-9339-4f1e-900b-b1cde4544bb4-loader.js" ></Script>
+      <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+
+      <Script id="show-banner" strategy="lazyOnload">
+        {`
+          if (window.RDStationForms) {
+            new RDStationForms('lp-temas-2022-f5a70d1232b0935e9145', 'UA-48773259-1').createForm();
+          }
+        `
+        }
+      </Script>
+
     </div>
   )
 }

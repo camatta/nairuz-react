@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Grupo_327" data-name="Grupo 327" transform="translate(-898 -3536)">
+    <circle id="Elipse_71" data-name="Elipse 71" cx="22.5" cy="22.5" r="22.5" transform="translate(898 3536)" fill="#48bab8"/>
+    <path id="Icon_material-devices-other" data-name="Icon material-devices-other" d="M3.75,8.25H24V6H3.75A2.257,2.257,0,0,0,1.5,8.25v13.5A2.257,2.257,0,0,0,3.75,24h4.5V21.75H3.75ZM15,15H10.5v2a3.335,3.335,0,0,0,0,5v2H15V22a3.335,3.335,0,0,0,0-5Zm-2.25,6.187A1.688,1.688,0,1,1,14.438,19.5,1.685,1.685,0,0,1,12.75,21.188ZM25.125,10.5h-6.75a1.21,1.21,0,0,0-1.125,1.125v11.25A1.21,1.21,0,0,0,18.375,24h6.75a1.21,1.21,0,0,0,1.125-1.125V11.625A1.21,1.21,0,0,0,25.125,10.5ZM24,21.75H19.5v-9H24Z" transform="translate(906.625 3543.5)" fill="#fff"/>
+  </g>
+</svg>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import ContatoPopup from './ContatoPopup';
 
+
 const urlHome = () => {
   document.location.href = '/';
 }
@@ -324,10 +325,15 @@ strategy="beforeInteractive" />
       }
     });
 
+    if (window.RDStationForms) {
+      new RDStationForms('newsletter-2022-187ddf46c0b0d5987839', 'UA-48773259-1').createForm();
+    }
+
 
   `}
 </Script>
 <Script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/58f2af1b-9339-4f1e-900b-b1cde4544bb4-loader.js" ></Script>
+<Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
 
 </>
 );

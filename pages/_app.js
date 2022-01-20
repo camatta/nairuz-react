@@ -3,6 +3,8 @@ import '../styles/globals.css'
 import '../styles/responsive.css'
 import '../styles/lps.css'
 import { useEffect } from "react";
+import { extend } from 'jquery';
+import { Component } from 'react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

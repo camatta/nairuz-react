@@ -1,3 +1,14 @@
+import React, { Component } from 'react';
+
+
+class formRd extends Component {
+  componentDidMount() {
+    if (window.RDStationForms) {
+      new RDStationForms('newsletter-2022-187ddf46c0b0d5987839', 'UA-48773259-1').createForm();
+    }
+  }
+}
+
 const NewsletterNz = () => (
   <section className="container-fluid" id="newsletter">
     <div className="container">
@@ -8,6 +19,9 @@ const NewsletterNz = () => (
           </div>
         </div>
         <div className="col-12 col-md-9">
+          <div className="formRd">
+            <div role="main" id="newsletter-2022-187ddf46c0b0d5987839"></div>
+          </div>
           <div className="form-news">
             <form>
               <div className="form-nome">
@@ -26,5 +40,6 @@ const NewsletterNz = () => (
     </div>
   </section>
 );
+
 
 export default NewsletterNz;

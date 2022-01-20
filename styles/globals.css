@@ -2143,6 +2143,10 @@ h5 {
   justify-content: center;
 }
 
+.form-news {
+  display: none;
+}
+
 .text-news p {
   color: #fff;
   line-height: 1.5;
@@ -2200,4 +2204,54 @@ h5 {
 
 .form-news input.input-email {
   width: 380px;
+}
+
+#rd-section-kylrwgxs {
+  background-color: transparent !important;
+}
+
+#rd-form-kylrwgxz .bricks-form__label {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 1rem !important;
+}
+
+#rd-form-kylrwgxz .bricks-form__fieldset {
+  flex-direction: row !important;
+}
+
+#rd-section-kylrwgxs .bricks-form__submit {
+  width: 7rem !important;
+}
+
+#rd-section-kylrwgxs .rd-button {
+  border: unset !important;
+  background-color: #fff;
+  color: #0D0326 !important;
+  font-weight: 600 !important;
+  height: 41px !important;
+  border-radius: 10px !important;
+  font-size: 1rem !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+#rd-form-kylrwgxz .bricks-form__field {
+  margin-right: 1rem;
+}
+
+#rd-form-kylrwgxz .bricks-form__input {
+  height: 41px !important;
+  background: transparent !important;
+  border: 1px solid #fff !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 0.9rem !important;
+}
+
+#rd-form-kylrwgxz .bricks-form__field {
+  width: 19rem !important;
+  margin-bottom: 0 !important;
 }

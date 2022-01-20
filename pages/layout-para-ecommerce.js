@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import BehanceNz from '../components/BehanceNz'
 import Script from 'next/script'
 
@@ -103,12 +102,26 @@ export default function Layout() {
                     </div>
                     <div className="caracteristicas-layout">
                       <ul>
-                        <li><Image src="/icon-layout-personalizado2.svg" alt="Layout" width={45} height={45} /><p>Criação de telas em versões desktop (tela de computador) e mobile (tela de smartphone).</p></li>
-                        <li><Image src="/icon-layout-personalizado3.svg" alt="Layout" width={45} height={45} /><p>Prazo estimado de entrega: 80 dias úteis</p></li>
+                        <li>
+                          <div className="img-caracteristicas">
+                            <Image src="/icon-layout-personalizado2.svg" alt="Layout" width={45} height={45} />
+                          </div>
+                          <div className="text-caracteristicas">
+                            <p>Criação de telas em versões desktop (tela de computador) e mobile (tela de smartphone).</p>
+                          </div>
+                          </li>
+                        <li>
+                          <div className="img-caracteristicas">
+                            <Image src="/icon-layout-personalizado3.svg" alt="Layout" width={45} height={45} />
+                          </div>
+                          <div className="text-caracteristicas">
+                            <p>Prazo estimado de entrega: 80 dias úteis</p>
+                          </div>
+                        </li>
                       </ul>
                     </div>
                     <div className="button-servico-performance">
-                      <Link href="#"><a className="saiba-mais-temas">QUERO UM LAYOUT PERSONALIZADO</a></Link>
+                      <a className="saiba-mais-temas" onClick={rollOrcamento}>QUERO UM LAYOUT PERSONALIZADO</a>
                     </div>
                   </div>
                 </div>
@@ -116,12 +129,28 @@ export default function Layout() {
                   <div className="img-servico-performance right layout">
                     <Image src="/layout-performance.png" alt="Layout" width={400} height={403} />
                   </div>
+                  <div className="info-layouts right">
+                    <div className="icon-info-layouts">
+                      <Image src="/icon-info.svg" alt="Informação" width={18} height={18} />
+                    </div>
+                    <div className="text-info-layouts">
+                      <p>Layout personalizado criado para a marca Bialetti. Imagem com navegação interativa, posicione o ponteiro sobre a imagem e role para ver a página completa.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-6">
                   <div className="img-servico-performance website">
-                    <Image src="/website-performance.png" alt="Layout" width={400} height={403} />
+                    <Image src="/layout-website.png" alt="Layout para Website" width={400} height={403} />
+                  </div>
+                  <div className="info-layouts">
+                    <div className="icon-info-layouts">
+                      <Image src="/icon-info.svg" alt="Informação" width={18} height={18} />
+                    </div>
+                    <div className="text-info-layouts">
+                      <p>Website criado para a marca Infocards. Imagem com navegação interativa, posicione o ponteiro sobre a imagem e role para ver a página completa.</p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-6">
@@ -139,12 +168,19 @@ export default function Layout() {
                     </div>
                     <div className="caracteristicas-layout">
                       <ul>
-                        <li><Image src="/icon-layout-website2.svg" alt="Layout" width={45} height={45} /><p>Criação de telas em versões desktop (tela de computador) e mobile (tela de smartphone).</p></li>
-                        <li><Image src="/icon-layout-website3.svg" alt="Layout" width={45} height={45} /><p>Prazo estimado de entrega: 80 dias úteis</p></li>
+                        <li>
+                          <div className="img-caracteristicas">
+                            <Image src="/icon-layout-website2.svg" alt="Layout" width={45} height={45} />
+                          </div>
+                          <div className="text-caracteristicas">
+                            <p>Criação de telas em versões desktop (tela de computador) e mobile (tela de smartphone).</p>
+                          </div>
+                        </li>
+                        <li><Image src="/icon-layout-website3.svg" alt="Layout" width={45} height={45} /><p>Prazo estimado de entrega: 50 dias úteis</p></li>
                       </ul>
                     </div>
                     <div className="button-servico-performance">
-                      <Link href="#"><a className="saiba-mais-temas website">QUERO UM WEBSITE</a></Link>
+                      <a className="saiba-mais-temas website" onClick={rollOrcamento}>QUERO UM WEBSITE</a>
                     </div>
                   </div>
                 </div>
@@ -154,48 +190,92 @@ export default function Layout() {
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
-                        <Image src="/icon-midias.png" alt="Mídias Pagas" width={68} height={68} />
+                        <Image src="/icon-layout-pre.svg" alt="Layout Tema Pré-Pronto" width={68} height={68} />
                       </div>
                       <div className="title-servico-performance">
-                        <h4>Mídias Pagas</h4>
+                        <h4>Tema (Layout pré-pronto)</h4>
                       </div>
                     </div>
                     <div className="content-servico-performance">
-                      <p>As mídias sociais também são responsáveis por atrair clientes e, por este motivo, é fundamental estar conectado em redes sociais relevantes para seu nicho de atuação com foco no gerenciamento, vendas, relacionamento e monitoramento de sua empresa.</p>
+                      <p>Se você está com o prazo mais curto, e precisa de urgência em colocar seus produtos em uma vitrine virtual, sugerimos a contratação de um de nossos temas. Temas são estruturas pré-prontas de um e-commerce, que serão adaptadas às cores e identidade de sua marca. Ou seja, uma estrutura padrão, porém adaptável às suas necessidades. Após contratado, nossa equipe de Customer Success entrará em contato para colher as informações necessárias (briefing) e acompanhar o projeto até a finalização.</p>
                     </div>
-                    <div className="button-servico-performance">
-                      <Link href="#"><a className="saiba-mais-temas">QUERO ATRAIR MAIS CLIENTES</a></Link>
+                    <div className="caracteristicas-layout">
+                      <ul>
+                        <li><Image src="/icon-layout-pre2.svg" alt="Layout Tema Pré-Pronto" width={45} height={45} /><p>Edição de tema em versão responsiva (adaptável).</p></li>
+                        <li><Image src="/icon-layout-pre3.svg" alt="Layout Tema Pré-Pronto" width={45} height={45} /><p>Prazo estimado de entrega: 15 dias úteis</p></li>
+                      </ul>
+                    </div>
+                    <div className="button-servico-performance layout-pre">
+                      <a className="saiba-mais-temas" href="https://nairuz.com.br/temas-para-ecommerce">VER TEMAS</a>
+                      <a className="saiba-mais-temas" onClick={rollOrcamento}>QUERO UM TEMA</a>
                     </div>
                   </div>
                 </div>
                 <div className="col-6">
                   <div className="img-servico-performance right midias">
-                    <Image src="/midias-performance.png" alt="Layout" width={400} height={403} />
+                    <Image src="/layout-tema.png" alt="Tema Pré-Pronto" width={400} height={403} />
+                  </div>
+                  <div className="info-layouts right">
+                    <div className="icon-info-layouts">
+                      <Image src="/icon-info.svg" alt="Informação" width={18} height={18} />
+                    </div>
+                    <div className="text-info-layouts">
+                      <p>Tema adaptado para a marca Nutrienergy. Imagem com navegação interativa, posicione o ponteiro sobre a imagem e role para ver a página completa.</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-6">
                   <div className="img-servico-performance inbound">
-                    <Image src="/inbound-performance.png" alt="Layout" width={400} height={403} />
+                    <Image src="/layout-tema-customizado.png" alt="Tema Customizado" width={400} height={403} />
+                  </div>
+                  <div className="info-layouts">
+                    <div className="icon-info-layouts">
+                      <Image src="/icon-info.svg" alt="Informação" width={18} height={18} />
+                    </div>
+                    <div className="text-info-layouts">
+                      <p>Tema customizado para a marca Farmácia Sempre Viva. Imagem com navegação interativa, posicione o ponteiro sobre a imagem e role para ver a página completa.</p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
-                        <Image src="/icon-inbound.png" alt="Inbound Marketing" width={68} height={68} />
+                        <Image src="/icon-tema-customizado.svg" alt="Tema Customizado" width={68} height={68} />
                       </div>
                       <div className="title-servico-performance">
-                        <h4>Inbound Marketing</h4>
+                        <h4>Tema Customizado</h4>
                       </div>
                     </div>
                     
                     <div className="content-servico-performance">
-                      <p>O Inbound Marketing, também conhecido como Marketing de Atração, é uma metodologia de marketing digital totalmente focada na conversão dos visitantes do seu negócio em clientes ativos, conduzindo-os pela jornada de compra de forma automatizada.</p>
+                      <p>Se você está com o prazo mais curto, e precisa de urgência em colocar seus produtos em uma vitrine virtual, porém gostaria de algumas mudanças de estrutura do nosso tema, a melhor opção para o seu projeto é a instauração de um tema customizado. Após contratado, nossa equipe de Customer Success entrará em contato para colher as informações necessárias (briefing) e acompanhar o projeto até a finalização.</p>
                     </div>
-                    <div className="button-servico-performance">
-                      <Link href="#"><a className="saiba-mais-temas">QUERO MAIS CLIENTES ATIVOS</a></Link>
+                    <div className="caracteristicas-layout">
+                      <ul>
+                        <li>
+                          <div className="img-caracteristicas">
+                            <Image src="/icon-tema-customizado2.svg" alt="Tema Customizado" width={45} height={45} />
+                          </div>
+                          <div className="text-caracteristicas">
+                            <p>Edição de tema em versão responsiva (adaptável).</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="img-caracteristicas">
+                            <Image src="/icon-tema-customizado3.svg" alt="Tema Customizado" width={45} height={45} />
+                          </div>
+                          <div className="text-caracteristicas">
+                            <p>Prazo estimado de entrega: 25 dias úteis</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="button-servico-performance tema-customizado">
+                      <a className="saiba-mais-temas" href="https://nairuz.com.br/temas-para-ecommerce">VER TEMAS</a>
+                      <a className="saiba-mais-temas" onClick={rollOrcamento}>QUERO UM TEMA CUSTOMIZADO</a>
                     </div>
                   </div>
                 </div>
@@ -205,23 +285,36 @@ export default function Layout() {
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
-                        <Image src="/icon-seo.png" alt="SEO" width={68} height={68} />
+                        <Image src="/icon-personalizado.svg" alt="Serviço Personalizado" width={68} height={68} />
                       </div>
                       <div className="title-servico-performance">
-                        <h4>SEO</h4>
+                        <h4>Serviço Personalizado</h4>
                       </div>
                     </div>
                     <div className="content-servico-performance">
-                      <p>Nossa equipe irá fazer análises de seu site, de concorrentes e palavras-chave. Assim, através de otimizações, produção de conteúdos relevantes e link building, seu site apresentará crescimento organicamente.</p>
+                      <p>Precisa de um serviço personalizado que não se encaixa nos exemplos acima? Nós podemos te ajudar! Além dos serviços listados acima, também podemos ajudar seu negócio com o desenvolvimento de blogs, landing pages, one pages, manutenções de site, entre outros.</p>
                     </div>
-                    <div className="button-servico-performance">
-                      <Link href="#"><a className="saiba-mais-temas">QUERO ESTAR NAS BUSCAS DO GOOGLE</a></Link>
+                    <div className="caracteristicas-layout">
+                      <ul>
+                        <li><Image src="/icon-personalizado2.svg" alt="Serviço Personalizado" width={45} height={45} /><p>Prazo de entrega variável.</p></li>
+                      </ul>
+                    </div>
+                    <div className="button-servico-performance personalizado">
+                      <a className="saiba-mais-temas" onClick={rollOrcamento}>QUERO UM SERVIÇO PERSONALIZADO</a>
                     </div>
                   </div>
                 </div>
                 <div className="col-6">
                   <div className="img-servico-performance right seo">
-                    <Image src="/seo-performance.png" alt="Layout" width={400} height={403} />
+                    <Image src="/layout-personalizado.png" alt="Serviço Personalizado" width={400} height={403} />
+                  </div>
+                  <div className="info-layouts right">
+                    <div className="icon-info-layouts">
+                      <Image src="/icon-info.svg" alt="Informação" width={18} height={18} />
+                    </div>
+                    <div className="text-info-layouts">
+                      <p>Blog personalizado para a marca Coffeelover. Imagem com navegação interativa, posicione o ponteiro sobre a imagem e role para ver a página completa.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -236,6 +329,9 @@ export default function Layout() {
                     <p><b>Case de sucesso!</b></p>
                     <p><span>Fale conosco!</span></p>
                     <p className="descricao-form">Preencha os campos do formulário e retornaremos o mais breve possível! Não divulgaremos suas informações e nem enviaremos spam.</p>
+                  </div>
+                  <div className="formRd-tema">
+                    <div role="main" id="lp-layouts-2022-15a886408a58a9318dc4"></div>
                   </div>
                   <div className="form-tema">
                     <form>
@@ -356,10 +452,20 @@ export default function Layout() {
             </div>
           </div>
         </div>
+        <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+
+        <Script id="show-banner" strategy="lazyOnload">
+        {`
+          if (window.RDStationForms) {
+            new RDStationForms('lp-layouts-2022-15a886408a58a9318dc4', 'UA-48773259-1').createForm();
+          }
+        `
+        }
+      </Script>
+
 
       </div>
 
-      <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
     </>
 
   )
