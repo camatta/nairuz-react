@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import BehanceNz from '../components/BehanceNz'
+import HeaderMob from '../components/HeaderMob'
 import Script from 'next/script'
 
 const rollEscolher = () => {
@@ -52,6 +53,7 @@ export default function Layout() {
             </div>
           </div>
         </header>
+        <HeaderMob />
         <main>
           <section className="container-fluid" id="performance">
             <div className="container">
@@ -77,7 +79,7 @@ export default function Layout() {
           <section className="container-fluid" id="apresentacao-performance">
             <div className="container">
               <div className="row d-flex align-items-center" id="escolher-layout">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-apresentacao">
                     <div className="title-apresentacao">
                       <h2>Saiba qual tipo de layout mais se encaixa em seu negócio.</h2>
@@ -87,7 +89,7 @@ export default function Layout() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -125,7 +127,7 @@ export default function Layout() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance right layout">
                     <Image src="/layout-performance.png" alt="Layout" width={400} height={403} />
                   </div>
@@ -140,7 +142,7 @@ export default function Layout() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance website">
                     <Image src="/layout-website.png" alt="Layout para Website" width={400} height={403} />
                   </div>
@@ -153,7 +155,7 @@ export default function Layout() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -186,7 +188,7 @@ export default function Layout() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -211,7 +213,7 @@ export default function Layout() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance right midias">
                     <Image src="/layout-tema.png" alt="Tema Pré-Pronto" width={400} height={403} />
                   </div>
@@ -226,7 +228,7 @@ export default function Layout() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance inbound">
                     <Image src="/layout-tema-customizado.png" alt="Tema Customizado" width={400} height={403} />
                   </div>
@@ -239,7 +241,7 @@ export default function Layout() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -281,7 +283,7 @@ export default function Layout() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -304,7 +306,7 @@ export default function Layout() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance right seo">
                     <Image src="/layout-personalizado.png" alt="Serviço Personalizado" width={400} height={403} />
                   </div>

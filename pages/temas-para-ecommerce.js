@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import BehanceNz from '../components/BehanceNz'
+import HeaderMob from '../components/HeaderMob'
 import Script from 'next/script';
 
 const rollApresentacao = () => {
@@ -51,6 +52,7 @@ export default function Temas() {
             </div>
           </div>
         </header>
+        <HeaderMob />
       <main>
         <section className="container-fluid" id="temas">
           <div className="container">
@@ -76,7 +78,7 @@ export default function Temas() {
         <section className="container-fluid" id="apresentacao-temas">
           <div className="container">
             <div className="row d-flex align-items-center">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="text-apresentacao">
                   <div className="title-apresentacao">
                     <h2>o que são temas?</h2>
@@ -90,7 +92,7 @@ export default function Temas() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="img-apresentacao">
                   <Image src="/img-temas.png" alt="Temas Nairuz" width={500} height={504} />
                 </div>
@@ -111,7 +113,7 @@ export default function Temas() {
               </div>
             </div>
             <div className="row">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
@@ -134,7 +136,7 @@ export default function Temas() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
@@ -159,7 +161,7 @@ export default function Temas() {
               </div>
             </div>
             <div className="row">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
@@ -182,7 +184,7 @@ export default function Temas() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
@@ -207,7 +209,7 @@ export default function Temas() {
               </div>
             </div>
             <div className="row">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
@@ -230,7 +232,7 @@ export default function Temas() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">

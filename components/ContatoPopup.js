@@ -5,7 +5,7 @@ const ContatoPopup = () => (
     <div className="secondary-overlay">
     <div className="container contato-popup" id="contato-popup">
       <div className="row">
-        <div className="col-5">
+        <div className="col-12 col-md-5">
           <div className="left-popup">
             <div className="logo-popup">
               <Image src="/logo-popup.png" alt="Nairuz Logo" width={324} height={153} />
@@ -19,7 +19,7 @@ const ContatoPopup = () => (
             </div>
           </div>
         </div>
-        <div className="col-7">
+        <div className="col-12 col-md-7">
           <div className="right-popup">
             <div className="form-popup">
                   <form>

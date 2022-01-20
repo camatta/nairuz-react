@@ -5,7 +5,7 @@ const VagasPopup = () => (
     <div className="secondary-overlay">
     <div className="container vagas-popup" id="vagas-popup">
       <div className="row align-items-center">
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <div className="left-popup">
             <div className="title-popup">
                 <p>Vaga de<br></br><span>Designer Junior</span></p>
@@ -38,7 +38,7 @@ const VagasPopup = () => (
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <div className="right-popup">
             <div className="form-popup">
                   <form>

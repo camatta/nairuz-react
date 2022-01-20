@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Headergeral from '../components/Headergeral'
 import HeaderMob from '../components/HeaderMob'
 import CarrosselCases from '../components/CarrosselCases'
 import Script from 'next/script'
@@ -68,7 +67,7 @@ export default function Performance() {
             </div>
           </div>
         </header>
-
+        <HeaderMob />
         <main>
           <section className="container-fluid" id="performance">
             <div className="container">
@@ -92,7 +91,7 @@ export default function Performance() {
           </section>
           <section className="container" id="clientes-performance">
             <div className="row">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="logos-clientes-performance">
                   <ul className="d-flex align-items-center row1-logos mb-5">
                     <li><Image src="/clientes/bialetti.png" width={116} height={55} /></li>
@@ -126,7 +125,7 @@ export default function Performance() {
                   </ul>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <div className="text-clientes-performance">
                 <div className="title-temas">
                     <h2>Clientes que confiam em nosso trabalho!</h2>
@@ -162,7 +161,7 @@ export default function Performance() {
           <section className="container-fluid" id="apresentacao-performance">
             <div className="container">
               <div className="row d-flex align-items-center">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-apresentacao">
                     <div className="title-apresentacao">
                       <h2>Mas afinal, quais serviços ofertamos aos nossos clientes?</h2>
@@ -171,7 +170,7 @@ export default function Performance() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -189,19 +188,19 @@ export default function Performance() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance right layout">
                     <Image src="/layout-performance.png" alt="Layout" width={400} height={403} />
                   </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance website">
                     <Image src="/website-performance.png" alt="Layout" width={400} height={403} />
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -221,7 +220,7 @@ export default function Performance() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -239,19 +238,19 @@ export default function Performance() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance right midias">
                     <Image src="/midias-performance.png" alt="Layout" width={400} height={403} />
                   </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance inbound">
                     <Image src="/inbound-performance.png" alt="Layout" width={400} height={403} />
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -272,7 +271,7 @@ export default function Performance() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
                       <div className="icon-servico-performance">
@@ -290,7 +289,7 @@ export default function Performance() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                   <div className="img-servico-performance right seo">
                     <Image src="/seo-performance.png" alt="Layout" width={400} height={403} />
                   </div>
@@ -454,9 +453,11 @@ export default function Performance() {
         </div>
 
         </div>
-
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-        <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+        <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          strategy="beforeInteractive" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+        strategy="beforeInteractive" />
         <Script id="show-banner" strategy="lazyOnload">
   {`
 
@@ -491,6 +492,8 @@ export default function Performance() {
   
   `}
 </Script>
+
+<Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
 
 
     </>
