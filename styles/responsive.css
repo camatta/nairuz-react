@@ -1090,6 +1090,36 @@
   width: 100%;
 }
 
+/* Page Case Bialetti */
+
+.page-case-bialettishop .title-post h3 {
+  width: 100%;
+}
+
+.page-case-bialettishop .post-content {
+  width: 100%;
+}
+
+.page-case-bialettishop .icon-resultados ul li p {
+  font-weight: 600;
+  color: #68FC9C;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+
+.page-case-bialettishop .icon-resultados {
+  padding-left: 0;
+}
+
+.page-case-bialettishop .button-resultados button {
+  padding: 1rem 2rem;
+  line-height: 1.1rem;
+}
+
+.page-case-bialettishop #case-top {
+  margin-top: 3rem;
+}
+
 }
 
 @media (min-width: 1650px) {

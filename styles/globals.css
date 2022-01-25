@@ -28,6 +28,11 @@ body {
 	line-height: 1;
   overflow-x: hidden;
 }
+
+body {
+  height: auto;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -58,6 +63,139 @@ p, span, li, button, a, input, label {
 .mobileonly {
   display: none;
 }
+/* 
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { 
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { 
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { 
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+.overlay-loading {
+  background: linear-gradient(-135deg, blue, purple);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 99999;
+  z-index: 99999;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  animation: loading 2s;
+  -moz-animation: loading 2s;
+  -webkit-animation: loading 2s; 
+  -o-animation: loading 2s;
+}
+
+.container-loading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.loader {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.45s;
+  cursor: pointer;
+}
+
+@keyframes loading {
+  from {
+      display:block;
+  }
+  to {
+      display:none;
+  }
+}
+@-moz-keyframes loading {
+  from {
+    display:block;
+  }
+  to {
+      display:none;
+  }
+}
+@-webkit-keyframes loading { 
+  from {
+    display:block;
+  }
+  to {
+      display:none;
+  }
+}
+@-o-keyframes loading { 
+  from {
+    display:block;
+  }
+  to {
+      display:none;
+  }
+}
+
+
+.ball {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: wheat;
+}
+.ball-one {
+  animation: loader-one 0.5s infinite alternate;
+}
+.ball-two {
+  animation: loader-one 0.5s infinite alternate 0.25s;
+}
+.ball-three {
+  animation: loader-one 0.5s infinite alternate 0.5s;
+}
+
+@keyframes loader-one {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+} */
 
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -552,6 +690,11 @@ a:hover, a {
 
 .form-nome, .form-email {
   display: grid;
+}
+
+#contato-popup .linha-form .form-nome {
+  margin-right: 2rem;
+  width: 100%;
 }
 
 .form-news label {
@@ -1780,7 +1923,7 @@ a:hover, a {
 /* Página Case Bialetti */
 
 #case-top {
-  background-image: url('/bialetti/bg-case-bialetti.png');
+  background-image: url('/cases/bg-case-bialetti.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 6rem 0;
@@ -1845,6 +1988,58 @@ a:hover, a {
   display: flex;
 }
 
+.mosaico-posts-bialetti ul li span span {
+  display: inline-block !important;
+}
+
+.page-case-bialettishop .title-resultados p {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.page-case-bialettishop .title-resultados p span {
+  color: #48BAB8;
+  font-weight: 800;
+}
+
+.page-case-bialettishop .button-resultados button {
+  background: transparent -webkit-gradient(linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
+  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(
+90deg
+, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: unset;
+  color: #fff;
+  padding: 1rem 6rem;
+  letter-spacing: 2.8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.page-case-bialettishop .icon-resultados ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.page-case-bialettishop .icon-resultados {
+  padding-left: 3rem;
+  margin-top: 4rem;
+}
+
+.page-case-bialettishop .icon-resultados ul li p {
+  font-weight: 600;
+  color: #68FC9C;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.page-case-bialettishop .text-cases-home {
+  margin: 6rem 0;
+  margin-bottom: 2rem;
+}
+
 .title-post h3 {
   color: #2D2D2D;
   font-weight: 800;
@@ -1906,7 +2101,7 @@ a:hover, a {
 }
 
 #resultados {
-  background: transparent url('/bialetti/bg-resultados.png') 0% 0% no-repeat padding-box;
+  background: transparent url('/cases/bg-resultados.png') 0% 0% no-repeat padding-box;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5rem 0;
