@@ -6,6 +6,10 @@ import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import BehanceNz from '../components/BehanceNz'
 
+const urlBialetti = () => {
+  document.location.href = '/cases/bialetti';
+}
+
 export default function Cases() {
   return (
     <div className="page-cases">
@@ -66,7 +70,7 @@ export default function Cases() {
                       </div>
                     </div>
                     <div className="button-case">
-                      <a href="/cases/bialetti"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                      <a onClick={urlBialetti}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
                       <Image className="img-fluid" src="/cases/case-bialetti.png" alt="Bialetti" width={370} height={533} />
@@ -201,7 +205,7 @@ export default function Cases() {
                       </div>
                     </div>
                     <div className="button-case">
-                      <a href="/cases/bialetti"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                      <a onClick={urlBialetti}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
                       <Image className="img-fluid" src="/cases/case-bialetti.png" alt="Bialetti" width={370} height={533} />
