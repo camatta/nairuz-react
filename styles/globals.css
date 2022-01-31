@@ -29,11 +29,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  height: 100vh;
-  overflow: hidden;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -63,6 +58,24 @@ p, span, li, button, a, input, label {
 
 .mobileonly {
   display: none;
+}
+
+/*SCROLL */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: #0D0326;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #362aa4;
+  border-radius: 20px;
+  border: 3px solid #362aa4;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
 }
 
 @keyframes fadein {
@@ -96,19 +109,6 @@ p, span, li, button, a, input, label {
   to {
       opacity: 1;
   }
-}
-
-/*SCROLL */
-*::-webkit-scrollbar {
-  width: 10px;
-}
-*::-webkit-scrollbar-track {
-  background: #0D0326;
-}
-*::-webkit-scrollbar-thumb {
-  background-color: #362aa4;
-  border-radius: 20px;
-  border: 3px solid #362aa4;
 }
 
 .overlay-loading {
@@ -218,7 +218,7 @@ body.loaded {
   overflow-y: visible;
 }
 
-body.loaded .overlay-loading {
+body.loaded .overlay-loading  {
   opacity: 0;
 }
 

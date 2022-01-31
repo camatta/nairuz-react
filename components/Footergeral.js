@@ -339,15 +339,18 @@ strategy="beforeInteractive" />
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
 
-    $(document).ready(function() {
+
+    if($('.overlay-loading').length){
       setTimeout(function() { 
         $('body').addClass('loaded');
     }, 2000);
       setTimeout(function() { 
         $('body').addClass('out');
     }, 3000);
-    });
-
+    } else {
+      $('body').addClass('loaded');
+    }
+    
 
   `}
 </Script>
