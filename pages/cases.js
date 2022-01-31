@@ -59,7 +59,7 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex ante, eleifend tempus fringilla sit amet, vestibulum at quam. Quisque gravida porta vehicula.</p>
+                        <p>A marca centenária de cafeteiras italianas e utensílios para cozinha, Bialetti, marca presença na vida dos brasileiros agora também com loja oficial: a Bialetti Shop.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
@@ -86,7 +86,7 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex ante, eleifend tempus fringilla sit amet, vestibulum at quam. Quisque gravida porta vehicula.</p>
+                        <p>A LV Store é uma marca de moda feminina, assinada pela designer Letícia Vaz. Com produtos únicos e de qualidade, a marca oferece a melhor experiência do usuário em sua loja online.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
@@ -112,7 +112,7 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex ante, eleifend tempus fringilla sit amet, vestibulum at quam. Quisque gravida porta vehicula.</p>
+                        <p>A Nova Medicamentos, farmácia de medicamentos de alto custo, proporciona a seus clientes modernidade e praticidade na garantia do bem-estar e qualidade de vida.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
@@ -140,7 +140,7 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex ante, eleifend tempus fringilla sit amet, vestibulum at quam. Quisque gravida porta vehicula.</p>
+                        <p>A Wide Stock é referência na distribuição de descartáveis, produtos de limpeza e materiais de escritório. Com entrega para todo o país, é reconhecida pela rapidez e qualidade dos produtos.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
@@ -167,7 +167,7 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex ante, eleifend tempus fringilla sit amet, vestibulum at quam. Quisque gravida porta vehicula.</p>
+                        <p>Com mais de 100 lojas autorizadas no mercado, a CTDI é referência mundial em soluções de assistência técnica e reparação de produtos Samsung.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
@@ -194,13 +194,13 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex ante, eleifend tempus fringilla sit amet, vestibulum at quam. Quisque gravida porta vehicula.</p>
+                        <p>A marca pioneira no desenvolvimento e produção de máquinas de café espresso, Gaggia Milano, faz história no Brasil com sua loja online oficial: Gaggia Shop.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>+ de 14mil usuários mensais;</p></li>
-                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>+ 800% de faturamento;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>27% de vendas em busca orgânica.</p></li>
+                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>+ de 25% de vendas de origem orgânica;</p></li>
+                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>+ de 30% de taxa de abertura de e-mail marketing;</p></li>
+                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>+ 130% de usuários na loja online por meio do e-mail marketing.</p></li>
                         </ul>
                       </div>
                     </div>

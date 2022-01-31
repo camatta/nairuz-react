@@ -8,7 +8,7 @@ const ContatoPopup = () => (
         <div className="col-12 col-md-5">
           <div className="left-popup">
             <div className="logo-popup">
-              <Image src="/logo-popup.png" alt="Nairuz Logo" width={324} height={153} />
+              <Image src="/logo-popup.png" alt="Nairuz Logo" width={324} height={153} loading="eager" />
             </div>
             <div className="title-popup">
               <p>Transforme sua empresa em um <br></br><span>Case de sucesso!</span></p>

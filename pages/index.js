@@ -62,7 +62,7 @@ export default function Home() {
       <Headerhome />
       <HeaderMob />
 
-      {/* <div className="overlay-loading">
+      <div className="overlay-loading">
         <div className="container-loading">
           <div className='loader one'>
               <div className='ball-one ball'></div>
@@ -70,7 +70,7 @@ export default function Home() {
               <div className='ball-three ball'></div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <main>
       <section className="container-fluid" id="servicos-home">
@@ -84,7 +84,7 @@ export default function Home() {
                       <p className="title-servicos">Nossos <span>Serviços</span></p>
                       <div className="imgs-servicos-mobile mobileonly">
                         <div className="carrossel-servicos-mobile">
-                          <Image src="/servico-layout-mob.png" alt="Layout para e-commerce" width={280} height={255} />
+                          <Image src="/servico-layout-mob.png" alt="Layout para e-commerce" width={280} height={255} loading="eager" />
                           <p>Layout para e-commerce</p>
                         </div>
                       </div>
@@ -159,31 +159,31 @@ export default function Home() {
                   <ul>
                     <li>
                       <div className="img-li ativo">
-                        <Image src="/layout.png" alt="Layout para e-commerce" width={247} height={349} />
+                        <Image src="/layout.png" alt="Layout para e-commerce" width={247} height={349} loading="eager" />
                       </div>
                       <button id="layout" className="layout ativo">Layout para e-commerce</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/websites.png" alt="Websites" width={247} height={349} />
+                        <Image src="/websites.png" alt="Websites" width={247} height={349} loading="eager" />
                       </div>
                       <button id="website" className="website">Websites</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/midias-pagas.png" alt="Mídias Pagas" width={247} height={349} />
+                        <Image src="/midias-pagas.png" alt="Mídias Pagas" width={247} height={349} loading="eager" />
                       </div>
                       <button id="midias-pagas" className="midias">Mídias Pagas</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/inbound.png" alt="Inbound Marketing" width={247} height={349} />
+                        <Image src="/inbound.png" alt="Inbound Marketing" width={247} height={349} loading="eager" />
                       </div>
                       <button id="inbound" className="inbound">Inbound Marketing</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/seo.png" alt="SEO" width={247} height={349} />
+                        <Image src="/seo.png" alt="SEO" width={247} height={349} loading="eager" />
                       </div>
                       <button id="seo" className="seo">SEO</button>
                     </li>
@@ -213,18 +213,18 @@ export default function Home() {
             <div className="col-12 col-md-8">
               <div className="logos-clientes ps-5">
                 <ul className="d-flex align-items-center row1-logos mb-5">
-                  <li><Image src="/clientes/bialetti.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/gaggia.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/imeltron.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/lvstore.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/maquiadoro.png" width={116} height={55} /></li>
+                  <li><Image src="/clientes/bialetti.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/gaggia.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/imeltron.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/lvstore.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/maquiadoro.png" width={116} height={55} loading="eager" /></li>
                 </ul>
                 <ul className="d-flex align-items-center row2-logos mb-5">
-                  <li><Image src="/clientes/samsung.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/widestock.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/pedigree.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/minassal.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/cybelar.png" width={116} height={55} /></li>
+                  <li><Image src="/clientes/samsung.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/widestock.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/pedigree.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/minassal.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/cybelar.png" width={116} height={55} loading="eager" /></li>
                 </ul>
                 <ul className="d-flex align-items-center row3-logos mb-5">
                   <li><Image src="/clientes/candy.png" width={116} height={55} /></li>

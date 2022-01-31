@@ -40,33 +40,54 @@ export default function Vagas() {
             <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Inbound Marketing</span></h3>
-                <h4>DISPONÍVEL ATÉ 25/12/2021</h4>
+                <h4>DISPONÍVEL ATÉ 31/03/2022</h4>
                 <h5>Descrição da vaga:</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Apoiar no planejamento e execução das ações estratégicas;
+                    Desenvolvimento dos fluxos de nutrição das etapas que compreendem um funil de vendas e fluxos de automação;
+                    Administração da ferramenta RD Station.</p>
                 <h5>Requisitos:</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Superior Completo em Comunicação;
+                    Conhecimento das ferramentas de automação;
+                    Perfil Analítico;
+                    Organização;
+                    Trabalho em equipe;
+                    Conhecimento em estratégias de Inbound Marketing e SEO.</p>
                 <button className="candidatarme-vaga" id="vaga1">Candidatar-me</button>
               </div>
             </div>
             <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Designer Junior</span></h3>
-                <h4>DISPONÍVEL ATÉ 25/12/2021</h4>
+                <h4>DISPONÍVEL ATÉ 15/04/2022</h4>
                 <h5>Descrição da vaga:</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Responsável por criar a comunicação visual dos clientes e avaliar junto a equipe de marketing a eficácia das peças produzidas;
+                    Responsável pela comunicação visual institucional da Nairuz.</p>
                 <h5>Requisitos:</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Formado ou formando-se áreas de design e comunicação;
+                    Criatividade;
+                    Bom gosto e atento ao mercado;
+                    Escrever Bem;
+                    Gostar de Aprender;
+                    Iniciativa;
+                    Domínio em PSD, AI, Corel.</p>
                 <button className="candidatarme-vaga" id="vaga2">Candidatar-me</button>
               </div>
             </div>
             <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Atendimento</span></h3>
-                <h4>DISPONÍVEL ATÉ 25/12/2021</h4>
+                <h4>DISPONÍVEL ATÉ 25/03/2022</h4>
                 <h5>Descrição da vaga:</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Responsável por criar um elo entre os clientes e as equipes;
+                    Gerenciar o relacionamento dos processos;
+                    Entender as necessidades, expectativas e dores dos clientes;
+                    Buscar sempre ser um resolvedor de problemas.</p>
                 <h5>Requisitos:</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac eros molestie, venenatis mi et, rhoncus justo. Proin a orci tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Cursos técnicos com certificação ou cursando superior em Marketing, Publicidade;
+                    Cursando inglês;
+                    Iniciativa;
+                    Período de experiência no mínimo um ano (agência ou semelhante);
+                    Gestor de crises.</p>
                 <button className="candidatarme-vaga" id="vaga3">Candidatar-me</button>
               </div>
             </div>

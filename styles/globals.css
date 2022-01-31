@@ -30,7 +30,8 @@ body {
 }
 
 body {
-  height: auto;
+  height: 100vh;
+  overflow: hidden;
 }
 
 ol, ul {
@@ -63,7 +64,7 @@ p, span, li, button, a, input, label {
 .mobileonly {
   display: none;
 }
-/* 
+
 @keyframes fadein {
   from {
       opacity:0;
@@ -97,7 +98,18 @@ p, span, li, button, a, input, label {
   }
 }
 
-
+/*SCROLL */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: #0D0326;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #362aa4;
+  border-radius: 20px;
+  border: 3px solid #362aa4;
+}
 
 .overlay-loading {
   background: linear-gradient(-135deg, blue, purple);
@@ -109,6 +121,7 @@ p, span, li, button, a, input, label {
   overflow: hidden;
   z-index: 99999;
   z-index: 99999;
+  display: flex;
   position: absolute;
   top: 0;
   width: 100%;
@@ -116,6 +129,9 @@ p, span, li, button, a, input, label {
   -moz-animation: loading 2s;
   -webkit-animation: loading 2s; 
   -o-animation: loading 2s;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
 }
 
 .container-loading {
@@ -195,7 +211,21 @@ p, span, li, button, a, input, label {
     transform: translateY(-10px);
     opacity: 0;
   }
-} */
+}
+
+body.loaded {
+  height: auto;
+  overflow-y: visible;
+}
+
+body.loaded .overlay-loading {
+  opacity: 0;
+}
+
+body.loaded.out .overlay-loading {
+  display: none;
+}
+
 
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
