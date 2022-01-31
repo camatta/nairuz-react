@@ -62,7 +62,7 @@ export default function Home() {
       <Headerhome />
       <HeaderMob />
 
-      <div className="overlay-loading">
+      {/* <div className="overlay-loading">
         <div className="container-loading">
           <div className='loader one'>
               <div className='ball-one ball'></div>
@@ -70,7 +70,7 @@ export default function Home() {
               <div className='ball-three ball'></div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <main>
       <section className="container-fluid" id="servicos-home">
