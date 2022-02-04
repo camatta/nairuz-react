@@ -205,12 +205,12 @@ export default function Cases() {
                       </div>
                     </div>
                     <div className="button-case">
-                      <a onClick={urlBialetti}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                      <a href="#"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-bialetti.png" alt="Bialetti" width={370} height={533} />
+                      <Image className="img-fluid" src="/cases/case-gaggia.png" alt="Gaggia" width={370} height={533} />
                       <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-bialetti.svg" alt="Bialetti" width={100} height={50} />
+                        <Image className="logo-case" src="/cases/logo-gaggia.svg" alt="Gaggia" width={100} height={50} />
                       </div>
                     </div>
                   </li>
