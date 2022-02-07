@@ -370,10 +370,26 @@ export default function Temas() {
       <Script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/58f2af1b-9339-4f1e-900b-b1cde4544bb4-loader.js" ></Script>
       <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
 
+      <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        strategy="beforeInteractive" />
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+        strategy="beforeInteractive" />
+
       <Script id="show-banner" strategy="lazyOnload">
         {`
           if (window.RDStationForms) {
             new RDStationForms('lp-temas-2022-f5a70d1232b0935e9145', 'UA-48773259-1').createForm();
+          }
+
+          if($('.overlay-loading').length){
+            setTimeout(function() { 
+              $('body').addClass('loaded');
+          }, 2000);
+            setTimeout(function() { 
+              $('body').addClass('out');
+          }, 3000);
+          } else {
+            $('body').addClass('loaded');
           }
         `
         }

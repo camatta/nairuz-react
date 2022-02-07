@@ -453,7 +453,6 @@ export default function Performance() {
         </div>
 
         </div>
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
           strategy="beforeInteractive" />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
@@ -488,6 +487,17 @@ export default function Performance() {
 
   if (window.RDStationForms) {
     new RDStationForms('lp-performance-2022-42b46d59437b7ee7c847', 'UA-48773259-1').createForm();
+  }
+
+  if($('.overlay-loading').length){
+    setTimeout(function() { 
+      $('body').addClass('loaded');
+  }, 2000);
+    setTimeout(function() { 
+      $('body').addClass('out');
+  }, 3000);
+  } else {
+    $('body').addClass('loaded');
   }
   
   `}

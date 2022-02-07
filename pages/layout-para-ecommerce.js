@@ -455,12 +455,28 @@ export default function Layout() {
           </div>
         </div>
         <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+        <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          strategy="beforeInteractive" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+          strategy="beforeInteractive" />
 
         <Script id="show-banner" strategy="lazyOnload">
         {`
           if (window.RDStationForms) {
             new RDStationForms('lp-layouts-2022-15a886408a58a9318dc4', 'UA-48773259-1').createForm();
           }
+
+          if($('.overlay-loading').length){
+            setTimeout(function() { 
+              $('body').addClass('loaded');
+          }, 2000);
+            setTimeout(function() { 
+              $('body').addClass('out');
+          }, 3000);
+          } else {
+            $('body').addClass('loaded');
+          }
+
         `
         }
       </Script>
