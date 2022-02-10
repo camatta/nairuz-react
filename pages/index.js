@@ -116,7 +116,7 @@ export default function Home() {
                       <p className="title-servicos">Nossos <span>Serviços</span></p>
                       <h3 className="sub-servicos">Mídias Pagas</h3>
                       <p className="text-servicos">
-                        As mídias sociais também são responsáveis por atrair clientes e, por este motivo, é fundamental estar conectado em redes sociais relevantes para seu nicho de atuação com foco no gerenciamento, vendas, relacionamento e monitoramento de sua empresa.
+                      As mídias pagas são as formas de comunicação entre a sua marca e os seus clientes onde ocorre um investimento financeiro para o alcance das metas. Através de estratégias organizadas pelo nosso time de analistas, os seus anúncios trazem os resultados que você almeja, seja mais engajamento com os seus conteúdos, mais seguidores , oportunidades e, finalmente, mais conversões.
                       </p>
                       <div className="buttons-servicos">
                         <a onClick={urlServicosMidias}><button id="detalhes-servicos">Ver Detalhes</button></a>
@@ -316,7 +316,7 @@ export default function Home() {
                       <Image src="/adriana.png" alt="Adriana Carpegiani" width={96} height={96} />
                     </div>
                     <div className="coment-cliente">
-                      <p>Fiquei muito feliz ao ver o resultado final do projeto e também todo o caminho para chegarmos nele. Todas as solicitações e dúvidas foram atendidas de prontidão e da melhor forma possível.</p>
+                      <p>A Nairuz esteve num momento de transição difícil e nos troue soluções. Todas decisões são avaliadas visando um melhor resultado! Recomendo como agência de marketing 360º.</p>
                     </div>
                     <div className="assinatura-cliente">
                       <p className="nome-cliente">Adriana Carpegiani</p>
@@ -328,7 +328,7 @@ export default function Home() {
                       <Image src="/renato.png" alt="Renato Soares" width={96} height={96} />
                     </div>
                     <div className="coment-cliente">
-                      <p>A Nairuz está com a Ludka desde a criação e concepção da nossa marca. Estamos construindo juntos o nosso futuro. Ainda temos muitos passos pela frente, rumo ao nosso sucesso!</p>
+                      <p>A nossa história com a Nairuz tem uma longa jornada, sempre contribuíram conosco em todas as etapas. Recomendamos como agência full service, somos de fato parceiros.</p>
                     </div>
                     <div className="assinatura-cliente">
                       <p className="nome-cliente">Renato Soares</p>
@@ -340,7 +340,7 @@ export default function Home() {
                       <Image src="/amanda.png" alt="Amanda Corrêa" width={96} height={96} />
                     </div>
                     <div className="coment-cliente">
-                      <p>Os projetos superaram todas as expectativas, conseguindo “transmitir” requinte e sofisticação para o nosso público. A performance das lojas também estão acima das expectativas.</p>
+                      <p>A Nairuz fez parte da jornada que é começar a empreender. Com certeza fez toda diferença uma agência de experiência e performance digital ao nosso lado. Adorei o resultado do projeto!</p>
                     </div>
                     <div className="assinatura-cliente">
                       <p className="nome-cliente">Amanda Corrêa</p>

@@ -231,7 +231,7 @@ export default function Performance() {
                       </div>
                     </div>
                     <div className="content-servico-performance">
-                      <p>As mídias sociais também são responsáveis por atrair clientes e, por este motivo, é fundamental estar conectado em redes sociais relevantes para seu nicho de atuação com foco no gerenciamento, vendas, relacionamento e monitoramento de sua empresa.</p>
+                      <p>As mídias pagas são as formas de comunicação entre a sua marca e os seus clientes onde ocorre um investimento financeiro para o alcance das metas. Através de estratégias organizadas pelo nosso time de analistas, os seus anúncios trazem os resultados que você almeja, seja mais engajamento com os seus conteúdos, mais seguidores , oportunidades e, finalmente, mais conversões.</p>
                     </div>
                     <div className="button-servico-performance">
                       <Link href="#"><a className="saiba-mais-temas">QUERO ATRAIR MAIS CLIENTES</a></Link>
