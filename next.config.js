@@ -10,6 +10,7 @@ module.exports = {
         destination: 'https://blog.nairuz.com.br/:path*',
         permanent: true,
       },
+
     ]
   },
 
