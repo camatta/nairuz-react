@@ -40,17 +40,17 @@ const ContatoPopup = () => (
                       </div>
                       <div className="form-email">
                         <label htmlFor="email">Empresa</label>
-                        <input type="email" className="input-email" name="email" id="email" placeholder="Nome da sua empresa" />
+                        <input type="text" className="input-email" name="email" id="email" placeholder="Nome da sua empresa" />
                       </div>
                     </div>
                     <div className="linha-form grid mb-0">
                       <div className="form-email form-selects">
                         <label htmlFor="email">Como podemos te ajudar?</label>
-                        <input type="email" className="input-email mb-4" name="email" id="email" placeholder="Selecione" />
+                        <input type="text" className="input-email mb-4" name="email" id="email" placeholder="Selecione" />
                       </div>
                       <div className="form-email form-selects">
                         <label htmlFor="email">Quais seus objetivos?</label>
-                        <input type="email" className="input-email" name="email" id="email" placeholder="Selecione" />
+                        <input type="text" className="input-email" name="email" id="email" placeholder="Selecione" />
                       </div>
                     </div>
                     <div className="button-form-consultor">
