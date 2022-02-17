@@ -14,14 +14,14 @@ const VagasPopup = () => (
               <div className="subtitle-vaga-popup">
                 <p>DESCRIÇÃO DA VAGA</p>
               </div>
-              <div className="text-vaga-popup">
+              <div className="text-vaga-popup descricao">
                 <p>Responsável por criar a comunicação visual dos clientes e avaliar junto a equipe de marketing a eficácia das peças produzidas;
                     Responsável pela comunicação visual institucional da Nairuz.</p>
               </div>
               <div className="subtitle-vaga-popup">
                 <p>REQUISITOS</p>
               </div>
-              <div className="text-vaga-popup">
+              <div className="text-vaga-popup requisitos">
                 <p>Formado ou formando-se áreas de design e comunicação;
                     Criatividade;
                     Bom gosto e atento ao mercado;
@@ -33,7 +33,7 @@ const VagasPopup = () => (
               <div className="subtitle-vaga-popup">
                 <p>DESEJÁVEL</p>
               </div>
-              <div className="text-vaga-popup">
+              <div className="text-vaga-popup desejavel">
                 <p>Inglês Fluente;
                     Conhecimento em html;
                     Cursos profissionalizantes na área de design;

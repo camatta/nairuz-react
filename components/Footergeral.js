@@ -350,6 +350,28 @@ strategy="beforeInteractive" />
     } else {
       $('body').addClass('loaded');
     }
+
+
+    $('#vaga1').click(function(){
+      $('#vagas-popup .title-popup span').text('INBOUND MARKETING');
+      $('#vagas-popup .descricao p').text('Apoiar no planejamento e execução das ações estratégicas; Desenvolvimento dos fluxos de nutrição das etapas que compreendem um funil de vendas e fluxos de automação; Administração da ferramenta RD Station.');
+      $('#vagas-popup .requisitos p').text('Superior Completo em Comunicação; Conhecimento das ferramentas de automação; Perfil Analítico; Organização; Trabalho em equipe; Conhecimento em estratégias de Inbound Marketing e SEO.');
+      $('#vagas-popup .desejavel p').text('Inglês básico; Conhecimento em ferramentas de automação e Google Analytics.');
+    });
+
+    $('#vaga2').click(function(){
+      $('#vagas-popup .title-popup span').text('DESIGNER JUNIOR');
+      $('#vagas-popup .descricao p').text('Responsável por criar a comunicação visual dos clientes e avaliar junto a equipe de marketing a eficácia das peças produzidas; Responsável pela comunicação visual institucional da Nairuz.');
+      $('#vagas-popup .requisitos p').text('Formado ou formando-se áreas de design e comunicação; Criatividade; Bom gosto e atento ao mercado; Escrever Bem; Gostar de Aprender; Iniciativa; Domínio em PSD, AI, Corel.');
+      $('#vagas-popup .desejavel p').text('Inglês Fluente; Conhecimento em html; Cursos profissionalizantes na área de design; Tenha conhecimento em UX e UI.');
+    });
+
+    $('#vaga3').click(function(){
+      $('#vagas-popup .title-popup span').text('ATENDIMENTO');
+      $('#vagas-popup .descricao p').text('Responsável por criar um elo entre os clientes e as equipes; Gerenciar o relacionamento dos processos; Entender as necessidades, expectativas e dores dos clientes; Buscar sempre ser um resolvedor de problemas.');
+      $('#vagas-popup .requisitos p').text('Cursos técnicos com certificação ou cursando superior em Marketing, Publicidade; Cursando inglês; Iniciativa; Período de experiência no mínimo um ano (agência ou semelhante); Gestor de crises.');
+      $('#vagas-popup .desejavel p').text('Boa comunicação e oratória; Rotina e organização; Focada em objetivos; Entendimento de processos da empresa;');
+    });
     
 
   `}
