@@ -37,6 +37,12 @@ export default function Performance() {
 
       <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
 
+      <Script id="gtm" dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCTM4JN');`}}></Script>
+
       <div className="page-temas page-performance">
 
         <header className="container-fluid" id="header-geral">
@@ -504,7 +510,8 @@ export default function Performance() {
 </Script>
 
 <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
-
+<noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCTM4JN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
 
     </>
 
