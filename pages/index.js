@@ -414,18 +414,18 @@ export default function Home() {
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h6>COMO PREPARAR SUA LOJA ONLINE PARA AS AÇÕES DE BLACK FRIDAY 2021</h6>
+                        <h6>COMO CRIAR BONS CONTEÚDOS PARA AS MÍDIAS SOCIAIS</h6>
                       </div>
                       <div className="content-post">
-                        <p>Há pouco mais de dez anos, as lojas brasileiras se organizam para a chegada da Black Friday no mês de...</p>
+                        <p>O conteúdo, tanto textual quanto de imagem, é a pura essência das mídias sociais...</p>
                       </div>
                       <div className="footer-post">
                         <div className="autor-data-post">
-                          <p>26.10.2021</p>
+                          <p>03.03.2022</p>
                           <p>Marina Norato</p>
                         </div>
                         <div className="button-post">
-                          <Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} />
+                          <a href="https://blog.nairuz.com.br/conteudos-para-as-midias-sociais/" target="_blank"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
                         </div>
                       </div>
                     </div>
@@ -436,18 +436,18 @@ export default function Home() {
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h6>COMO PREPARAR SUA LOJA ONLINE PARA AS AÇÕES DE BLACK FRIDAY 2021</h6>
+                        <h6>TIK TOK: ENTENDA COMO ESSA MÍDIA SOCIAL PODE AUMENTAR...</h6>
                       </div>
                       <div className="content-post">
-                        <p>Há pouco mais de dez anos, as lojas brasileiras se organizam para a chegada da Black Friday no mês de...</p>
+                        <p>Só no ano de 2021 o Tik Tok foi a plataforma mais vista, ultrapassando o Google.</p>
                       </div>
                       <div className="footer-post">
                         <div className="autor-data-post">
-                          <p>26.10.2021</p>
+                          <p>22.02.2022</p>
                           <p>Marina Norato</p>
                         </div>
                         <div className="button-post">
-                          <Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} />
+                          <a href="https://blog.nairuz.com.br/tik-tok/" target="_blank"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
                         </div>
                       </div>
                     </div>
@@ -469,35 +469,35 @@ export default function Home() {
                 <div className="cards-ricos">
                   <div className="post-rico">
                     <div className="title-rico">
-                      <h6>MANUAL DE OTIMIZAÇÃO DE PRODUTOS</h6>
+                      <h6>UX Design: qual a importância para seu e-commerce</h6>
                     </div>
                     <div className="content-rico">
-                      <p>Nele você encontra tudo que precisa saber para cadastrar seus produtos corretamente, além de seguir as melhores práticas de SEO garantindo um melhor ranqueamento!</p>
+                      <p>Com o passar dos anos, a evolução da tecnologia e da rotina das pessoas fez com que as vendas online crescessem cada vez mais Assim, a maior competitividade também faz com que…</p>
                     </div>
                     <div className="footer-rico">
                       <div className="autor-data-rico">
-                        <p>12/12/2021</p>
-                        <p>356 downloads</p>
+                        <p>08/06/2021</p>
+                        <p>121 downloads</p>
                       </div>
                       <div className="button-rico">
-                        <Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} />
+                        <a href="https://blog.nairuz.com.br/ux-design-qual-a-importancia-para-seu-e-commerce/" target="_blank"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
                       </div>
                     </div>
                   </div>
                   <div className="post-rico">
                     <div className="title-rico">
-                      <h6>APRENDA COMO USAR O UX DESIGN PARA OTIMIZAR A INTERAÇÃO DA SUA LOJA</h6>
+                      <h6>Nova identidade: conheça mais sobre o layout para o site da Infocards!</h6>
                     </div>
                     <div className="content-rico">
-                      <p>Nele você encontra tudo que precisa saber para cadastrar seus produtos corretamente, além de seguir as melhores práticas de SEO garantindo um melhor ranqueamento!</p>
+                      <p>Há mais de 20 anos, a Infocards vem atuando na área de gestão de cartões de crédito private label – cartões de loja. Dessa forma, tornando possível as compras de muitos brasileiros.</p>
                     </div>
                     <div className="footer-rico">
                       <div className="autor-data-rico">
-                        <p>06/05/2021</p>
-                        <p>356 downloads</p>
+                        <p>07/04/2021</p>
+                        <p>096 downloads</p>
                       </div>
                       <div className="button-rico">
-                        <Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} />
+                        <a href="https://blog.nairuz.com.br/layout-para-o-site-da-infocards/" target="_blank"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
                       </div>
                     </div>
                   </div>

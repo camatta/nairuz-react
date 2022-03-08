@@ -30,14 +30,14 @@ const Footergeral = () => (
   <footer className="container-fluid" id="footer">
   <div className="instagram-feed">
     <ul className="insta d-flex justify-content-center">
-      <li><a href="https://www.instagram.com/p/CZbsICQsIDn/" target="_blank" rel="noopener noreferrer"><Image src="/insta1.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CZaKQaIvG2z/" target="_blank" rel="noopener noreferrer"><Image src="/insta2.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CZaJq9oPpOw/" target="_blank" rel="noopener noreferrer"><Image src="/insta3.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CZMPW4pMb6L/" target="_blank" rel="noopener noreferrer"><Image src="/insta4.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CZHFushMDMf/" target="_blank" rel="noopener noreferrer"><Image src="/insta5.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CZE5I0nryKG/" target="_blank" rel="noopener noreferrer"><Image src="/insta6.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CZCxz7RFOQs/" target="_blank" rel="noopener noreferrer"><Image src="/insta7.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CY_XlYwszx0/" target="_blank" rel="noopener noreferrer"><Image src="/insta8.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CamcSjoMQT5/" target="_blank" rel="noopener noreferrer"><Image src="/insta1.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CahNqrQMqp0/" target="_blank" rel="noopener noreferrer"><Image src="/insta2.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CaZfRRrAYOW/" target="_blank" rel="noopener noreferrer"><Image src="/insta3.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CaUVwwVszuQ/" target="_blank" rel="noopener noreferrer"><Image src="/insta4.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CaPMACjuo9Z/" target="_blank" rel="noopener noreferrer"><Image src="/insta5.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CaHdnQWsPeV/" target="_blank" rel="noopener noreferrer"><Image src="/insta6.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CaE46DMMSPS/" target="_blank" rel="noopener noreferrer"><Image src="/insta7.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CaCULrosKb4/" target="_blank" rel="noopener noreferrer"><Image src="/insta8.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
     </ul>
   </div>
   <div className="container">

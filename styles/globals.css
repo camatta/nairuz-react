@@ -1229,6 +1229,11 @@ a:hover, a {
   top: 0.2rem;
 }
 
+.img-post span:first-child {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 .title-post h6,
 .title-rico h6 {
   font-weight: 600;
