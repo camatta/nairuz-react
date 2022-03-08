@@ -425,7 +425,7 @@ export default function Home() {
                           <p>Marina Norato</p>
                         </div>
                         <div className="button-post">
-                          <a href="https://blog.nairuz.com.br/conteudos-para-as-midias-sociais/" target="_blank"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
+                          <a href="https://blog.nairuz.com.br/conteudos-para-as-midias-sociais/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
                         </div>
                       </div>
                     </div>
@@ -447,7 +447,7 @@ export default function Home() {
                           <p>Marina Norato</p>
                         </div>
                         <div className="button-post">
-                          <a href="https://blog.nairuz.com.br/tik-tok/" target="_blank"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
+                          <a href="https://blog.nairuz.com.br/tik-tok/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
                         </div>
                       </div>
                     </div>
@@ -480,7 +480,7 @@ export default function Home() {
                         <p>121 downloads</p>
                       </div>
                       <div className="button-rico">
-                        <a href="https://blog.nairuz.com.br/ux-design-qual-a-importancia-para-seu-e-commerce/" target="_blank"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
+                        <a href="https://blog.nairuz.com.br/ux-design-qual-a-importancia-para-seu-e-commerce/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
                       </div>
                     </div>
                   </div>
@@ -497,7 +497,7 @@ export default function Home() {
                         <p>096 downloads</p>
                       </div>
                       <div className="button-rico">
-                        <a href="https://blog.nairuz.com.br/layout-para-o-site-da-infocards/" target="_blank"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
+                        <a href="https://blog.nairuz.com.br/layout-para-o-site-da-infocards/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
                       </div>
                     </div>
                   </div>
