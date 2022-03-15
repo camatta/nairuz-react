@@ -117,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <li><Image src="/clientes/hepta.png" width={116} height={55} /></li>
                   </ul>
                   <ul className="d-flex align-items-center row4-logos mb-5">
-                    <li><Image src="/clientes/rpm.png" width={116} height={55} /></li>
+                    <li><Image src="/clientes/azul.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/sempreviva.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/novamed.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/rcrio.png" width={116} height={55} /></li>
