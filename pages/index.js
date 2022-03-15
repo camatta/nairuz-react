@@ -90,7 +90,7 @@ export default function Home() {
                       </div>
                       <h3 className="sub-servicos">Layout para e-commerce</h3>
                       <p className="text-servicos">
-                        Desenvolvemos web sites, one pages, landing pages, implementação e desenvolvimento de layout para e-commerce. Somos apaixonados por usabilidade e nossos projetos são todos personalizados, pautados nas boas práticas de User Interface - UI e User Experience - UX com foco nos resultados. Além disso, trabalhamos com as mais recentes tecnologias do mercado.
+                      Como oferecer a melhor experiência para os clientes que entram em sua loja online? Um layout para e-commerce original traz diversos benefícios para o seu negócio, já que a credibilidade da sua marca depende de um visual que passe confiança. Os projetos da Nairuz não só ganham destaque no mercado por conta da sua originalidade, como também são pensados especialmente para a persona da sua marca. Afinal, a experiência deles dentro do seu site é um dos grandes fatores que influencia a venda.
                       </p>
                       <div className="buttons-servicos">
                         <a onClick={urlServicos}><button id="detalhes-servicos">Ver Detalhes</button></a>

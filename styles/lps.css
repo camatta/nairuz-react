@@ -699,12 +699,19 @@ a:hover {
   margin-top: 6rem;
 }
 
+#parceiros-temas .title-parcerias h4 {
+  color: #2D2D2D;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+
 #resultados-performance {
   background-image: url(/bg-resultados-performance.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 7rem;
-  padding-bottom: 11rem;
+  padding-bottom: 6rem;
   position: relative;
   margin-bottom: 0.5rem;
 }
@@ -773,6 +780,22 @@ a:hover {
 
 .carrossel-resultados-performance .cases-carrossel {
   margin-bottom: 0;
+}
+
+.title-quemsomos-performance {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.quemsomos-performance p { 
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 60%;
+  margin: auto;
 }
 
 .page-performance #rd-form-kylvw1qc .bricks-form__field:last-child {

@@ -35,7 +35,6 @@ export default function Performance() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
       </Head>
 
-      <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
 
       <Script id="gtm" dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -187,7 +186,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       </div>
                     </div>
                     <div className="content-servico-performance">
-                      <p>Desenvolvemos web sites, one pages, landing pages, implementação e desenvolvimento de layout para e-commerce. Somos apaixonados por usabilidade e nossos projetos são todos personalizados, pautados nas boas práticas de User Interface - UI e User Experience - UX com foco nos resultados. Além disso, trabalhamos com as mais recentes tecnologias do mercado.</p>
+                      <p>Como oferecer a melhor experiência para os clientes que entram em sua loja online? Um layout para e-commerce original traz diversos benefícios para o seu negócio, já que a credibilidade da sua marca depende de um visual que passe confiança. Os projetos da Nairuz não só ganham destaque no mercado por conta da sua originalidade, como também são pensados especialmente para a persona da sua marca. Afinal, a experiência deles dentro do seu site é um dos grandes fatores que influencia a venda.</p>
                     </div>
                     <div className="button-servico-performance">
                       <Link href="#"><a className="saiba-mais-temas">ABRIR MINHA LOJA ONLINE</a></Link>
@@ -324,8 +323,126 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </div>
                 </div>
               </div>
+              <div className="row">
+                <div className="col-12">
+                  <div className="clientes-nairuz">
+                    <div className="title-clientes">
+                      <h4>O que nossos clientes dizem?</h4>
+                    </div>
+                    <div className="carrossel-clientes owl-carousel owl-default">
+                      <div className="cliente-nz">
+                        <div className="img-cliente">
+                          <Image src="/leticia.png" alt="Letícia Vaz" width={96} height={96} />
+                        </div>
+                        <div className="coment-cliente">
+                          <p>Fiquei muito feliz ao ver o resultado final do projeto e também todo o caminho para chegarmos nele. Todas as solicitações e dúvidas foram atendidas de prontidão e da melhor forma possível.</p>
+                        </div>
+                        <div className="assinatura-cliente">
+                          <p className="nome-cliente">Letícia Vaz</p>
+                          <p>LV Store</p>
+                        </div>
+                      </div>
+                      <div className="cliente-nz">
+                        <div className="img-cliente">
+                          <Image src="/marcelo.png" alt="Marcelo Arruda" width={96} height={96} />
+                        </div>
+                        <div className="coment-cliente">
+                          <p>A Nairuz está com a Ludka desde a criação e concepção da nossa marca. Estamos construindo juntos o nosso futuro. Ainda temos muitos passos pela frente, rumo ao nosso sucesso!</p>
+                        </div>
+                        <div className="assinatura-cliente">
+                          <p className="nome-cliente">Marcelo Arruda</p>
+                          <p>Ludka Homewear</p>
+                        </div>
+                      </div>
+                      <div className="cliente-nz">
+                        <div className="img-cliente">
+                          <Image src="/umberto.png" alt="Umberto Milo" width={96} height={96} />
+                        </div>
+                        <div className="coment-cliente">
+                          <p>Os projetos superaram todas as expectativas, conseguindo “transmitir” requinte e sofisticação para o nosso público. A performance das lojas também estão acima das expectativas.</p>
+                        </div>
+                        <div className="assinatura-cliente">
+                          <p className="nome-cliente">Umberto Milo</p>
+                          <p>Gaggia | Bialetti</p>
+                        </div>
+                      </div>
+                      <div className="cliente-nz">
+                        <div className="img-cliente">
+                          <Image src="/adriana.png" alt="Adriana Carpegiani" width={96} height={96} />
+                        </div>
+                        <div className="coment-cliente">
+                          <p>A Nairuz esteve num momento de transição difícil e nos troue soluções. Todas decisões são avaliadas visando um melhor resultado! Recomendo como agência de marketing 360º.</p>
+                        </div>
+                        <div className="assinatura-cliente">
+                          <p className="nome-cliente">Adriana Carpegiani</p>
+                          <p>Congelados da Sônia</p>
+                        </div>
+                      </div>
+                      <div className="cliente-nz">
+                        <div className="img-cliente">
+                          <Image src="/renato.png" alt="Renato Soares" width={96} height={96} />
+                        </div>
+                        <div className="coment-cliente">
+                          <p>A nossa história com a Nairuz tem uma longa jornada, sempre contribuíram conosco em todas as etapas. Recomendamos como agência full service, somos de fato parceiros.</p>
+                        </div>
+                        <div className="assinatura-cliente">
+                          <p className="nome-cliente">Renato Soares</p>
+                          <p>Lojas RPM</p>
+                        </div>
+                      </div>
+                      <div className="cliente-nz">
+                        <div className="img-cliente">
+                          <Image src="/amanda.png" alt="Amanda Corrêa" width={96} height={96} />
+                        </div>
+                        <div className="coment-cliente">
+                          <p>A Nairuz fez parte da jornada que é começar a empreender. Com certeza fez toda diferença uma agência de experiência e performance digital ao nosso lado. Adorei o resultado do projeto!</p>
+                        </div>
+                        <div className="assinatura-cliente">
+                          <p className="nome-cliente">Amanda Corrêa</p>
+                          <p>Twenty First</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                  <div className="quemsomos-nairuz-performance text-center">
+                    <div className="title-quemsomos-performance">
+                      <h4>Quem é a Nairuz?</h4>
+                    </div>
+                    <div className="quemsomos-performance">
+                    <p>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado. Somos um empresa feita à mão! Hoje reconhecida por nossos parceiros e clientes como uma das agências referência de marketing digital de performance, desenvolvimento e design no estado de São Paulo.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
+          <section className="container" id="title-nossacasa">
+          <div className="row">
+            <div className="col-12">
+              <div className="title-nossacasa">
+                <h4>Nossa <span>Casa</span></h4>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="container-fluid" id="fotos-nossacasa">
+          <ul>
+            <li><Image src="/espaconairuz1.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+            <li><Image src="/espaconairuz2.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+            <li><Image src="/espaconairuz3.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+            <li><Image src="/espaconairuz4.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+          </ul>
+          <ul>
+            <li><Image src="/espaconairuz5.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+            <li><Image src="/espaconairuz6.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+            <li><Image src="/espaconairuz7.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+            <li><Image src="/espaconairuz8.png" alt="Espaço Nairuz" width={475} height={475} /></li>
+          </ul>
+        </section>
           <section className="container-fluid" id="form-temas">
             <div className="container">
               <div className="row">
@@ -377,6 +494,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
           </section>
           <section className="container" id="parceiros-temas">
+          <div className="row">
+            <div className="col-12">
+              <div className="title-parcerias">
+                <h4>Certificações e <span>Parcerias</span></h4>
+              </div>
+            </div>
+          </div>
             <div className="row">
               <div className="col-12">
                 <div className="parcerias-certificacoes">
@@ -459,11 +583,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
         </div>
+
         <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
           strategy="beforeInteractive" />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
-        strategy="beforeInteractive" />
-        <Script id="show-banner" strategy="lazyOnload">
+          strategy="beforeInteractive" />
+
+        <Script id="show-bannerx" strategy="lazyOnload">
   {`
 
   // Carrossel geral
