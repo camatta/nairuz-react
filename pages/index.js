@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nairuz</title>
+        <title>Nairuz | Marketing Digital</title>
         <meta name="description" content="Nairuz Digital e Consultoria" />
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
