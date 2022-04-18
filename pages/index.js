@@ -414,15 +414,15 @@ export default function Home() {
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h6>COMO CRIAR BONS CONTEÚDOS PARA AS MÍDIAS SOCIAIS</h6>
+                        <h6>CAMPANHAS SAZONAIS: ENTENDA A IMPORTÂNCIA DESSA...</h6>
                       </div>
                       <div className="content-post">
-                        <p>O conteúdo, tanto textual quanto de imagem, é a pura essência das mídias sociais...</p>
+                        <p>Quem trabalha com marketing, ou mesmo na área de vendas e planejamentos, já sabe...</p>
                       </div>
                       <div className="footer-post">
                         <div className="autor-data-post">
-                          <p>03.03.2022</p>
-                          <p>Marina Norato</p>
+                          <p>12.04.2022</p>
+                          <p>Thaiane Pinha</p>
                         </div>
                         <div className="button-post">
                           <a href="https://blog.nairuz.com.br/conteudos-para-as-midias-sociais/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
@@ -436,14 +436,14 @@ export default function Home() {
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h6>TIK TOK: ENTENDA COMO ESSA MÍDIA SOCIAL PODE AUMENTAR...</h6>
+                        <h6>HELP SUPORTE NAIRUZ: CONHEÇA NOSSA SOLUÇÃO PARA O SEU...</h6>
                       </div>
                       <div className="content-post">
-                        <p>Só no ano de 2021 o Tik Tok foi a plataforma mais vista, ultrapassando o Google.</p>
+                        <p>Assim como muitos donos de e-commerce, você deve estar em busca de uma forma...</p>
                       </div>
                       <div className="footer-post">
                         <div className="autor-data-post">
-                          <p>22.02.2022</p>
+                          <p>05.04.2022</p>
                           <p>Marina Norato</p>
                         </div>
                         <div className="button-post">
