@@ -255,14 +255,14 @@ a:hover, a {
 }
 
 #bg-carrossel1 {
-  background-image: url(/bg-bialetti-home2.png);
+  background-image: url(/bg-bialetti-home2.webp);
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
 }
 
 #bg-carrossel2 {
-  background-image: url('/bg-nairuz-home.png');
+  background-image: url('/bg-nairuz-home.webp');
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
