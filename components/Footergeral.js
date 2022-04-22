@@ -24,6 +24,10 @@ const urlVagas = () => {
   document.location.href = '/vagas';
 }
 
+const urlPoliticas = () => {
+  document.location.href = '/politicas';
+}
+
 
 const Footergeral = () => (
   <>
@@ -127,6 +131,10 @@ const Footergeral = () => (
   </div>
   <div className="wpp-footer">
     <a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer"><p>Quer ser nosso próximo sucesso? <b>Fale com a gente!</b></p><Image src="/icon-wpp.svg" alt="WhatsApp Nairuz" width={26} height={20}/></a>
+  </div>
+  <div className="aceite-cookies hide">
+    <p>Utilizamos cookies para oferecer a melhor experiência de navegação, de acordo com a nossa <a onClick={urlPoliticas}>Política de Privacidade</a>. Ao continuar navegando, você concorda com estas condições.</p>
+    <button className="btn-aceite-cookies">Aceitar</button>
   </div>
   <ContatoPopup />
 </footer>
@@ -372,7 +380,21 @@ strategy="beforeInteractive" />
       $('#vagas-popup .requisitos p').text('Cursos técnicos com certificação ou cursando superior em Marketing, Publicidade; Cursando inglês; Iniciativa; Período de experiência no mínimo um ano (agência ou semelhante); Gestor de crises.');
       $('#vagas-popup .desejavel p').text('Boa comunicação e oratória; Rotina e organização; Focada em objetivos; Entendimento de processos da empresa;');
     });
+
     
+
+    if (!localStorage.cookiePolitica){
+      document.querySelector('.aceite-cookies').classList.remove('hide');
+      }
+    
+    const aceiteCookies = () => {
+    document.querySelector('.aceite-cookies').classList.add('hide');
+    localStorage.setItem("cookiePolitica","aceito");
+    }
+    
+    const btnCookies = document.querySelector('.btn-aceite-cookies');
+    
+    btnCookies.addEventListener('click', aceiteCookies);
 
   `}
 </Script>
