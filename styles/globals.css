@@ -2553,3 +2553,11 @@ h5 {
 .aceite-cookies.hide {
   display: none;
 }
+
+@media (min-width: 600) {
+  .aceite-cookies {
+    width: 85%;
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
