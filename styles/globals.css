@@ -2554,7 +2554,7 @@ h5 {
   display: none;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .aceite-cookies {
     width: 85%;
     right: 1rem;
