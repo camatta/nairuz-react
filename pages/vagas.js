@@ -11,6 +11,13 @@ export default function Vagas() {
       <Head>
         <title>Nairuz | Marketing Digital - Vagas</title>
         <meta name="description" content="Está em busca de vagas para analista de marketing digital, vagas para desenvolvedor ou vagas para designer publicitário e UX designer? Seja um funcionairuz!" />
+        <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
+				<meta property="og:image:type" content="image/png" />
+				<meta property="og:image:width" content="600" />
+				<meta property="og:image:height" content="400" />
+        <meta property="og:description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
+				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
+				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
       </Head>
