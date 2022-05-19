@@ -50,7 +50,7 @@ export default function Home() {
       <Head>
         <title>Nairuz | Marketing Digital</title>
         <meta name="description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
-        <meta property="og:image" content="/og-nairuz.png" />
+        <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
