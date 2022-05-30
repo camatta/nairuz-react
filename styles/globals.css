@@ -2154,6 +2154,72 @@ a:hover, a {
   margin-top: 4rem;
 }
 
+/* Pagina Cases - LV Store */
+
+.page-case-lvstore #case-top {
+  background-image: url('/cases/bg-case-lv.png');
+}
+
+.page-case-lvstore .post-content {
+  width: 100%;
+}
+
+.page-case-lvstore #banner-full {
+  position: relative;
+}
+
+.page-case-lvstore #banner-full .row:before {
+  content: '';
+  background: transparent linear-gradient(179deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  height: 18rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-lvstore {
+  position: relative;
+  top: -1.4rem;
+}
+
+.page-case-lvstore .title-post h3 {
+  width: 100%;
+}
+
+.page-case-lvstore .text-main-case ul {
+  padding-left: 1rem;
+}
+
+.page-case-lvstore .text-main-case ul li {
+  list-style-type: disc;
+}
+
+.page-case-lvstore .text-main-case li p {
+  margin-bottom: 0;
+}
+
+.page-case-lvstore .img-post-lv {
+  position: relative;
+  top: 13rem;
+}
+
+.page-case-lvstore .outros-cases {
+  padding: 3rem 0;
+  border-bottom: 1px solid #a8a5a5;
+}
+
+.page-case-lvstore .outros-cases a {
+  font-weight: 600;
+  text-decoration: underline !important;
+  color: #2D2D2D;
+}
+
+.page-case-lvstore .text-cases-home {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
 /* Página Vagas */
 
 #vagas {

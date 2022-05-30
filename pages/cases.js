@@ -10,6 +10,10 @@ const urlBialetti = () => {
   document.location.href = '/cases/bialetti';
 }
 
+const urlLVStore = () => {
+  document.location.href = '/cases/lvstore';
+}
+
 export default function Cases() {
   return (
     <div className="page-cases">
@@ -104,7 +108,7 @@ export default function Cases() {
                       </div>
                     </div>
                     <div className="button-case">
-                      <a href="#"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                      <a onClick={urlLVStore}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
                       <Image className="img-fluid" src="/cases/case-lv.png" alt="LV Store" width={370} height={533} />

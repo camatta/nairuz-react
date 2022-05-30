@@ -1090,13 +1090,15 @@
   width: 100%;
 }
 
-/* Page Case Bialetti */
+/* Page Cases */
 
-.page-case-bialettishop .title-post h3 {
+.page-case-bialettishop .title-post h3,
+.page-case-lvstore .title-post h3 {
   width: 100%;
 }
 
-.page-case-bialettishop .post-content {
+.page-case-bialettishop .post-content,
+.page-case-lvstore .post-content {
   width: 100%;
 }
 
@@ -1116,8 +1118,27 @@
   line-height: 1.1rem;
 }
 
-.page-case-bialettishop #case-top {
+.page-case-bialettishop #case-top,
+.page-case-lvstore #case-top {
   margin-top: 3rem;
+}
+
+.page-case-lvstore #banner-full .row {
+  width: 100%;
+}
+
+.page-case-lvstore iframe {
+  width: 100%;
+}
+
+.page-case-lvstore .img-post-lv {
+  position: relative;
+  margin-top: 2rem;
+  top: 0;
+}
+
+.page-case-lvstore #banner-full .row:before {
+  height: 7rem;
 }
 
 }
