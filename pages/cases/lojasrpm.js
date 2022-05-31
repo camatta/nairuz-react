@@ -39,7 +39,7 @@ export default function LojasRPM() {
                   <h1>Descubra como a consultoria digital tornou o e-commerce da Lojas RPM um case de muito sucesso!</h1>
                 </div>
                 <div className="text-case">
-                  <p>"Não somos apenas mais uma agência! Somos uma <span>Consultoria Digital</span>".</p>
+                  <p>Não somos apenas mais uma agência! Somos uma <span>Consultoria Digital</span>.</p>
                   <p>É com esta frase que você se depara ao descobrir o nosso site pela primeira vez. Mas então surgem aquelas dúvidas! Onde a consultoria digital atua? Como produz resultados? E de que maneira posso ser beneficiado?</p>
                   <p>Poderíamos passar diversos artigos respondendo a todas estas questões, mas que tal descobrirmos através de um case de sucesso capaz de falar por si só?</p>
                 </div>
