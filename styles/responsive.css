@@ -1119,11 +1119,16 @@
 }
 
 .page-case-bialettishop #case-top,
-.page-case-lvstore #case-top {
+.page-case-lvstore #case-top,
+.page-case-lojasrpm #case-top {
   margin-top: 3rem;
 }
 
 .page-case-lvstore #banner-full .row {
+  width: 100%;
+}
+
+.page-case-lojasrpm #banner-full .row {
   width: 100%;
 }
 
@@ -1139,6 +1144,15 @@
 
 .page-case-lvstore #banner-full .row:before {
   height: 7rem;
+}
+
+.page-case-lojasrpm #banner-full .row:before {
+  height: 7rem;
+  top: 1rem;
+}
+
+.page-case-lojasrpm .title-main-case h3 {
+  width: 100%;
 }
 
 }

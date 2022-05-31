@@ -2220,6 +2220,117 @@ a:hover, a {
   margin-bottom: 2rem;
 }
 
+/* Pagina Cases - Lojas RPM */
+
+.page-case-lojasrpm #case-top {
+  background-image: url('/cases/bg-case-rpm.png');
+}
+
+.page-case-lojasrpm .post-content {
+  width: 100%;
+}
+
+.page-case-lojasrpm .title-main-case h3 {
+  width: 80%;
+}
+
+.page-case-lojasrpm #banner-full {
+  position: relative;
+}
+
+.page-case-lojasrpm #banner-full .row:before {
+  content: '';
+  background: #6316C9;
+  height: 15rem;
+  width: 100%;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+}
+
+.page-case-lojasrpm .title-post {
+  margin-top: 4rem;
+}
+
+.page-case-lojasrpm .post-content h4 {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.page-case-lojasrpm .post-content h5 {
+  font-weight: 700;
+  color: #6316C9;
+  text-transform: unset;
+  font-size: 1.1rem;
+}
+
+.banner-lojasrpm {
+  position: relative;
+}
+
+.page-case-lojasrpm .title-post h3 {
+  width: 100%;
+}
+
+.page-case-lojasrpm .post-content ul {
+  padding-left: 1rem;
+}
+
+.page-case-lojasrpm .post-content ul li {
+  list-style-type: decimal;
+}
+
+.page-case-lojasrpm .post-content li p {
+  margin-bottom: 0;
+}
+
+.page-case-lvstlojasrpmore .img-post-lv {
+  position: relative;
+  top: 13rem;
+}
+
+.page-case-lojasrpm .outros-cases {
+  padding: 3rem 0;
+  border-bottom: 1px solid #a8a5a5;
+}
+
+.page-case-lojasrpm .post-content a,
+.page-case-lojasrpm .text-main-case a {
+  font-weight: 600;
+  text-decoration: underline !important;
+  color: #2D2D2D;
+}
+
+.page-case-lojasrpm .text-cases-home {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.page-case-lojasrpm .resultados-post h6 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.page-case-lojasrpm .img-layout-rpm {
+  margin-top: 2rem;
+}
+
+.page-case-lojasrpm .info-layout-rpm {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.page-case-lojasrpm #main-case {
+  margin-bottom: 0rem;
+}
+
+.page-case-lojasrpm #main-xcase {
+  margin-bottom: 4rem;
+}
+
 /* Página Vagas */
 
 #vagas {
