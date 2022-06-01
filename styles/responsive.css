@@ -1118,9 +1118,7 @@
   line-height: 1.1rem;
 }
 
-.page-case-bialettishop #case-top,
-.page-case-lvstore #case-top,
-.page-case-lojasrpm #case-top {
+#case-top {
   margin-top: 3rem;
 }
 
@@ -1152,6 +1150,14 @@
 }
 
 .page-case-lojasrpm .title-main-case h3 {
+  width: 100%;
+}
+
+.page-case-minassal .title-post h3 {
+  width: 100%;
+}
+
+.page-case-minassal .post-content {
   width: 100%;
 }
 

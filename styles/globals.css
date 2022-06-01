@@ -2331,6 +2331,34 @@ a:hover, a {
   margin-bottom: 4rem;
 }
 
+/* Pagina Cases - Minassal */
+
+.page-case-minassal #case-top {
+  background-image: url('/cases/bg-case-minassal.png');
+}
+
+.page-case-minassal .post-content {
+  width: 80%;
+}
+
+.page-case-minassal #full-minassall {
+  margin: 3rem 0;
+  background-color: #081b2c;
+  padding: 1.5rem 0;
+}
+
+.page-case-minassal .post-content a,
+.page-case-minassal .text-main-case a {
+  font-weight: 600;
+  text-decoration: underline !important;
+  color: #2D2D2D;
+}
+
+.page-case-minassal .text-cases-home {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
 /* Página Vagas */
 
 #vagas {
