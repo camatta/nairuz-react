@@ -1161,6 +1161,34 @@
   width: 100%;
 }
 
+.page-case-infocards .post-content,
+.layout-infocards {
+  width: 100%;
+}
+
+#banner-infocards:before {
+  display: none;
+}
+
+#banner-infocards {
+  background-color: #6316C9;
+  padding-bottom: 2rem;
+}
+
+.page-case-infocards  #main-xcase {
+  margin-top: 2rem;
+}
+
+#case-top .text-case {
+  height: auto;
+}
+
+.img-banner-infocards {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+
 }
 
 @media (min-width: 1650px) {

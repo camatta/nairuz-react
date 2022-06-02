@@ -2160,6 +2160,10 @@ a:hover, a {
   background-image: url('/cases/bg-case-lv.png');
 }
 
+#case-top .text-case {
+  height: 19rem;
+}
+
 .page-case-lvstore .post-content {
   width: 100%;
 }
@@ -2355,6 +2359,70 @@ a:hover, a {
 }
 
 .page-case-minassal .text-cases-home {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* Pagina Cases - Infocards */
+
+.page-case-infocards #case-top {
+  background-image: url('/cases/bg-case-infocards.png');
+}
+
+.page-case-infocards #main-case {
+  margin-top: 6rem;
+}
+
+.page-case-infocards .post-content a,
+.page-case-infocards .text-main-case a {
+  font-weight: 600;
+  text-decoration: underline !important;
+  color: #2D2D2D;
+}
+
+.text-banner-infocards h3 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.6rem;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.text-banner-infocards p {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+#banner-infocards {
+  position: relative;
+  justify-content: center;
+}
+
+#banner-infocards:before {
+  content: '';
+  height: 15rem;
+  background-color: #6316C9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60%;
+  z-index: -1;
+}
+
+.img-banner-infocards {
+  position: relative;
+  bottom: 3rem;
+  right: 4rem;
+}
+
+.layout-infocards {
+  width: 65%;
+}
+
+.page-case-infocards .text-cases-home {
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
