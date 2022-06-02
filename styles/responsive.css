@@ -1189,7 +1189,8 @@
   right: 0;
 }
 
-.page-case-mammy .post-content {
+.page-case-mammy .post-content,
+.page-case-novamed .post-content {
   width: 100%;
 }
 

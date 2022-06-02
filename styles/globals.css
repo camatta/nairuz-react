@@ -2484,6 +2484,43 @@ a:hover, a {
   font-size: 0.8rem;
 }
 
+/* Pagina Cases - Nova */
+
+.page-case-novamed #case-top {
+  background-image: url('/cases/bg-case-nova.png');
+}
+
+.page-case-novamed  #case-top .text-case {
+  height: auto;
+}
+
+.page-case-novamed #main-case {
+  margin-top: 6rem;
+}
+
+.page-case-novamed .text-main-case p span {
+  color: #6316C9;
+  font-weight: 700;
+}
+
+.page-case-novamed .post-content h4 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.page-case-novamed .post-content a,
+.page-case-novamed .text-main-case a {
+  font-weight: 600;
+  text-decoration: underline !important;
+  color: #2D2D2D;
+  cursor: pointer;
+}
+
+.page-case-novamed .text-cases-home {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
 /* Página Vagas */
 
 #vagas {
