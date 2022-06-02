@@ -2100,7 +2100,7 @@ a:hover, a {
 
 .post-content p span {
   color: #6316C9;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .post-content p span.destaque-text-post {
@@ -2425,6 +2425,63 @@ a:hover, a {
 .page-case-infocards .text-cases-home {
   margin-top: 4rem;
   margin-bottom: 2rem;
+}
+
+/* Pagina Cases - Mammy */
+
+.page-case-mammy #case-top {
+  background-image: url('/cases/bg-case-mammy.png');
+}
+
+.page-case-mammy  #case-top .text-case {
+  height: auto;
+}
+
+.page-case-mammy .post-content ul li {
+  list-style-type: disc;
+}
+
+.page-case-mammy .post-content li p {
+  margin-bottom: 0;
+}
+
+.page-case-mammy .post-content ul {
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.page-case-mammy .post-content h5 {
+  color: #58DBAA;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: unset;
+}
+
+.page-case-mammy .post-content a,
+.page-case-mammy .text-main-case a {
+  font-weight: 600;
+  text-decoration: underline !important;
+  color: #2D2D2D;
+  cursor: pointer;
+}
+
+.page-case-mammy .text-cases-home {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.page-case-mammy .post-content h4 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.page-case-mammy .info-layout p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: right;
+  font-size: 0.8rem;
 }
 
 /* Página Vagas */
