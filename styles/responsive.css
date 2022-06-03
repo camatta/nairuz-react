@@ -701,6 +701,10 @@
   margin-bottom: 1rem;
 }
 
+.page-cases .op0 {
+  display: none;
+}
+
 .page-cases .button-cases {
   text-align: center;
 }
@@ -711,6 +715,7 @@
 
 .page-cases .descricao-case {
   top: 8.5rem;
+  display: none;
 }
 
 .page-cases .servicos-case {

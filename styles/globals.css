@@ -1645,7 +1645,7 @@ a:hover, a {
 
 .descricao-case {
   position: absolute;
-  top: 14.5rem;
+  top: 9.5rem;
   z-index: 2;
   left: 1rem;
   width: 80%;
@@ -1701,6 +1701,10 @@ a:hover, a {
 
 .visible-case span:first-child {
   display: list-item !important;
+}
+
+#nossos-cases .op0 {
+  opacity: 0;
 }
 
 /* Behance */ 

@@ -14,6 +14,26 @@ const urlLVStore = () => {
   document.location.href = '/cases/lvstore';
 }
 
+const urlMinassal = () => {
+  document.location.href = '/cases/minassal';
+}
+
+const urlInfocards = () => {
+  document.location.href = '/cases/infocards';
+}
+
+const urlRPM = () => {
+  document.location.href = '/cases/lojasrpm';
+}
+
+const urlMammy = () => {
+  document.location.href = '/cases/mammy-gestante';
+}
+
+const urlNovaMed = () => {
+  document.location.href = '/cases/nova-medicamentos';
+}
+
 export default function Cases() {
   return (
     <div className="page-cases">
@@ -70,13 +90,13 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>A marca centenária de cafeteiras italianas e utensílios para cozinha, Bialetti, marca presença na vida dos brasileiros agora também com loja oficial: a Bialetti Shop.</p>
+                        <p>Criada em 1919 por Alfonso Bialetti, a empresa centenária tem feito grande sucesso pelo mundo inteiro desde então. Isso graças ao seu design único e sua tradição. Assim que a Bialetti Shop nasceu aqui no Brasil, ela contou efetivamente com a ajuda e parceria da Nairuz. Com isso, juntas puderam criar um planejamento eficiente que foi o ponto-chave para o sucesso da empresa. Saiba mais:</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>+ de 14mil usuários mensais;</p></li>
-                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>+ 800% de faturamento;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>27% de vendas em busca orgânica.</p></li>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>+ de 14mil usuários mensais;</p></li>
+                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+ 800% de faturamento;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>27% de vendas em busca orgânica.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -97,12 +117,12 @@ export default function Cases() {
                         <span>Marketing Full-Service</span>
                       </div>
                       <div className="descricao-case">
-                        <p>A LV Store é uma marca de moda feminina, assinada pela designer Letícia Vaz. Com produtos únicos e de qualidade, a marca oferece a melhor experiência do usuário em sua loja online.</p>
+                        <p>Em 2015, Letícia Vaz, a fundadora da LV Store, decidiu começar uma loja especializada em roupas femininas para atender o público jovem e universitário que sempre pedia conselhos sobre o que usar. O sonho tornou-se real com a atuação de nosso time de desenvolvimento e Marketing Digital.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>+ de 60mil usuários mensais;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>48% de vendas em busca orgânica;</p></li>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>+ de 60mil usuários mensais;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>48% de vendas em busca orgânica;</p></li>
                           <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+90% de taxa de conversão.</p></li>
                         </ul>
                       </div>
@@ -120,26 +140,26 @@ export default function Cases() {
                   <li>
                     <div className="hide-case">
                       <div className="tags-case">
-                        <span>Marketing Full-Service</span>
+                        <span>Marketing Parcial</span>
                       </div>
                       <div className="descricao-case">
-                        <p>A Nova Medicamentos, farmácia de medicamentos de alto custo, proporciona a seus clientes modernidade e praticidade na garantia do bem-estar e qualidade de vida.</p>
+                        <p>Atuando no mercado há 35 anos, a Minassal é uma grande distribuidora especializada no país, sendo eles a distribuidora exclusiva da Mars, proprietária de marcas como Pedigree, Whiskas e Royal Canin. Foi por isso que eles aceitaram o auxílio da Nairuz quando nós chegamos até eles, com o objetivo de sempre trazer a melhor experiência para os seus clientes.</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>+ 1300% de acesso orgânico;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>+ 110% de aumento de venda orgânica;</p></li>
-                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>+ 35% de aumento de vendas por Inbound.</p></li>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>91% de crescimento na base de leads;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>57,79% em taxa de abertura;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Aumento de 64,58% em CTR.</p></li>
                         </ul>
                       </div>
                     </div>
                     <div className="button-case">
-                      <a href="#"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                      <a onClick={urlMinassal}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-nova.png" alt="Nova Medicamentos" width={370} height={533} />
+                      <Image className="img-fluid" src="/cases/case-minassal.png" alt="Minassal" width={370} height={533} />
                       <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-nova.svg" alt="Nova Medicamentos" width={100} height={50} />
+                        <Image className="logo-case" src="/cases/logo-minassal-2.png" alt="Minassal" width={207} height={60} />
                       </div>
                     </div>
                   </li>
@@ -148,30 +168,111 @@ export default function Cases() {
                   <li>
                     <div className="hide-case">
                       <div className="tags-case">
-                        <span>Marketing Full-Service</span>
+                        <span>Layout Personalizado</span>
                       </div>
                       <div className="descricao-case">
-                        <p>A Wide Stock é referência na distribuição de descartáveis, produtos de limpeza e materiais de escritório. Com entrega para todo o país, é reconhecida pela rapidez e qualidade dos produtos.</p>
+                        <p>Há mais de 20 anos, a Infocards vem atuando na área de gestão de cartões de crédito private label – cartões de loja. Depois de tantos anos de sucesso e conquistas, a Infocards, sempre visando o melhor para os seus clientes, buscou a Nairuz para dar uma repaginada na sua identidade visual. Confira como foi a experiência da empresa com o nosso time!</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+ 400% de taxa de conversão;</p></li>
-                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>1500% de aumento no faturamento;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>5000% de aumento vendas por mídias pagas.</p></li>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Site totalmente renovado e user-friendly;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Entrega de alta performance;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Site responsivo.</p></li>
                         </ul>
                       </div>
                     </div>
                     <div className="button-case">
-                      <a href="#"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                      <a onClick={urlInfocards}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-wide.png" alt="Widestock" width={370} height={533} />
+                      <Image className="img-fluid" src="/cases/case-infocards.png" alt="Infocards" width={370} height={533} />
                       <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-wide.svg" alt="Widestock" width={100} height={50} />
+                        <Image className="logo-case" src="/cases/logo-infocards.png" alt="Infocards" width={187} height={56} />
                       </div>
                     </div>
                   </li>
                   <li>
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Layout para e-commerce</span>
+                        <span>Marketing Full-Service</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>A Lojas RPM encontra-se há 5 anos localizada na cidade de Jaci, São Paulo, e conta com diversos produtos de qualidade e custo acessível para residências e comércios. Nossa equipe de consultoria em marketing digital encontrou oportunidades de crescimento e, depois de uma cuidadosa análise, definiram-se as estratégias do plano de ação. Confira!</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+407,12% em faturamento;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>+357,10% em taxa de conversão no site;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+241,03% nas transações em mídias pagas.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlRPM}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-rpm.png" alt="Lojas RPM" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-rpm.png" alt="Lojas RPM" width={168} height={23} />
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Layout p/ e-commerce</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>A Mammy é uma marca sólida no mercado, reconhecida pelos clientes por sua tradição, qualidade e zelo com as mulheres gestante. Não trata-se apenas de vendas de roupas, mas sim de consultoria para atender as mulheres nesta fase tão bela. Desse modo, tínhamos um desafio em mãos e nosso projeto de layout para loja online, foi todo estruturado pensando em soluções para melhor atender o seu mercado. Confira!</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>Implantação de chat online.</p></li>
+                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>Layout personalizado;</p></li>
+                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>Implantação de provador virtual e tabela de medidas;</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlMammy}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-mammy.png" alt="Mammy Gestante" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-mammy1.png" alt="Mammy Gestante" width={154} height={40} />
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <ul className="d-flex">
+                  <li>
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Marketing Parcial</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>A Nova Medicamentos é uma loja online, com sede em Vinhedo (SP) e uma unidade em Vila Velha (ES), que atende todo o território nacional a partir da venda e entrega de medicamentos de alto custo. A Nova Medicamentos é um case de sucesso quando falamos sobre estratégias de SEO e aumento do tráfego orgânico. Os resultados:</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>139,73% em tráfego orgânico;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Palavras-chave nas 3 primeiras posições de busca.</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>63% em vendas orgânicas;</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlNovaMed}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-nova.png" alt="Nova Medicamentos" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-nova.svg" alt="Nova Medicamentos" width={100} height={50} />
+                      </div>
+                    </div>
+                  </li>
+                  <li className="op0">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Website</span>
@@ -198,7 +299,7 @@ export default function Cases() {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li className="op0">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout p/ e-commerce</span>
