@@ -1095,6 +1095,43 @@
   width: 100%;
 }
 
+.page-performance.vtex #apresentacao-performance .title-apresentacao p {
+  width: 100%;
+}
+
+.page-performance.vtex .icon-servico-performance {
+  display: none;
+}
+
+.page-performance.vtex .text-servico-performance {
+  padding-left: 0;
+}
+
+.page-performance.vtex .title-servico-performance h4 {
+  right: 0;
+}
+
+.page-performance.vtex .img-servico-performance.layout {
+  position: relative;
+  bottom: 0;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: -1;
+}
+
+.page-performance.vtex .img-caracteristicas {
+  display: none;
+}
+
+.info-button-vtex {
+  width: 76%;
+  margin: auto;
+}
+
+.page-performance.vtex #form-temas::after {
+  display: none;
+}
+
 /* Page Cases */
 
 .page-case-bialettishop .title-post h3,
