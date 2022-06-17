@@ -975,10 +975,10 @@ a:hover {
 
 .page-performance.vtex #performance .title-temas h1  {
   color: #fff;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
 }
 
-.page-performance.vtex .text-quemsomos p:first-child {
+.page-performance.vtex .text-quemsomos p{
   color: #fff;
   line-height: 1.5;
   font-size: 0.95rem;
@@ -988,11 +988,15 @@ a:hover {
 
 .page-performance.vtex #performance {
   background-image: url(/bg-vtex.png);
+  padding-bottom: 7rem;
 }
 
 .page-performance.vtex #apresentacao-performance .title-apresentacao h2 {
   font-size: 1.8rem;
-  margin-bottom: 2rem;
+  width: 67%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .page-performance.vtex #apresentacao-performance .title-apresentacao p {
@@ -1005,11 +1009,96 @@ a:hover {
 
 .page-performance.vtex #apresentacao-performance .title-apresentacao h2:before {
   content: 'nossas soluções';
+  left: 50%;
+  top: -3rem;
+  font-size: 4rem;
+  font-weight: 800;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  width: 100%;
 }
 
 .page-performance.vtex .icon-servico-performance {
   position: relative;
-  right: 4rem;
+  right: 0rem;
+}
+
+.page-performance.vtex .text-apresentacao-vtex p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 62%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.page-performance.vtex .text-apresentacao-vtex p span {
+  font-weight: 800;
+  color: #392BA1;
+}
+
+.marcas-vtex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.marcas-vtex li {
+  margin: 0 0.7rem; 
+}
+
+.cards-vtex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 3.3rem;
+  margin-bottom: 4rem;
+}
+
+.cards-vtex .card-lojas {
+    background: #FF1265 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    display: flex;
+    padding: 2rem 2.5rem;
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.cards-vtex .card-lojas p,
+.cards-vtex .card-paises p {
+  font-weight: 800;
+  margin-left: 1.5rem;
+}
+
+.cards-vtex .card-lojas p span,
+.cards-vtex .card-paises p span {
+  font-size: 2rem;
+}
+
+.cards-vtex .card-paises {
+  background: #FF1265 0% 0% no-repeat padding-box;
+  border-radius: 23px;
+  display: flex;
+  padding: 2rem 2.5rem;
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.page-performance.vtex #apresentacao-performance {
+  padding-bottom: 0rem;
+}
+
+.page-performance.vtex .text-apresentacao-vtex {
+  padding: 1rem;
+  border-radius: 30px;
+  width: 75%;
+  margin: auto;
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
 }
 
 .page-performance.vtex #form-temas {
@@ -1017,16 +1106,48 @@ a:hover {
 }
 
 .page-performance.vtex .img-servico-performance.website:after {
-  background: #58DBAA;
-  top: unset;
-  bottom: 2rem;
-  height: 15rem;
+  display: none;
 }
 
 .page-performance.vtex .icon-servico-performance {
-    background-color: #58dbaa;
+    background-color: #FF1265;
     padding: 0.5rem 0.7rem;
     border-radius: 40px;
+}
+
+.page-performance.vtex .loja-rapida li {
+  text-align: center;
+    width: 33%;
+    margin: 0.5rem;
+    height: 9rem;
+    background-color: #E8E8E8;
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.page-performance.vtex .loja-rapida li p {
+    color: #2D2D2D;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.page-performance.vtex .loja-rapida li span {
+  background-color: #FF1265;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    top: -1rem;
+    position: absolute;
+    left: 3.8rem;
+}
+
+.content-loja-rapida {
+  margin-top: 2rem;
 }
 
 .page-performance.vtex .text-servico-performance {
@@ -1034,7 +1155,8 @@ a:hover {
 }
 
 .page-performance.vtex .title-servico-performance h4 {
-  right: 3.3rem;
+  right: 0;
+  padding-left: 1rem;
 }
 
 .page-performance.vtex .title-servico-performance.vtex h4 {
@@ -1046,21 +1168,37 @@ a:hover {
 }
 
 .page-performance.vtex .saiba-mais-temas {
-  background: transparent linear-gradient(270deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  background: #58DBAA;
   position: relative;
   top: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  font-weight: 600;
+}
+
+.page-performance.vtex .buttons-temas {
+  margin-bottom: 4rem;
+}
+
+.page-performance.vtex .selos-vtex ul {
+  display: flex;
+  align-items: center;
 }
 
 .page-performance.vtex .button-servico-performance {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .page-performance.vtex .text-servico-performance {
-  padding-left: 4rem;
+  padding-left: 0;
 }
 
 .page-performance.vtex .content-servico-performance p {
-  margin-top: 1rem;
+    width: 48%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .page-performance.vtex .img-servico-performance.layout {
@@ -1071,12 +1209,83 @@ a:hover {
   z-index: -1;
 }
 
+.page-performance.vtex .title-nos-nairuz .title-servico-performance h4 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+#impulsionar-vtex {
+  background-color: #FF1265;
+  padding: 7rem 0;
+  background-image: url(/bg-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-impulse-vtex p{
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.text-impulse-vtex h4{
+  color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    width: 39%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#bg-nos-nairuz {
+  background: #E8E8E8;
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+}
+
+#clientes-nz .parcerias {
+  padding: 2rem 6rem;
+}
+
+#clientes-nz .certificacoes {
+  padding: 2rem 10rem;
+}
+
+.page-performance.vtex .title-clientes-vtex h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #2D2D2D;
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#clientes-nz {
+  position: relative;
+  bottom: 5rem;
+}
+
+#clientes-nz .parcerias-certificacoes {
+  margin-bottom: 1rem;
+}
+
+.page-temas.vtex .footer-logo {
+  padding-top: 2rem;
+}
+
 .page-performance.vtex .img-servico-performance.layout:after {
   background: #58dbaa;
   bottom: -3rem;
   right: -13rem;
   height: 15rem;
   top: unset;
+}
+
+.page-performance.vtex .text-quemsomos {
+  width: 88%;
 }
 
 .page-performance.vtex .img-caracteristicas {
