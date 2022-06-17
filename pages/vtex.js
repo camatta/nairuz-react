@@ -52,14 +52,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
               </div>
               <div className="col-8">
-                <div className="menu">
-                  <nav>
-                    <ul>
-                      <li><button onClick={rollServicos}>Qual tipo de layout escolher?</button></li>
-                      <li><button onClick={rollOrcamento}>Orçamento</button></li>
-                    </ul>
-                  </nav>
-                </div>
               </div>
               <div className="col-2 text-right">
                 <div className="contato">
@@ -76,57 +68,60 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="row">
                 <div className="col-12 col-md-6">
                   <div className="title-temas">
-                    <h1>Procurando aumentar a performance e vendas do seu e-commerce?</h1>
+                    <h1>Está buscando aumentar a performance e vendas do seu e-commerce?</h1>
                   </div>
                   <div className="text-quemsomos">
-                    <p>A <span>VTEX</span> é a plataforma certa para isso!</p>
+                    <p>A <span>Nairuz</span> é especialista no assunto e a <span>VTEX</span> é a plataforma certa para isso!</p>
                     <p>Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente!</p>
+                    <p>Somos uma agência <span>VTEX certificada</span>, entregamos soluções para atender os mais complexos desafios do seu e-commerce.</p>
                   </div>
                   <div className="buttons-temas">
                     <a className="saiba-mais-temas" onClick={rollOrcamento}>Falar com um consultor</a>
+                  </div>
+                  <div className="selos-vtex">
+                    <ul>
+                      <li><Image src="/vtexio-selo.png" alt="E-commerce" width={160} height={70} /></li>
+                      <li><Image src="/implementation-selo.png" alt="E-commerce" width={160} height={70} /></li>
+                      <li><Image src="/sales-selo.png" alt="E-commerce" width={160} height={70} /></li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
             <div className="separator-temas">
-              <Image src="/icon-separator-nairuz.png" alt="Logo Nairuz" width={100} height={100} />
+              <Image src="/icon-nairuz-full.svg" alt="Logo Nairuz" width={100} height={100} />
             </div>
           </section>
           <section className="container-fluid" id="apresentacao-performance">
             <div className="container">
               <div className="row d-flex align-items-center">
-                <div className="col-12 col-md-8">
+                <div className="col-12">
                   <div className="text-apresentacao">
                     <div className="title-apresentacao">
                       <h2>Vá além do ecommerce tradicional, vendendo em todos os canais, colaborando com parceiros e expandindo sua oferta de produtos.</h2>
-                      <p>As principais marcas globais, incluindo a Sony, Walmart, Whirlpool, Coca-Cola, Stanley Black & Decker, AB InBev e Nestlé, mais 3.200 lojas online ativas em 38 países, confiam na VTEX para acelerar e transformar os seus negócios de comércio.</p>
-                      <p>Lance sua loja mais rápido, reduza os riscos e construa experiências super-rápidas com o auxílio de uma equipe certificada e especializada em Vtex.</p>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12 col-md-6">
-                  <div className="text-servico-performance">
-                    <div className="box-icon-title">
-                      <div className="icon-servico-performance">
-                        <Image src="/icon-loja.png" alt="E-commerce" width={30} height={30} />
+                    <div className="text-apresentacao-vtex">
+                      <p>As <span>principais marcas globais</span>, incluindo a Sony, Walmart, Whirlpool, Coca-Cola, Stanley Black & Decker, AB InBev e Nestlé, mais 3.200 lojas online ativas em 38 países, confiam na VTEX para <span>acelerar e transformar</span> os seus negócios de comércio.</p>
+                      <ul className="marcas-vtex">
+                        <li><Image src="/logo-sony.svg" alt="Logo Sony" width={72} height={12} /></li>
+                        <li><Image src="/logo-wallmart.svg" alt="Logo Wallmart" width={80} height={19} /></li>
+                        <li><Image src="/logo-whirpool.svg" alt="Logo Whirpool" width={76} height={43} /></li>
+                        <li><Image src="/logo-cocacola.svg" alt="Logo Coca Cola" width={67} height={22} /></li>
+                        <li><Image src="/logo-stanley.svg" alt="Logo Stanley" width={56} height={33} /></li>
+                        <li><Image src="/logo-black.svg" alt="Logo Black" width={44} height={28} /></li>
+                        <li><Image src="/logo-nestle.svg" alt="Logo Nestle" width={61} height={17} /></li>
+                      </ul>
+                    </div>
+                    <div className="cards-vtex">
+                      <div className="card-lojas">
+                        <Image src="/icon-cart-vtex.svg" alt="Icon Carrinho" width={40} height={30} />
+                        <p><span>+3200</span><br></br>lojas online</p>
                       </div>
-                      <div className="title-servico-performance">
-                        <h4>Lance sua loja mais rápido!</h4>
+                      <div className="card-paises">
+                        <Image src="/icon-globo-vtex.svg" alt="Icon Globo" width={40} height={41} />
+                        <p><span>38</span><br></br>países</p>
                       </div>
-                    </div>
-                    <div className="content-servico-performance">
-                      <p>Reduza os riscos e construa experiências super-rápidas com o auxílio de uma equipe certificada e especializada em Vtex.</p>
-                    </div>
-                    <div className="button-servico-performance">
-                      <a onClick={rollOrcamento} className="saiba-mais-temas">FALE COM UM ESPECIALISTA</a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <div className="img-servico-performance right layout">
-                    <Image src="/e-commerce-vtex.png" alt="E-commer" width={500} height={400} />
+                    </div>  
                   </div>
                 </div>
               </div>
@@ -139,32 +134,115 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="col-12 col-md-6">
                   <div className="text-servico-performance">
                     <div className="box-icon-title">
-                      <div className="title-servico-performance vtex">
-                        <h4>Nós da Nairuz</h4>
+                      <div className="icon-servico-performance">
+                        <Image src="/icon-loja.png" alt="E-commerce" width={30} height={30} />
+                      </div>
+                      <div className="title-servico-performance">
+                        <h4>Lance sua loja mais rápido!</h4>
                       </div>
                     </div>
-                    <div className="content-servico-performance vtex">
-                      <p>Somos <span>especializados</span> e certificados para implementações VTEX! Desenvolvemos, integramos e ajustamos os componentes da plataforma para atender às demandas únicas do seu negócio.</p>
-                    </div>
-                    <div className="img-text-vtex">
-                      <div className="img-caracteristicas">
-                        <Image src="/icon-certificacoes.svg" alt="Certificações" width={20} height={20} />
-                      </div>
-                      <div className="text-caracteristicas">
-                        <p>CERTIFICAÇÕES E PARCERIAS<br></br>VTEX, Google, RD e muito mais!</p>
-                      </div>
-                    </div>
-                    <div className="info-button-vtex">
-                      <p>Quer descobrir como podemos impulsionar o seu <span>e-commerce?</span></p>
+                    <div className="content-loja-rapida">
+                      <ul className="loja-rapida d-flex align-items-center justify-content-center">
+                        <li><span>1.</span><p>Reduza os riscos</p></li>
+                        <li><span>2.</span><p>Construa experiências super rápidas</p></li>
+                        <li><span>3.</span><p>Equipe certificada e especializada em VTEX</p></li>
+                      </ul>
                     </div>
                     <div className="button-servico-performance">
-                      <a onClick={rollOrcamento} className="saiba-mais-temas vtex">FALE COM UM ESPECIALISTA</a>
+                      <a onClick={rollOrcamento} className="saiba-mais-temas">FALE COM UM ESPECIALISTA</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
+            <section className="container-fluid" id="bg-nos-nairuz">
+              <div className="container">
+                <div className="row">
+                  <div className="col-12">
+                    <div className="text-servico-performance">
+                      <div className="title-nos-nairuz">
+                        <div className="title-servico-performance vtex">
+                          <h4>Nós da Nairuz</h4>
+                        </div>
+                      </div>
+                      <div className="content-servico-performance vtex">
+                        <p>Somos <span>especializados</span> e certificados para implementações VTEX! Desenvolvemos, integramos e ajustamos os componentes da plataforma para atender às demandas únicas do seu negócio.</p>
+                        <p>Unimos tecnologia, estratégias de marketing, performance e know-how de uma equipe de especialistas experientes em entregar soluções e o melhor resultado para nossos parceiros!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          <section className="container" id="clientes-nz">
+            <div className="row">
+              <div className="col-12">
+                <div className="parcerias-certificacoes">
+                  <div className="parcerias">
+                    <div className="title-clientes-vtex">
+                      <h4>Clientes que confiam em nosso trabalho</h4>
+                    </div>
+                    <ul className="d-flex align-items-center mb-5">
+                      <li><Image src="/clientes/bialetti.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/gaggia.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/imeltron.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/lvstore.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/maquiadoro.png" width={116} height={55} /></li>
+                    </ul>
+                    <ul className="d-flex align-items-center mb-5">
+                      <li><Image src="/clientes/samsung.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/widestock.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/pedigree.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/minassal.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/cybelar.png" width={116} height={55} /></li>
+                    </ul>
+                    <ul className="d-flex align-items-center mb-5">
+                      <li><Image src="/clientes/candy.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/hepta.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/azul.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/sempreviva.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/novamed.png" width={116} height={55} /></li>
+                    </ul>
+                    <ul className="d-flex align-items-center">
+                      <li><Image src="/clientes/rcrio.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/ludka.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/udiaco.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/maravilhas.png" width={116} height={55} /></li>
+                      <li><Image src="/clientes/covabra.png" width={116} height={55} /></li>
+                    </ul>
+                  </div>
+                  <div className="certificacoes">
+                    <ul className="d-flex align-items-center">
+                      <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/googlepartner.png" alt="Google Partner" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/rdplatinum.png" alt="RD Platinum" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="container-fluid" id="impulsionar-vtex">
+            <div className="container">
+              <div className="row">
+                <div className="col-12">
+                  <div className="text-impulse-vtex">
+                    <p>Quer descobrir como podemos</p>
+                    <h4>IMPULSIONAR O SEU E-COMMERCE?</h4>
+                  </div>
+                  <div className="button-servico-performance">
+                      <a onClick={rollOrcamento} className="saiba-mais-temas">FALE COM UM ESPECIALISTA</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section className="container-fluid" id="form-temas">
             <div className="container">
               <div className="row">
@@ -204,55 +282,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <input className="button-form-temas" type="submit" value="FALAR COM UM DE NOSSOS CONSULTORES" />
                       </div>
                     </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <BehanceNz />
-          <section className="container" id="parceiros-temas">
-          <div className="row">
-            <div className="col-12">
-              <div className="title-parcerias">
-                <h4>Certificações e <span>Parcerias</span></h4>
-              </div>
-            </div>
-          </div>
-            <div className="row">
-              <div className="col-12">
-                <div className="parcerias-certificacoes">
-                  <div className="parcerias">
-                    <ul className="d-flex align-items-center mb-4">
-                      <li><Image src="/parcerias/signa.png" alt="Signa" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/biz.png" alt="BizCommerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/bis2bis.png" alt="Bis2Bis" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/linx.png" alt="Linx Commerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/mage.png" alt="Mageshop" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/uol.png" alt="Uol" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/vindi.png" alt="Vindi" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/pagarme.png" alt="pagar.me" width={105} height={49} /></li>
-                    </ul>
-                    <ul className="d-flex align-items-center mb-4">
-                      <li><Image src="/parcerias/amazon.png" alt="Amazon" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/jet-logo.png" alt="Jetcommerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/anymarket.png" alt="AnyMarket" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/shopback.png" alt="Shopback" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/hubspot.png" alt="Hubspot" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/rd.png" alt="RD Station" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/semrush.png" alt="SemRush" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/appcampinas.png" alt="APP Campinas" width={105} height={49} /></li>
-                    </ul>
-                  </div>
-                  <div className="certificacoes">
-                    <ul className="d-flex align-items-center">
-                      <li><Image src="/parcerias/googlepartner.png" alt="Google Partner" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/rdplatinum.png" alt="RD Platinum" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/magento.png" alt="Magento" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/linxpartners.png" alt="Linx Partners" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
-                    </ul>
                   </div>
                 </div>
               </div>
