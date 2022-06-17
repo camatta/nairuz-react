@@ -1,0 +1,1345 @@
+/* Geral */
+
+.menu ul li button {
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 3.36px;
+  cursor: pointer;
+  background: unset;
+  border: none;
+}
+
+/* Temas */
+
+.page-temas main {
+  margin-top: 8rem;
+}
+
+.page-temas #header-geral {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  padding: 3rem 0;
+}
+
+#temas {
+  background-image: url(/bg-temas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 11rem;
+  position: relative;
+}
+
+.title-temas h1 {
+  font-weight: 800;
+  color: #fff;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.buttons-temas {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.saiba-mais-temas {
+  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  padding: 0.6rem 2.1rem;
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.saiba-mais-temas > span {
+  left: 0.6rem;
+  top: 0.1rem;
+}
+
+.consultor-temas {
+  border-radius: 25px;
+  padding: 0.6rem 2.1rem;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 0.9rem;
+}
+
+.buttons-temas a:hover {
+  color: #fff;
+}
+
+.separator-temas {
+  position: absolute;
+  bottom: -3.2rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#apresentacao-temas {
+  padding: 6rem 0;
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
+}
+
+.title-apresentacao h2 {
+  font-weight: 800;
+  color: #0D0326;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.title-apresentacao h2:before {
+  content: 'nossas soluções';
+    position: absolute;
+    left: -13rem;
+    top: -4rem;
+    color: #58DBAA;
+    font-size: 4.7rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .15;
+}
+
+.conteudo-apresentacao p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.buttons-apresentacao {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.buttons-apresentacao a:hover {
+  color: unset;
+}
+
+.consultor-apresentacao {
+  border-radius: 25px;
+  padding: 0.6rem 2.1rem;
+  color: #2D2D2D;
+  border: 2px solid #2D2D2D;
+  font-size: 0.9rem;
+}
+
+.img-apresentacao {
+  text-align: right;
+}
+
+#modelos-temas {
+  padding: 6rem 0;
+  background-image: url(/bg-modelos-temas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-modelos h3 {
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.text-modelos p {
+  color: #fff;
+  width: 55%;
+  line-height: 1.5;
+  margin: auto;
+  margin-bottom: 3rem;
+  font-size: 0.95rem;
+}
+
+.modelo-tema-card {
+  padding: 3rem;
+}
+
+.header-modelo {
+  position: relative;
+}
+
+.logo-modelo {
+  position: absolute;
+  bottom: -3.3rem;
+  left: 11.1rem;
+}
+
+.icon-modelo {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.footer-modelo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.descricao-modelo {
+  width: 50%;
+}
+
+.descricao-modelo p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.descricao-modelo p b {
+  font-weight: 600;
+}
+
+.btn-modelo {
+  background: transparent linear-gradient(90deg, #392BA1 0%, #6316C9 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    padding: 0.6rem 2rem;
+    font-size: 0.9rem;
+}
+
+.button-modelo-footer button {
+  background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: unset;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 1rem 6rem;
+  letter-spacing: 2.8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#form-temas {
+  padding: 6rem 0;
+  background-image: url(/bg-form-temas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position-x: right;
+}
+
+#form-temas .form-tema {
+  display: none;
+}
+
+#form-temas::after {
+  content: '';
+  width: 66px;
+  height: 202px;
+  position: absolute;
+  top: 8rem;
+  left: 13rem;
+  background-image: url(/icon-cases.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form-temas::before {
+  content: '#negócio fechado';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  opacity: .1;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 4.5rem;
+}
+
+#rd-section-kylvw1q5 {
+  background-color: transparent !important;
+}
+
+#rd-form-kylvw1qc .bricks-form__label {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #fff !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 0.6rem !important;
+}
+
+
+#rd-section-kylvw1q5 .rd-button {
+  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+    background: transparent -webkit-gradient( linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
+    background: transparent -moz-linear-gradient( left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px !important;
+    border: unset !important;
+    color: #fff !important;
+    margin-top: 2rem !important;
+    padding: 1rem 6rem !important;
+    letter-spacing: 2.8px !important;
+    font-size: 0.8rem !important;
+    font-weight: 600!important;
+    font-family: 'Montserrat', sans-serif !important;
+    height: auto !important;
+    text-transform: uppercase;
+}
+
+#rd-form-kylvw1qc .bricks-form__submit {
+  padding-right: 1rem;
+}
+
+#rd-form-kylvw1qc .bricks-form__field {
+  margin-right: 1rem;
+}
+
+#rd-form-kylvw1qc .bricks-form__input {
+  height: 41px !important;
+  background-color: #fff;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 0.9rem !important;
+}
+
+#rd-form-kylvw1qc .bricks-form__field {
+  width: 19rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.formRd-tema {
+  width: 61%;
+  margin: auto;
+}
+
+.text-header-form p {
+  color: #fff;
+  line-height: 1.5;
+}
+
+.text-header-form p b {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.text-header-form p span {
+  font-weight: 600;
+  color: #68FC9C;
+  font-size: 1.3rem;
+}
+
+.descricao-form {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.linha-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.linha-form .form-nome {
+  margin-right: 2rem;
+  width: 23.5%;
+}
+
+.linha-form input {
+  border-radius: 5px;
+  border: unset;
+  margin-top: 0.5rem;
+  padding: 0.6rem 4rem 0.6rem 1rem;
+  font-size: 0.85rem;
+}
+
+.linha-form label {
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+.button-form-temas {
+  background: transparent -webkit-gradient(linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
+  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(
+90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: unset;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 1rem 6rem;
+  letter-spacing: 2.8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 48%;
+}
+
+.button-form-consultor {
+  text-align: center;
+}
+
+.form-selects {
+  width: 48%;
+}
+
+.page-temas #behance-nairuz {
+  background-color: #0D0326;
+}
+
+#plataformas-temas {
+  padding: 4rem 0;
+}
+
+.page-temas #copy-temas {
+  background-color: #0D0326;
+}
+
+.page-temas .copyright {
+  margin-top: 1rem;
+}
+
+.page-temas .nav-footer ul {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #0D0326;
+  justify-content: center;
+}
+
+.page-temas .nav-footer ul li a {
+  color: #0D0326;
+  margin-right: 2rem;
+  letter-spacing: 1.4px;
+}
+
+.page-temas .footer-logo {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  padding-right: 0rem;
+}
+
+/* LP Performance */
+
+.page-performance .saiba-mais-temas > span {
+  left: -0.4rem;
+}
+
+#performance {
+  background-image: url(/bg-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 11rem;
+  position: relative;
+}
+
+#performance .title-temas h1 {
+  color: #68FC9C;
+}
+
+.page-performance .saiba-mais-temas {
+  background: #58DBAA;
+  cursor: pointer;
+}
+
+#clientes-performance {
+  padding: 7rem 0;
+}
+
+.page-performance .separator-temas {
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.logos-clientes-performance ul li {
+  margin: auto;
+}
+
+.text-clientes-performance {
+  padding-left: 1.5rem;
+}
+
+.text-clientes-performance h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  width: 80%;
+  line-height: 1.3;
+}
+
+.text-clientes-performance p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.text-clientes-performance .saiba-mais-temas {
+  background-color: #58DBAA;
+  background-image: unset;
+}
+
+#marketing-performance {
+  background-image: url(/bg-marketing-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+.title-marketing-performance h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  width: 80%;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.text-marketing-performance {
+  display: flex;
+}
+
+.text-marketing-performance p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 35%;
+  margin-right: 4rem;
+}
+
+.button-marketing-performance {
+  margin-top: 3rem;
+}
+
+.button-marketing-performance .saiba-mais-temas {
+  background: #0D0326;
+  background-image: unset;
+  cursor: pointer;
+}
+
+.button-marketing-performance .saiba-mais-temas:hover {
+  color: #fff;
+}
+
+.page-performance .card1-case,
+.page-performance .card2-case,
+.page-performance .card3-case,
+.page-performance .card4-case,
+.page-performance .card5-case {
+  filter: saturate(0.7);
+}
+
+.title-marketing-performance h3:before {
+  content: '#wearedatadriven';
+  position: absolute;
+  left: -1rem;
+  top: 6rem;
+  color: #FFFFFF;
+  font-size: 4.7rem;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  opacity: .19;
+}
+
+#apresentacao-performance {
+  padding: 7rem 0;
+}
+
+#apresentacao-performance .title-apresentacao h2 {
+  font-size: 2rem;
+  margin-bottom: 8rem;
+}
+
+#apresentacao-performance .title-apresentacao h2:before {
+  content: 'nossos serviços';
+  position: absolute;
+  left: -13rem;
+  top: -4rem;
+  color: #58DBAA;
+  font-size: 4.7rem;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  opacity: .15;
+}
+
+.title-servico-performance h4 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #2D2D2D;
+  position: relative;
+  right: 4rem;
+}
+
+.content-servico-performance p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 85%;
+  margin-top: 2rem;
+}
+
+.button-servico-performance {
+  margin-top: 3rem;
+}
+
+.button-servico-performance a {
+  letter-spacing: 1.3px;
+  background-color: #58DBAA;
+  background-image: unset;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+a:hover {
+  color: unset;
+}
+
+.img-servico-performance.right {
+  text-align: right;
+}
+
+.box-icon-title {
+  display: flex;
+  align-items: center;
+}
+
+.img-servico-performance {
+  position: relative;
+  bottom: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.icon-servico-performance {
+  position: relative;
+  right: 6rem;
+}
+
+.img-servico-performance.layout:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    background: -moz-linear-gradient(275deg, rgba(88,219,170,1) 0%, rgba(44,110,85,1) 88%);
+    background: linear-gradient(175deg, rgba(88,219,170,1) 0%, rgba(44,110,85,1) 88%);
+    position: absolute;
+    top: 1rem;
+    right: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.midias:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    background: rgb(193,0,214);
+    background: linear-gradient(175deg, rgba(193,0,214,1) 61%, rgba(97,0,107,1) 100%);
+    position: absolute;
+    top: 1rem;
+    right: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.seo:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    background: rgb(245,0,187);
+    background: linear-gradient(175deg, rgba(245,0,187,1) 0%, rgba(123,0,94,1) 88%);
+    position: absolute;
+    top: 1rem;
+    right: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.website:after {
+    content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background: rgb(245,0,187);
+    background: linear-gradient(175deg, rgba(245,0,187,1) 61%, rgba(123,0,94,1) 100%);
+    position: absolute;
+    top: 1rem;
+    left: -13rem;
+    z-index: -1;
+}
+
+.img-servico-performance.inbound:after {
+  content: '';
+    width: 27rem;
+    height: 22rem;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background: rgb(104,252,156);
+    background: linear-gradient(175deg, rgba(104,252,156,1) 61%, rgba(52,126,78,1) 100%);
+    position: absolute;
+    top: 1rem;
+    left: -13rem;
+    z-index: -1;
+}
+
+.text-servico-performance {
+  padding-left: 3rem;
+}
+
+#parceiros-temas {
+  margin-top: 6rem;
+}
+
+#parceiros-temas .title-parcerias h4 {
+  color: #2D2D2D;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+#resultados-performance {
+  background-image: url(/bg-resultados-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.title-resultados h4 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.text-resultados-performance p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.icon-resultados {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.carrossel-resultados-performance .card-cases {
+  padding: 0.6rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel {
+  position: relative;
+}
+
+.carrossel-resultados-performance .cases-carrossel .owl-nav {
+  position: absolute;
+  top: 33%;
+}
+
+.carrossel-resultados-performance .cases-carrossel .owl-prev {
+  position: absolute;
+  right: 3rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel .owl-next {
+  position: absolute;
+  right: -72rem;
+}
+
+.carrossel-resultados-performance .cases-carrossel button img {
+  filter: brightness(7.5);
+}
+
+.button-resultado-performance a {
+  letter-spacing: 1.3px;
+  background-color: #58DBAA;
+  background-image: unset;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.carrossel-resultados-performance .cases-carrossel {
+  margin-bottom: 0;
+}
+
+.title-quemsomos-performance {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.quemsomos-performance p { 
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 60%;
+  margin: auto;
+}
+
+.page-performance #rd-form-kylvw1qc .bricks-form__field:last-child {
+  width: 100% !important;
+}
+
+/* LP Layout */
+
+.page-layout .menu ul {
+  justify-content: center;
+}
+
+.page-layout .menu ul li {
+  justify-content: center;
+}
+
+.page-layout .menu ul li {
+  margin: 0 1rem;
+}
+
+.page-layout #apresentacao-performance .title-apresentacao h2 {
+  margin-bottom: 2rem;
+}
+
+.page-layout #apresentacao-performance .title-apresentacao p {
+  margin-bottom: 8rem;
+  font-size: 0.85rem;
+}
+
+.page-layout #apresentacao-performance .title-apresentacao h2:before {
+  content: 'nossas soluções';
+}
+
+.page-layout .content-servico-performance p {
+  margin-bottom: 2rem;
+}
+
+.caracteristicas-layout ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.caracteristicas-layout p {
+  font-size: 0.85rem;
+  margin-left: 0.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.page-layout .button-servico-performance {
+  margin-bottom: 7rem;
+}
+
+.page-layout .img-servico-performance.website:after {
+  background: rgb(57,43,161);
+  background: linear-gradient(175deg, rgba(57,43,161,1) 53%, rgba(29,22,81,1) 94%);
+}
+
+.page-layout #performance .title-temas h1 {
+  color: #fff;
+}
+
+.page-layout #performance {
+  background-image: url(/bg-layout.png);
+}
+
+.saiba-mais-temas.website {
+  background-color: #392BA1;
+}
+
+.page-layout #apresentacao-performance .row {
+  display: flex;
+  align-items: center;
+}
+
+.page-layout .img-servico-performance {
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.page-layout .info-layouts p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.65rem;
+  margin-left: 1rem
+}
+
+.page-layout .text-info-layouts {
+  width: 65%;
+}
+
+.info-layouts {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.info-layouts.right {
+  justify-content: end;
+}
+
+.page-layout .button-servico-performance.personalizado a {
+  background-color: #221A61;
+}
+
+.page-layout .button-servico-performance.personalizado a:hover {
+  color: #FFFFFF;
+}
+
+.page-layout .title-servico-performance h4 {
+  line-height: 1.3;
+}
+
+.page-layout .img-servico-performance.seo:after {
+  background: linear-gradient(175deg, #0D0326 0%, #5D566E 88%);
+}
+
+.img-caracteristicas {
+  width: 45px;
+  height: 45px;
+  min-width: fit-content;
+}
+
+.page-layout .icon-servico-performance {
+  position: relative;
+  right: 6rem;
+  min-width: fit-content;
+}
+
+.page-layout .saiba-mais-temas {
+  cursor: pointer;
+}
+
+.page-layout .img-servico-performance.midias:after {
+  background: linear-gradient(175deg, #F500BB 61%, #7B005E 100%);
+}
+
+.page-layout .layout-pre .saiba-mais-temas:first-child {
+  background-color: #fff;
+  color: #2D2D2D;
+  border: 2px solid #2D2D2D;
+}
+
+.page-layout .layout-pre .saiba-mais-temas:last-child {
+  background-color: #C100D6;
+}
+
+.page-layout .img-servico-performance.inbound:after {
+  background: linear-gradient(175deg, #48BAB8 61%, #245D5C 100%);
+}
+
+.page-layout .button-servico-performance.tema-customizado {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-layout .button-servico-performance.tema-customizado .saiba-mais-temas:first-child {
+  background-color: #fff;
+  color: #2D2D2D;
+  border: 2px solid #2D2D2D;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.page-layout .button-servico-performance.tema-customizado .saiba-mais-temas:last-child {
+  background-color: #48BAB8;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.page-layout #rd-form-kylvw1qc .bricks-form__field:last-child {
+  width: 100% !important;
+}
+
+.page-performance.vtex #performance .title-temas h1  {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.page-performance.vtex .text-quemsomos p{
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.page-performance.vtex #performance {
+  background-image: url(/bg-vtex.png);
+  padding-bottom: 7rem;
+}
+
+.page-performance.vtex #apresentacao-performance .title-apresentacao h2 {
+  font-size: 1.8rem;
+  width: 67%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.page-performance.vtex #apresentacao-performance .title-apresentacao p {
+  color: #2D2D2D;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    width: 85%;
+    margin-top: 2rem;
+}
+
+.page-performance.vtex #apresentacao-performance .title-apresentacao h2:before {
+  content: 'nossas soluções';
+  left: 50%;
+  top: -3rem;
+  font-size: 4rem;
+  font-weight: 800;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  width: 100%;
+}
+
+.page-performance.vtex .icon-servico-performance {
+  position: relative;
+  right: 0rem;
+}
+
+.page-performance.vtex .text-apresentacao-vtex p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  width: 62%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.page-performance.vtex .text-apresentacao-vtex p span {
+  font-weight: 800;
+  color: #392BA1;
+}
+
+.marcas-vtex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.marcas-vtex li {
+  margin: 0 0.7rem; 
+}
+
+.cards-vtex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 3.3rem;
+  margin-bottom: 4rem;
+}
+
+.cards-vtex .card-lojas {
+    background: #FF1265 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    display: flex;
+    padding: 2rem 2.5rem;
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.cards-vtex .card-lojas p,
+.cards-vtex .card-paises p {
+  font-weight: 800;
+  margin-left: 1.5rem;
+}
+
+.cards-vtex .card-lojas p span,
+.cards-vtex .card-paises p span {
+  font-size: 2rem;
+}
+
+.cards-vtex .card-paises {
+  background: #FF1265 0% 0% no-repeat padding-box;
+  border-radius: 23px;
+  display: flex;
+  padding: 2rem 2.5rem;
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.page-performance.vtex #apresentacao-performance {
+  padding-bottom: 0rem;
+}
+
+.page-performance.vtex .text-apresentacao-vtex {
+  padding: 1rem;
+  border-radius: 30px;
+  width: 75%;
+  margin: auto;
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.page-performance.vtex #form-temas {
+  background-image: url(/bg-form-vtex.png);
+}
+
+.page-performance.vtex .img-servico-performance.website:after {
+  display: none;
+}
+
+.page-performance.vtex .icon-servico-performance {
+    background-color: #FF1265;
+    padding: 0.5rem 0.7rem;
+    border-radius: 40px;
+}
+
+.page-performance.vtex .loja-rapida li {
+  text-align: center;
+    width: 33%;
+    margin: 0.5rem;
+    height: 9rem;
+    background-color: #E8E8E8;
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.page-performance.vtex .loja-rapida li p {
+    color: #2D2D2D;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.page-performance.vtex .loja-rapida li span {
+  background-color: #FF1265;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    top: -1rem;
+    position: absolute;
+    left: 3.8rem;
+}
+
+.content-loja-rapida {
+  margin-top: 2rem;
+}
+
+.page-performance.vtex .text-servico-performance {
+  margin-top: 2rem;
+}
+
+.page-performance.vtex .title-servico-performance h4 {
+  right: 0;
+  padding-left: 1rem;
+}
+
+.page-performance.vtex .title-servico-performance.vtex h4 {
+  right: 0;
+}
+
+.page-performance.vtex .text-quemsomos p span {
+  font-weight: 700;
+}
+
+.page-performance.vtex .saiba-mais-temas {
+  background: #58DBAA;
+  position: relative;
+  top: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  font-weight: 600;
+}
+
+.page-performance.vtex .buttons-temas {
+  margin-bottom: 4rem;
+}
+
+.page-performance.vtex .selos-vtex ul {
+  display: flex;
+  align-items: center;
+}
+
+.page-performance.vtex .button-servico-performance {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.page-performance.vtex .text-servico-performance {
+  padding-left: 0;
+}
+
+.page-performance.vtex .content-servico-performance p {
+    width: 48%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.page-performance.vtex .img-servico-performance.layout {
+  position: relative;
+  bottom: 10rem;
+  margin-bottom: 7rem;
+  position: relative;
+  z-index: -1;
+}
+
+.page-performance.vtex .title-nos-nairuz .title-servico-performance h4 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+#impulsionar-vtex {
+  background-color: #FF1265;
+  padding: 7rem 0;
+}
+
+.text-impulse-vtex p{
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.text-impulse-vtex h4{
+  color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    width: 39%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#bg-nos-nairuz {
+  background: #E8E8E8;
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+}
+
+#clientes-nz .parcerias {
+  padding: 2rem 6rem;
+}
+
+#clientes-nz .certificacoes {
+  padding: 2rem 10rem;
+}
+
+.page-performance.vtex .title-clientes-vtex h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #2D2D2D;
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#clientes-nz {
+  position: relative;
+  bottom: 5rem;
+}
+
+#clientes-nz .parcerias-certificacoes {
+  margin-bottom: 1rem;
+}
+
+.page-temas.vtex .footer-logo {
+  padding-top: 2rem;
+}
+
+.page-performance.vtex .img-servico-performance.layout:after {
+  background: #58dbaa;
+  bottom: -3rem;
+  right: -13rem;
+  height: 15rem;
+  top: unset;
+}
+
+.page-performance.vtex .text-quemsomos {
+  width: 88%;
+}
+
+.page-performance.vtex .img-caracteristicas {
+  background-color: #392BA1;
+  padding: 0.5rem 0.7rem;
+  border-radius: 40px;
+}
+
+.img-text-vtex {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  margin-bottom: .5rem;
+}
+
+.img-text-vtex .text-caracteristicas p {
+  font-weight: 700;
+  padding-left: 1rem;
+}
+
+.page-performance.vtex .img-caracteristicas {
+  width: unset;
+  height: unset;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.info-button-vtex {
+    width: 60%;
+    text-align: center;
+    background-color: #E8E8E8;
+    border-radius: 19px;
+    padding: 1rem;
+    position: relative;
+    top: 1.9rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 1.5rem;
+}
+
+.info-button-vtex p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.page-performance.vtex .saiba-mais-temas.vtex {
+  background: #392BA1;
+}
+
+.page-performance.vtex .saiba-mais-temas.vtex:hover {
+  color: #fff;
+}
+
+.content-servico-performance.vtex p span,
+.info-button-vtex p span {
+  font-weight: 700;
+  color: #392BA1;
+}

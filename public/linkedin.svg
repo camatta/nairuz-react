@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+  <g id="Grupo_4" data-name="Grupo 4" transform="translate(0 0)">
+    <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M5.01,22.381H.37V7.439H5.01ZM2.687,5.4A2.7,2.7,0,1,1,5.374,2.688,2.71,2.71,0,0,1,2.687,5.4Zm19.689,16.98h-4.63V15.107c0-1.734-.035-3.957-2.412-3.957-2.412,0-2.782,1.883-2.782,3.832v7.4H7.916V7.439h4.45V9.477h.065a4.876,4.876,0,0,1,4.39-2.413c4.7,0,5.559,3.092,5.559,7.109v8.208Z" transform="translate(12.378 11.889)" fill="#fff"/>
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(0 0)" fill="none" stroke="#68fc9c" stroke-width="2">
+      <circle cx="23.5" cy="23.5" r="23.5" stroke="none"/>
+      <circle cx="23.5" cy="23.5" r="22.5" fill="none"/>
+    </g>
+  </g>
+</svg>

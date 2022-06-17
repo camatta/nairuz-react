@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#48bab8"/>
+      <stop offset="1" stop-color="#58dbaa"/>
+    </linearGradient>
+    <filter id="Retângulo_345" x="0" y="0" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_336" data-name="Grupo 336" transform="translate(-686 -2111)">
+    <g transform="matrix(1, 0, 0, 1, 686, 2111)" filter="url(#Retângulo_345)">
+      <rect id="Retângulo_345-2" data-name="Retângulo 345" width="45" height="45" rx="5" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_material-open-in-new" data-name="Icon material-open-in-new" d="M20.675,20.675H6.522V6.522H13.6V4.5H6.522A2.021,2.021,0,0,0,4.5,6.522V20.675A2.021,2.021,0,0,0,6.522,22.7H20.675A2.028,2.028,0,0,0,22.7,20.675V13.6H20.675ZM15.62,4.5V6.522H19.25L9.312,16.459l1.425,1.425,9.938-9.938v3.629H22.7V4.5Z" transform="translate(703.901 2125.901)" fill="#fff"/>
+  </g>
+</svg>
