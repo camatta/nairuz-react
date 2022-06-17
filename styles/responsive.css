@@ -1132,6 +1132,63 @@
   display: none;
 }
 
+.cards-vtex {
+  display: grid;
+  bottom: -4rem;
+}
+
+.page-performance.vtex #apresentacao-performance .title-apresentacao h2 {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.page-performance.vtex #performance .title-temas h1 {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.loja-rapida {
+  display: grid !important;
+}
+
+.page-performance.vtex .loja-rapida li {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.text-impulse-vtex h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  width: 100%;
+}
+
+#clientes-nz .parcerias {
+  padding: 1rem;
+}
+
+#clientes-nz .certificacoes {
+  padding: 1rem;
+}
+
+.page-performance.vtex .content-servico-performance p {
+  width: 100%;
+}
+
+.page-performance.vtex .text-apresentacao-vtex p {
+  width: 100%;
+}
+
+.cards-vtex .card-lojas {
+  margin-bottom: 2rem;
+}
+
+.marcas-vtex {
+  display: none;
+}
+
 /* Page Cases */
 
 .page-case-bialettishop .title-post h3,

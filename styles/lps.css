@@ -989,6 +989,7 @@ a:hover {
 .page-performance.vtex #performance {
   background-image: url(/bg-vtex.png);
   padding-bottom: 7rem;
+  padding-top: 5rem;
 }
 
 .page-performance.vtex #apresentacao-performance .title-apresentacao h2 {
@@ -1218,9 +1219,18 @@ a:hover {
 #impulsionar-vtex {
   background-color: #FF1265;
   padding: 7rem 0;
-  background-image: url(/bg-performance.png);
+  background-image: url(/bg-impulse-vtex.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.vtex .logo-vtex {
+  margin-bottom: 2rem;
+  filter: brightness(10);
+  border: 1px solid;
+  border-radius: 40px;
+  padding: 0.5rem 0.5rem;
+  width: 28%;
 }
 
 .text-impulse-vtex p{
