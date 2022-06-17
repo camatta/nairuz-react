@@ -1218,6 +1218,9 @@ a:hover {
 #impulsionar-vtex {
   background-color: #FF1265;
   padding: 7rem 0;
+  background-image: url(/bg-performance.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text-impulse-vtex p{
