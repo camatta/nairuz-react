@@ -1165,6 +1165,10 @@
   width: 100%;
 }
 
+.vtex .efeito-roll {
+  display: none;
+}
+
 #clientes-nz .parcerias {
   padding: 1rem;
 }
