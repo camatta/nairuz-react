@@ -130,8 +130,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               <div className="row">
                 <div className="col-12 col-md-6">
-                  <div className="img-servico-performance website">
+                  <div className="img-servico-performance website efeito-vtex">
                     <Image src="/esp-vtex.png" alt="VTEX" width={450} height={452} />
+                  <div className="efeito-roll">
+                    <Image src="/layout-saopedro-efeito.png" alt="Layout Casa São Pedro" width={486} height={1260} />
+                  </div>
                   </div>
                 </div>
                 <div className="col-12 col-md-6">

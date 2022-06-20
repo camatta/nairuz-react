@@ -1233,6 +1233,19 @@ a:hover {
   width: 138px;
 }
 
+.vtex .efeito-roll {
+  position: absolute;
+  top: 3.93rem;
+  width: 70.4%;
+  left: 2rem;
+  height: 214px;
+  overflow-y: scroll;
+}
+
+.vtex .efeito-roll::-webkit-scrollbar {
+  width: 0px;
+}
+
 .text-impulse-vtex p{
   color: #fff;
   text-align: center;
