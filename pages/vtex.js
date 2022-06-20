@@ -251,7 +251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="row">
                 <div className="col-12">
                   <div className="formRd-tema performance">
-                    <div role="main" id="lp-performance-2022-e3e11f834cac8208347b"></div>
+                    <div role="main" id="lp-vtex-2022-fc8729fa8bc9add52036"></div>
                   </div>
                   <div className="form-tema">
                     <form>
@@ -343,7 +343,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  
   if (window.RDStationForms) {
-    new RDStationForms('lp-performance-2022-e3e11f834cac8208347b', 'UA-48773259-1').createForm();
+    new RDStationForms('lp-vtex-2022-fc8729fa8bc9add52036', 'UA-48773259-1').createForm();
   }
 
   if($('.overlay-loading').length){
