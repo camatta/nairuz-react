@@ -1297,6 +1297,10 @@
   width: 100%;
 }
 
+.page-case-csp .post-content {
+  width: 100%;
+}
+
 }
 
 @media (min-width: 1650px) {

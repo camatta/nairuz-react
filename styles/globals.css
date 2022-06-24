@@ -2525,6 +2525,39 @@ a:hover, a {
   margin-bottom: 2rem;
 }
 
+/* Page Case Casa São Pedro */
+
+.page-case-csp #case-top {
+  background-image: url('/cases/bg-case-csp.png');
+}
+
+.page-case-csp .text-cases-home {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.page-case-csp .text-main-case p span {
+  color: #6316C9;
+  font-weight: 700;
+}
+
+.page-case-csp .post-content ul li {
+  list-style-type: disc;
+}
+
+.page-case-csp .post-content li p {
+  margin-bottom: 0;
+}
+
+.page-case-csp .post-content ul {
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.page-case-csp .layout-infocards {
+  margin-bottom: 2rem;
+}
+
 /* Página Vagas */
 
 #vagas {

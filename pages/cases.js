@@ -34,6 +34,10 @@ const urlNovaMed = () => {
   document.location.href = '/cases/nova-medicamentos';
 }
 
+const urlCSP = () => {
+  document.location.href = '/cases/casa-sao-pedro';
+}
+
 export default function Cases() {
   return (
     <div className="page-cases">
@@ -272,30 +276,29 @@ export default function Cases() {
                       </div>
                     </div>
                   </li>
-                  <li className="op0">
+                  <li>
                     <div className="hide-case">
                       <div className="tags-case">
-                        <span>Website</span>
-                        <span>Marketing Full-Service</span>
+                        <span>Layout para e-commerce</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Com mais de 100 lojas autorizadas no mercado, a CTDI é referência mundial em soluções de assistência técnica e reparação de produtos Samsung.</p>
+                        <p>Atuando há mais de 60 anos no ramo de materiais de construção, reforma e acabamento, a Casa São João é uma empresa tradicional. Agora, eles buscam ampliar as suas vendas em São Paulo e região através do e-commerce. Por isso, a importância de investir na experiência do usuário no seu site. Vamos descobrir mais sobre como foi a trajetória da Casa São Pedro com a Nairuz?</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>+ de 60mil usuários mensais;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>48% de vendas em busca orgânica;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+90% de taxa de conversão.</p></li>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Criação de calculadora intuitiva;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Personalização de widgets nativos;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Design totalmente responsivo.</p></li>
                         </ul>
                       </div>
                     </div>
                     <div className="button-case">
-                      <a href="#"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                      <a onClick={urlCSP}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-samsung.png" alt="Samsung CTDI" width={370} height={533} />
+                      <Image className="img-fluid" src="/cases/case-csp.png" alt="Casa São Pedro" width={370} height={533} />
                       <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-ctdi.svg" alt="Samsung CTDI" width={100} height={50} />
+                        <Image className="logo-case" src="/cases/logo-csp.png" alt="Casa São Pedro" width={100} height={50} />
                       </div>
                     </div>
                   </li>
