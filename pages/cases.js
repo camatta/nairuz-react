@@ -276,7 +276,7 @@ export default function Cases() {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li className="op0">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout para e-commerce</span>
