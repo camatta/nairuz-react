@@ -681,6 +681,11 @@
   text-align: center;
 }
 
+.button-be.contato {
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
 /* Cases */
 
 .title-cases:after {

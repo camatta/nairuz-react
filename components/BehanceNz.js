@@ -7,10 +7,10 @@ const BehanceNz = () => (
         <div className="col-12">
           <div className="behance">
             <div className="text-be">
-              <p>Confira os melhores projetos, criações e ideias do nosso time no <span>Behance</span>.</p>
+              <p>Converse com um de nossos <span>consultores</span>.</p>
             </div>
-            <div className="button-be">
-              <a className="d-flex align-items-center" href="https://www.behance.net/Contato40a2" target="_blank" rel="noopener noreferrer"><div className="icon-behance me-2"><Image src="/icon-behance.svg" alt="Logo Behance" width={24} height={24}/></div>Visitar perfil no Behance</a>
+            <div className="button-be contato">
+              <button className="d-flex align-items-center btn-contato open-popup-contato">Quero ser um case de sucesso</button>
             </div>
           </div>
         </div>

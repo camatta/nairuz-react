@@ -26,10 +26,6 @@ const urlRPM = () => {
   document.location.href = '/cases/lojasrpm';
 }
 
-const urlMammy = () => {
-  document.location.href = '/cases/mammy-gestante';
-}
-
 const urlNovaMed = () => {
   document.location.href = '/cases/nova-medicamentos';
 }
@@ -225,34 +221,6 @@ export default function Cases() {
                   <li>
                     <div className="hide-case">
                       <div className="tags-case">
-                        <span>Layout p/ e-commerce</span>
-                      </div>
-                      <div className="descricao-case">
-                        <p>A Mammy é uma marca sólida no mercado, reconhecida pelos clientes por sua tradição, qualidade e zelo com as mulheres gestante. Não trata-se apenas de vendas de roupas, mas sim de consultoria para atender as mulheres nesta fase tão bela. Desse modo, tínhamos um desafio em mãos e nosso projeto de layout para loja online, foi todo estruturado pensando em soluções para melhor atender o seu mercado. Confira!</p>
-                      </div>
-                      <div className="servicos-case">
-                        <ul>
-                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>Implantação de chat online.</p></li>
-                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>Layout personalizado;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>Implantação de provador virtual e tabela de medidas;</p></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="button-case">
-                      <a onClick={urlMammy}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
-                    </div>
-                    <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-mammy.png" alt="Mammy Gestante" width={370} height={533} />
-                      <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-mammy1.png" alt="Mammy Gestante" width={154} height={40} />
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                <ul className="d-flex">
-                  <li>
-                    <div className="hide-case">
-                      <div className="tags-case">
                         <span>Marketing Parcial</span>
                       </div>
                       <div className="descricao-case">
@@ -273,59 +241,6 @@ export default function Cases() {
                       <Image className="img-fluid" src="/cases/case-nova.png" alt="Nova Medicamentos" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-nova.svg" alt="Nova Medicamentos" width={100} height={50} />
-                      </div>
-                    </div>
-                  </li>
-                  <li className="op0">
-                    <div className="hide-case">
-                      <div className="tags-case">
-                        <span>Layout para e-commerce</span>
-                      </div>
-                      <div className="descricao-case">
-                        <p>Atuando há mais de 60 anos no ramo de materiais de construção, reforma e acabamento, a Casa São João é uma empresa tradicional. Agora, eles buscam ampliar as suas vendas em São Paulo e região através do e-commerce. Por isso, a importância de investir na experiência do usuário no seu site. Vamos descobrir mais sobre como foi a trajetória da Casa São Pedro com a Nairuz?</p>
-                      </div>
-                      <div className="servicos-case">
-                        <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Criação de calculadora intuitiva;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Personalização de widgets nativos;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Design totalmente responsivo.</p></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="button-case">
-                      <a onClick={urlCSP}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
-                    </div>
-                    <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-csp.png" alt="Casa São Pedro" width={370} height={533} />
-                      <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-csp.png" alt="Casa São Pedro" width={100} height={50} />
-                      </div>
-                    </div>
-                  </li>
-                  <li className="op0">
-                    <div className="hide-case">
-                      <div className="tags-case">
-                        <span>Layout p/ e-commerce</span>
-                        <span>Marketing Full-Service</span>
-                      </div>
-                      <div className="descricao-case">
-                        <p>A marca pioneira no desenvolvimento e produção de máquinas de café espresso, Gaggia Milano, faz história no Brasil com sua loja online oficial: Gaggia Shop.</p>
-                      </div>
-                      <div className="servicos-case">
-                        <ul>
-                          <li><Image src="/cases/icon1-bialetti.svg" width={30} height={30} /> <p>+ de 25% de vendas de origem orgânica;</p></li>
-                          <li><Image src="/cases/icon2-bialetti.svg" width={30} height={30} /> <p>+ de 30% de taxa de abertura de e-mail marketing;</p></li>
-                          <li><Image src="/cases/icon3-bialetti.svg" width={30} height={30} /> <p>+ 130% de usuários na loja online por meio do e-mail marketing.</p></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="button-case">
-                      <a href="#"><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
-                    </div>
-                    <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-gaggia.png" alt="Gaggia" width={370} height={533} />
-                      <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-gaggia.svg" alt="Gaggia" width={100} height={50} />
                       </div>
                     </div>
                   </li>
