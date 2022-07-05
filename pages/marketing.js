@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import HeaderMob from '../components/HeaderMob'
-import BehanceNz from '../components/BehanceNz'
 import Script from 'next/script'
 
 const rollServicos = () => {
@@ -15,11 +13,11 @@ const rollOrcamento = () => {
 
 
 
-export default function Vtex() {
+export default function Marketing() {
   return (
     <>
       <Head>
-        <title>Nairuz | Marketing Digital - E-commerce VTEX</title>
+        <title>Nairuz | Marketing Digital</title>
         <meta name="description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
@@ -41,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KCTM4JN');`}}></Script>
 
-      <div className="page-temas page-performance vtex">
+      <div className="page-marketing">
 
         <header className="container-fluid" id="header-geral">
           <div className="container">
@@ -66,27 +64,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <section className="container-fluid" id="performance">
             <div className="container">
               <div className="row">
-                <div className="col-12 col-md-6">
-                  <div className="logo-vtex">
-                      <Image src="/VTEX_Logo.svg" alt="Logo VTEX" width={120} height={30} />
-                  </div>
+                <div className="col-12">
                   <div className="title-temas">
-                    <h1>Está buscando aumentar a performance e vendas do seu e-commerce?</h1>
-                  </div>
-                  <div className="text-quemsomos">
-                    <p>A <span>Nairuz</span> é especialista no assunto e a <span>VTEX</span> é a plataforma certa para isso!</p>
-                    <p>Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente!</p>
-                    <p>Somos uma agência <span>VTEX certificada</span>, entregamos soluções para atender os mais complexos desafios do seu e-commerce.</p>
+                    <h1>Quer vender mais, com um ticket maior, para mais pessoas e em <span>vários canais</span></h1>
                   </div>
                   <div className="buttons-temas">
-                    <a className="saiba-mais-temas" onClick={rollOrcamento}>Falar com um consultor</a>
-                  </div>
-                  <div className="selos-vtex">
-                    <ul>
-                      <li><Image src="/vtexio-selo.png" alt="E-commerce" width={160} height={70} /></li>
-                      <li><Image src="/implementation-selo.png" alt="E-commerce" width={160} height={70} /></li>
-                      <li><Image src="/sales-selo.png" alt="E-commerce" width={160} height={70} /></li>
-                    </ul>
+                    <a className="saiba-mais-temas" onClick={rollOrcamento}>Quero vender mais</a>
                   </div>
                 </div>
               </div>
@@ -223,7 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <ul className="d-flex align-items-center">
                       <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
                       <li><Image src="/parcerias/google-partner-novo.png" alt="Google Partner" width={99} height={97} /></li>
-                      <li><Image src="/parcerias/rdplatinum22.png" alt="RD Platinum" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/rdplatinum.png" alt="RD Platinum" width={105} height={49} /></li>
                       <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
                       <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
                     </ul>
