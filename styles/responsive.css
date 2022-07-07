@@ -1198,6 +1198,144 @@
   display: none;
 }
 
+/* LP Marketing */
+
+.page-marketing #performance h1 {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 4rem;
+  font-size: 2.2rem;
+  padding-top: 4rem;
+}
+
+.page-marketing #problemas-performance .text-apresentacao ul li {
+  flex-direction: column;
+}
+
+.page-marketing #problemas-performance .text-apresentacao {
+  width: 100%;
+}
+
+.page-marketing #problemas-performance .text-apresentacao ul li span {
+  font-size: 0.9rem;
+  width: 30px;
+}
+
+.page-marketing #problemas-performance .text-apresentacao p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.page-marketing #problemas-performance .text-apresentacao .button-servico-performance:before,
+.page-marketing #problemas-performance .text-apresentacao .button-servico-performance:after,
+.page-marketing #cronograma-performance .button-servico-performance:after,
+.page-marketing #cronograma-performance .button-servico-performance:before,
+.page-marketing #form-temas::before,
+.page-marketing #form-temas::after {
+  display: none;
+}
+
+.page-marketing #cronograma-performance .row {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.page-marketing #cronograma-performance .icon-cronograma {
+  display: none;
+}
+
+.page-marketing .bar-menumob {
+  display: none;
+}
+
+.page-marketing #clientes-nz {
+  padding-top: 0rem;
+}
+
+.page-marketing .parcerias-certificacoes {
+  margin-top: 0rem;
+}
+
+.page-marketing .lista-profissionais ul {
+  flex-direction: column;
+}
+
+.page-marketing #cronograma-performance .button-servico-performance {
+  margin-top: 2rem;
+}
+
+.page-marketing #mkt-bialetti {
+  padding: 8rem 0;
+}
+
+.page-marketing .text-servico-performance {
+  padding-left: 0;
+}
+
+.page-marketing .resultados-bialetti-mkt .icon-box {
+  display: none;
+}
+
+.page-marketing .logo-bialetti-case {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.page-marketing .cliente-nz {
+  width: auto;
+}
+
+.page-marketing .resultados-bialetti-mkt ul li p {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.page-marketing #aumentar-vendas .chamada-vendas h4,
+.page-marketing #aumentar-vendas .chamada-vendas h5 {
+
+  width: 100%;
+}
+
+.page-marketing .footer-logo {
+  margin: 1rem 0;
+}
+
+.page-marketing #mkt-bialetti .button-servico-performance a {
+  display: none;
+}
+
+.page-marketing #aumentar-vendas .img-aumentar-vendas {
+  padding-left: 0rem;
+}
+
+.page-marketing .lista-profissionais {
+  margin-bottom: 1rem;
+}
+
+.page-marketing .lista-profissionais ul li {
+  margin-bottom: 3rem;
+}
+
+.page-marketing #form-temas .text-header-form p {
+  width: 100%;
+}
+
+.page-marketing #form-temas .text-header-form p.descricao-form {
+  width: 100%;
+}
+
+.page-marketing .formRd-tema {
+  width: 100%;
+  margin: auto;
+}
+
+.page-marketing #rd-section-kylvw1q5 .rd-button {
+  padding: 1rem 2rem !important;
+}
+
 /* Page Cases */
 
 .page-case-bialettishop .title-post h3,

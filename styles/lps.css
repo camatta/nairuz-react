@@ -1369,3 +1369,498 @@ a:hover {
   font-weight: 700;
   color: #392BA1;
 }
+
+/* LP Marketing */
+
+.page-marketing #header-geral {
+  padding: 1.6rem 0;
+}
+
+.page-marketing #performance {
+  background-image: url(/bg-marketing.png);
+}
+
+.page-marketing #performance h1 {
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.page-marketing #performance h1 span {
+  text-transform: uppercase;
+  position: relative;
+  top: 0.5rem;
+}
+
+.page-marketing #performance .buttons-temas {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page-marketing #performance .buttons-temas a {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.page-marketing #problemas-performance {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.page-marketing #problemas-performance .text-apresentacao {
+  width: 77%;
+  margin: auto;
+}
+
+.page-marketing #problemas-performance .text-apresentacao ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.page-marketing #problemas-performance .text-apresentacao ul li span {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #000;
+  width: 50px;
+  text-align: center;
+}
+
+.page-marketing #problemas-performance .text-apresentacao p {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.page-marketing #problemas-performance .text-apresentacao .bg-lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #58DBAA;
+  margin-right: 1.5rem;
+  border-radius: 17px;
+  padding: 1.1rem 0.6rem
+}
+
+.page-marketing #problemas-performance .text-apresentacao .button-servico-performance {
+  text-align: center;
+  position: relative;
+}
+
+.page-marketing #problemas-performance .text-apresentacao .button-servico-performance:before {
+  content: '';
+  width: 265px;
+  background-color: #2D2D2D;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.page-marketing #problemas-performance .text-apresentacao .button-servico-performance:after {
+  content: '';
+  width: 265px;
+  background-color: #2D2D2D;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+.page-marketing #problemas-performance .text-apresentacao .button-servico-performance a {
+  letter-spacing: 1.3px;
+  background-color: #6316C9;
+  background-image: unset;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  margin-right: 0;
+}
+
+.page-marketing #problemas-performance .text-apresentacao .button-servico-performance a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.page-marketing #cronograma-performance .title-cronograma p {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.page-marketing #cronograma-performance .text-cronograma p {
+  color: #000;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.page-marketing #cronograma-performance .text-cronograma p span {
+  font-weight: 800;
+  color: #392BA1;
+}
+
+.page-marketing #cronograma-performance .icon-cronograma {
+  text-align: center;
+}
+
+.page-marketing #cronograma-performance .row {
+  margin: auto;
+  margin-bottom: 6rem;
+  width: 79%;
+  align-items: center;
+}
+
+.page-marketing #cronograma-performance .button-servico-performance a {
+  letter-spacing: 1.3px;
+  background-color: #6316C9;
+  background-image: unset;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  margin-right: 0;
+}
+
+.page-marketing #cronograma-performance .button-servico-performance a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.page-marketing #cronograma-performance .button-servico-performance {
+  position: relative;
+  margin-top: 0;
+  text-align: center;
+}
+
+.page-marketing #cronograma-performance .button-servico-performance:before {
+  content: '';
+  width: 265px;
+  background-color: #2D2D2D;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.page-marketing #cronograma-performance .button-servico-performance:after {
+  content: '';
+  width: 265px;
+  background-color: #2D2D2D;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+.page-marketing #clientes-nz {
+  bottom: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-marketing .title-clientes-vtex h4 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+  position: relative;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.page-marketing .parcerias {
+  border-bottom: 0;
+}
+
+.page-marketing #mkt-bialetti {
+  background-image: url(/bg-mkt-bialetti.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 8rem;
+  background-position: center;
+  position: relative;
+}
+
+.page-marketing #mkt-bialetti .row {
+  align-items: center;
+  justify-content: center;
+}
+
+.page-marketing .title-servico-performance h4 {
+  color: #ffffff;
+  right: 0;
+  margin-bottom: 2rem;
+}
+
+.page-marketing .resultados-bialetti-mkt ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.page-marketing .resultados-bialetti-mkt ul li:last-child {
+  margin-bottom: 0;
+}
+
+.page-marketing .resultados-bialetti-mkt .icon-box {
+  background-color: #58DBAA;
+  width: 55px;
+  text-align: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 14px;
+  margin-right: 2rem;
+}
+
+.page-marketing .resultados-bialetti-mkt ul li p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.page-marketing #mkt-bialetti .button-servico-performance {
+  margin-top: 0;
+}
+
+.page-marketing #mkt-bialetti .button-servico-performance a {
+  background-color: #6316C9;
+  padding: 1rem 2.1rem;
+  position: absolute;
+  bottom: -0.4rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.page-marketing #mkt-bialetti .button-servico-performance a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.page-marketing .clientes-nairuz {
+  padding-top: 3rem;
+}
+
+.page-marketing .clientes-nairuz .title-clientes {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 30%;
+  margin-bottom: 5rem;
+}
+
+.page-marketing .clientes-nairuz .owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow-x: inherit;
+  overflow-y: visible;
+}
+
+.page-marketing .cliente-nz {
+  position: relative;
+  background-color: #58DBAA;
+  width: 21rem;
+  padding: 1.5rem;
+  border-radius: 25px;
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+}
+
+.page-marketing .clientes-nairuz p {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.page-marketing .cliente-nz .img-cliente {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  width: 6rem !important;
+}
+
+.page-marketing .clientes-nairuz .coment-cliente {
+  margin: 1.5rem 0;
+  height: 97px;
+}
+
+.page-marketing .cliente-nz .assinatura-cliente {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-marketing .cliente-nz .assinatura-cliente .nome-cliente {
+  font-weight: 600;
+}
+
+.page-marketing .carrossel-clientes {
+  padding-top: 3rem;
+}
+
+.page-marketing .clientes-nairuz .owl-nav img {
+  -webkit-filter: brightness(1.0);
+  filter: brightness(1.0);
+}
+
+.page-marketing #aumentar-vendas .chamada-vendas h4 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #000;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.page-marketing #aumentar-vendas .chamada-vendas h5 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #000;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 4rem;
+  text-align: center;
+  line-height: 1.3;
+  text-transform: unset;
+}
+
+.page-marketing #aumentar-vendas .chamada-vendas h5 span {
+  color: #392BA1;
+}
+
+.page-marketing .lista-profissionais {
+  margin-bottom: 4rem;
+}
+
+.page-marketing .lista-profissionais ul {
+  display: flex;
+}
+
+.page-marketing .lista-profissionais ul li {
+  margin: auto;
+  background-color: #58DBAA;
+  width: 190px;
+  height: 140px;
+  text-align: center;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.page-marketing .lista-profissionais ul li p {
+  font-weight: 500;
+  color: #000;
+  line-height: 1.3;
+  width: 110px;
+}
+
+.page-marketing .lista-profissionais ul li span {
+  position: absolute;
+  top: -1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #392BA1;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.page-marketing #aumentar-vendas .text-aumentar-vendas p {
+  color: #2D2D2D;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.page-marketing #aumentar-vendas .text-aumentar-vendas p span {
+  font-weight: 800;
+  color: #392BA1;
+}
+
+.page-marketing #aumentar-vendas .img-aumentar-vendas {
+  padding-left: 4rem;
+}
+
+.page-marketing .parcerias-certificacoes {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.page-marketing #form-temas {
+  background-image: url(/bg-form-vtex.png);
+}
+
+.page-marketing #form-temas .text-header-form p {
+  font-size: 2rem;
+  font-weight: 800;
+  width: 50%;
+  margin: auto;
+}
+
+.page-marketing #form-temas .text-header-form p.descricao-form {
+  width: 23%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.page-marketing #form-temas .button-servico-performance {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.page-marketing #form-temas .button-servico-performance a {
+  background-color: #6316C9;
+}
+
+.page-marketing #form-temas .button-servico-performance a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.page-marketing #rd-form-kylvw1qc .bricks-form__field:last-child {
+  width: 100% !important;
+}
+
+.page-marketing #copy-temas {
+  background-color: #0D0326;
+}
+
+.page-marketing .copyright {
+  margin-top: 1rem;
+}
+
+.page-marketing .nav-footer ul {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #0D0326;
+  justify-content: center;
+  opacity: 0;
+}
+
+.page-marketing .nav-footer ul li a {
+  color: #0D0326;
+  margin-right: 2rem;
+  letter-spacing: 1.4px;
+}
+
+.page-marketing .footer-logo {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 0rem;
+}
