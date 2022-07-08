@@ -1693,6 +1693,7 @@ a:hover, a {
   left:0;
   background: transparent linear-gradient(180deg, #58DBAA80 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(180deg, #58DBAA00 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #58DBAA80 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
 }
 
 #nossos-cases .cases li:hover .visible-case:after {
@@ -2533,6 +2534,7 @@ a:hover, a {
 
 .page-case-csp #case-top {
   background-image: url('/cases/bg-case-csp.png');
+  background-position: center;
 }
 
 .page-case-csp .text-cases-home {

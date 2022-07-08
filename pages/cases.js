@@ -245,6 +245,87 @@ export default function Cases() {
                     </div>
                   </li>
                 </ul>
+                <ul className="d-flex">
+                  <li>
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Layout para e-commerce</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>Atuando há mais de 60 anos no ramo de materiais de construção, reforma e acabamento, a Casa São João é uma empresa tradicional. Agora, eles buscam ampliar as suas vendas em São Paulo e região através do e-commerce. Por isso, a importância de investir na experiência do usuário no seu site. Vamos descobrir mais sobre como foi a trajetória da Casa São Pedro com a Nairuz?</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Criação de calculadora intuitiva;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Personalização de widgets nativos;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Design totalmente responsivo.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlCSP}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-csp.png" alt="Infocards" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-csp.png" alt="Infocards" width={126} height={78} />
+                      </div>
+                    </div>
+                  </li>
+                  <li className="op0">
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Layout para e-commerce</span>
+                        <span>Marketing Full-Service</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>A Lojas RPM encontra-se há 5 anos localizada na cidade de Jaci, São Paulo, e conta com diversos produtos de qualidade e custo acessível para residências e comércios. Nossa equipe de consultoria em marketing digital encontrou oportunidades de crescimento e, depois de uma cuidadosa análise, definiram-se as estratégias do plano de ação. Confira!</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+407,12% em faturamento;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>+357,10% em taxa de conversão no site;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+241,03% nas transações em mídias pagas.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlRPM}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-rpm.png" alt="Lojas RPM" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-rpm.png" alt="Lojas RPM" width={168} height={23} />
+                      </div>
+                    </div>
+                  </li>
+                  <li className="op0">
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Marketing Parcial</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>A Nova Medicamentos é uma loja online, com sede em Vinhedo (SP) e uma unidade em Vila Velha (ES), que atende todo o território nacional a partir da venda e entrega de medicamentos de alto custo. A Nova Medicamentos é um case de sucesso quando falamos sobre estratégias de SEO e aumento do tráfego orgânico. Os resultados:</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>139,73% em tráfego orgânico;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Palavras-chave nas 3 primeiras posições de busca.</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>63% em vendas orgânicas;</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlNovaMed}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-nova.png" alt="Nova Medicamentos" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-nova.svg" alt="Nova Medicamentos" width={100} height={50} />
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
