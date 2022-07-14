@@ -146,6 +146,10 @@ strategy="beforeInteractive" />
 <Script id="show-banner" strategy="lazyOnload">
   {`
 
+  if (window.RDStationForms) {
+    new RDStationForms('formulario-contato-atualizado-ed22e1fdee9c4ddfcecd', 'UA-48773259-1').createForm();
+  }
+
   // Carrossel geral
   $(document).ready(function(){
     $(".owl-carousel.owl-default").owlCarousel({

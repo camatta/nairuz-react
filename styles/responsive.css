@@ -408,11 +408,22 @@
 
   #contato-popup .right-popup {
     position: unset;
+    height: 420px;
+    overflow-y: scroll;
   }
+
+  #contato-popup #rd-section-kylvw1q5 .rd-button {
+    padding: 14px !important;
+}
 
   #contato-popup .title-popup p.fale-conosco {
     margin-bottom: 1rem;
   }
+
+  /*SCROLL */
+  #contato-popup .right-popup::-webkit-scrollbar {
+  width: 2px;
+}
 
   #contato-popup .linha-form .form-nome,
   #contato-popup .linha-form .form-email {

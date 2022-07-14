@@ -479,6 +479,30 @@ a:hover, a {
   padding: 5rem 2rem;
 }
 
+#contato-popup .form-popup {
+  display: none;
+}
+
+#contato-popup .formRd-tema {
+  width: 100%;
+}
+
+#contato-popup #rd-form-kylvw1qc .bricks-form__field {
+  width: 14.5rem !important;
+  margin-right: 0.5rem;
+}
+
+#contato-popup #rd-form-kylvw1qc .bricks-form__field:last-child {
+  width: 100% !important;
+}
+
+#contato-popup  #rd-section-kylvw1q5 .rd-button {
+  margin-top: 1rem !important;
+  text-transform: unset;
+  letter-spacing: 1px !important;
+  font-size: 15px !important;
+}
+
 .left-popup {
   color: #fff;
 }
