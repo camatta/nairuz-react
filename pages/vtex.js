@@ -25,7 +25,7 @@ export default function Vtex() {
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
+        <meta property="og:description" content="Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente! Somos uma agência VTEX certificada, entregamos soluções para atender os mais complexos desafios do seu e-commerce." />
 				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
