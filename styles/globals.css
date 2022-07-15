@@ -112,7 +112,8 @@ body {
 }
 
 .overlay-loading {
-  background: linear-gradient(-135deg, blue, purple);
+  /* background: linear-gradient(-135deg, blue, purple); */
+  background: #fff;
   background-repeat: no-repeat;
   min-height: 100vh;
   height: 100vh;
@@ -138,6 +139,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  display: none;
 }
 
 .loader {

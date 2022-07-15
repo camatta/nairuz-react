@@ -355,10 +355,10 @@ strategy="beforeInteractive" />
     if($('.overlay-loading').length){
       setTimeout(function() { 
         $('body').addClass('loaded');
-    }, 2000);
+    }, 125);
       setTimeout(function() { 
         $('body').addClass('out');
-    }, 3000);
+    }, 250);
     } else {
       $('body').addClass('loaded');
     }
