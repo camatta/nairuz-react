@@ -75,7 +75,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </div>
                   <div className="text-quemsomos">
                     <p>A <span>Nairuz</span> é especialista no assunto e a <span>VTEX</span> é a plataforma certa para isso!</p>
-                    <p>Uma plataforma de e-commerce completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente!</p>
+                    <p>Uma plataforma de e-commerce completa, integrada e que permite adaptações rápidas às mudanças no mercado e às necessidades do cliente!</p>
                     <p>Somos uma agência <span>VTEX certificada</span>, entregamos soluções para atender os mais complexos desafios do seu e-commerce.</p>
                   </div>
                   <div className="buttons-temas">
