@@ -75,7 +75,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </div>
                   <div className="text-quemsomos">
                     <p>A <span>Nairuz</span> é especialista no assunto e a <span>VTEX</span> é a plataforma certa para isso!</p>
-                    <p>Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente!</p>
+                    <p>Uma plataforma de e-commerce completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente!</p>
                     <p>Somos uma agência <span>VTEX certificada</span>, entregamos soluções para atender os mais complexos desafios do seu e-commerce.</p>
                   </div>
                   <div className="buttons-temas">
@@ -173,8 +173,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                       </div>
                       <div className="content-servico-performance vtex">
-                        <p>Somos <span>especializados</span> e certificados para implementações VTEX! Desenvolvemos, integramos e ajustamos os componentes da plataforma para atender às demandas únicas do seu negócio.</p>
+                        <p>Somos uma <span>agência Vtex Partners</span>, especializados e certificados para implementações VTEX! Fazemos a integração, implementação e ajustamos os componentes da plataforma para atender às demandas únicas do seu e-commerce.</p>
                         <p>Unimos tecnologia, estratégias de marketing, performance e know-how de uma equipe de especialistas experientes em entregar soluções e o melhor resultado para nossos parceiros!</p>
+                      </div>
+                      <div className="button-servico-performance mb-5 desktoponly">
+                        <a onClick={rollOrcamento} className="saiba-mais-temas">Entre em contato com uma agência Vtex</a>
                       </div>
                     </div>
                   </div>
