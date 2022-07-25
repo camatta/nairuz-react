@@ -118,7 +118,7 @@ export default function CasaSaoPedro() {
                     <li><p>Praticamente todas páginas são personalizadas, dessa forma, tornando a <span>navegação ainda mais amigável</span> por todo site.</p></li>
                   </ul>
                   <p>E como principais diferenciais do site, podemos apresentar a calculadora de pisos e revestimentos e a exibição dos últimos posts do Instagram.</p>
-                  <p className="citacao-cliente-case">"Migrar de plataforma não é uma decisão fácil, pois requer um planejamento para não termos grandes impactos na performance, e a Nairuz nos deu todo o suporte necessário. Fiquei muito satisfeito com o resultado final do nosso projeto, superaram nossas expectativas. Do projeto ao Go-live, estiveram presentes em todas as etapas. E estão conosco até hoje, mantendo a evolução contínua!" - <span>Marcos Tomazi - Gerente de Tecnologia da Casa São Pedro</span></p>
+                  <p className="citacao-cliente-case">''Migrar de plataforma não é uma decisão fácil, pois requer um planejamento para não termos grandes impactos na performance, e a Nairuz nos deu todo o suporte necessário. Fiquei muito satisfeito com o resultado final do nosso projeto, superaram nossas expectativas. Do projeto ao Go-live, estiveram presentes em todas as etapas. E estão conosco até hoje, mantendo a evolução contínua!'' - <span>Marcos Tomazi - Gerente de Tecnologia da Casa São Pedro</span></p>
                 </div>
                 <div className="layout-infocards">
                   <Image src="/cases/img-csp2.png" width={1027} height={260} />
