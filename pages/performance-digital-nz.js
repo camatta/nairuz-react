@@ -354,7 +354,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           <Image src="/marcos.png" alt="Marcos" width={96} height={96} />
                         </div>
                         <div className="coment-cliente">
-                          <p>Fiquei muito satisfeito com o nosso projeto, superaram nossas expectativas. Do projeto ao Go-live estiveram presentes em todas etapas. E estão conosco até hoje, mantendo a evolução contínua</p>
+                          <p>Fiquei muito satisfeito com o nosso projeto, superaram nossas expectativas. Do projeto ao Go-live estiveram presentes em todas etapas. E estão conosco até hoje, mantendo a evolução contínua.</p>
                         </div>
                         <div className="assinatura-cliente">
                           <p className="nome-cliente">Marcos Tomazi</p>
