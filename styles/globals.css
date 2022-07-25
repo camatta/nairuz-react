@@ -2590,6 +2590,16 @@ a:hover, a {
   margin-bottom: 2rem;
 }
 
+.page-case-csp .citacao-cliente-case {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.page-case-csp .citacao-cliente-case span {
+  font-style: normal;
+  font-weight: 700;
+}
+
 /* Página Vagas */
 
 #vagas {
