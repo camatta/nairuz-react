@@ -140,6 +140,41 @@
   background-size: cover;
 }
 
+.img-modelo {
+  position: relative;
+}
+
+.efeito-previa {
+  display: none;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  color: #fff;
+}
+
+.efeito-previa a {
+  color: #fff;
+  display: grid;
+}
+
+.img-modelo:hover > a{
+  filter: brightness(.4);
+}
+
+.img-modelo:hover .efeito-previa {
+  display: block;
+}
+
+.efeito-previa .image-text {
+  text-align: center;
+}
+
+.efeito-previa p {
+  margin-top: 0.3rem;
+}
+
 .title-modelos h3 {
   font-weight: 800;
   color: #fff;
@@ -167,7 +202,9 @@
 .logo-modelo {
   position: absolute;
   bottom: -3.3rem;
-  left: 11.1rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
 }
 
 .icon-modelo {
