@@ -140,9 +140,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="logo-modelo">
                       <Image src="/logo-diamond.svg" alt="Diamond Logo" width={120} height={120} />
                     </div>
-                    <div className="icon-modelo">
-                      <a href="https://xd.adobe.com/view/931586ab-73ad-4b40-9555-f9cdb1490e5b-c646/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Diamond" width={45} height={45} /></a>
-                    </div>
                   </div>
                   <div className="footer-modelo">
                     <div className="descricao-modelo">
@@ -165,9 +162,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div className="logo-modelo">
                       <Image src="/logo-decora.svg" alt="Decora Logo" width={100} height={100} />
-                    </div>
-                    <div className="icon-modelo">
-                      <a href="https://xd.adobe.com/view/691f5f13-be9e-4957-be48-d9651efa9c66-3c4c/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Diamond" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -194,9 +188,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="logo-modelo">
                       <Image src="/logo-food.png" alt="Food Logo" width={100} height={100} />
                     </div>
-                    <div className="icon-modelo">
-                    <a href="https://xd.adobe.com/view/02b26992-0180-44f5-9a04-7fe58c84d5d8-57e1/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Easy Food" width={45} height={45} /></a>
-                    </div>
                   </div>
                   <div className="footer-modelo">
                     <div className="descricao-modelo">
@@ -219,9 +210,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div className="logo-modelo">
                       <Image src="/logo-ruby.svg" alt="Ruby Logo" width={100} height={100} />
-                    </div>
-                    <div className="icon-modelo">
-                      <a href="https://xd.adobe.com/view/ed9aab19-1f88-4fd6-9818-5ee05901b926-b8c9/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Ruby" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -247,9 +235,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="logo-modelo">
                       <Image src="/logo-athletic.png" alt="Athletic Logo" width={100} height={100} />
                     </div>
-                    <div className="icon-modelo">
-                      <a href="https://xd.adobe.com/view/c32f2a92-00de-488b-87ce-26a38e59e9f2-967c/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Athletic" width={45} height={45} /></a>
-                    </div>
                   </div>
                   <div className="footer-modelo">
                     <div className="descricao-modelo">
@@ -272,9 +257,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div className="logo-modelo">
                       <Image src="/logo-gaming.png" alt="Gaming Logo" width={100} height={100} />
-                    </div>
-                    <div className="icon-modelo">
-                      <a href="https://xd.adobe.com/view/08e5df29-9ded-4f72-bfe2-745b9572510d-5db6/" target="_blank" rel="noopener noreferrer"><Image src="/icon-modelo.svg" alt="Athletic" width={45} height={45} /></a>
                     </div>
                   </div>
                   <div className="footer-modelo">
@@ -352,9 +334,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div className="row">
             <div className="col-12">
               <ul className="d-flex align-items-center justify-content-center">
-                <li><Image src="/plataforma-signa.png" alt="Signativa Logo" width={118} height={56} /></li>
+                <li><Image src="/plataforma-nexaasSigna.png" alt="Signativa Logo" width={128} height={29} /></li>
                 <li><Image src="/plataforma-linx.png" alt="Linx Logo" width={117} height={56} /></li>
                 <li><Image src="/plataforma-mage.png" alt="Mageshop Logo" width={117} height={56} /></li>
+                <li><Image src="/Vtex_Logo.svg" alt="Vtex Logo" width={128} height={30} /></li>
+                <li><Image src="/plataforma-bizcommerce.svg" alt="Bizcommerce Logo" width={128} height={30} /></li>
               </ul>
             </div>
           </div>
