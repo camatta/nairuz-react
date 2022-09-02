@@ -127,7 +127,7 @@ export default function LVStore() {
                 <div className="row">
                   <div className="col-12">
                     <div className="video-lvstore">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/Lpbt_W8y-Wk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZDT9VV-zI9o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                   </div>
                 </div>
