@@ -1,0 +1,594 @@
+.linx #header-geral {
+  position: static;
+  background-color: transparent;
+}
+
+.logo-contanto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linx .contato button {
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  background: transparent;
+}
+
+.logo-linx {
+  margin-bottom: 27px;
+}
+
+.page-performance.linx #performance {
+  background: unset;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.page-performance.linx #performance .sobre-linx {
+  background-image: url('/cases/linx/BG_LINK_NAIRUZ_TOPO.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 6.1875rem;
+}
+
+.sobre-linx .formRd-tema,
+.negocio-fechado .formRd-tema {
+  width: 69%;
+  margin: auto;
+}
+.sobre-linx #rd-row-kylvw1qa .bricks--column > div,
+.negocio-fechado #rd-row-kylvw1qa .bricks--column > div {
+  padding: 0;
+}
+.sobre-linx #rdstation-bricks-embeddable-form-bricks-component-CfImHjTzILYivVqMhfD0Lg .bricks--column .bricks-form,
+.negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-CfImHjTzILYivVqMhfD0Lg .bricks--column .bricks-form {
+  padding: 0;
+  margin: 0;
+}
+.sobre-linx #rd-form-kylvw1qc .bricks-form__field,
+.negocio-fechado #rd-form-kylvw1qc .bricks-form__field {
+  margin-right: 0;
+  margin-bottom: 10px !important;
+}
+.sobre-linx #rd-form-kylvw1qc .bricks-form__input:not(textarea),
+.negocio-fechado #rd-form-kylvw1qc .bricks-form__input:not(textarea) {
+  border-radius: 5px !important;
+  padding: 15px 20px !important;
+  height: initial !important;;
+}
+.sobre-linx #rd-form-kylvw1qc .bricks-form__submit,
+.negocio-fechado #rd-form-kylvw1qc .bricks-form__submit {
+  padding: 0;
+}
+.sobre-linx #rdstation-bricks-embeddable-form-bricks-component-XIhhwEeKelgZIMMZ36gHCQ .bricks--column button,
+.negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-c5TAVJw4yMlJG1_WvzSzRA .bricks--column button {
+  margin-top: 10px !important;
+  font-size: 17px !important;
+  padding: 16px 10px !important;
+  background: #FF720A;
+  letter-spacing: 0 !important;
+}
+.negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-c5TAVJw4yMlJG1_WvzSzRA .bricks--column button {
+  background: transparent linear-gradient(90deg, #C100D6 0%, #F500BB 100%) 0% 0% no-repeat padding-box;
+}
+.sobre-linx #rd-form-kylvw1qc .with-select-flags > .phone-input-group > .phone-country,
+.negocio-fechado #rd-form-kylvw1qc .with-select-flags > .phone-input-group > .phone-country {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.linx.page-temas main {
+  margin-top: 0;
+}
+.linx.page-performance.vtex #performance .title-temas h1 {
+  margin-bottom: 20px;
+  font-size: 2.375rem;
+  line-height: 2.375rem;
+}
+
+.page-performance.vtex #performance .title-temas h1 span {
+  color: #FF720A;
+}
+
+.page-performance.vtex.linx .text-quemsomos {
+  width: 100%;
+}
+.page-performance.vtex.linx .text-quemsomos p {
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+}
+
+.solucoes {
+  background: transparent linear-gradient(180deg, #0D0326 0%, #490260 100%, #C100D6 100%) 0% 0% no-repeat padding-box;
+}
+.linx #performance .section-title {
+  font-size: 2.625rem;
+  text-align: center;
+  padding-top: 65px;
+  margin-top: 99px;
+  margin-bottom: 40px;
+  border-top: 2px solid #FFFFFF;
+  color: #fff;
+}
+
+.linx #performance .section-title span {
+  color: #FF720A;
+  font-weight: 900;
+}
+
+.linx .section-text {
+  text-align: center;
+}
+.linx .section-text p {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 29px;
+  max-width: 1056px;
+  margin: 0 auto 40px;
+}
+.linx .section-text p small {
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+.linx .section-text p span {
+  color: #FF720A;
+  font-weight: 900;
+}
+
+.linx .brands {
+  padding: 7px 86px;
+  background: #fff;
+  border-radius: 46px;
+  margin-bottom: 100px;
+}
+.linx .brands .brands-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linx .marketshare {
+  max-width: 1044px;
+  margin: 0 auto 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.linx .market-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.linx .market-card p {
+  max-width: 244px;
+  width: 100%;
+  font-size: 1.125rem;
+  line-height: 28px;
+  color: #fff;
+}
+
+.linx.page-performance.vtex .icon-servico-performance {
+  width: 68px;
+  height: 68px;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF720A;
+}
+.linx.page-performance.vtex .title-servico-performance h4 {
+  max-width: 400px;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.linx #bg-nos-nairuz {
+  padding-top: 0;
+  position: relative;
+  z-index: 0;
+}
+.linx #bg-nos-nairuz::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: transparent linear-gradient(180deg, #009694 58%, #221A61 150%) 0% 0% no-repeat padding-box;
+  width: 100%;
+  top: 115px;
+  bottom: 0;
+}
+.linx #bg-nos-nairuz .nos-nairuz {
+  background: url(/cases/linx/BG_LINK_NAIRUZ_QUEM_SOMOS.png) #46025d;
+  padding-top: 180px;
+  padding-bottom: 183px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.parcerias-container {
+  margin-top: -150px;
+}
+
+.linx .diferenciais li {
+  display: flex;
+  align-items: center;
+}
+.linx .diferenciais li + li {
+  margin-top: 17px;
+}
+.linx .diferenciais li span {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #FF720A;
+  border-radius: 100%;
+  color: #FFFFFF;
+  font-weight: 900;
+  margin-right: 16px;
+}
+.linx .diferenciais li p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.linx.page-performance.vtex .saiba-mais-temas {
+  display: inline-block;
+  background: #FF720A;
+  padding: 16px 42px;
+  font-size: 18px;
+  letter-spacing: 0;
+  margin: 0;
+  top: unset;
+  transition: all .2s ease-in-out;
+}
+
+.linx .title-nos-nairuz {
+  display: inline-block;
+  font-size: 2.625rem;
+  color: #fff;
+}
+.linx .content-sobre-nairuz {
+  max-width: 567px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 28px;
+}
+.linx .content-sobre-nairuz p + p {
+  margin-top: 20px;
+}
+
+.title-clientes h4 {
+  max-width: 568px;
+  margin: 0 auto 35px;
+  font-size: 1.5rem;
+  color: #fff;
+  background: rgb(255 255 255 / 20%);
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+.certificacoes .title-clientes h4 {
+  max-width: 208px;
+}
+
+.clients-carousel {
+  padding: 21px 131px;
+  box-shadow: 0px 5px 6px #00000029;
+  border-radius: 52px;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.clients-carousel.owl-carousel .owl-nav button.owl-next,
+.clients-carousel.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0;
+}
+.clients-carousel.owl-carousel .owl-nav button.owl-prev {
+  left: 3rem;
+}
+.clients-carousel.owl-carousel .owl-nav button.owl-next {
+  right: 3rem;
+}
+
+.linx .certificacoes {
+  padding: 0;
+  margin-top: 50px;
+}
+.linx .certificacoes ul {
+  padding: 9.5px 175px;
+  box-shadow: 0px 5px 6px #00000029;
+  border-radius: 52px;
+  background: #FFFFFF;
+  text-align: center;
+  justify-content: space-between;
+}
+.linx .certificacoes ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 81px;
+}
+
+.linx #impulsionar-vtex {
+  background: transparent linear-gradient(90deg, #0D0326 0%, #221A61 100%) 0% 0% no-repeat padding-box;
+  padding: 63px 0;
+}
+.impulsionar-linx {
+  display: flex;
+  align-items: center;
+  max-width: 975px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.impulsionar-linx .text-impulse-vtex {
+  max-width: 490px;
+}
+.page-performance.vtex.linx .button-servico-performance {
+  width: 100%;
+  max-width: 365px;
+  margin: 0;
+}
+.page-performance.vtex.linx .text-servico-performance .button-servico-performance {
+  margin: 30px auto 0;
+}
+.linx.page-performance.vtex .impulsionar-linx .saiba-mais-temas {
+  background: transparent linear-gradient(90deg, #48BAB8 0%, #392BA1 100%) 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+}
+.linx .text-impulse-vtex h4 {
+  width: 100%;
+}
+
+.negocio-fechado {
+  padding: 112px 0 67px;
+  background-image: url(/cases/linx/BG_LINK_NAIRUZ_RODAPE.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.texto-redes h3 {
+  max-width: 420px;
+  color: #FFFFFF;
+  opacity: 0.27;
+  font-size: 5.125rem;
+  font-weight: 900;
+  margin: 100px 0 155px;
+  position: relative;
+  z-index: 0;
+}
+.texto-redes h3::before {
+  content: url(/cases/linx/foguete.png);
+  position: absolute;
+  right: -48px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.redes {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.social-networks ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  filter: brightness(20);
+}
+
+@media screen and (max-width: 1199px) {
+  .linx #performance .section-title {
+    padding-top: 35px;
+    margin-top: 49px;
+  }
+  
+  .linx.page-performance.vtex #performance .title-temas h1 {
+    font-size: 2.075rem;
+    line-height: 2.075rem;
+  }
+  .page-performance.vtex.linx .text-quemsomos p {
+    font-size: 1.25rem;
+  }
+
+  .sobre-linx #rd-form-kylvw1qc .bricks-form__input:not(textarea),
+  .negocio-fechado #rd-form-kylvw1qc .bricks-form__input:not(textarea) {
+    padding: 10px 20px !important;
+  }
+
+  .page-performance.linx #performance .sobre-linx {
+    padding-bottom: 0;
+  }
+
+  .linx #bg-nos-nairuz::before {
+    background: transparent linear-gradient(180deg, #009694 48%, #221A61 150%) 0% 0% no-repeat padding-box;
+  }
+
+  .linx.page-performance.vtex .title-servico-performance h4 {
+    font-size: 1.8rem;
+  }
+
+  .linx .section-text p {
+    font-size: 1.25rem;
+  }
+
+  .clients-carousel {
+    padding: 21px 70px;
+  }
+
+  .linx .certificacoes ul {
+    padding: 9.5px 70px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .linx.page-performance.vtex .saiba-mais-temas {
+    padding: 15px 30px;
+  }
+
+  .sobre-linx #rdstation-bricks-embeddable-form-bricks-component-XIhhwEeKelgZIMMZ36gHCQ .bricks--column button,
+  .negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-c5TAVJw4yMlJG1_WvzSzRA .bricks--column button {
+    font-size: 16px !important;
+  }
+
+  .linx .brands .brands-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+
+  .linx .marketshare {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .linx .img-servico-performance {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .vtex .efeito-roll {
+    top: 3.93rem;
+    width: 55.5%;
+    left: 9.6em;
+    height: 212px;
+  }
+
+  .linx.page-performance.vtex .text-servico-performance {
+    margin: 0;
+  }
+  .linx.page-performance .box-icon-title {
+    display: flex;
+    justify-content: center;
+  }
+  .linx.page-performance .diferenciais li {
+    justify-content: center;
+  }
+  
+  .solucoes-rodape {
+    margin-top: 4rem;
+  }
+
+  .impulsionar-linx {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .negocio-fechado {
+    padding: 0 0 30px;
+  }
+
+  .texto-redes h3 {
+    margin: 80px auto 100px;
+  }
+
+  .redes {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo-linx {
+    text-align: center;
+  }
+
+  .linx .title-temas,
+  .linx .text-quemsomos {
+    text-align: center;
+  }
+
+  .linx .brands .brands-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .vtex .efeito-roll {
+    top: 3.93rem;
+    width: 74.5%;
+    left: 4.1em;
+    height: 212px;
+  }
+
+  .parcerias-container {
+    margin-top: -120px;
+  }
+
+  .title-clientes h4 {
+    font-size: 1.35rem;
+    padding: 15px 30px;
+  }
+
+  .clients-carousel {
+    padding: 21px 30px;
+  }
+
+  .clients-carousel.owl-carousel .owl-nav button.owl-next {
+    right: 0.5rem;
+  }
+  .clients-carousel.owl-carousel .owl-nav button.owl-prev {
+    left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .linx #header-mob {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .logo-linx {
+    margin-top: 99px;
+  }
+
+  .linx .brands {
+    padding: 7px 60px;
+  }
+
+  .linx #bg-nos-nairuz::before {
+    background: transparent linear-gradient(180deg, #009694 0%, #221A61 150%) 0% 0% no-repeat padding-box;
+    top: 0;
+  }
+  .linx #bg-nos-nairuz .nos-nairuz {
+    background: unset;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .parcerias-container {
+    margin-top: 0;
+  }
+
+  .title-clientes h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .linx.page-performance.vtex .icon-servico-performance {
+    display: none;
+  }
+  .linx.page-performance.vtex .icon-servico-performance > span {
+    max-width: 20px;
+  }
+  
+  .texto-redes h3 {
+    font-size: 4.125rem;
+  }
+  .texto-redes h3::before {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .linx.page-performance .diferenciais li {
+    justify-content: initial;
+    text-align: left;
+  }
+}
