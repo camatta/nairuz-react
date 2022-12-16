@@ -19,10 +19,26 @@
   margin-bottom: 27px;
 }
 
+.page-performance.linx #rd-form-kylvw1qc {
+  margin-bottom: 0;
+}
+
 .page-performance.linx #performance {
   background: unset;
   padding-bottom: 0;
   padding-top: 0;
+  position: relative;
+  z-index: 0;
+}
+.page-performance.linx #performance::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #0D0326 35%, #C100D6 250%);
 }
 .page-performance.linx #performance .sobre-linx {
   background-image: url('/cases/linx/BG_LINK_NAIRUZ_TOPO.jpg');
@@ -30,7 +46,13 @@
   background-size: cover;
   position: relative;
   z-index: 0;
-  padding-bottom: 6.1875rem;
+  padding-bottom: 17.4375rem;
+}
+
+.page-performance.linx #performance .solucoes {
+  position: relative;
+  z-index: 0;
+  margin-top: -14rem;
 }
 
 .sobre-linx .formRd-tema,
@@ -66,9 +88,17 @@
 .negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-c5TAVJw4yMlJG1_WvzSzRA .bricks--column button {
   margin-top: 10px !important;
   font-size: 17px !important;
+  line-height: 21px;
   padding: 16px 10px !important;
   background: #FF720A;
   letter-spacing: 0 !important;
+  transition: all .2s ease-in-out;
+}
+.negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-c5TAVJw4yMlJG1_WvzSzRA .bricks--column button:hover {
+  background: linear-gradient(90deg, #48BAB8 0%, #392BA1 100%);
+}
+.sobre-linx #rdstation-bricks-embeddable-form-bricks-component-XIhhwEeKelgZIMMZ36gHCQ .bricks--column button:hover {
+  background: #7B7B7B;
 }
 .negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-c5TAVJw4yMlJG1_WvzSzRA .bricks--column button {
   background: transparent linear-gradient(90deg, #C100D6 0%, #F500BB 100%) 0% 0% no-repeat padding-box;
@@ -79,6 +109,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 0;
+}
+
+.page-performance.linx #rd-form-kylvw1qc .with-select-flags > .phone-input-group {
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .linx.page-temas main {
@@ -102,14 +137,10 @@
   line-height: 1.625rem;
 }
 
-.solucoes {
-  background: transparent linear-gradient(180deg, #0D0326 0%, #490260 100%, #C100D6 100%) 0% 0% no-repeat padding-box;
-}
 .linx #performance .section-title {
   font-size: 2.625rem;
   text-align: center;
-  padding-top: 65px;
-  margin-top: 99px;
+  padding-top: 84px;
   margin-bottom: 40px;
   border-top: 2px solid #FFFFFF;
   color: #fff;
@@ -170,6 +201,25 @@
   line-height: 28px;
   color: #fff;
 }
+.circularProgressText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.circularProgressText strong {
+  font-size: 38px;
+}
+.circularProgressText span {
+  font-size: 15px;
+  font-weight: 700;
+  max-width: 100px;
+  line-height: 19px;
+}
 
 .linx.page-performance.vtex .icon-servico-performance {
   width: 68px;
@@ -187,6 +237,159 @@
   color: #FFFFFF;
 }
 
+.linx.page-performance .depoimento,
+.linx.page-performance .depo-content {
+  display: flex;
+  align-items: center;
+}
+.linx.page-performance .depo-video {
+  max-width: 480px;
+  width: 100%;
+  max-height: 250px;
+  height: 100%;
+  background: #5E4073;
+  text-align: center;
+  padding: 67px 0 100px;
+  position: relative;
+  z-index: 0;
+}
+.linx.page-performance .depo-video::before {
+  content: 'EM BREVE';
+  position: absolute;
+  z-index: 1;
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  left: 50%;
+  bottom: 70px;
+  transform: translate(-50%, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+.linx.page-performance .depo-content {
+  padding: 23px 20px 22px 95px;
+  position: relative;
+  z-index: 0;
+  margin-left: 110px;
+  border-radius: 43px;
+  border: 2px solid #C100D6;
+  max-width: 487px;
+}
+.linx.page-performance .pic-content {
+  position: absolute;
+  z-index: 1;
+  left: -64px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.linx.page-performance .depo-text p:first-child {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.linx.page-performance .depo-text p:last-child {
+  font-size: 14px;
+  color: #fff;
+  line-height: 18px;
+}
+.linx.page-performance .depo-text p strong {
+  color: #FF720A;
+}
+
+.linx.page-performance .podcast {
+  display: flex;
+  align-items: center;
+  margin: 114px 0 42px;
+}
+.linx.page-performance .podcast-content {
+  margin-left: 40px;
+}
+.linx.page-performance .podcast-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.linx.page-performance .btn-control {
+  border: 0;
+  padding: 0;
+  background: 0;
+  filter: drop-shadow(1px 0px 13px #0000005E);
+  position: relative;
+  z-index: 0;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linx.page-performance .btn-control .btn-icon {
+  position: absolute;
+  z-index: 1;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  max-width: 26px;
+  max-height: 30px;
+  transition: all .3s ease-in-out;
+}
+.linx.page-performance .btn-control:hover .btn-icon {
+  opacity: 0.85;
+}
+.linx.page-performance .podcast-info {
+  margin-left: 20px;
+}
+.linx.page-performance .podcast-info h6 {
+  font-size: 12px;
+  color: #E4E4E4;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.linx.page-performance .podcast-info h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.linx.page-performance .podcast-footer {
+  margin-top: 27px;
+}
+.linx.page-performance .podcast-footer span {
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.linx.page-performance .player {
+  display: none;
+}
+.linx.page-performance .wave-not-played {
+  background-image: url(../public/cases/linx/wave.svg);
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linx.page-performance .podcast-timeline {
+  position: relative;
+  z-index: 0;
+}
+.linx.page-performance .wave-played {
+  position: absolute;
+  z-index: 1;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+
+.linx .solucoes-rodape .section-text p {
+  margin-bottom: 0;
+}
+
+.linx.page-temas.linx #bg-nos-nairuz {
+  padding-bottom: 0;
+  background: unset;
+}
+
 .linx #bg-nos-nairuz {
   padding-top: 0;
   position: relative;
@@ -196,21 +399,34 @@
   content: "";
   position: absolute;
   z-index: -1;
-  background: transparent linear-gradient(180deg, #009694 58%, #221A61 150%) 0% 0% no-repeat padding-box;
-  width: 100%;
-  top: 115px;
-  bottom: 0;
-}
-.linx #bg-nos-nairuz .nos-nairuz {
-  background: url(/cases/linx/BG_LINK_NAIRUZ_QUEM_SOMOS.png) #46025d;
-  padding-top: 180px;
-  padding-bottom: 183px;
+  background: #420259;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-height: 160px;
+  height: 100%;
+}
+.linx #bg-nos-nairuz::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 160px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #006581;
+}
+.linx .nos-nairuz {
+  background-image: url(/cases/linx/BG_LINK_NAIRUZ_QUEM_SOMOS-3-v2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 180px;
+  padding-bottom: 730px;
 }
 .parcerias-container {
-  margin-top: -150px;
+  margin-top: -620px;
 }
 
 .linx .diferenciais li {
@@ -246,6 +462,10 @@
   top: unset;
   transition: all .2s ease-in-out;
 }
+.linx.page-performance.vtex .saiba-mais-temas:hover {
+  background: #7B7B7B;
+  color: #fff;
+}
 
 .linx .title-nos-nairuz {
   display: inline-block;
@@ -267,6 +487,7 @@
   max-width: 568px;
   margin: 0 auto 35px;
   font-size: 1.5rem;
+  line-height: 29px;
   color: #fff;
   background: rgb(255 255 255 / 20%);
   padding: 5px 30px;
@@ -320,6 +541,7 @@
 .linx #impulsionar-vtex {
   background: transparent linear-gradient(90deg, #0D0326 0%, #221A61 100%) 0% 0% no-repeat padding-box;
   padding: 63px 0;
+  margin-top: 35px;
 }
 .impulsionar-linx {
   display: flex;
@@ -340,8 +562,12 @@
   margin: 30px auto 0;
 }
 .linx.page-performance.vtex .impulsionar-linx .saiba-mais-temas {
-  background: transparent linear-gradient(90deg, #48BAB8 0%, #392BA1 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #48BAB8 0%, #392BA1 100%);
   border-radius: 30px;
+  transition: all .3s ease-in-out;
+}
+.linx.page-performance.vtex .impulsionar-linx .saiba-mais-temas:hover {
+  background: linear-gradient(90deg, #C100D6 0%, #F500BB 100%);
 }
 .linx .text-impulse-vtex h4 {
   width: 100%;
@@ -387,6 +613,10 @@
     padding-top: 35px;
     margin-top: 49px;
   }
+
+  .page-performance.linx #performance .solucoes {
+    margin-top: 0;
+  }
   
   .linx.page-performance.vtex #performance .title-temas h1 {
     font-size: 2.075rem;
@@ -405,8 +635,9 @@
     padding-bottom: 0;
   }
 
-  .linx #bg-nos-nairuz::before {
-    background: transparent linear-gradient(180deg, #009694 48%, #221A61 150%) 0% 0% no-repeat padding-box;
+  .linx .nos-nairuz {
+    padding-top: 140px;
+    padding-bottom: 680px;
   }
 
   .linx.page-performance.vtex .title-servico-performance h4 {
@@ -464,10 +695,15 @@
   }
   .linx.page-performance .box-icon-title {
     display: flex;
-    justify-content: center;
   }
-  .linx.page-performance .diferenciais li {
-    justify-content: center;
+
+  .linx.page-performance .depoimento {
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 30px;
+  }
+  .linx.page-performance .depo-content {
+    margin-left: 0;
   }
   
   .solucoes-rodape {
@@ -515,13 +751,8 @@
     height: 212px;
   }
 
-  .parcerias-container {
-    margin-top: -120px;
-  }
-
   .title-clientes h4 {
-    font-size: 1.35rem;
-    padding: 15px 30px;
+    font-size: 20px;
   }
 
   .clients-carousel {
@@ -534,6 +765,27 @@
   .clients-carousel.owl-carousel .owl-nav button.owl-prev {
     left: 0.5rem;
   }
+
+  .linx.page-performance .podcast {
+    flex-direction: column;
+  }
+  .linx.page-performance .podcast-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .linx.page-performance .btn-control .btn-icon {
+    max-width: 18px;
+  }
+
+  .linx.page-performance .depo-content {
+    margin-top: 60px;
+    padding: 80px 22px 22px 22px;
+  }
+  .linx.page-performance .pic-content {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -543,20 +795,11 @@
 }
 
 @media screen and (max-width: 575px) {
-  .logo-linx {
-    margin-top: 99px;
-  }
-
   .linx .brands {
     padding: 7px 60px;
   }
 
-  .linx #bg-nos-nairuz::before {
-    background: transparent linear-gradient(180deg, #009694 0%, #221A61 150%) 0% 0% no-repeat padding-box;
-    top: 0;
-  }
   .linx #bg-nos-nairuz .nos-nairuz {
-    background: unset;
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -567,6 +810,19 @@
   .title-clientes h4 {
     font-size: 1rem;
     text-align: center;
+  }
+
+  .linx .market-card {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .linx .market-card p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .page-performance .img-servico-performance {
+    margin: 0 0 3rem;
   }
 }
 
@@ -584,11 +840,53 @@
   .texto-redes h3::before {
     right: 0;
   }
+
+  .linx.page-performance .box-icon-title {
+    justify-content: center;
+  }
+  .linx .diferenciais li {
+    justify-content: center;
+  }
+  .linx .diferenciais li span {
+    display: none;
+  }
+  .linx .diferenciais li p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 475px) {
   .linx.page-performance .diferenciais li {
     justify-content: initial;
     text-align: left;
+  }
+
+  .linx.page-performance .podcast-info h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .texto-redes h3 {
+    font-size: 3.125rem;
+    display: inline-block;
+    max-width: min-content;
+  }
+  .texto-redes h3::before {
+    right: -50px;
+  }
+
+  .linx .marketshare {
+    margin: 0;
+  }
+
+  .linx.page-performance .podcast {
+    margin: 80px 0 42px;
+  }
+}
+
+@media (max-width: 345px) {
+  .texto-redes h3 {
+    font-size: 2.75rem;
   }
 }

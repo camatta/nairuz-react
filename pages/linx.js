@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import HeaderMob from '../components/HeaderMob'
 import Script from 'next/script'
+
+import HeaderMob from '../components/HeaderMob'
 import { ClientsCarousel } from '../components/ClientsCarousel'
-import { SocialMedias } from '../components/SocialMedias'
 import { CertificatesCarousel } from '../components/CertificatesCarousel'
+import { SocialMedias } from '../components/SocialMedias'
 
 const rollOrcamento = () => {
   document.location.href = '#contato-topo';
@@ -13,7 +14,13 @@ const rollOrcamentoRodape = () => {
   document.location.href = '#contato-rodape';
 }
 
+import profilePicture from '../public/cases/linx/profile.png'
+import fakePlay from '../public/cases/linx/play.png'
+import { Player } from '../components/Player'
+import { CircularProgress } from '../components/CircularProgressbar'
+
 export default function Linx() {
+
   return (
     <>
       <Head>
@@ -114,12 +121,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className='col-12'>
                     <div className='marketshare'>
                       <div className='market-card'>
-                        <Image src="/cases/linx/marketshare.png" width={197} height={197} alt="45,6% do market share" title="45,6% do market share" />
+                        <CircularProgress posNumberText='DO MARKET SHARE' percentageValue={45.6} simbol='%' />
                         <p className='market-description'>A <strong>LINX</strong> oferece pelo menos uma de suas ferramentas para quase metade de todo grande varejo nacional.</p>
                       </div>
 
                       <div className='market-card'>
-                        <Image src="/cases/linx/paises.png" width={197} height={197} alt="+16 países" title="+16 países" />
+                        <CircularProgress preNumberText='+' percentageValue={16} posNumberText='países' imgSrc='/cases/linx/globe.svg' />
                         <p className='market-description'>Com a tecnologia em constante evolução a <strong>LINX</strong> tem levado resultados para mais de 16 países através de suas ferramentas.</p>
                       </div>
                     </div>
@@ -155,6 +162,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <a onClick={rollOrcamento} className="saiba-mais-temas">FALE COM UM CONSULTOR</a>
                       </div>
                     </div>
+                  </div>
+
+                  <div className='col-12'>
+                    <div className='depoimento'>
+                      <div className='depo-video'>
+                        <Image src={fakePlay} alt="Fake player" width={80} height={80} />
+                      </div>
+                      <div className='depo-content'>
+                        <div className='pic-content'>
+                          <Image src={profilePicture} alt="Marcos Tomazi" width={128} height={128} />
+                        </div>
+
+                        <div className='depo-text'>
+                          <p>Fiquei muito satisfeito com o nosso projeto, superaram nossas expectativas. Do projeto ao Go-live estiveram presentes em todas etapas. E estão conosco até hoje, mantendo a evolução contínua.</p>
+                          <p><strong>Marcos Tomazi |</strong> Casa São Pedro</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className='col-12'>
+                    <Player />
                   </div>
 
                   <div className='col-12'>
@@ -206,6 +235,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       </div>
 
                       <CertificatesCarousel />
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            
+            <article className="container-fluid" id="impulsionar-vtex">
+              <div className="container">
+                <div className="row">
+                  <div className="col-12">
+                    <div className='impulsionar-linx'>
+                      <div className="text-impulse-vtex">
+                        <p>Quer descobrir como podemos</p>
+                        <h4>IMPULSIONAR O SEU E-COMMERCE?</h4>
+                      </div>
+                      <div className="button-servico-performance">
+                          <a onClick={rollOrcamentoRodape} className="saiba-mais-temas">FALAR COM UM CONSULTOR</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article className='negocio-fechado'>
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-lg-6'>
+                    <div className='texto-redes'>
+                      <h3>#negócio fechado</h3>
+
+                      <div className='redes'>
+                        <Image src="/logo-header.svg" alt="Logo Nairuz" title='Nairuz' width={171} height={32}/>
+
+                        <SocialMedias />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='col-lg-6'>
+                    <div className="formRd-tema performance rd-linx" id='#contato-rodape'>
+                      <div role="main" id="lp-linx-2022-rodape-8424ee87d7e378c32478"></div>
                     </div>
                   </div>
                 </div>
@@ -213,47 +285,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </article>
           </section>
 
-          <section className="container-fluid" id="impulsionar-vtex">
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <div className='impulsionar-linx'>
-                    <div className="text-impulse-vtex">
-                      <p>Quer descobrir como podemos</p>
-                      <h4>IMPULSIONAR O SEU E-COMMERCE?</h4>
-                    </div>
-                    <div className="button-servico-performance">
-                        <a onClick={rollOrcamentoRodape} className="saiba-mais-temas">FALAR COM UM CONSULTOR</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className='negocio-fechado'>
-            <div className='container'>
-              <div className='row'>
-                <div className='col-lg-6'>
-                  <div className='texto-redes'>
-                    <h3>#negócio fechado</h3>
-
-                    <div className='redes'>
-                      <Image src="/logo-header.svg" alt="Logo Nairuz" title='Nairuz' width={171} height={32}/>
-
-                      <SocialMedias />
-                    </div>
-                  </div>
-                </div>
-
-                <div className='col-lg-6'>
-                  <div className="formRd-tema performance rd-linx" id='#contato-rodape'>
-                    <div role="main" id="lp-linx-2022-rodape-8424ee87d7e378c32478"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
         </main>
 
         <div className="container-fluid" id="copy-temas">
