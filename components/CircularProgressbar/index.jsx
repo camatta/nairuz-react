@@ -23,7 +23,7 @@ const CircularProgress = ({ preNumberText, posNumberText, percentageValue, simbo
             <ProgressProvider valueStart={0} valueEnd={percentage}>
               {value => (
                 <>
-                <GradientSVG startColor='#C100D6' endColor='#5F009E' idCSS='gradientProgressBar' rotation={180} />
+                <GradientSVG startColor='#5F009E' endColor='#5F009E' idCSS='gradientProgressBar' rotation={180} />
 
                 <CircularProgressbarWithChildren
                   strokeWidth={9}
