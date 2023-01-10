@@ -242,7 +242,7 @@ export default function Home() {
                 </ul>
                 <ul className="d-flex align-items-center row4-logos">
                   <li><Image src="/clientes/rcrio.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/athletic.png" width={116} height={55} /></li>
+                  <li><Image src="/clientes/athletic.svg" width={116} height={55} /></li>
                   <li><Image src="/clientes/udiaco.png" width={116} height={55} /></li>
                   <li><Image src="/clientes/maravilhas.png" width={116} height={55} /></li>
                   <li><Image src="/clientes/covabra.png" width={116} height={55} /></li>

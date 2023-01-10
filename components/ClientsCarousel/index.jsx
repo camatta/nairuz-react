@@ -100,7 +100,7 @@ const clientsData = [
   },
   {
     "client": "Athletic",
-    "url": "/clientes/athletic.png",
+    "url": "/clientes/athletic.svg",
     "width": 128,
     "height": 60
   },
