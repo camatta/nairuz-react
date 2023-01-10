@@ -39,8 +39,8 @@ const clientsData = [
     "height": 60
   },
   {
-    "client": "Widestock",
-    "url": "/clientes/widestock.png",
+    "client": "Docol",
+    "url": "/clientes/docol.svg",
     "width": 128,
     "height": 60
   },
@@ -69,8 +69,8 @@ const clientsData = [
     "height": 60
   },
   {
-    "client": "Hepta Solutions",
-    "url": "/clientes/hepta.png",
+    "client": "Grupo Card",
+    "url": "/clientes/grupo-card.png",
     "width": 128,
     "height": 60
   },
@@ -99,8 +99,8 @@ const clientsData = [
     "height": 60
   },
   {
-    "client": "Ludka Homewear",
-    "url": "/clientes/ludka.png",
+    "client": "Athletic",
+    "url": "/clientes/athletic.png",
     "width": 128,
     "height": 60
   },

@@ -114,14 +114,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <ul className="d-flex align-items-center row2-logos mb-5">
                     <li><Image src="/clientes/maquiadoro.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/samsung.png" width={116} height={55} /></li>
-                    <li><Image src="/clientes/widestock.png" width={116} height={55} /></li>
+                    <li><Image src="/clientes/docol.svg" width={116} height={55} /></li>
                     <li><Image src="/clientes/pedigree.png" width={116} height={55} /></li>
                   </ul>
                   <ul className="d-flex align-items-center row3-logos mb-5">
                     <li><Image src="/clientes/minassal.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/cybelar.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/candy.png" width={116} height={55} /></li>
-                    <li><Image src="/clientes/hepta.png" width={116} height={55} /></li>
+                    <li><Image src="/clientes/grupo-card.png" width={116} height={55} /></li>
                   </ul>
                   <ul className="d-flex align-items-center row4-logos mb-5">
                     <li><Image src="/clientes/azul.png" width={116} height={55} /></li>
@@ -130,7 +130,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <li><Image src="/clientes/rcrio.png" width={116} height={55} /></li>
                   </ul>
                   <ul className="d-flex align-items-center row4-logos">
-                    <li><Image src="/clientes/ludka.png" width={116} height={55} /></li>
+                    <li><Image src="/clientes/athletic.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/udiaco.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/maravilhas.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/covabra.png" width={116} height={55} /></li>
