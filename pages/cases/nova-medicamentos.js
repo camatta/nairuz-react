@@ -149,7 +149,17 @@ export default function NovaMedicamentos() {
               </div>
             </div>
           </div>
+
+          <div className="row">
+          <div className="col-12">
+            <div className="video-novamedicamentos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+            </div>
+          </div>
+
         </section>
+
         <section className="container">
           <div className="row">
             <div className="col-12">
@@ -159,6 +169,7 @@ export default function NovaMedicamentos() {
             </div>
           </div>
         </section>
+
         <section className="container-fluid" id="cases-home">
           <div className="container">
             <div className="row">
