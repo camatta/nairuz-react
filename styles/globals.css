@@ -2555,7 +2555,10 @@ a:hover, a {
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
-
+.page-case-novamed .outros-cases{
+  padding: 3rem 0;
+  border-bottom: 1px solid #a8a5a5;
+}
 /* Page Case Casa São Pedro */
 
 .page-case-csp #case-top {
