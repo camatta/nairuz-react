@@ -60,7 +60,7 @@ export default function CasaSaoPedro() {
                 <h3>Sobre a Casa São Pedro</h3>
               </div>
               <div className="text-main-case">
-                <p>Atuando há mais de 60 anos no ramo de materiais de construção, reforma e acabamento, a Casa São João é uma empresa tradicional em Osasco e região. Agora, eles buscam ampliar as suas vendas em São Paulo e região através do e-commerce. Por isso, a importância de <span>investir na experiência do usuário</span> no seu site. </p>
+                <p>Atuando há mais de 60 anos no ramo de materiais de construção, reforma e acabamento, a Casa São Pedro é uma empresa tradicional em Osasco e região. Agora, eles buscam ampliar as suas vendas em São Paulo e região através do e-commerce. Por isso, a importância de <span>investir na experiência do usuário</span> no seu site. </p>
               </div>
             </div>
           </div>
