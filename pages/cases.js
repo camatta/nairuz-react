@@ -252,7 +252,7 @@ export default function Cases() {
                         <span>Layout para e-commerce</span>
                       </div>
                       <div className="descricao-case">
-                        <p>Atuando há mais de 60 anos no ramo de materiais de construção, reforma e acabamento, a Casa São João é uma empresa tradicional. Agora, eles buscam ampliar as suas vendas em São Paulo e região através do e-commerce. Por isso, a importância de investir na experiência do usuário no seu site. Vamos descobrir mais sobre como foi a trajetória da Casa São Pedro com a Nairuz?</p>
+                        <p>Atuando há mais de 60 anos no ramo de materiais de construção, reforma e acabamento, a Casa São Pedro é uma empresa tradicional. Agora, eles buscam ampliar as suas vendas em São Paulo e região através do e-commerce. Por isso, a importância de investir na experiência do usuário no seu site. Vamos descobrir mais sobre como foi a trajetória da Casa São Pedro com a Nairuz?</p>
                       </div>
                       <div className="servicos-case">
                         <ul>
