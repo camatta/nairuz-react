@@ -132,6 +132,15 @@ export default function CasaSaoPedro() {
             <div className="col-12">
               <div className="outros-cases post-content">
                 <p>Assim como a Casa São Pedro, a sua empresa também pode ser um <span>case de sucesso</span> da Nairuz. Quer saber como? Então <span>entre em contato com o nosso time comercial e faça o seu orçamento</span>!</p>
+                <p>Quer saber mais sobre os desafios e superações desse e-commerce de sucesso? <span>Acompanhe o vídeo com a entrevista!</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-12">
+              <div className="video-casasaopedro">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HHEMFRe6FY0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
             </div>
           </div>
