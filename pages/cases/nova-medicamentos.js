@@ -145,6 +145,7 @@ export default function NovaMedicamentos() {
                 <div className="post-content">
                   <p>Nós, aqui da <span>Nairuz Marketing Digital e Tecnologia</span>, somos verdadeiros especialistas em SEO, definição de estratégias, planejamento de palavras-chave e produção de conteúdo. Quer se tornar um case de sucesso no mercado digital, assim como a Nova Medicamentos, e aumentar a receita orgânica da sua empresa? Então vem com a gente!</p>
                   <p>Temos uma equipe de profissionais altamente qualificados e preparados para entender a necessidade do seu negócio e traçar a estratégia ideal para a sua marca!</p>
+                  <p>Quer saber mais sobre os desafios e superações desse e-commerce de sucesso? <span>Acompanhe o vídeo com a entrevista!</span></p>
                 </div>
               </div>
             </div>
