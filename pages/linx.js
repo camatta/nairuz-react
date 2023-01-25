@@ -168,9 +168,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           width="483" height="251"
                           src="https://www.youtube.com/embed/HHEMFRe6FY0"
                           title="YouTube video player"
-                          frameborder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          allowfullscreen></iframe>
+                          allowFullScreen></iframe>
 
                       </div>
                       <div className='depo-content'>
