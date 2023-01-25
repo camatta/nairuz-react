@@ -1,3 +1,9 @@
+@media (min-width: 1400px) {
+  .page-performance.linx .container {
+    max-width: 1230px;
+  }
+}
+
 .linx #header-geral {
   position: static;
   background-color: transparent;
@@ -38,10 +44,10 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(180deg, #0D0326 35%, #C100D6 250%);
+  background: transparent linear-gradient(180deg, #280A3C 0%, #411E5A 100%)
 }
 .page-performance.linx #performance .sobre-linx {
-  background-image: url('/cases/linx/BG_LINK_NAIRUZ_TOPO.jpg');
+  background-image: url('/cases/linx/BG_LINK_NAIRUZ_TOPO.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -59,6 +65,16 @@
 .negocio-fechado .formRd-tema {
   width: 69%;
   margin: auto;
+  display: flex;
+  align-items: end;
+  height: 100%;
+}
+.sobre-linx .formRd-tema {
+  max-width: 374px;
+}
+.linx-texto {
+  max-width: 570px;
+  margin: 0 auto;
 }
 .sobre-linx #rd-row-kylvw1qa .bricks--column > div,
 .negocio-fechado #rd-row-kylvw1qa .bricks--column > div {
@@ -90,7 +106,7 @@
   font-size: 17px !important;
   line-height: 21px;
   padding: 16px 10px !important;
-  background: #FF720A;
+  background: linear-gradient(270deg, #F0462D 0%, #FFB200 100%);
   letter-spacing: 0 !important;
   transition: all .2s ease-in-out;
 }
@@ -98,7 +114,7 @@
   background: linear-gradient(90deg, #48BAB8 0%, #392BA1 100%);
 }
 .sobre-linx #rdstation-bricks-embeddable-form-bricks-component-XIhhwEeKelgZIMMZ36gHCQ .bricks--column button:hover {
-  background: #7B7B7B;
+  background: #F0462D;
 }
 .negocio-fechado #rdstation-bricks-embeddable-form-bricks-component-c5TAVJw4yMlJG1_WvzSzRA .bricks--column button {
   background: transparent linear-gradient(90deg, #C100D6 0%, #F500BB 100%) 0% 0% no-repeat padding-box;
@@ -123,6 +139,7 @@
   margin-bottom: 20px;
   font-size: 2.375rem;
   line-height: 2.375rem;
+  font-weight: 700;
 }
 
 .page-performance.vtex #performance .title-temas h1 span {
@@ -136,6 +153,9 @@
   font-size: 1.5rem;
   line-height: 1.625rem;
 }
+.page-performance.vtex.linx .text-quemsomos p:last-child {
+  margin-bottom: 0;
+}
 
 .linx #performance .section-title {
   font-size: 2.625rem;
@@ -147,7 +167,7 @@
 }
 
 .linx #performance .section-title span {
-  color: #FF720A;
+  color: #FFB200;
   font-weight: 900;
 }
 
@@ -183,22 +203,22 @@
 }
 
 .linx .marketshare {
-  max-width: 1044px;
   margin: 0 auto 82px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 30px;
 }
 .linx .market-card {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
 }
 .linx .market-card p {
-  max-width: 244px;
+  max-width: 210px;
   width: 100%;
   font-size: 1.125rem;
-  line-height: 28px;
+  line-height: 20px;
   color: #fff;
 }
 .circularProgressText {
@@ -212,7 +232,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 .circularProgressText strong {
-  font-size: 38px;
+  font-size: 42px;
+  font-weight: 800;
 }
 .circularProgressText span {
   font-size: 15px;
@@ -221,49 +242,31 @@
   line-height: 19px;
 }
 
-.linx.page-performance.vtex .icon-servico-performance {
-  width: 68px;
-  height: 68px;
+.linx.page-performance.vtex .img-servico-performance {
   text-align: center;
-  padding: 0;
-  display: flex;
-  align-items: center;
+}
+.linx.page-performance.vtex .efeito-roll {
+  width: 65%;
+  left: 6.4rem;
+
+}
+.linx.page-performance.vtex .text-servico-performance .box-icon-title {
   justify-content: center;
-  background-color: #FF720A;
+  text-align: center;
 }
 .linx.page-performance.vtex .title-servico-performance h4 {
   max-width: 400px;
   font-size: 2rem;
   color: #FFFFFF;
+  padding-left: 0;
+  font-weight: 700;
 }
 
 .linx.page-performance .depoimento,
 .linx.page-performance .depo-content {
   display: flex;
   align-items: center;
-}
-.linx.page-performance .depo-video {
-  max-width: 480px;
-  width: 100%;
-  max-height: 250px;
-  height: 100%;
-  background: #5E4073;
-  text-align: center;
-  padding: 67px 0 100px;
-  position: relative;
-  z-index: 0;
-}
-.linx.page-performance .depo-video::before {
-  content: 'EM BREVE';
-  position: absolute;
-  z-index: 1;
-  font-size: 17px;
-  font-weight: 800;
-  color: #fff;
-  left: 50%;
-  bottom: 70px;
-  transform: translate(-50%, 0);
-  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
 }
 .linx.page-performance .depo-content {
   padding: 23px 20px 22px 95px;
@@ -271,7 +274,7 @@
   z-index: 0;
   margin-left: 110px;
   border-radius: 43px;
-  border: 2px solid #C100D6;
+  border: 2px solid #FFB200;
   max-width: 487px;
 }
 .linx.page-performance .pic-content {
@@ -293,12 +296,13 @@
   line-height: 18px;
 }
 .linx.page-performance .depo-text p strong {
-  color: #FF720A;
+  color: #FFB200;
 }
 
 .linx.page-performance .podcast {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   margin: 114px 0 42px;
 }
 .linx.page-performance .podcast-content {
@@ -399,7 +403,7 @@
   content: "";
   position: absolute;
   z-index: -1;
-  background: #420259;
+  background: #401d59;
   background-size: contain;
   background-repeat: no-repeat;
   top: 0;
@@ -416,10 +420,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #006581;
+  background: #00888b;
 }
 .linx .nos-nairuz {
-  background-image: url(/cases/linx/BG_LINK_NAIRUZ_QUEM_SOMOS-3-v2.png);
+  background-image: url(/cases/linx/NOVO_BG_LINK_NAIRUZ_QUEM_SOMOS.png);
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 180px;
@@ -454,7 +458,7 @@
 
 .linx.page-performance.vtex .saiba-mais-temas {
   display: inline-block;
-  background: #FF720A;
+  background: linear-gradient(270deg, #F0462D 0%, #FFB200 100%);
   padding: 16px 42px;
   font-size: 18px;
   letter-spacing: 0;
@@ -463,7 +467,7 @@
   transition: all .2s ease-in-out;
 }
 .linx.page-performance.vtex .saiba-mais-temas:hover {
-  background: #7B7B7B;
+  background: #F0462D;
   color: #fff;
 }
 
@@ -565,6 +569,11 @@
   background: transparent linear-gradient(90deg, #48BAB8 0%, #392BA1 100%);
   border-radius: 30px;
   transition: all .3s ease-in-out;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.linx.page-performance.vtex .impulsionar-linx .saiba-mais-temas span {
+  display: inline-block;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
 }
 .linx.page-performance.vtex .impulsionar-linx .saiba-mais-temas:hover {
   background: linear-gradient(90deg, #C100D6 0%, #F500BB 100%);
@@ -608,7 +617,23 @@
   filter: brightness(20);
 }
 
+@media screen and (max-width: 1399px) {
+  .linx.page-performance.vtex .efeito-roll {
+    width: 70.5%;
+    left: 5rem;
+  }
+}
+
 @media screen and (max-width: 1199px) {
+  .circularProgressText strong {
+    font-size: 28px;
+  }
+
+  .linx.page-performance.vtex .efeito-roll {
+    width: 84.5%;
+    left: 2.15rem;
+  }
+
   .linx #performance .section-title {
     padding-top: 35px;
     margin-top: 49px;
@@ -632,7 +657,7 @@
   }
 
   .page-performance.linx #performance .sobre-linx {
-    padding-bottom: 0;
+    padding-bottom: 30px;
   }
 
   .linx .nos-nairuz {
@@ -658,8 +683,21 @@
 }
 
 @media screen and (max-width: 991px) {
+  .sobre-linx .formRd-tema {
+    margin-top: 30px;
+  }
+
   .linx.page-performance.vtex .saiba-mais-temas {
     padding: 15px 30px;
+  }
+
+  .linx.page-performance.vtex .efeito-roll {
+    width: 55.25%;
+    left: 9.7rem;
+  }
+
+  .linx.page-performance .podcast-info {
+    margin-left: 10px;
   }
 
   .sobre-linx #rdstation-bricks-embeddable-form-bricks-component-XIhhwEeKelgZIMMZ36gHCQ .bricks--column button,
@@ -729,6 +767,25 @@
   }
 }
 
+@media (max-width: 769px) {
+  .linx-texto {
+    margin-top: 130px;
+  }
+
+  .linx #bg-nos-nairuz,
+  .page-performance.linx #performance .solucoes {
+    z-index: -1;
+  }
+
+  .page-performance.vtex.linx .text-quemsomos {
+    background: transparent;
+  }
+
+  .negocio-fechado .formRd-tema {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .logo-linx {
     text-align: center;
@@ -788,13 +845,18 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .linx #header-mob {
-    position: static;
-  }
-}
-
 @media screen and (max-width: 575px) {
+  .linx.page-performance .depoimento {
+    display: block;
+  }
+  .linx.page-performance .depoimento iframe {
+    width: 100%;
+  }
+
+  .linx.page-performance .depo-content {
+    margin-top: 90px;
+  }
+
   .linx .brands {
     padding: 7px 60px;
   }

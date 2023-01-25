@@ -7,7 +7,7 @@ import { GradientSVG } from "./GradientSVG";
 import VisibilitySensor from "react-visibility-sensor"
 import ProgressProvider from "./ProgressProvider";
 
-const CircularProgress = ({ preNumberText, posNumberText, percentageValue, simbol, imgSrc }) => {
+const CircularProgress = ({ preNumberText, posNumberText, percentageValue, showPercentage = true, simbol, imgSrc }) => {
   return (
     <VisibilitySensor>
       {({ isVisible }) => {
@@ -19,11 +19,11 @@ const CircularProgress = ({ preNumberText, posNumberText, percentageValue, simbo
         }
 
         return (
-          <div style={{ width: 200, height: 200 }}>
+          <div style={{ width: 150, height: 'auto' }}>
             <ProgressProvider valueStart={0} valueEnd={percentage}>
               {value => (
                 <>
-                <GradientSVG startColor='#5F009E' endColor='#5F009E' idCSS='gradientProgressBar' rotation={180} />
+                <GradientSVG startColor='#F0462D' endColor='#FFB200' idCSS='gradientProgressBar' rotation={180} />
 
                 <CircularProgressbarWithChildren
                   strokeWidth={9}
@@ -50,7 +50,9 @@ const CircularProgress = ({ preNumberText, posNumberText, percentageValue, simbo
                     {imgSrc && (
                       <Image src={imgSrc} width={40} height={40} alt={`${preNumberText && `${preNumberText}`}${percentage} ${posNumberText}`} />
                     )}
-                    <strong>{preNumberText && `${preNumberText}`}{percentageToShow}{simbol && simbol}</strong>
+
+                    <strong>{preNumberText && `${preNumberText}`}{showPercentage && percentageToShow}{simbol && simbol}</strong>
+                    
                     <span>{posNumberText}</span>
                   </div>
                 </CircularProgressbarWithChildren>

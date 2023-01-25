@@ -67,7 +67,7 @@ const Player = () => {
         <div className='podcast-header'>
           <button type='button' className='btn-control' onClick={handlePlayPause}>
             <span className='btn-icon' style={{ backgroundImage: `url(/cases/linx/${isPlaying ? 'icon-pause.png' : 'icon-play.png'})` }}></span>
-            <Image src={backgroundControl} alt="Tocar podcast" width={80} height={80} />
+            <Image src={backgroundControl} alt="Tocar podcast" width={96} height={96} />
           </button>
 
           <div className='podcast-info'>

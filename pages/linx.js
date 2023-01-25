@@ -8,19 +8,18 @@ import { CertificatesCarousel } from '../components/CertificatesCarousel'
 import { SocialMedias } from '../components/SocialMedias'
 
 
-const rollOrcamento = () => {
-  document.location.href = '#contato-topo';
-}
-const rollOrcamentoRodape = () => {
-  document.location.href = '#contato-rodape';
-}
 
 import profilePicture from '../public/cases/linx/profile.png'
-import fakePlay from '../public/cases/linx/play.png'
 import { Player } from '../components/Player'
 import { CircularProgress } from '../components/CircularProgressbar'
 
 export default function Linx() {
+  const rollOrcamento = () => {
+    document.location.href = '#contato-topo';
+  }
+  const rollOrcamentoRodape = () => {
+    document.location.href = '#contato-rodape';
+  }
 
   return (
     <>
@@ -72,20 +71,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
               <div className='container'>
                 <div className='row'>
-                  <div className="col-12 col-md-6">
-                    <div className="logo-linx">
-                        <Image src="/cases/linx/linx_logo_branco.png" alt="Logo LINX" width={206} height={122} />
-                    </div>
-                    <div className="title-temas">
-                      <h1>Está <span>buscando aumentar</span> a performance e vendas do seu e-commerce?</h1>
-                    </div>
-                    <div className="text-quemsomos">
-                      <p>A <span>Nairuz</span> é especialista no assunto e a <span>LINX</span> é a plataforma certa para isso!</p>
-                      <p>A <span>LINX</span> é uma empresa brasileira especialista em tecnologia para o varejo. São dezenas de soluções em um só lugar. <span>Uma delas é perfeita para você!</span></p>
+                  <div className="col-12 col-lg-7">
+                    <div className="linx-texto">
+                      <div className="logo-linx">
+                          <Image src="/cases/linx/linx_logo_branco.png" alt="Logo LINX" width={206} height={122} />
+                      </div>
+                      <div className="title-temas">
+                        <h1>Deseja aumentar o faturamento do seu e-commerce e se tornar referência no mercado?</h1>
+                      </div>
+                      <div className="text-quemsomos">
+                        <p>A Nairuz é autoridade quando o assunto é alta performance! E a razão disso é contarmos com uma parceria líder em soluções integradas, que garantem a estrutura ideal para impulsionar as vendas da sua loja online.</p>
+                        <p>A Linx é especialista em descomplicar a rotina por meio de uma infinidade de produtos e serviços, que têm como propósito acolher as necessidades dos varejistas e garantir a melhor experiência.</p>
+                      </div>
                     </div>
                   </div>
 
-                  <div className="col-12 col-md-6">
+                  <div className="col-12 col-lg-5">
                     <div className="formRd-tema performance rd-linx" id='contato-topo'>
                       <div role="main" id="lp-linx-2022-b5fb78efe0ddcd180da7"></div>
                     </div>
@@ -100,9 +101,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className='col-12'>
                     <h3 className='section-title'>Nossas <span>soluções</span></h3>
                       <div className='section-text'>
-                        <p><strong>Vá além do e-commerce tradicional, vendendo em todos os canais, colaborando com parceiros e expandindo sua oferta de produtos.</strong></p>
+                        <p><strong>Muito além de apenas um e-commerce, a Linx oferece soluções completas e todas as ferramentas necessárias para a digitalização do seu negócio!</strong></p>
 
-                        <p><small>Mais de <span>60.000 empresas utilizam os nossos serviços.</span> Toda essa experiência é o que nos torna líderes no mercado de softwares de gestão e a escolha certa para o seu negócio.</small></p>
+                        <p>A plataforma de e-commerce unificada assegura estabilidade, experiência personalizada, funcionalidades para alta performance e conta com suporte especializado.</p>
                       </div>
                   </div>
 
@@ -122,13 +123,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className='col-12'>
                     <div className='marketshare'>
                       <div className='market-card'>
-                        <CircularProgress posNumberText='DO MARKET SHARE' percentageValue={45.6} simbol='%' />
-                        <p className='market-description'>A <strong>LINX</strong> oferece pelo menos uma de suas ferramentas para quase metade de todo grande varejo nacional.</p>
+                        <CircularProgress percentageValue={70} simbol='%' />
+                        <p className='market-description'>Mais de 70% dos dados do e-commerce brasileiro são processados pela Linx.</p>
                       </div>
 
                       <div className='market-card'>
-                        <CircularProgress preNumberText='+' percentageValue={16} posNumberText='países' imgSrc='/cases/linx/globe.svg' />
-                        <p className='market-description'>Com a tecnologia em constante evolução a <strong>LINX</strong> tem levado resultados para mais de 16 países através de suas ferramentas.</p>
+                        <CircularProgress percentageValue={90} simbol='9/10' showPercentage={false} />
+                        <p className='market-description'>9 em 10 dos maiores e-commerces do país são nossos clientes.</p>
+                      </div>
+
+                      <div className='market-card'>
+                        <CircularProgress percentageValue={95} simbol='%' />
+                        <p className='market-description'>Mais de 95% dos clientes do e-commerce no Brasil já foram impactados por nossas soluções.</p>
                       </div>
                     </div>
                   </div>
@@ -145,19 +151,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className="col-12 col-lg-6">
                     <div className="text-servico-performance">
                       <div className="box-icon-title">
-                        <div className="icon-servico-performance">
-                          <Image src="/icon-loja.png" alt="E-commerce" width={30} height={30} />
-                        </div>
                         <div className="title-servico-performance">
-                          <h4>Sim, nós temos o que o seu negócio precisa!</h4>
+                          <h4>Toda essa experiência é o que nos torna líderes no mercado de softwares de gestão e a escolha certa para o seu negócio.</h4>
                         </div>
-                      </div>
-                      <div className="content-loja-rapida">
-                        <ul className="diferenciais">
-                          <li><span>1.</span><p>Reduza os riscos</p></li>
-                          <li><span>2.</span><p>Construa experiências super rápidas</p></li>
-                          <li><span>3.</span><p>Equipe certificada e especializada em LINX</p></li>
-                        </ul>
                       </div>
                       <div className="button-servico-performance">
                         <a onClick={rollOrcamento} className="saiba-mais-temas">FALE COM UM CONSULTOR</a>
@@ -168,7 +164,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className='col-12'>
                     <div className='depoimento'>
                       <div className='depo-video'>
-                        <Image src={fakePlay} alt="Fake player" width={80} height={80} />
+                        <iframe
+                          width="483" height="251"
+                          src="https://www.youtube.com/embed/HHEMFRe6FY0"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen></iframe>
+
                       </div>
                       <div className='depo-content'>
                         <div className='pic-content'>
@@ -190,7 +193,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className='col-12'>
                     <div className='solucoes-rodape'>
                       <div className='section-text'>
-                        <p><strong>A LINX possui mais de 50 soluções em ERP, PDV, digital, autoatendimento, delivery, entre outros, para ajudar você a transformar complexidade em resultado.</strong></p>
+                        <p><strong>A Linx atua como o parceiro tecnológico que move o varejo de ponta a ponta, criando conexões de valor e impulsionando ainda mais os resultados e a vida dos empreendedores... mundo afora.</strong></p>
                       </div>
                     </div>
                   </div>
@@ -253,7 +256,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <h4>IMPULSIONAR O SEU E-COMMERCE?</h4>
                       </div>
                       <div className="button-servico-performance">
-                          <a onClick={rollOrcamentoRodape} className="saiba-mais-temas">FALAR COM UM CONSULTOR</a>
+                          <a onClick={rollOrcamentoRodape} className="saiba-mais-temas">
+                            <span>FALAR COM UM CONSULTOR</span>
+                          </a>
                       </div>
                     </div>
                   </div>
@@ -261,7 +266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
             </article>
 
-            <article className='negocio-fechado'>
+            <article className='negocio-fechado' id='contato-rodape'>
               <div className='container'>
                 <div className='row'>
                   <div className='col-lg-6'>
@@ -277,7 +282,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </div>
 
                   <div className='col-lg-6'>
-                    <div className="formRd-tema performance rd-linx" id='#contato-rodape'>
+                    <div className="formRd-tema performance rd-linx">
                       <div role="main" id="lp-linx-2022-rodape-8424ee87d7e378c32478"></div>
                     </div>
                   </div>
