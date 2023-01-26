@@ -133,7 +133,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className="img-servico-performance website efeito-vtex">
                     <Image src="/esp-elevage.png" alt="VTEX" width={450} height={452} />
                   <div className="efeito-roll">
-                    <Image src="/efeito-elevage.png" alt="Layout Casa São Pedro" width={486} height={1260} />
+                    <Image src="/elevage-layout.png" alt="Layout Elevage" width={486} height={3421} />
                   </div>
                   </div>
                 </div>
