@@ -419,13 +419,13 @@ strategy="beforeInteractive" />
     btnCookies.addEventListener('click', aceiteCookies);
 
 
-        ;(function() {
-              var script = document.createElement('script');
-              script.id = '7a4b2d66-bf3e-4e13-8b5d-ed4fe6e475af';
-              script.type = 'module';
-              script.src = 'https://pageimprove.io';
-              document.head.appendChild(script);
-          })()
+     ;(function() {
+      var script = document.createElement('script');
+       script.id = '7a4b2d66-bf3e-4e13-8b5d-ed4fe6e475af';
+       script.type = 'module';
+       script.src = 'https://pageimprove.io';
+       document.head.appendChild(script);
+       })()
 
   `
   
