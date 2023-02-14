@@ -34,14 +34,14 @@ const Footergeral = () => (
   <footer className="container-fluid" id="footer">
   <div className="instagram-feed">
     <ul className="insta d-flex justify-content-center" id="content-instagram">
-      <li><a href="https://www.instagram.com/p/Cn1gsZAsAPq/" target="_blank" rel="noopener noreferrer"><Image src="/insta1.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CnwXRasOCPh/" target="_blank" rel="noopener noreferrer"><Image src="/insta2.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/Cntybfvu5sb/" target="_blank" rel="noopener noreferrer"><Image src="/insta3.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/Cno9c_hOJx1/" target="_blank" rel="noopener noreferrer"><Image src="/insta4.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/Cnm_2llAGvC/" target="_blank" rel="noopener noreferrer"><Image src="/insta5.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CnjfIdxMbEg/" target="_blank" rel="noopener noreferrer"><Image src="/insta6.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CneVvOiLtQK/" target="_blank" rel="noopener noreferrer"><Image src="/insta7.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CnW0JQLsoLa/" target="_blank" rel="noopener noreferrer"><Image src="/insta8.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/ConCrwhLL3z/" target="_blank" rel="noopener noreferrer"><Image src="/insta1.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CoetijSjQPw/" target="_blank" rel="noopener noreferrer"><Image src="/insta2.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CoVCTjSswOM/" target="_blank" rel="noopener noreferrer"><Image src="/insta3.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CoK-fmYOQmW/" target="_blank" rel="noopener noreferrer"><Image src="/insta4.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CoHicngtrje/" target="_blank" rel="noopener noreferrer"><Image src="/insta5.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CoFmqe8udVX/" target="_blank" rel="noopener noreferrer"><Image src="/insta6.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CoDPCGfvDOc/" target="_blank" rel="noopener noreferrer"><Image src="/insta7.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
+      <li><a href="https://www.instagram.com/p/CoCYvJLpiUq/" target="_blank" rel="noopener noreferrer"><Image src="/insta8.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
     </ul>
   </div>
   <div className="container">
@@ -418,8 +418,20 @@ strategy="beforeInteractive" />
     
     btnCookies.addEventListener('click', aceiteCookies);
 
-  `}
+
+        ;(function() {
+              var script = document.createElement('script');
+              script.id = '7a4b2d66-bf3e-4e13-8b5d-ed4fe6e475af';
+              script.type = 'module';
+              script.src = 'https://pageimprove.io';
+              document.head.appendChild(script);
+          })()
+
+  `
+  
+  }
 </Script>
+
 <Script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/58f2af1b-9339-4f1e-900b-b1cde4544bb4-loader.js" ></Script>
 <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
 <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCTM4JN"

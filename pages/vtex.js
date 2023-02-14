@@ -371,6 +371,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
     a.appendChild(r);
 })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+    ;(function() {
+          var script = document.createElement('script');
+          script.id = '7a4b2d66-bf3e-4e13-8b5d-ed4fe6e475af';
+          script.type = 'module';
+          script.src = 'https://pageimprove.io';
+          document.head.appendChild(script);
+      })()
   
   `}
 </Script>
