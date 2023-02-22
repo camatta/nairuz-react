@@ -478,7 +478,7 @@ a:hover, a {
   background: transparent linear-gradient(180deg, #58DBAA 0%, #6316C9 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 15px #0000000d;
   border-radius: 20px;
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 3rem;
 }
 
 #contato-popup .form-popup {
@@ -492,11 +492,13 @@ a:hover, a {
 #contato-popup #rd-form-kylvw1qc .bricks-form__field {
   width: 14.5rem !important;
   margin-right: 0.5rem;
+  margin-bottom: .5rem!important;
 }
 
 #contato-popup #rd-form-kylvw1qc .bricks-form__field:last-child {
   width: 100% !important;
 }
+
 
 #contato-popup  #rd-section-kylvw1q5 .rd-button {
   margin-top: 1rem !important;
