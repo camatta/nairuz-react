@@ -4,8 +4,56 @@ import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import NewsletterNz from '../components/NewsletterNz'
 import VagasPopup from '../components/VagasPopup';
+import Image from 'next/image';
+import TrabalhoPopup from '../components/TrabalhoPopup';
+import { useState } from 'react';
 
 export default function Vagas() {
+  const ourWork = [
+    {
+      "image": "/projetos/bravuz.png",
+      "name": "Bravuz",
+      "description": "O Bravuz foi feito para homenagear os funcionairuz que se destacaram durante todo o ano",
+      "popup":{
+        "description":"O Bravuz é uma premiação criada pelo próprio CEO da Nairuz, Rafael Queiroz. A nomeação e entrega dos troféus acontece anualmente e visa reconhecer os funcionairuz que se destacaram ao longo do ano, seja na sua área ou pela realização de algum projeto interno. Entre as categorias da premiação estão as metas batidas, as premiações conquistadas e o desenvolvimento de projetos inovadores.",
+        "release": "2022",
+        "images": "bravuz",
+        "organizers":[{"name": "Rafael Queiroz", "job": "CEO"}, {"name": "Mariana Santos", "job": "ANALISTA FINANCEIRO"}]
+      }
+    },
+    {
+      "image": "/projetos/aureliuz.png",
+      "name": "Auréliuz",
+      "description": "Aulas de Língua Portuguesa feitas para que os funcionairuz estejam em constante crescimento profissional e pessoal",
+      "popup":{
+        "description":"O projeto Auréliuz nasceu da necessidade de reforçar algumas normas gramaticais da Língua Portuguesa que ainda geram dúvidas na hora da escrita e da fala. Muitos erros são cometidos por conta da falta de informação ou por conta do coloquialismo da língua. Por isso, o projeto foi desenvolvido para que esses pequenos erros não ocorressem mais, qualificando ainda mais os profissionais de todos os setores da agência.",
+        "release": "2021",
+        "images": "aureliuz",
+        "organizers":[
+          {"name": "Thaiane Pinha", "job": "Redatora"}, 
+          {"name": "Marina Norato", "job": "Redatora"},
+          {"name": "Claudimar Bezerra", "job": "Desenvolvedor"},
+          {"name": "Mariana Santos", "job": "ANALISTA FINANCEIRO"},
+          {"name": "Hugo Brito", "job": "CONSULTOR DE NOVOS NEGÓCIOS"},
+        ]
+      }
+    },
+    {
+      "image": "/projetos/livruz.png",
+      "name": "Clube do Livruz",
+      "description": "Projeto desenvolvido internamente para que os profissionais desenvolvam o hábito da leitura",
+      "popup":{
+        "description":"O Clube do Livruz é um projeto criado para estimular a leitura entre os profissionais da Nairuz, expandir o vocabulário, melhorar a escrita e gerar um debate crítico sobre os temas abordados durante as reuniões do clube. Desde que começou, os encontros mensais estão cada vez mais elaborados e contam com a presença de vários funcionairuz.",
+        "release": "2022",
+        "images": "livruz",
+        "organizers":[{"name": "Thaiane Pinha", "job": "Redatora"}]
+      
+      }
+    }
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(null);
+
   return (
     <div className="page-vagas">
       <Head>
@@ -115,6 +163,38 @@ export default function Vagas() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section id="work" className="container">
+          <div className="row row--title">
+            <div className="col-lg-12">
+              <div className="section--title">
+                <p className='title'>Projetos <span>internos</span></p>
+                <p className='subtitle'>CONHEÇA NOSSOS PROJETOS INTERNOS</p>
+                <p className='section-description'>OS PROJETOS INTERNOS SÃO FEITOS PARA O DESENVOLVIMENTOS PROFISSIONAL E PESSOAL DE CADA FUNCIONAIRUZ</p>
+              </div>
+            </div>
+          </div>
+          <div className="row work--row">
+
+            {ourWork.map((el, i)=>{
+              return(
+                <div className="work-box" key={i}>
+                  <div className="headContainer"><Image className="img-fluid" src={el.image} alt={el.name} width={550} height={361} /></div>
+                  <div className="bodyContainer">
+                      <p className="name">{el.name}</p>
+                      <p className="description">{el.description}</p>
+                        {/* <button className={`button-${el.name}`} >Saiba mais</button> */}
+                      <TrabalhoPopup  isActive={activeIndex === i} onShow={() => setActiveIndex(i)} activeIndex={setActiveIndex} popupInfo={el.popup}/>
+
+
+                  </div>
+                </div>
+              );
+            })}
+
+            
           </div>
         </section>
         <NewsletterNz />
