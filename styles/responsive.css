@@ -540,6 +540,21 @@
   }
 
   /* Footer */
+
+  #content-instagram .post {
+    position: relative;
+    width: 90px;
+    height: 90px; 
+  }
+
+  #content-instagram {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: auto; 
+  }
   
   .footer-logo {
     display: flex;

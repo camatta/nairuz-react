@@ -334,6 +334,64 @@ a:hover, a {
   max-width: 100%;
 }
 
+#content-instagram {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 190px;
+  overflow: hidden;
+}
+
+#content-instagram .post .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: inherit;
+  background-size: cover;
+  transition: all .15s ease-in-out;
+}
+#content-instagram .post ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: rgba(149, 28, 28, 0);
+  display: flex;
+  justify-content: center;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: all .15s ease-in-out;
+  color: #FFF;
+}
+#content-instagram .post ul li {
+  text-align: center;
+  line-height: 50px;
+  margin: 0px 10px;
+  list-style-type: none;
+}
+#content-instagram .post:hover .image {
+  opacity: .5;
+  -webkit-transform: scale(1.15) translate3d(0, 0, 0);
+  transform: scale(1.15) translate3d(0, 0, 0);
+}
+#content-instagram .post:hover ul {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+#content-instagram .post {
+  position: relative;
+  width: 190px;
+  height: 190px;
+  display: block;
+  overflow: hidden;
+}
+
 .footer-logo {
   display: flex;
   align-items: center;
