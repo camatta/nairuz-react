@@ -1470,6 +1470,103 @@
   width: 100%;
 }
 
+.page-case-novamed #new-video-case .video-case iframe {
+  max-width: 100%;
+}
+
+.page-case-novamed #new-case-top .title-case h1,
+.page-case-novamed #new-video-case .text-video-case, 
+.page-case-novamed .text-resultado-cta p {
+  width: 100%;
+}
+
+.page-case-novamed #new-case-top {
+  padding-bottom: 50px;
+}
+
+.page-case-novamed .cards-video-case {
+  flex-direction: column;
+}
+
+.page-case-novamed .cards-video-case .card-case-nova {
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.page-case-novamed .title-resultado-cta h2,
+.page-case-novamed .title-trafego-organico h3,
+.page-case-novamed .title-estudo-case h3 {
+  line-height: 1.3;
+}
+
+.page-case-novamed .button-resultado-cta button {
+  padding: 14px 30px;
+  line-height: 1.3;
+}
+
+.img-estudo-case {
+  margin-bottom: 0.5rem;
+}
+
+.page-case-novamed .resultado-destaque-nova {
+  display: flex;
+  align-items: center;
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+  justify-content: center;
+  padding: 30px 20px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 55px;
+  flex-direction: column;
+}
+
+.img-resultado-destaque {
+  margin-bottom: 1rem;
+}
+
+.page-case-novamed .text-resultado-destaque,
+.text-after-result p,
+.page-case-novamed .title-conte-com-nairuz h4,
+.text-conte-com-nairuz p  {
+  width: 100%;
+}
+
+.card-conte-com-nairuz {
+  flex-direction: column;
+}
+
+.icon-conte-com-nairuz {
+  margin-bottom: 1rem;
+}
+
+.card-conte-com-nairuz .text-card-conte-com-nairuz {
+  margin-left: auto;
+  width: 100%;
+}
+
+.card-conte-com-nairuz .text-card-conte-com-nairuz p {
+  text-align: center;
+}
+
+#form-case-nova .formRd-tema {
+  width: 100%;
+}
+
+#form-case-nova  #rd-section-kylvw1q5 .rd-button {
+  padding: 1rem !important
+}
+
+#form-case-nova #rd-column-kylvw1qb > div {
+  padding: 0 !important
+}
+
+.page-case-novamed #new-case-top .title-case h1 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 }
 
 @media (min-width: 1650px) {

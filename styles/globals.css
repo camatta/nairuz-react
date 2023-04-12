@@ -2619,6 +2619,306 @@ a:hover, a {
   padding: 3rem 0;
   border-bottom: 1px solid #a8a5a5;
 }
+
+.page-case-novamed #new-case-top {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: rgb(34,26,97);
+  background: linear-gradient(180deg, rgba(34,26,97,1) 35%, rgba(88,219,170,1) 100%);
+  text-align: center;
+}
+
+.page-case-novamed #new-case-top .title-case h1 {
+  line-height: 40px;
+  width: 70%;
+  margin: auto;
+}
+
+.page-case-novamed #new-video-case .video-case {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.page-case-novamed #new-video-case .text-video-case {
+  width: 63%;
+  margin: auto;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.page-case-novamed #new-video-case .text-video-case p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+}
+
+.page-case-novamed #new-video-case .text-video-case p span {
+  font-weight: 700;
+  color: #6316C9;
+}
+
+.page-case-novamed  .cards-video-case {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 40px;
+}
+
+.page-case-novamed  .cards-video-case .card-case-nova {
+  display: flex;
+  align-items: center;
+}
+
+.page-case-novamed .cards-video-case .card-case-nova .text-card-case {
+  width: 55%;
+  margin-left: 30px;
+}
+
+.page-case-novamed .cards-video-case .card-case-nova .text-card-case p {
+  color: #2D2D2D;
+  line-height: 1.6;
+}
+
+.page-case-novamed .cards-video-case .card-case-nova .text-card-case p span {
+  font-weight: 800;
+  color: #6316C9;
+}
+
+.page-case-novamed .title-resultado-cta h2 {
+  letter-spacing: 0px;
+  color: #2D2D2D;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page-case-novamed .text-resultado-cta p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 43px;
+  text-align: center;
+}
+
+.page-case-novamed .button-resultado-cta {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.page-case-novamed .button-resultado-cta button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 90px;
+  padding: 14px 100px;
+  border: unset;
+}
+
+.page-case-novamed .title-trafego-organico h3 {
+  letter-spacing: 0px;
+  color: #2D2D2D;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-case-novamed .text-trafego-organico p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.page-case-novamed .title-estudo-case h3 {
+  letter-spacing: 0px;
+  color: #2D2D2D;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-case-novamed .text-estudo-case {
+  margin-bottom: 60px;
+}
+
+.page-case-novamed .text-estudo-case p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.825rem;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+
+.page-case-novamed .text-estudo-case p span {
+  font-weight: 700;
+  color: #6316C9;
+}
+
+.page-case-novamed .text-estudo-case p.text-destaque {
+  background-color: #F1F1F1;
+  padding: 17px 25px;
+}
+
+.page-case-novamed .banner-full-nova {
+  margin-bottom: 45px;
+}
+
+.page-case-novamed .title-numeros-nova h4 {
+  letter-spacing: 0px;
+  color: #2D2D2D;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.page-case-novamed .text-numeros-nova p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.page-case-novamed .text-numeros-nova p span {
+  font-weight: 700;
+  color: #6316C9;
+}
+
+.page-case-novamed  .resultado-destaque-nova {
+  display: flex;
+  align-items: center;
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+  justify-content: center;
+  padding: 50px 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 55px;
+}
+
+.page-case-novamed  .text-resultado-destaque {
+  margin: auto;
+  width: 72%;
+}
+
+.page-case-novamed  .text-resultado-destaque p {
+  color: #2D2D2D;
+  line-height: 1.6;
+}
+
+.text-resultado-destaque p span,
+.text-after-result p span {
+  font-weight: 700;
+  color: #6316C9;
+}
+
+.text-after-result p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  text-align: center;
+  width: 77%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.title-crescimento-nova h4 {
+  letter-spacing: 0px;
+  color: #2D2D2D;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.title-conte-com-nairuz {
+  padding-top: 40px;
+  border-top: 1px solid #E8E8E8;
+}
+
+.page-case-novamed  .title-conte-com-nairuz h4 {
+  letter-spacing: 0px;
+  color: #2D2D2D;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.text-conte-com-nairuz p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  text-align: center;
+  width: 78%;
+  margin: auto;
+  margin-bottom: 45px;
+}
+
+.text-conte-com-nairuz p span {
+  font-weight: 700;
+  color: #6316C9;
+}
+
+.card-conte-com-nairuz {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.card-conte-com-nairuz .text-card-conte-com-nairuz {
+  margin-left: 30px;
+  width: 42%;
+}
+
+.card-conte-com-nairuz .text-card-conte-com-nairuz p {
+  color: #2D2D2D;
+  line-height: 1.6;
+}
+
+#form-case-nova #rd-form-kylvw1qc .bricks-form__label {
+  color: #4bc1b5 !important;
+  font-weight: 600 !important;
+}
+
+#form-case-nova #rd-form-kylvw1qc .bricks-form__field {
+  margin-bottom: 1.5rem !important;
+}
+
+#form-case-nova #rd-form-kylvw1qc .bricks-form__field:nth-child(5) {
+  width: 100% !important;
+}
+
+#form-case-nova {
+  background: #F1F1F1;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
 /* Page Case Casa São Pedro */
 
 .page-case-csp #case-top {

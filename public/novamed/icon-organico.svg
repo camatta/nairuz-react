@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6316c9"/>
+      <stop offset="1" stop-color="#2a1e87"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_507" data-name="Grupo 507" transform="translate(-763 -1716)">
+    <rect id="Retângulo_400" data-name="Retângulo 400" width="101" height="101" rx="10" transform="translate(763 1716)" fill="url(#linear-gradient)"/>
+    <g id="Icon_feather-mouse-pointer" data-name="Icon feather-mouse-pointer" transform="translate(789.5 1742.5)">
+      <path id="Caminho_281" data-name="Caminho 281" d="M4.5,4.5,20.736,43.471,26.5,26.5l16.971-5.764Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <path id="Caminho_282" data-name="Caminho 282" d="M19.5,19.5,33.279,33.279" transform="translate(7.964 7.964)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
