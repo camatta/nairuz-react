@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Headergeral from '../../components/Headergeral'
 import HeaderMob from '../../components/HeaderMob'
 import Footergeral from '../../components/Footergeral'
-import NewsletterNZ from '../../../components/NewsletterNZ'
+import NewsletterNz from '../../components/NewsletterNz'
 import Script from 'next/script'
 
 
@@ -263,7 +263,7 @@ export default function NovaMedicamentos2() {
           </div>
         </section>
 
-        <NewsletterNZ />
+        <NewsletterNz />
       </main>
 
       <Footergeral />
