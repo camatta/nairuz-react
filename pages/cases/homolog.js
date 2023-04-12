@@ -104,7 +104,7 @@ export default function NovaMedicamentos2() {
                   <p>A história de sucesso da Nova Medicamentos só foi possível com o apoio de uma estratégia de marketing de performance personalizada. Conte com a Nairuz para ter resultados como esse:</p>
                 </div>
                 <div className="button-resultado-cta">
-                  <button>QUERO SOLICITAR UM ORÇAMENTO</button>
+                  <a href="#form-case-nova">QUERO SOLICITAR UM ORÇAMENTO</a>
                 </div>
               </div>
             </div>

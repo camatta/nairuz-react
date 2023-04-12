@@ -1499,9 +1499,10 @@
   line-height: 1.3;
 }
 
-.page-case-novamed .button-resultado-cta button {
-  padding: 14px 30px;
+.page-case-novamed .button-resultado-cta a {
+  padding: 14px 15px;
   line-height: 1.3;
+  font-size: 13px;
 }
 
 .img-estudo-case {
