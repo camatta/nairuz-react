@@ -2659,6 +2659,25 @@ a:hover, a {
   color: #6316C9;
 }
 
+#new-video-case {
+  position: relative;
+}
+
+#new-video-case:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14rem;
+  background-color: #48BAB8;
+  height: 200px;
+  width: 100%;
+}
+
+#new-video-case iframe {
+  position: relative;
+  z-index: 2;
+}
+
 .page-case-novamed  .cards-video-case {
   display: flex;
   align-items: center;
@@ -2673,6 +2692,7 @@ a:hover, a {
 .page-case-novamed  .cards-video-case .card-case-nova {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .page-case-novamed .cards-video-case .card-case-nova .text-card-case {

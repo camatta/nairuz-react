@@ -1472,16 +1472,45 @@
 
 .page-case-novamed #new-video-case .video-case iframe {
   max-width: 100%;
+  height: 300px;
 }
 
 .page-case-novamed #new-case-top .title-case h1,
 .page-case-novamed #new-video-case .text-video-case, 
 .page-case-novamed .text-resultado-cta p {
   width: 100%;
+  text-align: justify;
+}
+
+#new-video-case:after {
+  top: 6rem;
+}
+
+.page-case-novamed #new-video-case .text-video-case {
+  margin-bottom: 60px;
+}
+
+.page-case-novamed #new-video-case .text-video-case p {
+  text-align: justify;
 }
 
 .page-case-novamed #new-case-top {
   padding-bottom: 50px;
+}
+
+.page-case-novamed .cards-video-case .card-case-nova .text-card-case p {
+  text-align: justify;
+}
+
+.title-crescimento-nova h4 {
+  margin-top: 20px;
+  line-height: 1.3;
+}
+
+.page-case-novamed .text-trafego-organico p,
+.page-case-novamed .title-trafego-organico h3 {
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
 .page-case-novamed .cards-video-case {
@@ -1489,14 +1518,30 @@
 }
 
 .page-case-novamed .cards-video-case .card-case-nova {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   justify-content: center;
+}
+
+.page-case-novamed .title-estudo-case h3 {
+  margin-bottom: 20px;
+}
+
+.page-case-novamed .text-estudo-case p {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+.page-case-novamed .text-numeros-nova p,
+.page-case-novamed .text-resultado-destaque p {
+  text-align: justify;
 }
 
 .page-case-novamed .title-resultado-cta h2,
 .page-case-novamed .title-trafego-organico h3,
 .page-case-novamed .title-estudo-case h3 {
   line-height: 1.3;
+  text-align: justify;
+  font-size: 1.3rem;
 }
 
 .page-case-novamed .button-resultado-cta a {
@@ -1532,10 +1577,21 @@
 .page-case-novamed .title-conte-com-nairuz h4,
 .text-conte-com-nairuz p  {
   width: 100%;
+  text-align: justify;
 }
 
 .card-conte-com-nairuz {
   flex-direction: column;
+}
+
+.page-case-novamed .title-numeros-nova h4,
+.title-crescimento-nova h4,
+.page-case-novamed .title-conte-com-nairuz h4 {
+  font-size: 1.3rem;
+}
+
+.page-case-novamed #new-video-case .video-case {
+  margin-top: 40px;
 }
 
 .icon-conte-com-nairuz {
@@ -1565,7 +1621,9 @@
 
 .page-case-novamed #new-case-top .title-case h1 {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.4;
 }
 
 }
