@@ -2988,7 +2988,7 @@ a:hover, a {
 #vagas {
   background-image: url(/Banner_Topo.png);
   background-size: cover;
-  background-position-y: bottom;
+  background-position-y: unset;
   background-repeat: no-repeat;
   padding-top: 11rem;
   padding-bottom: 11rem;

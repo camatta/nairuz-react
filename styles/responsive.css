@@ -1499,7 +1499,7 @@
 }
 
 .page-case-novamed .cards-video-case .card-case-nova .text-card-case p {
-  text-align: justify;
+  text-align: left;
 }
 
 .title-crescimento-nova h4 {
@@ -1551,7 +1551,7 @@
 }
 
 .img-estudo-case {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .page-case-novamed .resultado-destaque-nova {
@@ -1578,6 +1578,10 @@
 .text-conte-com-nairuz p  {
   width: 100%;
   text-align: justify;
+}
+
+.page-case-novamed .title-conte-com-nairuz h4 {
+  text-align: left;
 }
 
 .card-conte-com-nairuz {
@@ -1622,7 +1626,7 @@
 .page-case-novamed #new-case-top .title-case h1 {
   color: #fff;
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: left;
   line-height: 1.4;
 }
 
