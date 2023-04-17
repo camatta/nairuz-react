@@ -33,7 +33,7 @@ const Footergeral = () => (
   <>
   <footer className="container-fluid" id="footer">
   <div className="instagram-feed" id="content-instagram">
-    {/* <ul className="insta d-flex justify-content-center">
+    <ul className="insta d-flex justify-content-center">
       <li><a href="https://www.instagram.com/p/ConCrwhLL3z/" target="_blank" rel="noopener noreferrer"><Image src="/insta1.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoetijSjQPw/" target="_blank" rel="noopener noreferrer"><Image src="/insta2.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoVCTjSswOM/" target="_blank" rel="noopener noreferrer"><Image src="/insta3.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
@@ -42,7 +42,7 @@ const Footergeral = () => (
       <li><a href="https://www.instagram.com/p/CoFmqe8udVX/" target="_blank" rel="noopener noreferrer"><Image src="/insta6.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoDPCGfvDOc/" target="_blank" rel="noopener noreferrer"><Image src="/insta7.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoCYvJLpiUq/" target="_blank" rel="noopener noreferrer"><Image src="/insta8.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-    </ul> */}
+    </ul>
   </div>
   <div className="container">
     <div className="row">
