@@ -63,8 +63,8 @@ const clientsData = [
     "height": 60
   },
   {
-    "client": "Candy Brown",
-    "url": "/clientes/candy.png",
+    "client": "GPTW",
+    "url": "/clientes/gptw.svg",
     "width": 128,
     "height": 60
   },

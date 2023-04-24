@@ -120,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <ul className="d-flex align-items-center row3-logos mb-5">
                     <li><Image src="/clientes/minassal.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/cybelar.png" width={116} height={55} /></li>
-                    <li><Image src="/clientes/candy.png" width={116} height={55} /></li>
+                    <li><Image src="/clientes/gptw.svg" width={116} height={55} /></li>
                     <li><Image src="/clientes/grupo-card.png" width={116} height={55} /></li>
                   </ul>
                   <ul className="d-flex align-items-center row4-logos mb-5">

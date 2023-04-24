@@ -234,7 +234,7 @@ export default function Home() {
                   <li><Image src="/clientes/cybelar.png" width={116} height={55} loading="eager" /></li>
                 </ul>
                 <ul className="d-flex align-items-center row3-logos mb-5">
-                  <li><Image src="/clientes/candy.png" width={116} height={55} /></li>
+                  <li><Image src="/clientes/gptw.svg" width={116} height={55} /></li>
                   <li><Image src="/clientes/grupo-card.png" width={116} height={55} /></li>
                   <li><Image src="/clientes/azul.png" width={116} height={55} /></li>
                   <li><Image src="/clientes/sempreviva.png" width={116} height={55} /></li>
