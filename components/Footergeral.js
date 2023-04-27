@@ -33,7 +33,7 @@ const Footergeral = () => (
   <>
   <footer className="container-fluid" id="footer">
   <div className="instagram-feed" id="content-instagram">
-    <ul className="insta d-flex justify-content-center">
+    {/* <ul className="insta d-flex justify-content-center">
       <li><a href="https://www.instagram.com/p/ConCrwhLL3z/" target="_blank" rel="noopener noreferrer"><Image src="/insta1.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoetijSjQPw/" target="_blank" rel="noopener noreferrer"><Image src="/insta2.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoVCTjSswOM/" target="_blank" rel="noopener noreferrer"><Image src="/insta3.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
@@ -42,7 +42,7 @@ const Footergeral = () => (
       <li><a href="https://www.instagram.com/p/CoFmqe8udVX/" target="_blank" rel="noopener noreferrer"><Image src="/insta6.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoDPCGfvDOc/" target="_blank" rel="noopener noreferrer"><Image src="/insta7.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
       <li><a href="https://www.instagram.com/p/CoCYvJLpiUq/" target="_blank" rel="noopener noreferrer"><Image src="/insta8.jpg" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-    </ul>
+    </ul> */}
   </div>
   <div className="container">
     <div className="row">
@@ -150,6 +150,23 @@ strategy="beforeInteractive" />
     new RDStationForms('formulario-contato-atualizado-ed22e1fdee9c4ddfcecd', 'UA-48773259-1').createForm();
   }
 
+  if(jQuery('#content-instagram').length){
+    jQuery(function() {
+      jQuery.getJSON('https://api-instagram-nairuz-v2-gdy2gs33ua-uc.a.run.app/recuperarListaImagens?cliente=nairuzMaio', function(insta) {
+        jQuery.each(insta, function(photos, src) {
+          if (photos === 8) {
+            return false;
+          }
+          console.log(src)
+          jQuery('<a href="' + src.link + '" class="post item" target="_blank">' +
+            '<div class="image" style="background-image:url(' + src.urlImagem+ ');"></div>' +
+            '<ul>' +
+            '<li><i id="twitterinsstagram" class="fa fa-instagram" onclick="socialShareWindow(&quot;https://twitter.com/intent/tweet?url=' + src.urlImagem + '&amp;screen_name=Consectetuer eget Consectetuer eget eget Consectetuer eget eget&amp;text=' + src.link + '&quot;)"></i></li>' +
+            '</ul></a>').appendTo('.instagram-feed');
+        });
+      });
+    });
+  }
 
 
   // Carrossel geral
