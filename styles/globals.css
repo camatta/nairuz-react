@@ -256,31 +256,57 @@ a:hover, a {
   z-index: 2;
 }
 
+/*Alteração Maravilhas*/
 #bg-carrossel1 {
+  background-image: url(/bg-maravilhas-home.webp);
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: top;
+}
+/*Alteração Maravilhas*/
+
+#bg-carrossel2 {
   background-image: url(/bg-bialetti-home2.webp);
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
 }
 
-/* #bg-carrossel3 {
-  background-image: url(/bg-maravilhas-home.webp);
-  background-size: cover;
-  background-position-x: right;
-  background-position-y: top;
-} */
-
-#bg-carrossel2 {
+#bg-carrossel3 {
   background-image: url('/bg-nairuz-home.webp');
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
 }
 
+/*Alteração Maravilhas, navs e dots*/
 .owl-carousel.carrossel-header .owl-nav,
 .owl-carousel.carrossel-header .owl-dots {
-  display: none;
+  display: flex;
+  position: absolute;
+  top: 26rem;
+  left: 13rem;
+  filter: brightness(7.0);
 }
+
+.owl-carousel.carrossel-header .owl-dots{
+  position: absolute;
+  top: 13.5rem;
+  left: calc(13rem - 10px);
+}
+
+.owl-carousel.carrossel-header .owl-dots .owl-dot{
+  margin: 0 10px;
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.owl-carousel.carrossel-header .owl-dots .active{
+  background-color: aqua;
+}
+/*Alteração Maravilhas, navs e dots*/
 
 .menu ul {
   display: flex;
@@ -695,19 +721,24 @@ a:hover, a {
   line-height: 1.4;
 }
 
-#bg-carrossel2 .op-0 {
+#bg-carrossel3 .op-0 {
   opacity: 0;
-}
-
-#bg-carrossel2 .descricao-right {
-  bottom: 2rem;
-  top: 0;
 }
 
 .card1, .card2 {
   width: 40%;
   margin: auto;
 }
+
+/*Alteração Maravilhas*/
+#bg-carrossel1 .card1{
+  top: 4.3rem;
+}
+
+#bg-carrossel1 .card2{
+  top: 2.25rem;
+}
+/*Alteração Maravilhas*/
 
 .card1 {
   position: relative;
@@ -740,7 +771,7 @@ a:hover, a {
 .descricao-right {
   margin: 5rem 0;
   position: relative;
-  top: 5rem;
+  top: 2rem;
 }
 
 .descricao-right p {
@@ -749,6 +780,13 @@ a:hover, a {
   line-height: 1.5;
   font-size: 0.85rem;
 }
+
+/*Alteração Maravilhas*/
+#bg-carrossel1 .descricao-right p{
+  min-width: 582px;
+  width: 100%;
+}
+/*Alteração Maravilhas*/
 
 .descricao-right button {
   background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
@@ -3586,7 +3624,8 @@ section#work .work-box .bodyContainer button{
 .aceite-cookies.hide {
   display: none;
 }
-@media (max-width: 991px){
+
+@media (max-width: 992px){
   #work .section--title .section-description{
     width: 100%;
   }
@@ -3627,13 +3666,48 @@ section#work .work-box .bodyContainer button{
   #work .work--row span{
       width: 100%!important
   }
+
+  /* Alterações Maravilhas do lar */
+  .owl-carousel.carrossel-header .owl-nav {
+    top: 30rem;
+    left: 9.4rem;
+  }
+
+  .owl-carousel.carrossel-header .owl-dots {
+    left: 8.6rem;
+  }
+
+  #bg-carrossel1 .row > .desktoponly{
+    width: 0px;
+  }
+
+  #bg-carrossel1 .descricao-right p{
+    min-width: 30rem;
+  }
+  /* Alterações Maravilhas do lar */
 }
+
+/* Alterações Maravilhas do lar */
+@media(max-width: 768px){
+  .owl-carousel.carrossel-header .owl-nav {
+    top: 18.1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .owl-carousel.carrossel-header .owl-dots {
+    top: 8.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+/* Alterações Maravilhas do lar */
+
 @media (max-width: 600px) {
   .aceite-cookies {
     width: 85%;
     right: 1rem;
     bottom: 1rem;
   }
-
 
 }
