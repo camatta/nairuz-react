@@ -256,31 +256,57 @@ a:hover, a {
   z-index: 2;
 }
 
+/*Alteração Maravilhas*/
 #bg-carrossel1 {
+  background-image: url(/bg-maravilhas-home.webp);
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: top;
+}
+/*Alteração Maravilhas*/
+
+#bg-carrossel2 {
   background-image: url(/bg-bialetti-home2.webp);
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
 }
 
-/* #bg-carrossel3 {
-  background-image: url(/bg-maravilhas-home.webp);
-  background-size: cover;
-  background-position-x: right;
-  background-position-y: top;
-} */
-
-#bg-carrossel2 {
+#bg-carrossel3 {
   background-image: url('/bg-nairuz-home.webp');
   background-size: cover;
   background-position-x: right;
   background-position-y: top;
 }
 
+/*Alteração Maravilhas, navs e dots*/
 .owl-carousel.carrossel-header .owl-nav,
 .owl-carousel.carrossel-header .owl-dots {
-  display: none;
+  display: flex;
+  position: absolute;
+  top: 26rem;
+  left: 13rem;
+  filter: brightness(7.0);
 }
+
+.owl-carousel.carrossel-header .owl-dots{
+  position: absolute;
+  top: 13.5rem;
+  left: calc(13rem - 10px);
+}
+
+.owl-carousel.carrossel-header .owl-dots .owl-dot{
+  margin: 0 10px;
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.owl-carousel.carrossel-header .owl-dots .active{
+  background-color: aqua;
+}
+/*Alteração Maravilhas, navs e dots*/
 
 .menu ul {
   display: flex;
@@ -695,11 +721,11 @@ a:hover, a {
   line-height: 1.4;
 }
 
-#bg-carrossel2 .op-0 {
+#bg-carrossel3 .op-0 {
   opacity: 0;
 }
 
-#bg-carrossel2 .descricao-right {
+#bg-carrossel3 .descricao-right {
   bottom: 2rem;
   top: 0;
 }

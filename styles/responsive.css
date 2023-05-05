@@ -31,13 +31,30 @@
   /* Header */
 
   #bg-carrossel1,
-  #bg-carrossel2 {
+  #bg-carrossel2,
+  #bg-carrossel3 {
     background-image: url(/bg-header-mob.png);
     padding: 4rem 0 8rem 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 3rem;
   }
+
+  .owl-carousel.carrossel-header .owl-nav {
+    display: none;
+  }
+
+  .owl-carousel.carrossel-header {
+    background: transparent linear-gradient(0deg, #011177 0%, #011177 100%) 0% 0% no-repeat padding-box;
+    position: relative;
+  }
+
+  .owl-carousel.carrossel-header .owl-dots {
+    position: absolute;
+    top: 16.5rem;
+    left: 50%;
+    transform: translate(-50%);
+}
 
   .headermob {
     display: flex;
