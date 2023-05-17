@@ -64,7 +64,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </header>
 
   <div className='owl-carousel carrossel-header'>
-  <div className="container-fluid" id="bg-carrossel1">
+
+    <div className="container-fluid" id="bg-carrossel1">
       <div className="container">
         <div className="row" id="carrossel">
           <div className="col-12">
@@ -103,7 +104,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       </div>
                     </div>
                     <div className="descricao-right">
-                      <p className="desktoponly">O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente...</p>
+                      <p className="desktoponly">O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente ao seu consumidor almejado. Mas como isso foi possível? Conheça nossos Cases de Sucesso!</p>
                       <div className="button-right">
                         <button><a onClick={urlCases}>Saiba Mais</a></button>
                       </div>
@@ -226,6 +227,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
     </div>
+
   </div>
 </>
 );
