@@ -3,14 +3,6 @@ import Image from 'next/image';
 import Script from 'next/script'
 
 
-const urlHome = () => {
-  document.location.href = '/';
-}
-
-const urlQuemSomos = () => {
-  document.location.href = '/quem-somos';
-}
-
 const urlServicos = () => {
   document.location.href = '/servicos';
 }
@@ -19,9 +11,6 @@ const urlCases = () => {
   document.location.href = '/cases';
 }
 
-const urlVagas = () => {
-  document.location.href = '/vagas';
-}
 
 const Headerhome = () => (
   <>
@@ -37,18 +26,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div className="row d-flex align-items-center desktoponly">
           <div className="col-2">
             <div className="logo">
-              <Link href="/"><a href="#"><Image src="/novo-logo-header.svg" alt="Logo Nairuz" width={150} height={50} /></a></Link>
+              <a href="/"><Image src="/novo-logo-header.svg" alt="Logo Nairuz" width={150} height={50} /></a>
             </div>
           </div>
           <div className="col-8">
             <div className="menu">
               <nav>
                 <ul>
-                  <li className="ativo"><a onClick={urlHome}>Home</a></li>
-                  <li><a onClick={urlQuemSomos}>Quem Somos</a></li>
-                  <li><a onClick={urlServicos}>Serviços</a></li>
-                  <li><a onClick={urlCases}>Cases</a></li>
-                  <li><a onClick={urlVagas}>Funcionairuz</a></li>
+                  <li className="ativo"><a href="/">Home</a></li>
+                  <li><a href="/quem-somos">Quem Somos</a></li>
+                  <li><a href="/servicos">Serviços</a></li>
+                  <li><a href="/cases">Cases</a></li>
+                  <li><a href="/vagas">Funcionairuz</a></li>
                   <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
                 </ul>
               </nav>
@@ -73,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="row">
                 <div className="col-12 col-md-4">
                   <div className="left-carrossel">
-                    <p>Veja como a Maravilhas do Lar <b>aumentou sua receita em 44%</b> nos 6 primeiros meses de projeto!</p>
+                    <h1>Veja como a Maravilhas do Lar <b>aumentou sua receita em 44%</b> nos 6 primeiros meses de projeto!</h1>
                   </div>
                 </div>
                 <div className="col-3 desktoponly"></div>
@@ -106,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="descricao-right">
                       <p className="desktoponly">O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente ao seu consumidor almejado. Mas como isso foi possível? Conheça nossos Cases de Sucesso!</p>
                       <div className="button-right">
-                        <button><a onClick={urlCases}>Saiba Mais</a></button>
+                        <button><a href="/cases">Saiba Mais</a></button>
                       </div>
                     </div>
                   </div>
@@ -161,7 +150,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="descricao-right">
                       <p className="desktoponly">Para isso, a empresa então utilizou o marketing digital de uma maneira construtiva, na qual o seu sucesso aqui no Brasil foi garantido, aumentando suas vendas em diversos patamares. Mas como isso foi possível?</p>
                       <div className="button-right">
-                        <button><a onClick={urlCases}>Saiba Mais</a></button>
+                      <button><a href="/cases">Saiba Mais</a></button>
                       </div>
                     </div>
                   </div>
@@ -216,7 +205,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="descricao-right">
                       <p className="desktoponly">Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
                       <div className="button-right">
-                        <button><a onClick={urlServicos}>Saiba Mais</a></button>
+                      <button><a href="/servicos">Saiba Mais</a></button>
                       </div>
                     </div>
                   </div>

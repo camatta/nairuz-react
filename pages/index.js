@@ -88,7 +88,7 @@ export default function Home() {
                 <ul>
                   <li className="layout li-ativo">
                     <div className="left-li">
-                      <p className="title-servicos">Nossos <span>Serviços</span></p>
+                      <h2 className="title-servicos">Nossos <span>Serviços</span></h2>
                       <div className="imgs-servicos-mobile mobileonly">
                         <div className="carrossel-servicos-mobile">
                           <Image src="/servico-layout-mob.png" alt="Layout para e-commerce" width={280} height={255} loading="eager" />

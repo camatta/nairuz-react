@@ -702,13 +702,15 @@ a:hover, a {
   padding-bottom: 12rem;
 }
 
-.left-carrossel p {
+.left-carrossel p,
+.left-carrossel h1 {
   font-size: 1.4rem;
   color: #fff;
   line-height: 1.5;
 }
 
-.left-carrossel p b {
+.left-carrossel p b,
+.left-carrossel h1 b {
   color: #58DBAA;
   font-weight: 800;
 }
