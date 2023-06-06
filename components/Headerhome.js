@@ -3,6 +3,18 @@ import Image from 'next/image';
 import Script from 'next/script'
 
 
+const urlHome = () => {
+  document.location.href = '/';
+}
+
+const urlVagas = () => {
+  document.location.href = '/vagas';
+}
+
+const urlSobre = () => {
+  document.location.href = '/quem-somos';
+}
+
 const urlServicos = () => {
   document.location.href = '/servicos';
 }
@@ -33,11 +45,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div className="menu">
               <nav>
                 <ul>
-                  <li className="ativo"><a href="/">Home</a></li>
-                  <li><a href="/quem-somos">Quem Somos</a></li>
-                  <li><a href="/servicos">Serviços</a></li>
-                  <li><a href="/cases">Cases</a></li>
-                  <li><a href="/vagas">Funcionairuz</a></li>
+                  <li className="ativo"><button onClick={urlHome}>Home</button></li>
+                  <li><button onClick={urlSobre}>Quem Somos</button></li>
+                  <li><button onClick={urlServicos}>Serviços</button></li>
+                  <li><button onClick={urlCases}>Cases</button></li>
+                  <li><button onClick={urlVagas}>Funcionairuz</button></li>
                   <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
                 </ul>
               </nav>
@@ -95,7 +107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="descricao-right">
                       <p className="desktoponly">O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente ao seu consumidor almejado. Mas como isso foi possível? Conheça nossos Cases de Sucesso!</p>
                       <div className="button-right">
-                        <button><a href="/cases">Saiba Mais</a></button>
+                        <button onClick={urlCases}>Saiba Mais</button>
                       </div>
                     </div>
                   </div>
@@ -150,7 +162,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="descricao-right">
                       <p className="desktoponly">Para isso, a empresa então utilizou o marketing digital de uma maneira construtiva, na qual o seu sucesso aqui no Brasil foi garantido, aumentando suas vendas em diversos patamares. Mas como isso foi possível?</p>
                       <div className="button-right">
-                      <button><a href="/cases">Saiba Mais</a></button>
+                      <button onClick={urlCases}>Saiba Mais</button>
                       </div>
                     </div>
                   </div>
@@ -205,7 +217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div className="descricao-right">
                       <p className="desktoponly">Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
                       <div className="button-right">
-                      <button><a href="/servicos">Saiba Mais</a></button>
+                      <button onClick={urlServicos}>Saiba Mais</button>
                       </div>
                     </div>
                   </div>

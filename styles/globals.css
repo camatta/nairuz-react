@@ -320,7 +320,8 @@ a:hover, a {
   text-transform: uppercase;
 }
 
-.menu ul li a {
+.menu ul li a,
+.menu ul li button {
   margin: auto;
   color: #fff;
   text-transform: uppercase;
@@ -333,7 +334,7 @@ a:hover, a {
   cursor: pointer;
 }
 
-.page-home .menu ul li:nth-child(1) a,
+.page-home .menu ul li:nth-child(1) button,
 .page-quemsomos .menu ul li:nth-child(2) a,
 .page-servicos .menu ul li:nth-child(3) a,
 .page-cases .menu ul li:nth-child(4) a,
