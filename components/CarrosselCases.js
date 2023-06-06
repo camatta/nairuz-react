@@ -12,9 +12,9 @@ const CarrosselCases = () => (
                   </div>
                   <div className="infos-case">
                     <ul>
-                      <li><Image src="/cases/icon1-bialetti.svg" width={27} height={27} /> <p>+ de 14mil usuários mensais;</p></li>
-                      <li><Image src="/cases/icon2-bialetti.svg" width={27} height={27} /> <p>+ 800% de faturamento;</p></li>
-                      <li><Image src="/cases/icon3-bialetti.svg" width={27} height={27} /> <p>27% de vendas em busca orgânica.</p></li>
+                      <li><Image src="/cases/icon1-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>+ de 14mil usuários mensais;</p></li>
+                      <li><Image src="/cases/icon2-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>+ 800% de faturamento;</p></li>
+                      <li><Image src="/cases/icon3-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>27% de vendas em busca orgânica.</p></li>
                     </ul>
                   </div>
                 </div>
@@ -26,9 +26,9 @@ const CarrosselCases = () => (
                   </div>
                   <div className="infos-case">
                     <ul>
-                      <li><Image src="/cases/icon1-bialetti.svg" width={27} height={27} /> <p>+ de 60mil usuários mensais;</p></li>
-                      <li><Image src="/cases/icon3-bialetti.svg" width={27} height={27} /> <p>48% de vendas em busca orgânica;</p></li>
-                      <li><Image src="/cases/icon-arrow.svg" width={27} height={27} /> <p>+90% de taxa de conversão.</p></li>
+                      <li><Image src="/cases/icon1-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>+ de 60mil usuários mensais;</p></li>
+                      <li><Image src="/cases/icon3-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>48% de vendas em busca orgânica;</p></li>
+                      <li><Image src="/cases/icon-arrow.svg" alt="Icon Case" width={27} height={27} /> <p>+90% de taxa de conversão.</p></li>
                     </ul>
                   </div>
                 </div>
@@ -40,9 +40,9 @@ const CarrosselCases = () => (
                   </div>
                   <div className="infos-case">
                     <ul>
-                      <li><Image src="/cases/icon1-bialetti.svg" width={27} height={27} /> <p>+ 1300% de acesso orgânico;</p></li>
-                      <li><Image src="/cases/icon3-bialetti.svg" width={27} height={27} /> <p>+ 110% de aumento de venda orgânica;</p></li>
-                      <li><Image src="/cases/icon2-bialetti.svg" width={27} height={27} /> <p>+ 35% de aumento de vendas por Inbound.</p></li>
+                      <li><Image src="/cases/icon1-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>+ 1300% de acesso orgânico;</p></li>
+                      <li><Image src="/cases/icon3-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>+ 110% de aumento de venda orgânica;</p></li>
+                      <li><Image src="/cases/icon2-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>+ 35% de aumento de vendas por Inbound.</p></li>
                     </ul>
                   </div>
                 </div>
@@ -54,9 +54,9 @@ const CarrosselCases = () => (
                   </div>
                   <div className="infos-case">
                     <ul>
-                      <li><Image src="/cases/icon-arrow.svg" width={27} height={27} /> <p>+ 400% de taxa de conversão;</p></li>
-                      <li><Image src="/cases/icon2-bialetti.svg" width={27} height={27} /> <p>1500% de aumento no faturamento;</p></li>
-                      <li><Image src="/cases/icon3-bialetti.svg" width={27} height={27} /> <p>5000% de aumento vendas por mídias pagas.</p></li>
+                      <li><Image src="/cases/icon-arrow.svg" alt="Icon Case" width={27} height={27} /> <p>+ 400% de taxa de conversão;</p></li>
+                      <li><Image src="/cases/icon2-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>1500% de aumento no faturamento;</p></li>
+                      <li><Image src="/cases/icon3-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>5000% de aumento vendas por mídias pagas.</p></li>
                     </ul>
                   </div>
                 </div>
@@ -68,9 +68,9 @@ const CarrosselCases = () => (
                   </div>
                   <div className="infos-case">
                     <ul>
-                      <li><Image src="/cases/icon1-bialetti.svg" width={27} height={27} /> <p>+ de 60mil usuários mensais;</p></li>
-                      <li><Image src="/cases/icon3-bialetti.svg" width={27} height={27} /> <p>48% de vendas em busca orgânica;</p></li>
-                      <li><Image src="/cases/icon-arrow.svg" width={27} height={27} /> <p>+90% de taxa de conversão.</p></li>
+                      <li><Image src="/cases/icon1-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>+ de 60mil usuários mensais;</p></li>
+                      <li><Image src="/cases/icon3-bialetti.svg" alt="Icon Case" width={27} height={27} /> <p>48% de vendas em busca orgânica;</p></li>
+                      <li><Image src="/cases/icon-arrow.svg" alt="Icon Case" width={27} height={27} /> <p>+90% de taxa de conversão.</p></li>
                     </ul>
                   </div>
                 </div>

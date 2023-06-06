@@ -173,7 +173,7 @@ const Footergeral = () => (
     $(".owl-carousel.owl-default").owlCarousel({
       items: 3,
       nav: true,
-      navText: ["<img src='/arrow-left.svg'>","<img src='/arrow-right.svg'>"],
+      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control>"],
       responsiveClass:true,
       responsive:{
           0:{
@@ -198,7 +198,7 @@ const Footergeral = () => (
     $(".owl-carousel.carrossel-header").owlCarousel({
       items: 1,
       nav: true,
-      navText: ["<img src='/arrow-left.svg'>","<img src='/arrow-right.svg'>"],
+      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control>"],
     });
   });
   
