@@ -24,7 +24,7 @@ const ContatoPopup = () => (
             <div className="formRd-tema">
               <div role="main" id="formulario-contato-atualizado-ed22e1fdee9c4ddfcecd"></div>
             </div>
-            <div className="form-popup">
+            {/* <div className="form-popup">
                   <form>
                     <div className="linha-form">
                       <div className="form-nome">
@@ -60,7 +60,7 @@ const ContatoPopup = () => (
                       <input className="button-form-temas popup" type="submit" value="Entrar em contato" />
                     </div>
                   </form>
-                </div>
+                </div> */}
                 <div className="close-popup">
                   <button><Image src="/icon-close.svg" alt="Fechar" width={14} height={14} /></button>
                 </div>
