@@ -66,9 +66,9 @@ const Footergeral = () => (
       <div className="col-12 col-md-3">
         <div className="sitemap-footer mobcenter">
           <ul>
-            <li><a onClick={urlHome}>Home</a></li>
-            <li><a onClick={urlQuemSomos}>Quem Somos</a></li>
-            <li><a onClick={urlCases}>Cases</a></li>
+            <li><span onClick={urlHome}>Home</span></li>
+            <li><span onClick={urlQuemSomos}>Quem Somos</span></li>
+            <li><span onClick={urlCases}>Cases</span></li>
             <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
           </ul>
         </div>
@@ -76,21 +76,21 @@ const Footergeral = () => (
       <div className="col-12 col-md-3">
         <div className="servicos-footer mobcenter">
           <ul>
-            <li><a className="title-footer">Serviços</a></li>
-            <li><a onClick={urlServicos}>Layout para e-commerce</a></li>
-            <li><a onClick={urlServicos}>Websites</a></li>
-            <li><a onClick={urlServicos}>Mídias Pagas</a></li>
-            <li><a onClick={urlServicos}>Inbound Marketing</a></li>
-            <li><a onClick={urlServicos}>SEO</a></li>
+            <li><span className="title-footer">Serviços</span></li>
+            <li><span onClick={urlServicos}>Layout para e-commerce</span></li>
+            <li><span onClick={urlServicos}>Websites</span></li>
+            <li><span onClick={urlServicos}>Mídias Pagas</span></li>
+            <li><span onClick={urlServicos}>Inbound Marketing</span></li>
+            <li><span onClick={urlServicos}>SEO</span></li>
           </ul>
         </div>
       </div>
       <div className="col-12 col-md-3">
         <div className="funcionairuz-footer mobcenter">
           <ul>
-            <li><a className="title-footer" onClick={urlVagas}>Funcionairuz</a></li>
-            <li><a onClick={urlVagas}>Nosso Time</a></li>
-            <li><a onClick={urlVagas}>Vagas</a></li>
+            <li><span className="title-footer" onClick={urlVagas}>Funcionairuz</span></li>
+            <li><span onClick={urlVagas}>Nosso Time</span></li>
+            <li><span onClick={urlVagas}>Vagas</span></li>
           </ul>
         </div>
       </div>

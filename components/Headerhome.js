@@ -38,7 +38,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div className="row d-flex align-items-center desktoponly">
           <div className="col-2">
             <div className="logo">
-              <a onClick={urlHome}><Image src="/novo-logo-header.svg" alt="Logo Nairuz" width={150} height={50} /></a>
+              <div onClick={urlHome}><Image src="/novo-logo-header.svg" alt="Logo Nairuz" width={150} height={50} /></div>
             </div>
           </div>
           <div className="col-8">

@@ -443,12 +443,16 @@ a:hover, a {
   margin-right: 0.5rem;
 }
 
-.sitemap-footer a {
+.sitemap-footer a,
+.sitemap-footer span {
   color: #fff;
   letter-spacing: 2.2px;
   line-height: 1.9;
   font-size: 0.8rem;
   text-transform: uppercase;
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
 }
 
 .footer-infos a:not([href]):not([class]) {
@@ -456,20 +460,20 @@ a:hover, a {
   cursor: pointer;
 }
 
-.page-home .sitemap-footer ul li:nth-child(1) a,
-.page-quemsomos .sitemap-footer ul li:nth-child(2) a,
-.page-cases .sitemap-footer ul li:nth-child(3) a {
+.page-home .sitemap-footer ul li:nth-child(1) span,
+.page-quemsomos .sitemap-footer ul li:nth-child(2) span,
+.page-cases .sitemap-footer ul li:nth-child(3) span {
   font-weight: 800;
   color: #68FC9C;
 }
 
-.servicos-footer a {
+.servicos-footer span {
   color: #fff;
   line-height: 1.9;
   font-size: 0.8rem;
 }
 
-.funcionairuz-footer a {
+.funcionairuz-footer span {
   color: #fff;
   line-height: 1.9;
   font-size: 0.8rem;
@@ -494,6 +498,7 @@ a:hover, a {
 }
 
 .footer-infos a:hover,
+.footer-infos span:hover,
 .footer-infos a:not([href]):not([class]):hover {
   color: #ed02bc;
   cursor: pointer;
