@@ -220,32 +220,32 @@ export default function Home() {
             <div className="col-12 col-md-8">
               <div className="logos-clientes ps-5">
                 <ul className="d-flex align-items-center row1-logos mb-5">
-                  <li><Image src="/clientes/bialetti.png" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/gaggia.png" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/imeltron.png" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/lvstore.png" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/maquiadoro.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/bialetti.png" alt="BialettiShop" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/gaggia.png" alt="Gaggia" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/imeltron.png" alt="Imeltron" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/lvstore.png" alt="LV Store" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/maquiadoro.png" alt="Maquiadoro" width={116} height={55} loading="eager" /></li>
                 </ul>
                 <ul className="d-flex align-items-center row2-logos mb-5">
-                  <li><Image src="/clientes/samsung.png" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/docol.svg" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/pedigree.png" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/minassal.png" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/cybelar.png" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/samsung.png" alt="Samsung CTDI" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/docol.svg" alt="Docol" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/pedigree.png" alt="Pedigree" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/minassal.png" alt="Minassal" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/cybelar.png" alt="Cybelar" width={116} height={55} loading="eager" /></li>
                 </ul>
                 <ul className="d-flex align-items-center row3-logos mb-5">
-                  <li><Image src="/clientes/gptw.svg" width={116} height={55} /></li>
-                  <li><Image src="/clientes/grupo-card.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/azul.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/sempreviva.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/novamed.png" width={116} height={55} /></li>
+                  <li><Image src="/clientes/gptw.svg" alt="GPTW" width={116} height={55} /></li>
+                  <li><Image src="/clientes/grupo-card.png" alt="Grupo Card" width={116} height={55} /></li>
+                  <li><Image src="/clientes/azul.png" alt="Azul" width={116} height={55} /></li>
+                  <li><Image src="/clientes/sempreviva.png" alt="Sempre Viva" width={116} height={55} /></li>
+                  <li><Image src="/clientes/novamed.png" alt="Nova Medicamentos" width={116} height={55} /></li>
                 </ul>
                 <ul className="d-flex align-items-center row4-logos">
-                  <li><Image src="/clientes/rcrio.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/athletic.svg" width={116} height={55} /></li>
-                  <li><Image src="/clientes/udiaco.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/maravilhas.png" width={116} height={55} /></li>
-                  <li><Image src="/clientes/covabra.png" width={116} height={55} /></li>
+                  <li><Image src="/clientes/rcrio.png" alt="R-Crio" width={116} height={55} /></li>
+                  <li><Image src="/clientes/athletic.svg" alt="Athletic Store" width={116} height={55} /></li>
+                  <li><Image src="/clientes/udiaco.png" alt="Udiaço" width={116} height={55} /></li>
+                  <li><Image src="/clientes/maravilhas.png" alt="Maravilhas do Lar" width={116} height={55} /></li>
+                  <li><Image src="/clientes/covabra.png" alt="Covabra" width={116} height={55} /></li>
                 </ul>
               </div>
             </div>
