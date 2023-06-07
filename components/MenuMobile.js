@@ -29,11 +29,11 @@ const MenuMobile = () => (
       </div>
       <nav>
         <ul>
-          <li className="ativo"><a onClick={urlHome}>Home</a></li>
-          <li><a onClick={urlQuemSomos}>Quem Somos</a></li>
+          <li className="ativo"><button onClick={urlHome}>Home</button></li>
+          <li><button onClick={urlQuemSomos}>Quem Somos</button></li>
           <li><a onClick={urlServicos}>Serviços</a></li>
-          <li><a onClick={urlCases}>Cases</a></li>
-          <li><a onClick={urlVagas}>Funcionairuz</a></li>
+          <li><button onClick={urlCases}>Cases</button></li>
+          <li><button onClick={urlVagas}>Funcionairuz</button></li>
           <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
         </ul>
       </nav>

@@ -139,11 +139,15 @@
     margin-bottom: 1.5rem;
   }
 
-  .nav-mob ul li a {
+  .nav-mob ul li a,
+  .nav-mob ul li button {
     color: #fff !important;
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 3.36px;
+    background-color: unset;
+    border: unset;
+    padding-left: 0;
   }
 
   .contato.btn-mobile {

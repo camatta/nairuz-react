@@ -100,7 +100,7 @@ export default function Home() {
                       Como oferecer a melhor experiência para os clientes que entram em sua loja online? Um layout para e-commerce original traz diversos benefícios para o seu negócio, já que a credibilidade da sua marca depende de um visual que passe confiança. Os projetos da Nairuz não só ganham destaque no mercado por conta da sua originalidade, como também são pensados especialmente para a persona da sua marca. Afinal, a experiência deles dentro do seu site é um dos grandes fatores que influencia a venda.
                       </p>
                       <div className="buttons-servicos">
-                        <a onClick={urlServicos}><button id="detalhes-servicos">Ver Detalhes</button></a>
+                        <span onClick={urlServicos}><button id="detalhes-servicos">Ver Detalhes</button></span>
                         <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
@@ -264,7 +264,7 @@ export default function Home() {
                   <p>Através de estratégias personalizadas, atingimos números e objetivos acima do esperado, listamos abaixo alguns de nossos cases de sucesso. Que tal ser o próximo?</p>
                 </div>
                 <div className="buttons-cases">
-                  <a onClick={urlCases} className="ver-cases">Ver Cases</a>
+                  <button onClick={urlCases} className="ver-cases">Ver Cases</button>
                   <button className="ser-case open-popup-contato">Quero ser um case de sucesso</button>
                 </div>
               </div>
