@@ -149,6 +149,24 @@ const Footergeral = () => (
     new RDStationForms('formulario-contato-atualizado-ed22e1fdee9c4ddfcecd', 'UA-48773259-1').createForm();
   }
 
+  if(jQuery('#content-instagram').length){
+    jQuery(function() {
+      jQuery.getJSON('https://api-instagram-nairuz-v2-gdy2gs33ua-uc.a.run.app/recuperarListaImagens?cliente=nairuzMaio', function(insta) {
+        jQuery.each(insta, function(photos, src) {
+          if (photos === 8) {
+            return false;
+          }
+          console.log(src)
+          jQuery('<a href="' + src.link + '" aria-label="Post Instagram" class="post item" target="_blank">' +
+            '<div class="image" style="background-image:url(' + src.urlImagem+ ');"></div>' +
+            '<ul>' +
+            '<li><i id="twitterinsstagram" class="fa fa-instagram" onclick="socialShareWindow(&quot;https://twitter.com/intent/tweet?url=' + src.urlImagem + '&amp;screen_name=Consectetuer eget Consectetuer eget eget Consectetuer eget eget&amp;text=' + src.link + '&quot;)"></i></li>' +
+            '</ul></a>').appendTo('.instagram-feed');
+        });
+      });
+    });
+  }
+
 
   // Carrossel geral
   $(document).ready(function(){
