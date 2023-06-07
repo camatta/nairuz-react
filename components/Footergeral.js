@@ -157,7 +157,7 @@ const Footergeral = () => (
             return false;
           }
           console.log(src)
-          jQuery('<a href="' + src.link + '" class="post item" target="_blank">' +
+          jQuery('<a href="' + src.link + '" aria-label="Post Instagram" class="post item" target="_blank">' +
             '<div class="image" style="background-image:url(' + src.urlImagem+ ');"></div>' +
             '<ul>' +
             '<li><i id="twitterinsstagram" class="fa fa-instagram" onclick="socialShareWindow(&quot;https://twitter.com/intent/tweet?url=' + src.urlImagem + '&amp;screen_name=Consectetuer eget Consectetuer eget eget Consectetuer eget eget&amp;text=' + src.link + '&quot;)"></i></li>' +
