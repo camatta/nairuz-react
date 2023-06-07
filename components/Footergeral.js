@@ -173,7 +173,7 @@ const Footergeral = () => (
     $(".owl-carousel.owl-default").owlCarousel({
       items: 3,
       nav: true,
-      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control>"],
+      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control'>"],
       responsiveClass:true,
       responsive:{
           0:{
@@ -198,7 +198,7 @@ const Footergeral = () => (
     $(".owl-carousel.carrossel-header").owlCarousel({
       items: 1,
       nav: true,
-      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control>"],
+      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control'>"],
     });
   });
   
@@ -418,14 +418,6 @@ const Footergeral = () => (
     
     btnCookies.addEventListener('click', aceiteCookies);
 
-
-     ;(function() {
-      var script = document.createElement('script');
-       script.id = '7a4b2d66-bf3e-4e13-8b5d-ed4fe6e475af';
-       script.type = 'module';
-       script.src = 'https://pageimprove.io';
-       document.head.appendChild(script);
-       })()
 
   `
   
