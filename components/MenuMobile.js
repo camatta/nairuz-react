@@ -31,7 +31,7 @@ const MenuMobile = () => (
         <ul>
           <li className="ativo"><button onClick={urlHome}>Home</button></li>
           <li><button onClick={urlQuemSomos}>Quem Somos</button></li>
-          <li><a onClick={urlServicos}>Serviços</a></li>
+          <li><button onClick={urlServicos}>Serviços</button></li>
           <li><button onClick={urlCases}>Cases</button></li>
           <li><button onClick={urlVagas}>Funcionairuz</button></li>
           <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
