@@ -73,8 +73,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div className="carrossel-principal">
               <div className="row">
                 <div className="col-12 col-md-4">
+                  <div className="left-carrossel topo-h1">
+                    <h1>Somos uma <strong>agência de marketing digital e tecnologia!</strong></h1>
+                  </div>
                   <div className="left-carrossel">
-                    <h1>Veja como a Maravilhas do Lar <b>aumentou sua receita em 44%</b> nos 6 primeiros meses de projeto!</h1>
+                    <p>Veja como a Maravilhas do Lar <b>aumentou sua receita em 44%</b> nos 6 primeiros meses de projeto!</p>
                   </div>
                 </div>
                 <div className="col-3 desktoponly"></div>

@@ -109,6 +109,15 @@
     bottom: 0;
   }
 
+  .left-carrossel.topo-h1 {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .left-carrossel h1 {
+    text-align: center;
+  }
+
   .descricao-right {
     position: relative;
     top: 0;
