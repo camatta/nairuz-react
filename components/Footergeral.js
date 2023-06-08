@@ -156,9 +156,8 @@ const Footergeral = () => (
           if (photos === 8) {
             return false;
           }
-          console.log(src)
           jQuery('<a href="' + src.link + '" aria-label="Post Instagram" class="post item" target="_blank">' +
-          '<img src="' + src.urlImagem + '"</>' + '</a>').appendTo('.instagram-feed');
+          '<img src="' + src.urlImagem + '" alt="Post Instagram" class="image" width="191px"</>' + '</a>').appendTo('.instagram-feed');
         });
       });
     });
