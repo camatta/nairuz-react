@@ -41,7 +41,7 @@ const MenuMobile = () => (
         <button className="btn-contato open-popup-contato">Entrar em contato</button>
       </div>
       <div className="logo-menu-mobile">
-        <a onClick={urlHome}><Image src="/logo-header.svg" alt="Logo Nairuz" width={150} height={28}/></a>
+        <div onClick={urlHome}><Image src="/logo-header.svg" alt="Logo Nairuz" width={150} height={28}/></div>
       </div>
     </div>
   </div>
