@@ -1083,6 +1083,8 @@ a:hover, a {
   background-image: url('/nairuz-circle.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
 }
 
 .title-clientes p {
