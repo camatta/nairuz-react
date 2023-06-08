@@ -185,7 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="row">
                 <div className="col-12 col-md-4">
                   <div className="left-carrossel">
-                    <p>Somos uma empresa de marketing e tecnologia apaixonada por fazer <b>você crescer!</b></p>
+                    <p>Uma empresa de marketing digital e tecnologia <b>focada em resultados</b>. E reconhecida como uma das maiores agência do Brasil. </p>
                   </div>
                 </div>
                 <div className="col-3 desktoponly">
