@@ -1367,12 +1367,14 @@ a:hover, a {
   border-top-right-radius: 1rem;
 }
 
-.title-post h6,
-.title-rico h6 {
+#blog-materiais .title-post h5,
+#blog-materiais .title-rico h5 {
   font-weight: 600;
   margin-bottom: 1rem;
   font-size: 0.85rem;
   letter-spacing: 1.2px;
+  text-transform: unset;
+  color: #fff;
 }
 
 .title-rico h6 {

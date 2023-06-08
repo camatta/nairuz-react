@@ -433,7 +433,7 @@ export default function Home() {
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h6>CAMPANHAS SAZONAIS: ENTENDA A IMPORTÂNCIA DESSA...</h6>
+                        <h5>CAMPANHAS SAZONAIS: ENTENDA A IMPORTÂNCIA DESSA...</h5>
                       </div>
                       <div className="content-post">
                         <p>Quem trabalha com marketing, ou mesmo na área de vendas e planejamentos, já sabe...</p>
@@ -455,7 +455,7 @@ export default function Home() {
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h6>HELP SUPORTE NAIRUZ: CONHEÇA NOSSA SOLUÇÃO PARA O SEU...</h6>
+                        <h5>HELP SUPORTE NAIRUZ: CONHEÇA NOSSA SOLUÇÃO PARA O SEU...</h5>
                       </div>
                       <div className="content-post">
                         <p>Assim como muitos donos de e-commerce, você deve estar em busca de uma forma...</p>
@@ -488,7 +488,7 @@ export default function Home() {
                 <div className="cards-ricos">
                   <div className="post-rico">
                     <div className="title-rico">
-                      <h6>UX Design: qual a importância para seu e-commerce</h6>
+                      <h5>UX Design: qual a importância para seu e-commerce</h5>
                     </div>
                     <div className="content-rico">
                       <p>Com o passar dos anos, a evolução da tecnologia e da rotina das pessoas fez com que as vendas online crescessem cada vez mais Assim, a maior competitividade também faz com que…</p>
@@ -505,7 +505,7 @@ export default function Home() {
                   </div>
                   <div className="post-rico">
                     <div className="title-rico">
-                      <h6>Nova identidade: conheça mais sobre o layout para o site da Infocards!</h6>
+                      <h5>Nova identidade: conheça mais sobre o layout para o site da Infocards!</h5>
                     </div>
                     <div className="content-rico">
                       <p>Há mais de 20 anos, a Infocards vem atuando na área de gestão de cartões de crédito private label – cartões de loja. Dessa forma, tornando possível as compras de muitos brasileiros.</p>
