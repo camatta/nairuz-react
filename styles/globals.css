@@ -378,6 +378,10 @@ a:hover, a {
   overflow: hidden;
 }
 
+#content-instagram  a img {
+  width: 100%;
+}
+
 #content-instagram .post .image {
   position: absolute;
   top: 0;
