@@ -3610,7 +3610,7 @@ section#work .work-box .bodyContainer button{
   margin-bottom: 0.5rem;
 }
 
-.aceite-cookies p a {
+.aceite-cookies p span {
   font-weight: 500;
   cursor: pointer;
 }

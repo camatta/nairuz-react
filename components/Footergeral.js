@@ -133,7 +133,7 @@ const Footergeral = () => (
     <a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer"><p>Quer ser nosso próximo sucesso? <b>Fale com a gente!</b></p><Image src="/icon-wpp.svg" alt="WhatsApp Nairuz" width={26} height={20}/></a>
   </div>
   <div className="aceite-cookies hide">
-    <p>Utilizamos cookies para oferecer a melhor experiência de navegação, de acordo com a nossa <a onClick={urlPoliticas}>Política de Privacidade</a>. Ao continuar navegando, você concorda com estas condições.</p>
+    <p>Utilizamos cookies para oferecer a melhor experiência de navegação, de acordo com a nossa <span onClick={urlPoliticas}>Política de Privacidade</span>. Ao continuar navegando, você concorda com estas condições.</p>
     <button className="btn-aceite-cookies">Aceitar</button>
   </div>
   <ContatoPopup />
