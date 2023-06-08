@@ -119,7 +119,7 @@ export default function NovaMedicamentos2() {
                 <div className="icon-card-seo">
                   <Image src="/covabra/icon-seo.png" width={80} height={80} alt="Supermercados Covabra" />
                 </div>
-                <p>Já o tráfego pago consiste na aquisição dos usuários por meio de mídias digitais, desde investimentos em anúncios em mídias sociais, portais e aplicativos, até os mecanismos de busca mais populares. Todos os anúncios são exibidos àqueles que pesquisam resultados de busca relacionados às palavras-chave "adquiridas". Por isso, ter um planejamento bem definido de palavras-chave relevantes para o seu negócio ou produto é tão importante! </p>
+                <p>Já o tráfego pago consiste na aquisição dos usuários por meio de mídias digitais, desde investimentos em anúncios em mídias sociais, portais e aplicativos, até os mecanismos de busca mais populares. Todos os anúncios são exibidos àqueles que pesquisam resultados de busca relacionados às palavras-chave adquiridas. Por isso, ter um planejamento bem definido de palavras-chave relevantes para o seu negócio ou produto é tão importante! </p>
                 <p>Ambas as estratégias são muito eficientes na geração de resultados, mas enquanto os anúncios são imediatos, o ranqueamento das palavras-chave de forma orgânica podem levar um tempo um pouco maior. Qual é a diferença? Os anúncios demandam investimento financeiro, mas as palavras ranqueadas organicamente não geram custos de aquisição.</p>
               </div>
             </div>
