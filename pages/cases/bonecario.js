@@ -122,7 +122,7 @@ export default function NovaMedicamentos2() {
             <div className="col-12 col-md-6">
               <div className="text-estudo-case">
                 <p>O <span>Bonecário</span> nasceu do sonho de duas mulheres que buscam a preservação da cultura das bonecas de panos. Atualmente é bem difícil encontrar crianças que conheçam ou que queiram uma boneca feita de pano, mas quem não vai querer uma boneca que se parece com você?</p>
-                <p>Pensando na <span>inclusão e na representatividade</span> na forma de brincadeiras, o Bonecário é uma marca, assim como a Nairuz, feita à mão. As duas sócias, Elis e Lalenia, desejam "emocionar pelas mãos, incluir pelo representar, transformar pelo brincar e fazer feliz a criança em cada um", mesmo que você não seja mais uma!</p>
+                <p>Pensando na <span>inclusão e na representatividade</span> na forma de brincadeiras, o Bonecário é uma marca, assim como a Nairuz, feita à mão. As duas sócias, Elis e Lalenia, desejam emocionar pelas mãos, incluir pelo representar, transformar pelo brincar e fazer feliz a criança em cada um, mesmo que você não seja mais uma!</p>
               </div>
               <div className="button-resultado-cta">
                   <a href="#form-case-nova">QUERO SOLICITAR UM ORÇAMENTO</a>
