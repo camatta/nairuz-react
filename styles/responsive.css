@@ -1660,6 +1660,57 @@
   line-height: 1.4;
 }
 
+.page-case-novamed .text-estudo-case.case-covabra {
+  padding-left: 0;
+}
+
+.page-case-novamed.case-covabra .title-trafego-organico h3 {
+  margin-bottom: 70px;
+}
+
+.case-covabra .text-seo-trafego {
+  height: auto;
+  margin-bottom: 70px;
+}
+
+.case-covabra .text-seo-trafego {
+  padding: 70px 30px 40px; 
+}
+
+.page-case-novamed .title-numeros-nova.case-covabra h4 {
+  width: 100%;
+}
+
+.page-case-novamed.case-covabra .text-resultado-destaque p {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+#after-case-covabra .img-estudo-case::before {
+  display: none;
+}
+
+.page-case-novamed.case-covabra .button-resultado-cta a {
+  padding: 14px 35px;
+}
+
+.page-case-novamed .title-resultado-cta.case-covabra h2 {
+  width: 100%; 
+}
+
+.page-case-novamed.case-covabra #new-case-top .title-case h1 {
+  width: 100%;
+}
+
+.page-case-novamed .title-numeros-nova.case-covabra h4 {
+  width: 100%;
+  text-align: left;
+}
+
+#after-case-covabra .img-estudo-case {
+  margin-right: 0;
+}
+
 }
 
 @media (min-width: 1650px) {
