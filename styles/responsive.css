@@ -1711,6 +1711,37 @@
   margin-right: 0;
 }
 
+.page-case-novamed #new-video-case .text-video-case.case-bonecario {
+  width: 100%;
+}
+
+#estudo-bonecario .text-estudo-case, #estudo-bonecario .button-resultado-cta {
+  padding-left: 0;
+  text-align: left;
+}
+
+#estudo-bonecario .button-resultado-cta a {
+  padding: 14px 20px;
+}
+
+.text-video-case.case-bonecario {
+  width: 100%; 
+}
+
+.target-bonecario-wrapper {
+  position: absolute;
+  left: -22px;
+  background-color: #6316C9;
+  border-radius: 3px;
+  display: flex;
+  padding: 8px;
+  bottom: 31px;
+}
+
+.title-seja-um-case h4 {
+  width: 100%;
+}
+
 }
 
 @media (min-width: 1650px) {

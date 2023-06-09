@@ -161,7 +161,7 @@ export default function NovaMedicamentos2() {
           <div className="row mb-5">
             <div className="col-12">
               <div className="formRd-tema case-covabra">
-                <div role="main" id="pagina-de-case-covabra-08044671e4a6652a6bde"></div>
+                <div role="main" id="formulario-case-covabra-9f569fed60a504ff45ae"></div>
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function NovaMedicamentos2() {
         <Script id="show-bannerx" strategy="lazyOnload">
         {`
           if (window.RDStationForms) {
-            new RDStationForms('pagina-de-case-covabra-08044671e4a6652a6bde', 'UA-48773259-1').createForm();
+            new RDStationForms('formulario-case-covabra-9f569fed60a504ff45ae', 'UA-48773259-1').createForm();
           }
 
         `

@@ -3179,6 +3179,110 @@ a:hover, a {
   color: #6316C9;
 }
 
+.page-case-novamed #new-video-case .text-video-case p {
+  margin-bottom: 20px;
+}
+
+.page-case-novamed #new-video-case .text-video-case.case-bonecario {
+  width: 75%;
+}
+
+#desafio-bonecario .case-bonecario .text-video-case-destaque {
+  background-color: #F1F1F1;
+  padding: 20px;
+  position: relative;
+  font-size: 20px !important;
+}
+
+.case-bonecario .text-video-case-destaque span {
+  font-weight: 700;
+}
+
+.title-seja-um-case h4 {
+  color: #2D2D2D;
+    line-height: 1.6;
+    font-size: 20px;
+    letter-spacing: 0;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 50%;
+}
+
+.title-seja-um-case h4 span {
+  font-weight: 700;
+}
+
+.page-case-novamed .text-trafego-organico.case-bonecario p {
+  margin-bottom: 20px;
+}
+
+.page-case-novamed .text-trafego-organico.case-bonecario p span {
+  font-weight: 700;
+  color: #6316C9;
+}
+
+.page-case-novamed .text-trafego-organico.case-bonecario {
+  margin-bottom: 60px;
+}
+
+.page-case-novamed .title-numeros-nova.case-bonecario h4 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.banner-parceria-linx {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.text-numeros-nova.case-bonecario {
+  margin-bottom: 60px;
+}
+
+#estudo-bonecario {
+  align-items: center;
+}
+
+#estudo-bonecario .text-estudo-case,
+#estudo-bonecario .button-resultado-cta {
+  padding-left: 15px;
+  text-align: left;
+}
+
+#estudo-bonecario  .button-resultado-cta a {
+  padding: 14px 80px;
+}
+
+.text-video-case.case-bonecario {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+}
+
+.text-video-case.case-bonecario p {
+  color: #2D2D2D;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.target-bonecario-wrapper {
+  position: absolute;
+  left: -22px;
+  background-color: #6316C9;
+  border-radius: 3px;
+  display: flex;
+  padding: 8px;
+  bottom: 7px;
+}
+
 /* Página Vagas */
 
 #vagas {
