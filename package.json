@@ -2,6 +2,7 @@
   "name": "nairuz22",
   "scripts": {
     "dev": "next dev",
+    "type": "module",
     "build": "next build",
     "start": "next start -p 8080",
     "lint": "next lint",
