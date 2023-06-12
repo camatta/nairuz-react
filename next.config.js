@@ -3,6 +3,15 @@
 module.exports = {
   reactStrictMode: true,
 
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.cdninstagram.com',
+      },
+    ],
+  },
+
   async redirects() {
     return [
       {
