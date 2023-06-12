@@ -1,6 +1,4 @@
 module.exports = {
-  siteUrl: 'https://nairuz.com.br',
-  generateRobotsTxt: true, 
-  priority: null,
-  changefreq: null,
+  siteUrl: process.env.SITE_URL || 'https://nairuz.com.br',
+  generateRobotsTxt: true,
 }
