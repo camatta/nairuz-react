@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Script from 'next/script';
 import ContatoPopup from './ContatoPopup';
+import  FeedInstagram  from './FeedInstagram';
 
 
 const urlHome = () => {
@@ -32,18 +33,7 @@ const urlPoliticas = () => {
 const Footergeral = () => (
   <>
   <footer className="container-fluid" id="footer">
-  <div className="instagram-feed" id="content-instagram">
-    <ul className="insta d-flex justify-content-center">
-      <li><a href="https://www.instagram.com/p/ConCrwhLL3z/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-1.cdninstagram.com/v/t51.2885-15/352853324_1057414935242719_3293634780596899085_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=vj9z4an7pdQAX87avNK&_nc_ht=scontent-cdg4-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfBBPIjvDIZL2RZKkuQ05FE9q9LtMVxc_Rotw51BGmDEHg&oe=648D18CA" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CoetijSjQPw/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-2.cdninstagram.com/v/t51.2885-15/352393914_304600188563538_3486991451680591254_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=LZ5McCSp91MAX-URKL1&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfASawGUfK-3KkOnHkKldl_-4IY8JPV-pTPnGlbAzHxGvg&oe=648D2893" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CoVCTjSswOM/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-1.cdninstagram.com/v/t51.2885-15/350241817_553213866762748_1809276665964912088_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=vkma0mSfHCgAX9rdzj_&_nc_ht=scontent-cdg4-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfC3Yt_JiCMoNyQZ_mLcX25GL0wjcKXRMEpLaYoDLWLAhw&oe=648D0BCD" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CoK-fmYOQmW/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-2.cdninstagram.com/v/t51.2885-15/350085014_2563850483763683_6434874354805815369_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=BTBQ6W_tVswAX9C7KCO&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfBqB1qgVoeHv7s9-ztdPfN6VmnejezW5ZjRQ6KYmLmbrA&oe=648CD3CE" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CoHicngtrje/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-2.cdninstagram.com/v/t51.2885-15/349062772_2600470690119954_4820086590879830186_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=X5kzfDzdfuwAX-TXi2l&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfAQErylN-ouyIFWF5rZs8oPI3CeUMQIChwfmdxCpUfonQ&oe=648B6C0B" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CoFmqe8udVX/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-2.cdninstagram.com/v/t51.2885-15/348493410_182226021452285_5072880201397389971_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=KnIbjuwf8O8AX_s1lbY&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfCDNTsWnpV-KaCdyB6wktDgVDkJjhNTQkyGT1963C4Q-A&oe=648B9B25" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CoDPCGfvDOc/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-3.cdninstagram.com/v/t51.2885-15/348259636_2738329659643054_3064720650490439234_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=pyK5z8Jcbm0AX9Pv9M_&_nc_ht=scontent-cdg4-3.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfByhAsYkJinxoOldzMzebWxZ3DejxZJY6IdJMoqc0S5_g&oe=648B982B" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-      <li><a href="https://www.instagram.com/p/CoCYvJLpiUq/" target="_blank" rel="noopener noreferrer"><Image src="https://scontent-cdg4-1.cdninstagram.com/v/t51.2885-15/347191288_263791906210728_2673894433491396966_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=-RXOIjy--ZIAX9lrB_f&_nc_ht=scontent-cdg4-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfAZcqU_RrxsFzj5aSijinbuQyco0P9PJkT9L9CrFBR6tg&oe=648BB52E" alt="Instagram Nairuz" width={350} height={350} /></a></li>
-    </ul>
-  </div>
+  <FeedInstagram />
   <div className="container">
     <div className="row">
       <div className="col-12">

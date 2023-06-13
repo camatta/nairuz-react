@@ -419,7 +419,6 @@ a:hover, a {
   width: 100%;
   flex-flow: row wrap;
   justify-content: center;
-  height: 190px;
   overflow: hidden;
 }
 
