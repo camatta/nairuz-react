@@ -81,7 +81,7 @@ export default function Home() {
                       <h2 className="title-servicos">Nossos <span>Serviços</span></h2>
                       <div className="imgs-servicos-mobile mobileonly">
                         <div className="carrossel-servicos-mobile">
-                          <Image src="/servico-layout-mob.png" alt="Layout para e-commerce" width={280} height={255} loading="eager" />
+                          <Image src="/servico-layout-mob.png" alt="Layout para e-commerce" width={280} height={255} loading="lazy" />
                           <p>Layout para e-commerce</p>
                         </div>
                       </div>
