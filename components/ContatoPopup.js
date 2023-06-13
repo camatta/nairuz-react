@@ -8,7 +8,7 @@ const ContatoPopup = () => (
         <div className="col-12 col-md-5">
           <div className="left-popup">
             <div className="logo-popup">
-              <Image src="/logo-popup.png" alt="Nairuz Logo" width={324} height={153} loading="eager" />
+              <Image src="/logo-popup.png" alt="Nairuz Logo" width={324} height={153} loading="lazy" />
             </div>
             <div className="title-popup">
               <p>Transforme sua empresa em um <br></br><span>Case de sucesso!</span></p>
@@ -62,7 +62,7 @@ const ContatoPopup = () => (
                   </form>
                 </div> */}
                 <div className="close-popup">
-                  <button><Image src="/icon-close.svg" alt="Fechar" width={14} height={14} /></button>
+                  <button><Image src="/icon-close.svg" alt="Fechar" width={14} height={14} loading="lazy" /></button>
                 </div>
           </div>
         </div>
