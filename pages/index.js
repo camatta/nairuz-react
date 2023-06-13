@@ -103,8 +103,8 @@ export default function Home() {
                         Desenvolvemos web sites, one pages, landing pages, implementação e desenvolvimento de layout para e-commerce. Somos apaixonados por usabilidade e nossos projetos são todos personalizados, pautados nas boas práticas de User Interface - UI e User Experience - UX com foco nos resultados. Além disso, trabalhamos com as mais recentes tecnologias do mercado.
                       </p>
                       <div className="buttons-servicos">
-                        <span onClick={urlServicosWebsites}><button id="detalhes-servicos">Ver Detalhes</button></span>
-                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
+                        <span onClick={urlServicosWebsites}><button id="detalhes-servicos-website">Ver Detalhes</button></span>
+                        <button id="contratar-servicos-website" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -116,8 +116,8 @@ export default function Home() {
                       As mídias pagas são as formas de comunicação entre a sua marca e os seus clientes onde ocorre um investimento financeiro para o alcance das metas. Através de estratégias organizadas pelo nosso time de analistas, os seus anúncios trazem os resultados que você almeja, seja mais engajamento com os seus conteúdos, mais seguidores , oportunidades e, finalmente, mais conversões.
                       </p>
                       <div className="buttons-servicos">
-                        <span onClick={urlServicosMidias}><button id="detalhes-servicos">Ver Detalhes</button></span>
-                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
+                        <span onClick={urlServicosMidias}><button id="detalhes-servicos-midias">Ver Detalhes</button></span>
+                        <button id="contratar-servicos-midias" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -129,8 +129,8 @@ export default function Home() {
                         O Inbound Marketing, também conhecido como Marketing de Atração, é uma metodologia de marketing digital totalmente focada na conversão dos visitantes do seu negócio em clientes ativos, conduzindo-os pela jornada de compra de forma automatizada.
                       </p>
                       <div className="buttons-servicos">
-                        <span onClick={urlServicosInbound}><button id="detalhes-servicos">Ver Detalhes</button></span>
-                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
+                        <span onClick={urlServicosInbound}><button id="detalhes-servicos-inbound">Ver Detalhes</button></span>
+                        <button id="contratar-servicos-inbound" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
@@ -142,8 +142,8 @@ export default function Home() {
                         Nossa equipe irá fazer análises de seu site, de concorrentes e palavras-chave. Assim, através de otimizações, produção de conteúdos relevantes e link building, seu site apresentará crescimento organicamente.
                       </p>
                       <div className="buttons-servicos">
-                        <span onClick={urlServicosSeo}><button id="detalhes-servicos">Ver Detalhes</button></span>
-                        <button id="contratar-servicos" className="open-popup-contato">Quero Contratar!</button>
+                        <span onClick={urlServicosSeo}><button id="detalhes-servicos-seo">Ver Detalhes</button></span>
+                        <button id="contratar-servicos-seo" className="open-popup-contato">Quero Contratar!</button>
                       </div>
                     </div>
                   </li>
