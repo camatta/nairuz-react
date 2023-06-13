@@ -344,18 +344,6 @@ const Footergeral = () => (
 
 
 
-    if($('.overlay-loading').length){
-      setTimeout(function() { 
-        $('body').addClass('loaded');
-    }, 125);
-      setTimeout(function() { 
-        $('body').addClass('out');
-    }, 250);
-    } else {
-      $('body').addClass('loaded');
-    }
-
-
     $('#vaga1').click(function(){
       $('#vagas-popup .title-popup span').text('INBOUND MARKETING');
       $('#vagas-popup .descricao p').text('Apoiar no planejamento e execução das ações estratégicas; Desenvolvimento dos fluxos de nutrição das etapas que compreendem um funil de vendas e fluxos de automação; Administração da ferramenta RD Station.');

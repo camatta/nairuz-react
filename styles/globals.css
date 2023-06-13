@@ -73,10 +73,10 @@ p, span, li, button, a, input, label {
   border: 3px solid #362aa4;
 }
 
-body {
+/* body {
   height: 100vh;
   overflow: hidden;
-}
+} */
 
 @keyframes fadein {
   from {
@@ -215,7 +215,7 @@ body {
   }
 }
 
-body.loaded {
+/* body.loaded {
   height: auto;
   overflow-y: visible;
 }
@@ -226,7 +226,7 @@ body.loaded .overlay-loading  {
 
 body.loaded.out .overlay-loading {
   display: none;
-}
+} */
 
 
 @media (min-width: 1400px) {
