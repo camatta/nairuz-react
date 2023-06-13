@@ -156,7 +156,7 @@ export default function Home() {
                   <ul>
                     <li>
                       <div className="img-li ativo">
-                        <Image src="/layout.png" alt="Layout para e-commerce" width={247} height={349} loading="eager" />
+                        <Image src="/layout.png" alt="Layout para e-commerce" width={247} height={349} loading="lazy" />
                       </div>
                       <button id="layout" className="layout ativo">Layout para e-commerce</button>
                     </li>
