@@ -69,16 +69,6 @@ export default function Home() {
       <Headerhome />
       <HeaderMob />
 
-      <div className="overlay-loading">
-        <div className="container-loading">
-          <div className='loader one'>
-              <div className='ball-one ball'></div>
-              <div className='ball-two ball'></div>
-              <div className='ball-three ball'></div>
-          </div>
-        </div>
-      </div>
-
       <main>
       <section className="container-fluid" id="servicos-home">
         <div className="container">

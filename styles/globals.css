@@ -1000,7 +1000,11 @@ a:hover, a {
   height: 200px;
 }
 
-#detalhes-servicos {
+#detalhes-servicos,
+#detalhes-servicos-website,
+#detalhes-servicos-seo,
+#detalhes-servicos-midias,
+#detalhes-servicos-inbound {
   background-color: #221A61;
   border-radius: 25px;
   padding: 0.7rem 1.4rem;
@@ -1011,7 +1015,11 @@ a:hover, a {
   margin-right: 1rem;
 }
 
-#contratar-servicos {
+#contratar-servicos,
+#contratar-servicos-website,
+#contratar-servicos-seo,
+#contratar-servicos-midias,
+#contratar-servicos-inbound {
   background-color: transparent;
   border-radius: 25px;
   padding: 0.7rem 1.4rem;
