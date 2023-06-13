@@ -172,25 +172,25 @@ export default function Home() {
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/websites.png" alt="Websites" width={247} height={349} loading="eager" />
+                        <Image src="/websites.png" alt="Websites" width={247} height={349} />
                       </div>
                       <button id="website" className="website">Websites</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/midias-pagas.png" alt="Mídias Pagas" width={247} height={349} loading="eager" />
+                        <Image src="/midias-pagas.png" alt="Mídias Pagas" width={247} height={349}  />
                       </div>
                       <button id="midias-pagas" className="midias">Mídias Pagas</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/inbound.png" alt="Inbound Marketing" width={247} height={349} loading="eager" />
+                        <Image src="/inbound.png" alt="Inbound Marketing" width={247} height={349} />
                       </div>
                       <button id="inbound" className="inbound">Inbound Marketing</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/seo.png" alt="SEO" width={247} height={349} loading="eager" />
+                        <Image src="/seo.png" alt="SEO" width={247} height={349} />
                       </div>
                       <button id="seo" className="seo">SEO</button>
                     </li>
