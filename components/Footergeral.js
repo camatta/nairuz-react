@@ -86,27 +86,29 @@ const Footergeral = () => (
       </div>
       <div className="col-12 col-md-3">
         <div className="contato-footer mobcenter">
-          <ul>
-            <li><a className="title-footer" href="#">CONTATO</a></li>
+          <a className="title-footer" href="#">CONTATO</a>
             <div className="tel-footer">
               <div className="icon-tel">
                 <Image src="/icon-phone.svg" alt="Telefone" width={12} height={12} />
               </div>
-              <div className="phone-footer">
+              <ul className="phone-footer">
                 <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer">+ 55 19 99140.6111</a></li>
                 <li><a href="tel:1932176400">+ 55 19 3217-6400</a></li>
                 <li><a href="tel:1147501714">+ 55 11 4750-1714 (São Paulo)</a></li>
-              </div>
+              </ul>
             </div>
             <div className="mail-footer">
               <Image src="/icon-mail.svg" alt="E-mail" width={12} height={12} />
-              <li><a href="mailto:contato@nairuz.com.br">contato@nairuz.com.br</a></li>
+              <ul>
+                <li><a href="mailto:contato@nairuz.com.br">contato@nairuz.com.br</a></li>
+              </ul>
             </div>
             <div className="local-footer">
               <Image src="/icon-local.svg" alt="Localização" width={12} height={12} />
-              <li><a href="https://goo.gl/maps/vbRekKqcfRnjm1si7" target="_blank" rel="noopener noreferrer">Rua 25 de Janeiro, nº 112 - Centro. Monte Mor - SP</a></li>
+              <ul>
+                <li><a href="https://goo.gl/maps/vbRekKqcfRnjm1si7" target="_blank" rel="noopener noreferrer">Rua 25 de Janeiro, nº 112 - Centro. Monte Mor - SP</a></li>
+              </ul>
             </div>
-          </ul>
         </div>
       </div>
     </div>
