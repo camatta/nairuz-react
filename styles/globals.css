@@ -3029,7 +3029,7 @@ a:hover, a {
   margin-bottom: 1.5rem !important;
 }
 
-#form-case-nova #rd-form-kylvw1qc .bricks-form__field:last-child {
+#form-case-nova #rd-form-kylvw1qc .bricks-form__field:nth-last-child(-n+2){
   width: 100% !important;
 }
 
@@ -3163,9 +3163,9 @@ a:hover, a {
   font-weight: 600;
 }
 
-#form-case-nova .case-covabra #rd-form-kylvw1qc .bricks-form__field:nth-child(5) {
+/* #form-case-nova .case-covabra #rd-form-kylvw1qc .bricks-form__field:nth-child(5) {
   width: 50% !important;
-}
+} */
 
 #after-case-covabra {
   position: relative;
