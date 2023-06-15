@@ -116,7 +116,7 @@ const Footergeral = () => (
       <div className="col-12">
         <div className="copyright d-flex align-items-center justify-content-center mobcenter">
           <Image src="/selo-br.png" alt="Brasil" width={17} height={12} />
-          <p>Nairuz Marketing e Tecnologia® 2021 / todos os direitos reservados</p>
+          <p>Nairuz Marketing e Tecnologia® 2023 / todos os direitos reservados</p>
         </div>
       </div>
     </div>

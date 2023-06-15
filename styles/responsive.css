@@ -571,6 +571,8 @@
 
   /* Footer */
 
+
+
   #content-instagram .post {
     position: relative;
     width: 90px;
@@ -584,6 +586,14 @@
     flex-flow: row wrap;
     justify-content: center;
     height: auto; 
+  }
+
+  #content-instagram ul.insta {
+    flex-wrap: wrap;
+  }
+
+  #content-instagram ul.insta li {
+    width: 25%;
   }
   
   .footer-logo {
@@ -1740,6 +1750,14 @@
 
 .title-seja-um-case h4 {
   width: 100%;
+}
+
+.video-casasaopedro iframe {
+  width: 100%;
+}
+.page-case-csp #case-top {
+  background-image: url(/cases/bg-case-csp.png);
+  background-position: left;
 }
 
 }
