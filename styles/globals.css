@@ -1776,6 +1776,10 @@ a:hover, a {
   transition-duration: 2s;
 }
 
+.cases ul li:hover .visible-case .logocase {
+  transform: translate(-160%);
+}
+
 .cases ul li {
   position: relative;
   width: 100%;
@@ -1791,10 +1795,10 @@ a:hover, a {
 }
 
 
-.cases ul li:hover .logocase {
+/* .cases ul li:hover .logocase {
   left: 1rem;
-  transform: unset;
-}
+  transform: translate(0);
+} */
 
 .servicos-case ul li {
   display: flex;
