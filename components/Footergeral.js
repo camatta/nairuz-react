@@ -333,16 +333,6 @@ const Footergeral = () => (
       new RDStationForms('newsletter-2022-187ddf46c0b0d5987839', 'UA-48773259-1').createForm();
     }
 
-    (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:445751,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-
-
 
     $('#vaga1').click(function(){
       $('#vagas-popup .title-popup span').text('INBOUND MARKETING');
@@ -379,7 +369,6 @@ const Footergeral = () => (
     const btnCookies = document.querySelector('.btn-aceite-cookies');
     
     btnCookies.addEventListener('click', aceiteCookies);
-
 
   `
   
