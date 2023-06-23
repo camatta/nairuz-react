@@ -164,9 +164,9 @@ export default function Cases() {
                       <a onClick={urlCSP}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-csp.png" alt="Infocards" width={370} height={533} />
+                      <Image className="img-fluid" src="/cases/case-csp.png" alt="Casa São Pedro" width={370} height={533} />
                       <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-csp.png" alt="Infocards" width={126} height={78} />
+                        <Image className="logo-case" src="/cases/logo-csp.svg" alt="Casa São Pedro" width={126} height={78} />
                       </div>
                     </div>
                   </li>
