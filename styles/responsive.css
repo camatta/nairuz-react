@@ -1269,9 +1269,10 @@
 .page-marketing #performance h1 {
   width: 100%;
   margin: auto;
-  margin-bottom: 4rem;
-  font-size: 2.2rem;
+  margin-bottom: 3.6rem;
+  font-size: 1.5rem;
   padding-top: 4rem;
+  line-height: 1.5;
 }
 
 .page-marketing #problemas-performance .text-apresentacao ul li {
@@ -1331,12 +1332,16 @@
   margin-top: 2rem;
 }
 
-.page-marketing #mkt-bialetti {
-  padding: 8rem 0;
-}
-
 .page-marketing .text-servico-performance {
   padding-left: 0;
+}
+
+.page-marketing .case-marketing {
+  margin-bottom: 4rem;
+}
+
+.page-marketing #cronograma-performance .text-cronograma p {
+  text-align: justify;
 }
 
 .page-marketing .resultados-bialetti-mkt .icon-box {

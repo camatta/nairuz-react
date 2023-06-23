@@ -110,7 +110,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <p>O digital está cada vez mais presente na vida das pessoas.</p>
                     </div>
                     <div className="text-cronograma">
-                      <p>Em 2022, e-commerce brasileiro tem o maior crescimento da América Latina. Levantamento baseado em dados do e-commerce nos países da América Latina, mostra que o país foi analisado com o maior crescimento no ano — a receita das vendas <span>cresceu US$ 8,1 bilhões em 2022</span> em relação ao ano anterior ano.</p>
+                      <p>Em 2022, e-commerce brasileiro tem o maior crescimento da América Latina. Levantamento baseado em dados do e-commerce nos países da América Latina, mostra que o país foi analisado com o maior crescimento no ano — a receita das vendas <span>cresceu US$ 8,1 bilhões em 2022</span> em relação ao ano anterior ano.</p><br></br><br></br>
                       <p>Além disso, o Brasil também apresenta alguns números que o destacam na liderança entre os países latinos, como: US$ 49,2 bilhões em receita; maior parcela de tráfego da web para varejistas da América Latina, com 84%.</p>
                     </div>
                   </div>
@@ -128,8 +128,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <p>O que a Nairuz faz?</p>
                     </div>
                     <div className="text-cronograma">
-                      <p>Unimos Tecnologia e Marketing Digital, focados em performance, com uma equipe multidisciplinar de especialistas experientes para conquistar o resultado que seu negócio precisa.</p>
-                      <p>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado. Afinal, somos pessoas cuidando de pessoas, por isso, levamos no peito nossa cultura.</p>
+                      <p>Unimos Tecnologia e Marketing Digital, focados em performance, com uma equipe multidisciplinar de especialistas experientes para conquistar o resultado que seu negócio precisa.</p><br></br><br></br>
+                      <p>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado. Afinal, somos pessoas cuidando de pessoas, por isso, levamos no peito nossa cultura.</p><br></br><br></br>
                       <p>Nossa meta é o <span>crescimento contínuo de nossos clientes</span> parceiros e, por isso, promovemos um atendimento personalizado e planos sólidos de marketing digital, totalmente adaptados às necessidades de cada empresa.</p>
                     </div>
                   </div>
@@ -147,19 +147,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <section className="container-fluid" id="mkt-bialetti">
               <div className="container">
                 <div className="row">
+                  <div className="col-12">
+                    <h3>Case de Sucesso:</h3>
+                  </div>
+                </div>
+                <div className="row">
                   <div className="col-12 col-md-4">
                     <div className="case-marketing">
                       <div className="video-case-mkt">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                       </div>
                       <div className="nome-case-mkt">
                         <p>Nova Medicamentos</p>
                       </div>
                       <div className="lista-case-mkt">
                         <ul>
-                          <li><p>Aumento de 139,73% de tráfego orgânico com técnicas de SEO;</p></li>
-                          <li><p>63% em faturamento orgânico com as técnicas de SEO;</p></li>
-                          <li><p>75% das palavras-chave na primeira posição do Google.</p></li>
+                          <li><p>Aumento de 139,73% de <span>tráfego orgânico</span> com técnicas de SEO;</p></li>
+                          <li><p>63% em <span>faturamento orgânico</span> com as técnicas de SEO;</p></li>
+                          <li><p>75% das palavras-chave na <span>primeira posição do Google</span>.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -167,16 +172,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className="col-12 col-md-4">
                     <div className="case-marketing">
                       <div className="video-case-mkt">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/EEkEZIJ8FX4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                       </div>
                       <div className="nome-case-mkt">
                         <p>Maravilhas do Lar</p>
                       </div>
                       <div className="lista-case-mkt">
                         <ul>
-                          <li><p>Aumento de 44% da receita nos 6 primeiros meses do projeto;</p></li>
-                          <li><p>Mais de 46% de aumento no número de transações médio mensal;</p></li>
-                          <li><p>Aumento de mais de 12% no tráfego, sem alterações da verba média.</p></li>
+                          <li><p><span>Aumento de 44% da receita</span> nos 6 primeiros meses do projeto;</p></li>
+                          <li><p>Mais de 46% de <span>aumento no número de transações</span> médio mensal;</p></li>
+                          <li><p>Aumento de mais de 12% no tráfego, <span>sem alterações da verba média</span>.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -184,16 +189,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className="col-12 col-md-4">
                     <div className="case-marketing">
                       <div className="video-case-mkt">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe width="560" height="250" src="https://www.youtube.com/embed/RgcEgNTjTLg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                       </div>
                       <div className="nome-case-mkt">
                         <p>Covabra</p>
                       </div>
                       <div className="lista-case-mkt">
                         <ul>
-                          <li><p>+127% de acessos orgânicos em menos de um ano;</p></li>
-                          <li><p>92% de crescimento no faturamento em menos de um ano;</p></li>
-                          <li><p>ROAS maior que 1100% em campanhas pagas.</p></li>
+                          <li><p>+127% de <span>acessos orgânicos</span> em menos de um ano;</p></li>
+                          <li><p><span>92% de crescimento</span> no faturamento em menos de um ano;</p></li>
+                          <li><p>ROAS maior que <span>1100% em campanhas pagas</span>.</p></li>
                         </ul>
                       </div>
                     </div>
