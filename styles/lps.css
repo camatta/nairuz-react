@@ -1420,7 +1420,7 @@ a:hover {
 .page-marketing #performance h1 {
   color: #fff;
   text-align: center;
-  width: 70%;
+  width: 65%;
   margin: auto;
   margin-bottom: 4rem;
 }
@@ -1547,7 +1547,6 @@ a:hover {
   margin: auto;
   margin-bottom: 6rem;
   width: 79%;
-  align-items: center;
 }
 
 .page-marketing #cronograma-performance .button-servico-performance a {
@@ -1831,7 +1830,6 @@ a:hover {
 
 .page-marketing .parcerias-certificacoes {
   margin-bottom: 4rem;
-  margin-top: 4rem;
 }
 
 .page-marketing #form-temas {
@@ -1843,6 +1841,10 @@ a:hover {
   font-weight: 800;
   width: 50%;
   margin: auto;
+}
+
+.page-marketing .video-case-mkt iframe {
+  width: 100%;
 }
 
 .page-marketing #form-temas .text-header-form p.descricao-form {

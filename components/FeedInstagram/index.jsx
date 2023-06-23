@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 
 import Image from 'next/image';
 
-const urlAPI = "https://api-instagram-nairuz-v2-gdy2gs33ua-uc.a.run.app/recuperarListaImagens?cliente=nairuzMaio";
+const urlAPI = "https://api-instagram-nairuz-v2-gdy2gs33ua-uc.a.run.app/recuperarListaImagens?cliente=NairuzJunho";
 
 export default function FeedInstagram () {
 

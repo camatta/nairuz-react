@@ -66,7 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="row">
                 <div className="col-12">
                   <div className="title-temas">
-                    <h1>Quer vender mais, com um ticket maior, para mais pessoas e em <span>vários canais?</span></h1>
+                    <h1>Impulsione o seu e-commerce: venda mais, com um ticket maior, para mais pessoas e em vários canais.</h1>
                   </div>
                   <div className="buttons-temas">
                     <a className="saiba-mais-temas" onClick={rollOrcamento}>Quero vender mais</a>
@@ -99,54 +99,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <section className="container-fluid" id="cronograma-performance">
             <div className="container">
               <div className="row">
-                <div className="col-12 col-md-8">
+                <div className="col-12 col-md-3">
+                  <div className="icon-cronograma">
+                    <Image src="/icon-digital.svg" width={95} height={95} />
+                  </div>
+                </div>
+                <div className="col-12 col-md-9">
                   <div className="content-cronograma">
                     <div className="title-cronograma">
                       <p>O digital está cada vez mais presente na vida das pessoas.</p>
                     </div>
                     <div className="text-cronograma">
-                      <p>Por isso, estar presente de forma estruturada é o que você precisa para <span>alavancar suas vendas</span>, e nós vamos te ajudar nisso.</p>
+                      <p>Em 2022, e-commerce brasileiro tem o maior crescimento da América Latina. Levantamento baseado em dados do e-commerce nos países da América Latina, mostra que o país foi analisado com o maior crescimento no ano — a receita das vendas <span>cresceu US$ 8,1 bilhões em 2022</span> em relação ao ano anterior ano.</p>
+                      <p>Além disso, o Brasil também apresenta alguns números que o destacam na liderança entre os países latinos, como: US$ 49,2 bilhões em receita; maior parcela de tráfego da web para varejistas da América Latina, com 84%.</p>
                     </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4">
-                  <div className="icon-cronograma">
-                    <Image src="/icon-digital.svg" width={95} height={95} />
                   </div>
                 </div>
               </div>
               <div className="row">
-              <div className="col-12 col-md-4">
+              <div className="col-12 col-md-3">
                   <div className="icon-cronograma">
                     <Image src="/icon-engrenagem.svg" width={95} height={95} />
                   </div>
                 </div>
-                <div className="col-12 col-md-8">
+                <div className="col-12 col-md-9">
                   <div className="content-cronograma">
                     <div className="title-cronograma">
                       <p>O que a Nairuz faz?</p>
                     </div>
                     <div className="text-cronograma">
-                      <p>Unimos Tecnologia e Marketing Digital, focados em performance, com uma <span>equipe multidisciplinar de especialistas</span> experientes para conquistar o resultado que seu negócio precisa.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12 col-md-8">
-                  <div className="content-cronograma">
-                    <div className="title-cronograma">
-                      <p>Como faz?</p>
-                    </div>
-                    <div className="text-cronograma">
-                      <p className="mb-3">Somos uma agência de marketing digital em São Paulo com mais de uma década de experiência no universo digital.</p>
+                      <p>Unimos Tecnologia e Marketing Digital, focados em performance, com uma equipe multidisciplinar de especialistas experientes para conquistar o resultado que seu negócio precisa.</p>
+                      <p>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado. Afinal, somos pessoas cuidando de pessoas, por isso, levamos no peito nossa cultura.</p>
                       <p>Nossa meta é o <span>crescimento contínuo de nossos clientes</span> parceiros e, por isso, promovemos um atendimento personalizado e planos sólidos de marketing digital, totalmente adaptados às necessidades de cada empresa.</p>
                     </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-4">
-                  <div className="icon-cronograma">
-                    <Image src="/icon-cursor.svg" width={95} height={95} />
                   </div>
                 </div>
               </div>
@@ -162,23 +147,53 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <section className="container-fluid" id="mkt-bialetti">
               <div className="container">
                 <div className="row">
-                  <div className="col-12 col-md-3">
-                    <div className="logo-bialetti-case">
-                      <Image src="/logo-mkt-bialetti.svg" width={250} height={250} />
+                  <div className="col-12 col-md-4">
+                    <div className="case-marketing">
+                      <div className="video-case-mkt">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                      </div>
+                      <div className="nome-case-mkt">
+                        <p>Nova Medicamentos</p>
+                      </div>
+                      <div className="lista-case-mkt">
+                        <ul>
+                          <li><p>Aumento de 139,73% de tráfego orgânico com técnicas de SEO;</p></li>
+                          <li><p>63% em faturamento orgânico com as técnicas de SEO;</p></li>
+                          <li><p>75% das palavras-chave na primeira posição do Google.</p></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-12 col-md-7">
-                    <div className="text-servico-performance">
-                      <div className="title-nos-nairuz">
-                        <div className="title-servico-performance vtex">
-                          <h4>Case de Sucesso: Bialleti Shop</h4>
-                        </div>
+                  <div className="col-12 col-md-4">
+                    <div className="case-marketing">
+                      <div className="video-case-mkt">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                       </div>
-                      <div className="resultados-bialetti-mkt">
+                      <div className="nome-case-mkt">
+                        <p>Maravilhas do Lar</p>
+                      </div>
+                      <div className="lista-case-mkt">
                         <ul>
-                          <li><div className="icon-box"><Image src="/icon-mkt-faturamento.svg" width={22} height={22} /></div><p>+800% de faturamento em menos de um ano!</p></li>
-                          <li><div className="icon-box"><Image src="/icon-mkt-user.svg" width={22} height={22} /></div><p>+14mil usuários mensais acessando o e-commerce</p></li>
-                          <li><div className="icon-box"><Image src="/icon-mkt-vendas.svg" width={22} height={22} /></div><p>27% de vendas em busca orgânica.</p></li>
+                          <li><p>Aumento de 44% da receita nos 6 primeiros meses do projeto;</p></li>
+                          <li><p>Mais de 46% de aumento no número de transações médio mensal;</p></li>
+                          <li><p>Aumento de mais de 12% no tráfego, sem alterações da verba média.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-4">
+                    <div className="case-marketing">
+                      <div className="video-case-mkt">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                      </div>
+                      <div className="nome-case-mkt">
+                        <p>Covabra</p>
+                      </div>
+                      <div className="lista-case-mkt">
+                        <ul>
+                          <li><p>+127% de acessos orgânicos em menos de um ano;</p></li>
+                          <li><p>92% de crescimento no faturamento em menos de um ano;</p></li>
+                          <li><p>ROAS maior que 1100% em campanhas pagas.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -230,103 +245,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <li><Image src="/clientes/maravilhas.png" width={116} height={55} /></li>
                       <li><Image src="/clientes/covabra.png" width={116} height={55} /></li>
                     </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <div className="depoimentos">
-                  <div className="clientes-nairuz">
-                    <div className="title-clientes-vtex">
-                      <h4>Veja os depoimentos de nossos clientes:</h4>
-                    </div>
-                    <div className="carrossel-clientes owl-carousel owl-default">
-                      <div className="cliente-nz">
-                        <div className="img-cliente">
-                          <Image src="/leticia.png" alt="Letícia Vaz" width={96} height={96} />
-                        </div>
-                        <div className="coment-cliente">
-                          <p>Fiquei muito feliz ao ver o resultado final do projeto e também todo o caminho para chegarmos nele. Todas as solicitações e dúvidas foram atendidas de prontidão e da melhor forma possível.</p>
-                        </div>
-                        <div className="assinatura-cliente">
-                          <p className="nome-cliente">Letícia Vaz</p>
-                          <p>LV Store</p>
-                        </div>
-                      </div>
-                      <div className="cliente-nz">
-                        <div className="img-cliente">
-                          <Image src="/marcos.png" alt="Marcos" width={96} height={96} />
-                        </div>
-                        <div className="coment-cliente">
-                          <p>Fiquei muito satisfeito com o nosso projeto, superaram nossas expectativas. Do projeto ao Go-live estiveram presentes em todas etapas. E estão conosco até hoje, mantendo a evolução contínua.</p>
-                        </div>
-                        <div className="assinatura-cliente">
-                          <p className="nome-cliente">Marcos Tomazi</p>
-                          <p>Casa São Pedro</p>
-                        </div>
-                      </div>
-                      <div className="cliente-nz">
-                        <div className="img-cliente">
-                          <Image src="/marcelo.png" alt="Marcelo Arruda" width={96} height={96} />
-                        </div>
-                        <div className="coment-cliente">
-                          <p>A Nairuz está com a Ludka desde a criação e concepção da nossa marca. Estamos construindo juntos o nosso futuro. Ainda temos muitos passos pela frente, rumo ao nosso sucesso!</p>
-                        </div>
-                        <div className="assinatura-cliente">
-                          <p className="nome-cliente">Marcelo Arruda</p>
-                          <p>Ludka Homewear</p>
-                        </div>
-                      </div>
-                      <div className="cliente-nz">
-                        <div className="img-cliente">
-                          <Image src="/umberto.png" alt="Umberto Milo" width={96} height={96} />
-                        </div>
-                        <div className="coment-cliente">
-                          <p>Os projetos superaram todas as expectativas, conseguindo “transmitir” requinte e sofisticação para o nosso público. A performance das lojas também estão acima das expectativas.</p>
-                        </div>
-                        <div className="assinatura-cliente">
-                          <p className="nome-cliente">Umberto Milo</p>
-                          <p>Gaggia | Bialetti</p>
-                        </div>
-                      </div>
-                      <div className="cliente-nz">
-                        <div className="img-cliente">
-                          <Image src="/adriana.png" alt="Adriana Carpegiani" width={96} height={96} />
-                        </div>
-                        <div className="coment-cliente">
-                          <p>A Nairuz esteve num momento de transição difícil e nos troue soluções. Todas decisões são avaliadas visando um melhor resultado! Recomendo como agência de marketing 360º.</p>
-                        </div>
-                        <div className="assinatura-cliente">
-                          <p className="nome-cliente">Adriana Carpegiani</p>
-                          <p>Congelados da Sônia</p>
-                        </div>
-                      </div>
-                      <div className="cliente-nz">
-                        <div className="img-cliente">
-                          <Image src="/renato.png" alt="Renato Soares" width={96} height={96} />
-                        </div>
-                        <div className="coment-cliente">
-                          <p>A nossa história com a Nairuz tem uma longa jornada, sempre contribuíram conosco em todas as etapas. Recomendamos como agência full service, somos de fato parceiros.</p>
-                        </div>
-                        <div className="assinatura-cliente">
-                          <p className="nome-cliente">Renato Soares</p>
-                          <p>Lojas RPM</p>
-                        </div>
-                      </div>
-                      <div className="cliente-nz">
-                        <div className="img-cliente">
-                          <Image src="/amanda.png" alt="Amanda Corrêa" width={96} height={96} />
-                        </div>
-                        <div className="coment-cliente">
-                          <p>A Nairuz fez parte da jornada que é começar a empreender. Com certeza fez toda diferença uma agência de experiência e performance digital ao nosso lado. Adorei o resultado do projeto!</p>
-                        </div>
-                        <div className="assinatura-cliente">
-                          <p className="nome-cliente">Amanda Corrêa</p>
-                          <p>Twenty First</p>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -495,7 +413,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="col-12">
                 <div className="copyright d-flex align-items-center justify-content-center mobcenter">
                   <Image src="/selo-br.png" alt="Brasil" width={17} height={12} />
-                  <p>Nairuz Marketing e Tecnologia® 2021 / todos os direitos reservados</p>
+                  <p>Nairuz Marketing e Tecnologia® 2023 / todos os direitos reservados</p>
                 </div>
               </div>
             </div>
