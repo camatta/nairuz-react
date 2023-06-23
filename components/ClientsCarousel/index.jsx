@@ -63,8 +63,8 @@ const clientsData = [
     "height": 60
   },
   {
-    "client": "GPTW",
-    "url": "/clientes/gptw.svg",
+    "client": "Farma Delivery",
+    "url": "/clientes/logo-farma-delivery.png",
     "width": 128,
     "height": 60
   },

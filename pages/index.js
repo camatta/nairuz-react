@@ -224,7 +224,8 @@ export default function Home() {
                   <li><Image src="/clientes/cybelar.png" alt="Cybelar" width={116} height={55} loading="eager" /></li>
                 </ul>
                 <ul className="d-flex align-items-center row3-logos mb-5">
-                  <li><Image src="/clientes/gptw.svg" alt="GPTW" width={116} height={55} /></li>
+                  {/* <li><Image src="/clientes/gptw.svg" alt="GPTW" width={116} height={55} /></li> */}
+                  <li><Image src="/clientes/logo-farma-delivery.png" alt="Farma Delivery" width={110} height={35} /></li>
                   <li><Image src="/clientes/grupo-card.png" alt="Grupo Card" width={116} height={55} /></li>
                   <li><Image src="/clientes/azul.png" alt="Azul" width={116} height={55} /></li>
                   <li><Image src="/clientes/sempreviva.png" alt="Sempre Viva" width={116} height={55} /></li>
