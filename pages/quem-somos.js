@@ -31,13 +31,16 @@ export default function QuemSomos() {
           <div className="container">
             <div className="row">
               <div className="col-12 col-md-4">
+                <div className="novo-title-quemsomos">
+                  <h1>Quem Somos</h1>
+                </div>
                 <div className="text-quemsomos">
                   <p>Nós somos uma agência de marketing digital e tecnologia, sendo assim, trabalhamos com soluções integradas para trazer resultado para os nossos clientes.<br></br><br></br>Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.<br></br><br></br>Afinal, somos pessoas cuidando de pessoas, por isso, levamos no peito nossa cultura. Somos uma empresa feita à mão! Hoje reconhecida por nossos parceiros e clientes como uma das agências referência de marketing digital de performance, desenvolvimento e design no estado de São Paulo.</p>
                 </div>
               </div>
               <div className="col-4 desktoponly">
-                <div className="title-quemsomos">
-                  <h1>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</h1>
+                <div className="sub-title-quemsomos">
+                  <h2>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</h2>
                 </div>
               </div>
               <div className="col-4 desktoponly"></div>

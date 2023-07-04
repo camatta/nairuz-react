@@ -78,6 +78,9 @@ export default function Vagas() {
           <div className="container">
             <div className="row">
               <div className="col-12 col-md-4">
+                <div className="title-funcionairuz">
+                  <h1>#Funcionairuz</h1>
+                </div>
                 <div className="text-quemsomos">
                   <p>Aceleramos o crescimento dos nossos clientes no ambiente digital através de projetos completos e escaláveis. Nossos times de desenvolvimento, design, marketing, atendimento e comercial atuam de forma colaborativa para entregar os melhores resultados de forma crescente e contínua, todos os dias.</p>
                 </div>

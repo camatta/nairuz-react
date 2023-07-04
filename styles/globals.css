@@ -1504,6 +1504,15 @@ a:hover, a {
   padding-top: 11rem;
   padding-bottom: 11rem;
   position: relative;
+  background-position: center;
+}
+
+.novo-title-quemsomos h1 {
+  color: #48BAB8;
+  font-size: 2.2rem;
+  font-weight: 800;
+  width: 60%;
+  margin-bottom: 2rem;
 }
 
 .text-quemsomos p {
@@ -1513,7 +1522,7 @@ a:hover, a {
   position: relative
 }
 
-#quem-somos::before {
+/* #quem-somos::before {
   content: 'Quem somos?';
   position: absolute;
   left: -4px;
@@ -1523,9 +1532,9 @@ a:hover, a {
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
   width: 10%;
-}
+} */
 
-.title-quemsomos h1 {
+.sub-title-quemsomos h2 {
   color: #fff;
   line-height: 1.5;
   font-size: 1.2rem;
@@ -1534,7 +1543,7 @@ a:hover, a {
   left: 5rem;
 }
 
-.title-quemsomos h1::before {
+.sub-title-quemsomos h2::before {
   content: '';
   position: absolute;
   left: -3rem;
@@ -3306,7 +3315,7 @@ a:hover, a {
   position: relative;
 }
 
-#vagas::before {
+/* #vagas::before {
   content: '#FUNCIONAIRUZ';
   position: absolute;
   left: -4px;
@@ -3316,6 +3325,15 @@ a:hover, a {
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
   width: 10%;
+} */
+
+.title-funcionairuz {
+  color: #48BAB8;
+  font-size: 2.2rem;
+  font-weight: 800;
+  width: 60%;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .title-vagas {

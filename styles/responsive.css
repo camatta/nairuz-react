@@ -270,9 +270,9 @@
     padding-left: 0 !important;
   }
 
-  .clientes-nairuz .owl-nav {
+  /* .clientes-nairuz .owl-nav {
     display: none;
-  }
+  } */
 
   /* Cases de Sucesso */
 
@@ -301,37 +301,42 @@
     flex-direction: column;
     background-size: contain;
     align-items: flex-start !important;
+    border-radius: 20px;
+    background: rgb(245 5 211);
+    background: linear-gradient(107deg, rgba(59,88,203,1) 7%, rgba(176,36,190,1) 47%, rgb(245 5 211) 81%);
   }
 
-  .card1-case {
-    background-image: url(/bgcase-mob1.png);
-  }
-
-  .card2-case {
-    background-image: url(/bgcase-mob2.png);
-  }
-
-  .card3-case {
-    background-image: url(/bgcase-mob3.png);
-  }
-
-  .card4-case {
-    background-image: url(/bgcase-mob4.png);
-  }
-
-  .card5-case {
-    background-image: url(/bgcase-mob5.png);
-  }
 
   .card-cases .infos-case ul li {
     font-size: 0.9rem;
     line-height: 1.4;
     margin-bottom: 2.4rem;
-    width: 80%;
+    width: 100%;
 }
 
   .card-cases {
     display: none;
+  }
+
+  .card-cases .infos-case {
+    height: 210px;
+    overflow: hidden;
+  }
+
+  .cases-carrossel {
+    position: relative;
+  }
+
+  .cases-carrossel .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 40%;
+  }
+
+  .cases-carrossel .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    top: 40%;
   }
 
   .card-cases:first-child {
@@ -339,7 +344,7 @@
   }
 
   .card-cases {
-    width: 95%;
+    width: 80%;
     margin: auto;
   }
 
@@ -384,6 +389,22 @@
 
   .cliente-nz:first-child {
     display: block;
+  }
+
+  .carrossel-clientes {
+    position: relative;
+  }
+
+  .carrossel-clientes .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 40%;
+  }
+
+  .carrossel-clientes .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    top: 40%;
   }
 
   /* Parcerias Home */
@@ -649,13 +670,13 @@
   padding-top: 15rem;
 }
 
-#quem-somos::before {
+/* #quem-somos::before {
   content: 'Quem somos?';
   position: absolute;
   left: 2.5rem;
   top: 8.5rem;
   color: #68FC9C;
-}
+} */
 
 #mvv .card {
   margin-bottom: 2rem;
