@@ -1785,21 +1785,21 @@ a:hover, a {
   transition-duration: 2s;
 }
 
-.cases ul li:hover .visible-case .logocase {
+.cases .case-item:hover .visible-case .logocase {
   transform: translate(-160%);
 }
 
-.cases ul li {
+.cases .case-item {
   position: relative;
   width: 100%;
 }
 
 
-.cases ul li:hover .button-case,
-.cases ul li:hover .descricao-case,
-.cases ul li:hover .button-case,
-.cases ul li:hover .tags-case,
-.cases ul li:hover .servicos-case  {
+.cases .case-item:hover .button-case,
+.cases .case-item:hover .descricao-case,
+.cases .case-item:hover .button-case,
+.cases .case-item:hover .tags-case,
+.cases .case-item:hover .servicos-case  {
   opacity: 1;
 }
 
@@ -1831,6 +1831,27 @@ a:hover, a {
   color: #2D2D2D;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+}
+
+#nossos-cases .cases .owl-dots {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#nossos-cases .cases .owl-dots .owl-dot {
+  width: 10px;
+  background: #ccc;
+  height: 4px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 1s;
+}
+
+#nossos-cases .cases .owl-dots .owl-dot.active {
+  width: 50px;
+  background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  height: 4px;
+  border-radius: 5px;
 }
 
 .tags-case span {

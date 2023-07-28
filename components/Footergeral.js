@@ -175,6 +175,26 @@ const Footergeral = () => (
       navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control'>"],
     });
   });
+
+  // Carrossel Cases
+  $(document).ready(function(){
+    $(".owl-carousel.carrossel-page-cases").owlCarousel({
+      items: 3,
+      dots: true,
+      nav: false,
+      responsive:{
+          0:{
+              items:1,
+          },
+          800:{
+              items:1,
+          },
+          1000:{
+              items:3,
+          }
+      }
+    });
+  });
   
   //Open Modal Contato
   $('.open-popup-contato').click(function(){

@@ -57,6 +57,8 @@ export default function Cases() {
 				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
       </Head>
 
@@ -91,8 +93,8 @@ export default function Cases() {
           <div className="row">
             <div className="col-12">
               <div className="cases">
-              <ul className="d-flex">
-                  <li>
+              <div className="owl-carousel carrossel-page-cases">
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout para blog</span>
@@ -117,8 +119,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-covabra.svg" alt="Covabra" width={126} height={78} />
                       </div>
                     </div>
-                  </li>
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout Personalizado</span>
@@ -143,8 +145,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-bonecario.svg" alt="Bonecário" width={126} height={78} />
                       </div>
                     </div>
-                  </li>
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout para e-commerce</span>
@@ -169,10 +171,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-csp.svg" alt="Casa São Pedro" width={126} height={78} />
                       </div>
                     </div>
-                  </li>
-                </ul>
-                <ul className="d-flex">
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout p/ e-commerce</span>
@@ -198,8 +198,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-bialetti.svg" alt="Bialetti" width={100} height={50} />
                       </div>
                     </div>
-                  </li>
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout p/ e-commerce</span>
@@ -225,8 +225,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-lv.svg" alt="LV Store" width={100} height={50} />
                       </div>
                     </div>
-                  </li>
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Marketing Parcial</span>
@@ -251,10 +251,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-minassal-2.png" alt="Minassal" width={207} height={60} />
                       </div>
                     </div>
-                  </li>
-                </ul>
-                <ul className="d-flex">
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout Personalizado</span>
@@ -279,8 +277,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-infocards.png" alt="Infocards" width={187} height={56} />
                       </div>
                     </div>
-                  </li>
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Layout para e-commerce</span>
@@ -306,8 +304,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-rpm.png" alt="Lojas RPM" width={168} height={23} />
                       </div>
                     </div>
-                  </li>
-                  <li>
+                  </div>
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Marketing Parcial</span>
@@ -332,8 +330,8 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-nova.svg" alt="Nova Medicamentos" width={100} height={50} />
                       </div>
                     </div>
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
