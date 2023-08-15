@@ -102,7 +102,7 @@ export default function Cases() {
             <div className="col-12">
               <div className="cases">
               <div className="owl-carousel carrossel-page-cases">
-                  {/* <div className="case-item">
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Marketing full-service</span>
@@ -127,7 +127,7 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-transpalet.svg" alt="Transpalet" width={96} height={48} />
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                   {/* <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
