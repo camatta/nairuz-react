@@ -42,6 +42,14 @@ const urlBonecario = () => {
   document.location.href = '/cases/bonecario';
 }
 
+const urlMaravilhas = () => {
+  document.location.href = '/cases/maravilhas-do-lar';
+}
+
+const urlTranspalet = () => {
+  document.location.href = '/cases/transpalet';
+}
+
 
 export default function Cases() {
   return (
@@ -94,6 +102,58 @@ export default function Cases() {
             <div className="col-12">
               <div className="cases">
               <div className="owl-carousel carrossel-page-cases">
+                  {/* <div className="case-item">
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Marketing full-service</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>A Transpalet é uma empresa que trabalha exclusivamente com os equipamentos de movimentação de carga da marca Paletrans, uma das maiores representantes do mercado mundial. Fundada em 2014 por Leandro Prado, hoje em dia, ela conta com um extenso e variado estoque, com mais de 2 mil itens, como empilhadeiras e transpaleteiras, além das peças de reposição.</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Pontos fora da curva foram detectados e corrigidos;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>1° lugar em vendas de peças de reposição Paletrans;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>O faturamento de 2022 foi 17,82%<br /> maior que o faturamento de 2021.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlTranspalet}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-transpalet.png" alt="Transpalet" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-transpalet.svg" alt="Transpalet" width={96} height={48} />
+                      </div>
+                    </div>
+                  </div> */}
+                  {/* <div className="case-item">
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Tráfego Pago</span>
+                      </div>
+                      <div className="descricao-case">
+                        <p>Fundada em 2003, em Jundiaí, interior de São Paulo, a Maravilhas do Lar traz em sua essência a preocupação com a experiência de compra dos clientes. Por isso, em sem e-commerce, não poderia ser diferente. Entrando no site, você já pode ver todas as categorias disponíveis e também as principais promoções do dia.</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>20% no aumento de transações;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>9% de aumento em tráfego pago;</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Aumento de 44% na receita nos 6 primeiros<br /> meses de projeto.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlMaravilhas}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/cases/case-maravilhas.png" alt="Maravilhas do Lar" width={370} height={533} />
+                      <div className="logocase">
+                        <Image className="logo-case" src="/cases/logo-maravilhas.svg" alt="Maravilhas do Lar" width={126} height={78} />
+                      </div>
+                    </div>
+                  </div> */}
                   <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
