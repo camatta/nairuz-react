@@ -1831,6 +1831,10 @@
     height: 100% !important;
   }
 
+  #conteudo-case-transpalet .sobre-transpalet p{
+    margin-bottom: 24px;
+  }
+
   #conteudo-case-transpalet .sobre-transpalet .texto-destaque{
     padding-left: 0;
   }
@@ -1887,7 +1891,11 @@
   }
 
   #conteudo-case-transpalet .sobre-transpalet .texto-destaque::before {
-    height: 205px !important;
+    height: 170px !important;
+  }
+
+  #conteudo-case-transpalet .como-alavancou {
+    padding-bottom: 14px;
   }
 }
 
@@ -1918,6 +1926,10 @@
   #conteudo-case-transpalet .points-case .text-estudo-case{
     width: 65%;
     margin-bottom: 14px;
+  }
+
+  #conteudo-case-transpalet .sobre-transpalet .texto-destaque::before {
+    height: 220px !important;
   }
 
   #conteudo-case-transpalet .button-resultado-cta > a{

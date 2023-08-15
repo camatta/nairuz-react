@@ -11,7 +11,7 @@ export default function NovaMedicamentos2() {
   return (
     <div className="page-cases page-case-novamed case-transpalet">
       <Head>
-        <title>Nairuz - Transpalet</title>
+        <title>Nairuz - Case Transpalet</title>
         <meta name="description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
@@ -58,8 +58,8 @@ export default function NovaMedicamentos2() {
 
         <section className="container" id="conteudo-case-transpalet">
           <div className="row align-items-center justify-content-center">
-            <div className="col-12 col-md-9">
-              <div className="text-estudo-case case-transpalet">
+            <div className="col-12 col-md-8">
+              <div className="text-center text-estudo-case case-transpalet">
               <p>O ramo de equipamentos de movimentação de cargas é de extrema importância para diversos setores do mercado, que dependem inteiramente das paleteiras e empilhadeiras para fazer o seu negócio rodar. Mas, como atingir todos esses clientes? Ou melhor ainda, como saber se eles estão prontos para receber a sua oferta de venda?</p>
               
               <p>É somente através de uma estratégia bem organizada de Inbound Marketing que é possível criar laços com os seus clientes e fazer com que eles sejam fiéis a sua marca. Foi pensando nisso, e no futuro do seu negócio no mundo digital, que a Transpalet chegou até a Nairuz.</p> 
@@ -133,9 +133,9 @@ export default function NovaMedicamentos2() {
 
           <div className="row d-flex justify-content-center">
             <div className="col-6 text-center d-flex flex-column">
-              <p className="text-cta">Quer saber mais sobre a Transpalet e como a Nairuz promoveu o <strong>e-commerce</strong>  dessa marca? Então assista ao vídeo com o depoimento do nosso cliente!</p>
+              <p className="text-cta">Quer saber mais sobre a Transpalet e como a Nairuz promoveu o <strong className='strongColor'>e-commerce</strong>  dessa marca? Então assista ao vídeo com o depoimento do nosso cliente!</p>
 
-              <a className='text-cta-link' href="#link-para-depoimento">CLIQUE AQUI PARA ASSISTIR</a>
+              <a className='text-cta-link' target='_blank' href="https://www.youtube.com/watch?v=zZIXg9adnVc">CLIQUE AQUI PARA ASSISTIR</a>
 
               <p className="text-cta">Então, quer fazer da sua empresa um <strong>case de sucesso</strong> da Nairuz? Entre em contato com os nossos consultores e garanta você também o futuro do seu negócio no mundo digital!</p>
 

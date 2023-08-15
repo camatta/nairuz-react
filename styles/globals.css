@@ -3341,6 +3341,7 @@ a:hover, a {
   width: 75%;
   font-size: 18px;
   text-align: center;
+  line-height: 25px;
 }
 
 #conteudo-case-transpalet .points-case span{
@@ -3368,6 +3369,9 @@ a:hover, a {
 
 #conteudo-case-transpalet .sobre-transpalet{
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #conteudo-case-transpalet .sobre-transpalet h4{
@@ -3380,7 +3384,6 @@ a:hover, a {
   font-size: 0.825rem;
   line-height: 1.6;
   color: #000000;
-  margin-bottom: 16px;
 }
 
 #conteudo-case-transpalet .sobre-transpalet strong{
@@ -3388,14 +3391,14 @@ a:hover, a {
 }
 
 #conteudo-case-transpalet .sobre-transpalet .texto-destaque{
-  padding: 18px 0 18px 30px;
+  padding-left: 30px;
   position: relative;
 }
 
 #conteudo-case-transpalet .sobre-transpalet .texto-destaque:before{
   content: '';
   width: 50vw;
-  height: 159px;
+  height: 120px;
   background-color: #F1F1F1;
   position: absolute;
   left: 0;
@@ -3408,9 +3411,18 @@ a:hover, a {
   opacity: 0.36;
 }
 
+#conteudo-case-transpalet .como-alavancou{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 60px;
+}
+
 #conteudo-case-transpalet .text-cta,
 #conteudo-case-transpalet .text-cta-link{
   font-size: 18px;
+}
+
+#conteudo-case-transpalet .text-cta .strongColor{
+  color: #392BA1;
 }
 
 #conteudo-case-transpalet .text-cta-link{
