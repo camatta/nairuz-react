@@ -170,7 +170,7 @@ export default function NovaMedicamentos2() {
             </div>
           </div>
 
-          <div className="bd-bottom row d-flex justify-content-center align-items-center">
+          <div className="crescimento bd-bottom row d-flex justify-content-center align-items-center">
               <div className="bg-text box-4 col-9 d-flex gap-4 justify-content-center align-items-center">
                   <div className='col-6 col-md-3 d-flex justify-content-center align-items-center'>
                     <Image src="/maravilhas/indicativos.svg" width={119} height={119} />

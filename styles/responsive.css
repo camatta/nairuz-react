@@ -1881,6 +1881,19 @@
   #conteudo-case-maravilhas h3,
   #conteudo-case-maravilhas h4{
     margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  #conteudo-case-maravilhas .row{
+    margin-bottom: 40px;
+  }
+
+  #conteudo-case-maravilhas .bd-bottom{
+    padding-bottom: 40px;
+  }
+
+  #conteudo-case-maravilhas .titulo-sobre h4{
+    margin-bottom: 30px;
   }
 
   #conteudo-case-maravilhas .bg-computador::before{
@@ -1888,15 +1901,24 @@
   }
 
   #conteudo-case-maravilhas .box-img{
-    width: 100%;
+    width: 80%;
   }
 
   #conteudo-case-maravilhas .sobre-maravilhas{
     width: 100%;
+    margin-top: 16px;
+  }
+
+  #conteudo-case-maravilhas .box-2 {
+    padding: 17px;
   }
 
   #conteudo-case-maravilhas .box-2::before{
     width: 100%;
+  }
+
+  #conteudo-case-maravilhas .texto-destaque p{
+    font-size: 16px;
   }
 
   #conteudo-case-maravilhas .box-3{
@@ -1907,6 +1929,10 @@
     width: 100%;
   }
 
+  #conteudo-case-maravilhas .lista{
+    font-size: 0.625rem;
+  }
+
   #conteudo-case-maravilhas .container-parceria-nairuz .col-6{
     width: 100%;
   }
@@ -1915,9 +1941,31 @@
     width: 100%;
   }
 
+  #conteudo-case-maravilhas .box-4 .col-6 span{
+    max-width: 89px;
+    max-height: 89px;
+  }
+
+  #conteudo-case-maravilhas .crescimento{
+    padding-bottom: 0;
+  }
+
+  #conteudo-case-maravilhas .texto-cta .col-8{
+    width: 100%;
+  }
+
+  #conteudo-case-maravilhas .texto-cta p{
+    font-size: 16px;
+  }
+
+  #conteudo-case-maravilhas .texto-cta p:nth-child(1){
+    margin-bottom: 40px;
+  }
+
 }
 
 @media (max-width: 576px){
+  /* CASE - TRANSPALET */
   .page-case-novamed #new-video-case .video-case iframe {
     height: 260px;
   }
@@ -1929,6 +1977,64 @@
   #conteudo-case-transpalet .sobre-transpalet .texto-destaque::before {
     height: 145px !important;
   }
+
+  /* CASE - MARAVILHAS DO LAR */
+  #conteudo-case-maravilhas p{
+    font-size: 0.675rem;
+  }
+
+  #conteudo-case-maravilhas h3,
+  #conteudo-case-maravilhas h4{
+    font-size: 1rem;
+  }
+
+  #conteudo-case-maravilhas .box-1 h5{
+    font-size: 0.875rem;
+  }
+
+  #conteudo-case-maravilhas .box-img{
+    width: 70%;
+  }
+
+  #conteudo-case-maravilhas .bg-computador::before{
+    height: 150px;
+  }
+
+  #conteudo-case-maravilhas .box-2::before{
+    height: 100px;
+  }
+
+  #conteudo-case-maravilhas .container-parceria-nairuz .col-6:nth-child(1){
+    width: 80%;
+  }
+
+  #conteudo-case-maravilhas .img-grafico{
+    display: flex;
+    justify-content: center;
+  }
+
+  #conteudo-case-maravilhas .img-grafico span{
+    max-width: 90% !important;
+  }
+
+  #conteudo-case-maravilhas .texto-destaque p {
+    font-size: 0.875rem;
+  }
+
+  #conteudo-case-maravilhas .box-4{
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 40px;
+  }
+
+  #conteudo-case-maravilhas .box-4 .col-6 span{
+    max-height: 100%;
+  }
+
+  #conteudo-case-maravilhas .texto-cta p {
+    font-size: 0.875rem;
+  }
+
 }
 
 @media (max-width: 448px){
@@ -1960,6 +2066,7 @@
 }
 
 @media (max-width: 375px){
+  /* CASE - TRANSPALET */
   .case-transpalet #new-case-top .title-case h1{
     text-align: center;
   }
@@ -1994,6 +2101,23 @@
 
   #conteudo-case-transpalet .button-resultado-cta > a{
     font-size: 11px !important;
+  }
+
+  /* CASE - MARAVILHAS DO LAR */
+  #conteudo-case-maravilhas .bg-computador::before {
+    height: 70px;
+  }
+
+  #conteudo-case-maravilhas .box-2 {
+    padding: 10px;
+  }
+
+  #conteudo-case-maravilhas .box-2::before {
+    height: 145px;
+  }
+
+  .case-maravilhas #new-video-case .container{
+    padding-top: 43px;
   }
 }
 
