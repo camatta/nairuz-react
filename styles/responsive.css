@@ -1855,6 +1855,66 @@
     font-size: 0.825rem;
   }
 
+  /* CASE MARAVILHAS DO LAR */
+  .page-case-novamed #new-case-top .titulo-maravilhas h1{
+    text-align: center;
+  }
+
+  #conteudo-case-maravilhas .container-sobre-maravilhas{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #conteudo-case-maravilhas .container-parceria-nairuz{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #conteudo-case-maravilhas .col-12{
+    width: 100%;
+  }
+
+  #conteudo-case-maravilhas .box-1{
+    padding: 0;
+  }
+
+  #conteudo-case-maravilhas h3,
+  #conteudo-case-maravilhas h4{
+    margin-bottom: 0;
+  }
+
+  #conteudo-case-maravilhas .bg-computador::before{
+    width: 50vw;
+  }
+
+  #conteudo-case-maravilhas .box-img{
+    width: 100%;
+  }
+
+  #conteudo-case-maravilhas .sobre-maravilhas{
+    width: 100%;
+  }
+
+  #conteudo-case-maravilhas .box-2::before{
+    width: 100%;
+  }
+
+  #conteudo-case-maravilhas .box-3{
+    flex-direction: column;
+  }
+
+  #conteudo-case-maravilhas .box-3 .col-6{
+    width: 100%;
+  }
+
+  #conteudo-case-maravilhas .container-parceria-nairuz .col-6{
+    width: 100%;
+  }
+
+  #conteudo-case-maravilhas .box-4{
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 576px){

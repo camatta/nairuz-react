@@ -9,7 +9,7 @@ import Script from 'next/script'
 
 export default function NovaMedicamentos2() {
   return (
-    <div className="page-cases page-case-novamed case-transpalet">
+    <div className="page-cases page-case-novamed case-maravilhas">
       <Head>
         <title>Nairuz - Maravilhas do Lar</title>
         <meta name="description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
@@ -83,7 +83,7 @@ export default function NovaMedicamentos2() {
               </div>
           </div>
 
-          <div className="row">
+          <div className="row container-sobre-maravilhas">
               <div className="box-img col-6 d-flex align-items-center">
                 <div className="banner-computador">
                   <Image src="/maravilhas/computador.png" width={888} height={666} alt="Maravilhas" />
@@ -109,7 +109,7 @@ export default function NovaMedicamentos2() {
               </div>
           </div>
 
-          <div className="row">
+          <div className="row container-parceria-nairuz">
               <div className="col-6 d-flex align-items-center">
                 <Image src="/maravilhas/empresarios-apertando-as-maos.png" width={714} height={438} alt="Maravilhas" />
               </div>
