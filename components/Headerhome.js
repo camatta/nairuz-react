@@ -112,7 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <p>O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente ao seu consumidor almejado. Mas como isso foi possível? <strong>Conheça nossos Cases de Sucesso!</strong></p>
                   </div>
                   <div className="img-maravilhas-mobile mobileonly">
-                    <Image src="/img-maravilhas-main-topo.png" alt="Logo Nairuz" width={350} height={200} />
+                    <Image src="/img-maravilhas-main-topo-mobile.png" alt="Maravilhas do Lar" width={280} height={180} />
                   </div>
                   <div className="button-left-carrossel">
                     <button onClick={urlCases}>Saiba Mais</button>
@@ -120,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
                 <div className="col-7 desktoponly">
                   <div className="img-main-topo">
-                    <Image src="/img-maravilhas-main-topo.png" alt="Logo Nairuz" width={986} height={444} />
+                    <Image src="/img-maravilhas-main-topo.png" alt="Maravilhas do Lar" width={986} height={444} />
                   </div>
                 </div>
               </div>
