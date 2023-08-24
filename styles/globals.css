@@ -3379,6 +3379,304 @@ a:hover, a {
   bottom: 7px;
 }
 
+/* Página Case Transpalet */
+.case-transpalet #new-case-top .title-case h1{
+  width: 85%;
+}
+
+#conteudo-case-transpalet .row{
+  margin-bottom: 80px;
+}
+
+#conteudo-case-transpalet .points-case{
+  border-bottom: 1px solid #eee;
+}
+
+#conteudo-case-transpalet .points-case p{
+  width: 75%;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#conteudo-case-transpalet .points-case span{
+  font-weight: 900;
+  color: #362aa4;
+}
+
+#conteudo-case-transpalet .parceria{
+  height: 131px;
+  background-color: #F1F1F1;
+}
+
+#conteudo-case-transpalet .parceria p{
+  font-weight: bold;
+}
+
+#conteudo-case-transpalet .parceria span{
+  font-weight: 900;
+  color: #392BA1;
+}
+
+#conteudo-case-transpalet .titulo-sobre{
+  margin-bottom: 60px;
+}
+
+#conteudo-case-transpalet .sobre-transpalet{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#conteudo-case-transpalet .sobre-transpalet h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 39px;
+}
+
+#conteudo-case-transpalet .sobre-transpalet p{
+  font-size: 0.825rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+#conteudo-case-transpalet .sobre-transpalet strong{
+  color: #392BA1;
+}
+
+#conteudo-case-transpalet .sobre-transpalet .texto-destaque{
+  padding-left: 30px;
+  position: relative;
+}
+
+#conteudo-case-transpalet .sobre-transpalet .texto-destaque:before{
+  content: '';
+  width: 50vw;
+  height: 120px;
+  background-color: #F1F1F1;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+#conteudo-case-transpalet .img-grafico img{
+  opacity: 0.36;
+}
+
+#conteudo-case-transpalet .como-alavancou{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 60px;
+}
+
+#conteudo-case-transpalet .text-cta,
+#conteudo-case-transpalet .text-cta-link{
+  font-size: 18px;
+}
+
+#conteudo-case-transpalet .text-cta .strongColor{
+  color: #392BA1;
+}
+
+#conteudo-case-transpalet .text-cta-link{
+  margin-top: 22px;
+  margin-bottom: 50px;
+}
+
+#conteudo-case-transpalet .button-resultado-cta{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#conteudo-case-transpalet .label-form{
+  font-weight: bold;
+  width: 70%;
+}
+
+/* Página Case Maravilhas */
+#conteudo-case-maravilhas .row{
+  margin-bottom: 80px;
+}
+
+.case-transpalet #new-case-top .titulo-maravilhas h1{
+  width: 75%;
+}
+
+#conteudo-case-maravilhas .titulo-sobre{
+  margin-bottom: 50px;
+}
+
+#conteudo-case-maravilhas h3,
+#conteudo-case-maravilhas h4{
+  letter-spacing: 0px;
+  color: #2D2D2D;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#conteudo-case-maravilhas h3{
+  font-size: 2rem;
+}
+
+#conteudo-case-maravilhas h4{
+  font-size: 1.5rem;
+}
+
+#conteudo-case-maravilhas p{
+  font-size: 0.825rem;
+  line-height: 1.6;
+  color: #2D2D2D;
+}
+
+#conteudo-case-maravilhas p strong{
+  color: #392BA1;
+}
+
+#conteudo-case-maravilhas .bg-text.box-3{
+  background-color: #F1F1F1; 
+}
+
+#conteudo-case-maravilhas .box-1{
+  padding: 44px;
+}
+
+#conteudo-case-maravilhas .box-1 p{
+  margin-bottom: 51px;
+}
+
+#conteudo-case-maravilhas .box-1 h5{
+  font-size: 1rem;
+  color: #392BA1;
+  margin-bottom: 0;
+  text-transform: initial;
+}
+
+#conteudo-case-maravilhas .box-img{
+  margin-top: -55px;
+}
+
+#conteudo-case-maravilhas .banner-computador{
+  position: relative;
+}
+
+#conteudo-case-maravilhas .bg-computador::before{
+  content: '';
+  width: 40vw;
+  height: 235px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #392BA1;
+  z-index: -1;
+}
+
+#conteudo-case-maravilhas .sobre-maravilhas p:not(:last-child){
+  margin-bottom: 16px;
+}
+
+#conteudo-case-maravilhas .box-2{
+  position: relative;
+  padding: 17px 0 17px 29px;
+}
+
+#conteudo-case-maravilhas .box-2::before{
+  content: '';
+  width: 50vw;
+  height: 132px;
+  background-color: #F1F1F1;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+#conteudo-case-maravilhas .titulo-parceria h3{
+  margin-bottom: 0;
+}
+
+#conteudo-case-maravilhas .texto-destaque p{
+  font-size: 18px;
+}
+
+#conteudo-case-maravilhas .texto-destaque p:nth-child(1){
+  margin-bottom: 1rem;
+}
+
+#conteudo-case-maravilhas .texto-destaque p:nth-child(2){
+  font-weight: bold;
+}
+
+#conteudo-case-maravilhas .texto-destaque p span{
+  font-weight: bold;
+}
+
+#conteudo-case-maravilhas .estrategias{
+  margin-bottom: 36px;
+}
+
+#conteudo-case-maravilhas .box-3{
+  padding: 36px;
+  border-radius: 29px;
+}
+
+#conteudo-case-maravilhas .lista{
+  font-size: 0.825rem;
+  font-weight: bold;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+#conteudo-case-maravilhas .box-3 .lista li:not(:last-child){
+  margin-bottom: 20px;
+}
+
+#conteudo-case-maravilhas .texto-black{
+  font-weight: 900 !important;
+}
+
+#conteudo-case-maravilhas .box-4{
+  padding: 40px;
+  border-radius: 29px;
+}
+
+#conteudo-case-maravilhas .box-4 .lista{
+  font-weight: 400;
+}
+
+#conteudo-case-maravilhas .box-4 .lista li strong{
+  color: #392BA1;
+}
+
+#conteudo-case-maravilhas .box-4 .lista li:not(:last-child){
+  margin-bottom: 8px;
+}
+
+#conteudo-case-maravilhas .bd-bottom{
+  padding-bottom: 80px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+#conteudo-case-maravilhas .texto-cta p{
+  font-size: 18px;
+}
+
+#conteudo-case-maravilhas .texto-cta p:nth-child(1){
+  margin-bottom: 80px;
+}
+
+#conteudo-case-maravilhas .texto-cta p:nth-child(2){
+  margin-bottom: 49px;
+}
+
+#conteudo-case-maravilhas .texto-cta p strong{
+  color: #2D2D2D;
+}
+
 /* Página Vagas */
 
 #vagas {

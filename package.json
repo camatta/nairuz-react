@@ -40,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/camatta/nairuz-react/issues"
   },
+  "engines":{
+    "node": "18.x"
+  },
   "homepage": "https://github.com/camatta/nairuz-react#readme"
 }
