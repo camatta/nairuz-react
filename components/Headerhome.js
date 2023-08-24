@@ -65,7 +65,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
   </header>
 
-  <div className='carrossel-header'>
+
+  <div className='carrossel-header owl-carousel'>
 
     <div className="container-fluid" id="bg-carrossel1">
       <div className="container">
@@ -73,47 +74,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div className="col-12">
             <div className="carrossel-principal">
               <div className="row">
-                <div className="col-12 col-md-4">
-                  <div className="left-carrossel topo-h1">
-                    <h1>Somos uma <strong>agência de marketing digital e tecnologia!</strong></h1>
-                  </div>
+                <div className="col-12 col-md-5">
                   <div className="left-carrossel">
-                    <p>Veja como a Maravilhas do Lar <b>aumentou sua receita em 44%</b> nos 6 primeiros meses de projeto!</p>
+                    <p>Unimos estratégias de marketing e tecnologia para o <strong>crescimento do seu negócio!</strong></p>
+                  </div>
+                  <div className="text-left-carrossel">
+                    <p>Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
+                  </div>
+                  <div className="button-left-carrossel">
+                    <button onClick={urlCases}>Saiba Mais</button>
                   </div>
                 </div>
                 <div className="col-3 desktoponly"></div>
-                <div className="col-12 col-md-5">
+                <div className="col-12 col-md-4">
                   <div className="right-carrossel">
-                    <div className="cards d-flex text-center">
-                      <div className="card1">
-                        <div className="img-card">
-                          <Image src="/icon-user-top.svg" alt="Usuários" width={51} height={51} />
-                        </div>
-                        <div className="title-card">
-                          <p>+ de <b>46%</b> de aumento em transações</p>
-                        </div>
-                        <div className="desc-card">
-                          <p>Média mensal de transações concluídas no e-commerce.</p>
-                        </div>
-                      </div>
-                      <div className="card2">
-                        <div className="img-card">
-                          <Image src="/icon-money-top.svg" alt="Usuários" width={51} height={51} />
-                        </div>
-                        <div className="title-card">
-                          <p>+ <b>12%</b> no tráfego</p>
-                        </div>
-                        <div className="desc-card">
-                          <p>Aumento alcançado sem alterações na verba média de Investimento em Ads.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="descricao-right">
-                      <p className="desktoponly">O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente ao seu consumidor almejado. Mas como isso foi possível? Conheça nossos Cases de Sucesso!</p>
-                      <div className="button-right">
-                        <button onClick={urlCases}>Saiba Mais</button>
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
@@ -122,9 +97,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
     </div>
-    
+
+    <div className="container-fluid" id="bg-carrossel2">
+      <div className="container">
+        <div className="row" id="carrossel">
+          <div className="col-12">
+            <div className="carrossel-principal">
+              <div className="row">
+                <div className="col-12 col-md-5">
+                  <div className="left-carrossel">
+                    <p>Veja como a Maravilhas do Lar <strong>aumentou sua receita em 44%</strong> nos 6 primeiros meses de projeto!</p>
+                  </div>
+                  <div className="text-left-carrossel">
+                    <p>O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente ao seu consumidor almejado. Mas como isso foi possível? <strong>Conheça nossos Cases de Sucesso!</strong></p>
+                  </div>
+                  <div className="button-left-carrossel">
+                    <button onClick={urlCases}>Saiba Mais</button>
+                  </div>
+                </div>
+                <div className="col-7 desktoponly">
+                  <div className="img-main-topo">
+                    <Image src="/img-maravilhas-main-topo.png" alt="Logo Nairuz" width={986} height={444} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
 
   </div>
+
+  <div className="container">
+    <div className="row">
+      <div className="col-12">
+        <div className="title-h1-home">
+          <h1>Somos uma <strong>agência de marketing digital e tecnologia!</strong></h1>
+        </div> 
+      </div>
+    </div>
+  </div> 
 
 </div>
 </>

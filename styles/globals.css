@@ -256,20 +256,33 @@ a:hover, a {
   z-index: 2;
 }
 
+.title-h1-home {
+  position: absolute;
+  top: 14rem;
+  z-index: 5;
+}
+
+.title-h1-home h1 {
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.5;
+  width: 60%;
+}
+
 /*Alteração Maravilhas*/
 #bg-carrossel1 {
-  background-image: url(/bg-maravilhas-home.webp);
+  background-image: url(/bg-topo-main.png);
   background-size: cover;
   background-position-x: right;
-  background-position-y: top;
+  background-position-y: bottom;
 }
 /*Alteração Maravilhas*/
 
 #bg-carrossel2 {
-  background-image: url(/bg-bialetti-home2.webp);
+  background-image: url(/bg-maravilhas-topo-main.png);
   background-size: cover;
   background-position-x: right;
-  background-position-y: top;
+  background-position-y: bottom;
 }
 
 #bg-carrossel3 {
@@ -287,18 +300,23 @@ a:hover, a {
 
 /*Alteração Maravilhas, navs e dots*/
 @media (min-width: 1400px) {
-  .owl-carousel.carrossel-header .owl-dots,
-  .owl-carousel.carrossel-header .owl-nav {
+  .owl-carousel.carrossel-header .owl-dots {
     max-width: 1140px;
   }
 }
 
 @media (min-width: 1200px) {
-  .owl-carousel.carrossel-header .owl-nav,
   .owl-carousel.carrossel-header .owl-dots {
     max-width: 1140px;
   }
 }
+
+@media (min-width: 1400px) {
+  .owl-carousel.carrossel-header .owl-nav {
+    max-width: 1400px;
+  }
+}
+
 
 .owl-carousel.carrossel-header .owl-nav .owl-prev {
   position: absolute;
@@ -309,8 +327,9 @@ a:hover, a {
 
 .owl-carousel.carrossel-header .owl-nav .owl-next {
   position: absolute;
-  left: 3.5rem;
+  right: 0rem;
   bottom: 20rem;
+  padding-right: 12px !important;
 }
 
 .owl-carousel.carrossel-header .owl-nav button img {
@@ -319,27 +338,23 @@ a:hover, a {
 
 .owl-carousel.carrossel-header .owl-dots .owl-dot {
   position: absolute;
-  bottom: 25rem;
+  bottom: 4.7rem;
 }
 
 .owl-carousel.carrossel-header .owl-dots .owl-dot:first-child {
-  left: 12px;
-  margin-left: 0;
+  left: 49%;
 }
 
 .owl-carousel.carrossel-header .owl-dots .owl-dot:nth-child(2) {
-  left: 1.5rem;
+  left: 51%;
 }
 
-.owl-carousel.carrossel-header .owl-dots .owl-dot:nth-child(3) {
-  left: 3rem;
-}
 
 .owl-carousel.carrossel-header .owl-dots .owl-dot{
   margin: 0 10px;
   background-color: #fff;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
 }
 
@@ -752,21 +767,61 @@ a:hover, a {
 /* Banner Carrossel Home */
 
 #carrossel {
-  padding-top: 16rem;
-  padding-bottom: 12rem;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
 }
 
-.left-carrossel p,
-.left-carrossel h1 {
-  font-size: 22px;
+#carrossel .carrossel-principal {
+  margin-top: 8rem;
+}
+
+.left-carrossel p {
+  font-size: 18px;
   color: #fff;
   line-height: 1.5;
 }
 
-.left-carrossel p b,
-.left-carrossel h1 b {
+.left-carrossel p strong {
   color: #58DBAA;
   font-weight: 800;
+}
+
+.left-carrossel, .text-left-carrossel {
+  margin-bottom: 2rem;
+}
+
+.left-carrossel {
+  height: 83px;
+}
+
+.text-left-carrossel {
+  height: 125px;
+}
+
+.text-left-carrossel p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.5;
+  width: 80%;
+}
+
+#bg-carrossel2 .text-left-carrossel p {
+  width: 100%;
+}
+
+.img-main-topo {
+  position: relative;
+  bottom: 4.5rem;
+}
+
+.button-left-carrossel button {
+  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  padding: 0.7rem 1.4rem;
+  font-size: 14.4px;
+  color: #fff;
+  border: none;
+  font-weight: 600;
 }
 
 .title-card p {
