@@ -135,7 +135,7 @@ export default function NovaMedicamentos2() {
             <div className="col-6 text-center d-flex flex-column">
               <p className="text-cta">Quer saber mais sobre a Transpalet e como a Nairuz promoveu o <strong className='strongColor'>e-commerce</strong>  dessa marca? Então assista ao vídeo com o depoimento do nosso cliente!</p>
 
-              <a className='text-cta-link' target='_blank' href="https://www.youtube.com/watch?v=zZIXg9adnVc">CLIQUE AQUI PARA ASSISTIR</a>
+              <a className="text-cta-link" target="_blank" href="https://www.youtube.com/watch?v=zZIXg9adnVc" rel="noopener noreferrer">CLIQUE AQUI PARA ASSISTIR</a>
 
               <p className="text-cta">Então, quer fazer da sua empresa um <strong>case de sucesso</strong> da Nairuz? Entre em contato com os nossos consultores e garanta você também o futuro do seu negócio no mundo digital!</p>
 
