@@ -29,15 +29,65 @@
 
   /* Header */
 
-  #bg-carrossel1,
-  #bg-carrossel2,
-  #bg-carrossel3 {
-    background-image: url(/bg-header-mob.png);
-    padding: 4rem 0 8rem 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 3rem;
-  }
+  #bg-carrossel1 {
+    background-image: url(/banner-main-mobile.png);
+}
+
+#bg-carrossel1,
+#bg-carrossel2 {
+  padding: 4rem 0 8rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 105vh;
+}
+
+.title-h1-home {
+  position: absolute;
+  top: 9rem;
+  z-index: 5;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+}
+
+.title-h1-home h1 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.5;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.title-h1-home h1 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.5;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.text-left-carrossel {
+  display: none;
+}
+
+.left-carrossel, .text-left-carrossel {
+  margin-bottom: 0rem;
+}
+
+#carrossel .carrossel-principal {
+  margin-top: 4rem;
+}
+
+.button-left-carrossel {
+  text-align: center;
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translate(-50%);
+}
 
   .owl-carousel.carrossel-header .owl-nav {
     display: none;
@@ -49,11 +99,19 @@
   }
 
   .owl-carousel.carrossel-header .owl-dots {
-    position: absolute;
-    top: 16.5rem;
+    top: 1.5rem;
     left: 50%;
-    transform: translate(-50%);
-  }
+    transform: translateX(-50%);
+}
+
+.owl-carousel.carrossel-header .owl-dots .owl-dot:first-child {
+  left: 43%;
+}
+
+.owl-carousel.carrossel-header .owl-dots .owl-dot:nth-child(2) {
+  left: 48%;
+}
+
 
   .headermob {
     display: flex;
@@ -2119,6 +2177,13 @@
   .case-maravilhas #new-video-case .container{
     padding-top: 43px;
   }
+    .title-h1-home h1 {
+        font-size: 17px;
+    }
+
+    .left-carrossel p {
+      font-size: 14px; 
+    }
 }
 
 @media (min-width: 1650px) {
