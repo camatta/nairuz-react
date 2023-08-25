@@ -3508,6 +3508,10 @@ a:hover, a {
   margin-bottom: 50px;
 }
 
+#conteudo-case-maravilhas .titulo-sobre .text-center h4{
+  max-width: 696px;
+}
+
 #conteudo-case-maravilhas h3,
 #conteudo-case-maravilhas h4{
   letter-spacing: 0px;
@@ -3535,8 +3539,9 @@ a:hover, a {
   color: #392BA1;
 }
 
+#conteudo-case-maravilhas .bg-text.box-1,
 #conteudo-case-maravilhas .bg-text.box-3,
-#conteudo-case-maravilhas .bg-text.box-1{
+#conteudo-case-maravilhas .bg-text.box-4{
   background-color: #F1F1F1; 
 }
 

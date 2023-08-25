@@ -2008,10 +2008,6 @@
     max-height: 89px;
   }
 
-  #conteudo-case-maravilhas .crescimento{
-    padding-bottom: 0;
-  }
-
   #conteudo-case-maravilhas .texto-cta .col-8{
     width: 100%;
   }
@@ -2085,8 +2081,7 @@
 
   #conteudo-case-maravilhas .box-4{
     flex-direction: column;
-    padding: 0;
-    padding-bottom: 40px;
+    padding: 20px;
   }
 
   #conteudo-case-maravilhas .box-4 .col-6 span{
