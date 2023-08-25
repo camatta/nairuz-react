@@ -3535,7 +3535,8 @@ a:hover, a {
   color: #392BA1;
 }
 
-#conteudo-case-maravilhas .bg-text.box-3{
+#conteudo-case-maravilhas .bg-text.box-3,
+#conteudo-case-maravilhas .bg-text.box-1{
   background-color: #F1F1F1; 
 }
 
