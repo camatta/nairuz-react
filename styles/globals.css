@@ -435,6 +435,7 @@ a:hover, a {
   flex-flow: row wrap;
   justify-content: center;
   overflow: hidden;
+  display: none;
 }
 
 #content-instagram  a img {
