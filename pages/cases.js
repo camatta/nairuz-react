@@ -112,8 +112,8 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Pontos fora da curva foram detectados e corrigidos;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>1° lugar em vendas de peças de reposição Paletrans;</p></li>
+                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Pontos fora da curva foram detectados<br />e corrigidos;</p></li>
+                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>1° lugar em vendas de peças de<br />reposição Paletrans;</p></li>
                           <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>O faturamento de 2022 foi 17,82%<br /> maior que o faturamento de 2021.</p></li>
                         </ul>
                       </div>
@@ -128,7 +128,7 @@ export default function Cases() {
                       </div>
                     </div>
                   </div>
-                  {/* <div className="case-item">
+                  <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
                         <span>Tráfego Pago</span>
@@ -140,7 +140,7 @@ export default function Cases() {
                         <ul>
                           <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>20% no aumento de transações;</p></li>
                           <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>9% de aumento em tráfego pago;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Aumento de 44% na receita nos 6 primeiros<br /> meses de projeto.</p></li>
+                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Aumento de 44% na receita nos<br />6 primeiros meses de projeto.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -153,7 +153,7 @@ export default function Cases() {
                         <Image className="logo-case" src="/cases/logo-maravilhas.svg" alt="Maravilhas do Lar" width={126} height={78} />
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                   <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
@@ -165,7 +165,7 @@ export default function Cases() {
                       <div className="servicos-case">
                         <ul>
                           <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+ 127% acessos orgânicos;</p></li>
-                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+ 92% de aumento no faturamento do e-commerce;</p></li>
+                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+ 92% de aumento no faturamento<br />do e-commerce;</p></li>
                           <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>ROAS maior que 1100% em campanhas pagas.</p></li>
                         </ul>
                       </div>
