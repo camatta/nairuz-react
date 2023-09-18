@@ -123,8 +123,8 @@ export default function Cases() {
                     </div>
                     <div className="visible-case">
                       <Image className="img-fluid" src="/cases/case-transpalet.png" alt="Transpalet" width={370} height={533} />
-                      <div className="logocase">
-                        <Image className="logo-case" src="/cases/logo-transpalet.svg" alt="Transpalet" width={96} height={48} />
+                      <div className="logocase transpalet">
+                        <Image className="logo-case" src="/cases/logo-transpalet.svg" alt="Transpalet" width={69} height={48} />
                       </div>
                     </div>
                   </div>

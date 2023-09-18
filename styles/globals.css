@@ -1845,11 +1845,18 @@ a:hover, a {
   transform: translate(-160%);
 }
 
+.logocase.transpalet{
+  width: auto;
+}
+
+.cases .case-item:hover .visible-case .logocase.transpalet {
+  transform: translate(-245%);
+}
+
 .cases .case-item {
   position: relative;
   width: 100%;
 }
-
 
 .cases .case-item:hover .button-case,
 .cases .case-item:hover .descricao-case,
