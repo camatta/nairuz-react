@@ -250,7 +250,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/?fullscreen" target="_blank" rel="noopener noreferrer">
                         <Image src="/modelo-gaming.png" alt="Gaming Preview" width={535} height={262} />
                       </a>
                       <div className="efeito-previa">
@@ -282,7 +282,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/70062bb2-86df-4a67-88b0-c96a4b8e0f67-2555/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://xd.adobe.com/view/70062bb2-86df-4a67-88b0-c96a4b8e0f67-2555/?fullscreen" target="_blank" rel="noopener noreferrer">
                         <Image src="/modelo-infantil.png" alt="Infantil Preview" width={535} height={262} />
                       </a>
                       <div className="efeito-previa">

@@ -132,9 +132,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/931586ab-73ad-4b40-9555-f9cdb1490e5b-c646/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-diamond.png" alt="Diamond Preview" width={535} height={262} /></a>
+                      <a href="https://xd.adobe.com/view/93d4c7d5-3f9d-4b45-9960-c4fff2d9fcce-c687/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-diamond.png" alt="Diamond Preview" width={535} height={262} /></a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/931586ab-73ad-4b40-9555-f9cdb1490e5b-c646/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
+                        <a href="https://xd.adobe.com/view/93d4c7d5-3f9d-4b45-9960-c4fff2d9fcce-c687/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
                       </div>
                     </div>
                     <div className="logo-modelo">
@@ -155,9 +155,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/691f5f13-be9e-4957-be48-d9651efa9c66-3c4c/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-decora.png" alt="Decora Preview" width={535} height={262} /></a>
+                      <a href="https://xd.adobe.com/view/76c4e754-5a6c-4cd0-9163-dd4ed131a5a3-2397/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-decora.png" alt="Decora Preview" width={535} height={262} /></a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/691f5f13-be9e-4957-be48-d9651efa9c66-3c4c/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
+                        <a href="https://xd.adobe.com/view/76c4e754-5a6c-4cd0-9163-dd4ed131a5a3-2397/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
                       </div>
                     </div>
                     <div className="logo-modelo">
@@ -180,9 +180,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/02b26992-0180-44f5-9a04-7fe58c84d5d8-57e1/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-food.png" alt="Food Preview" width={535} height={262} /></a>
+                      <a href="https://xd.adobe.com/view/87400f55-f4de-476c-be8b-5491f6a2bd0e-d213/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-food.png" alt="Food Preview" width={535} height={262} /></a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/02b26992-0180-44f5-9a04-7fe58c84d5d8-57e1/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
+                        <a href="https://xd.adobe.com/view/87400f55-f4de-476c-be8b-5491f6a2bd0e-d213/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
                       </div>
                     </div>
                     <div className="logo-modelo">
@@ -203,9 +203,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/ed9aab19-1f88-4fd6-9818-5ee05901b926-b8c9/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-ruby.png" alt="Ruby Preview" width={535} height={262} /></a>
+                      <a href="https://xd.adobe.com/view/792be5ab-ac35-454a-9c31-c3d3e3f8b195-2c78/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-ruby.png" alt="Ruby Preview" width={535} height={262} /></a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/ed9aab19-1f88-4fd6-9818-5ee05901b926-b8c9/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
+                        <a href="https://xd.adobe.com/view/792be5ab-ac35-454a-9c31-c3d3e3f8b195-2c78/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
                       </div>
                     </div>
                     <div className="logo-modelo">
@@ -228,9 +228,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/c32f2a92-00de-488b-87ce-26a38e59e9f2-967c/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-athletic.png" alt="Athletic Preview" width={535} height={262} /></a>
+                      <a href="https://xd.adobe.com/view/2d9f6c74-a6d4-4475-ba6d-ef5a49e9564f-78cc/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-athletic.png" alt="Athletic Preview" width={535} height={262} /></a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/c32f2a92-00de-488b-87ce-26a38e59e9f2-967c/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>                      </div>
+                        <a href="https://xd.adobe.com/view/2d9f6c74-a6d4-4475-ba6d-ef5a49e9564f-78cc/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>                      </div>
                     </div>
                     <div className="logo-modelo">
                       <Image src="/logo-athletic.png" alt="Athletic Logo" width={100} height={100} />
@@ -250,9 +250,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/08e5df29-9ded-4f72-bfe2-745b9572510d-5db6/" target="_blank" rel="noopener noreferrer"><Image src="/modelo-gaming.png" alt="Gaming Preview" width={535} height={262} /></a>
+                      <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-gaming.png" alt="Gaming Preview" width={535} height={262} /></a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/08e5df29-9ded-4f72-bfe2-745b9572510d-5db6/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
+                        <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
                       </div>
                     </div>
                     <div className="logo-modelo">
