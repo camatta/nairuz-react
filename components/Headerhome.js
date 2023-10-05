@@ -68,37 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <div className='carrossel-header owl-carousel'>
 
-    <div className="container-fluid" id="bg-carrossel1">
-      <div className="container">
-        <div className="row" id="carrossel">
-          <div className="col-12">
-            <div className="carrossel-principal">
-              <div className="row">
-                <div className="col-12 col-md-5">
-                  <div className="left-carrossel">
-                    <p>Unimos estratégias de marketing e tecnologia para o <strong>crescimento do seu negócio!</strong></p>
-                  </div>
-                  <div className="text-left-carrossel">
-                    <p>Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
-                  </div>
-                  <div className="button-left-carrossel">
-                    <button onClick={urlCases}>Saiba Mais</button>
-                  </div>
-                </div>
-                <div className="col-3 desktoponly"></div>
-                <div className="col-12 col-md-4">
-                  <div className="right-carrossel">
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="container-fluid" id="bg-carrossel2">
+  <div className="container-fluid" id="bg-carrossel2">
       <div className="container">
         <div className="row" id="carrossel">
           <div className="col-12">
@@ -130,6 +100,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
 
+    <div className="container-fluid" id="bg-carrossel1">
+      <div className="container">
+        <div className="row" id="carrossel">
+          <div className="col-12">
+            <div className="carrossel-principal">
+              <div className="row">
+                <div className="col-12 col-md-5">
+                  <div className="left-carrossel">
+                    <p>Unimos estratégias de marketing e tecnologia para o <strong>crescimento do seu negócio!</strong></p>
+                  </div>
+                  <div className="text-left-carrossel">
+                    <p>Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
+                  </div>
+                  <div className="button-left-carrossel">
+                    <button onClick={urlCases}>Saiba Mais</button>
+                  </div>
+                </div>
+                <div className="col-3 desktoponly"></div>
+                <div className="col-12 col-md-4">
+                  <div className="right-carrossel">
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
    
 
   </div>
