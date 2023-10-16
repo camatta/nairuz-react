@@ -11,14 +11,14 @@ export default function NovaMedicamentos2() {
   return (
     <div className="page-cases page-case-novamed">
       <Head>
-        <title>Nairuz - Case Nova Medicamentos</title>
-        <meta name="description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
+        <title>Como dobrar o faturamento com técnicas de SEO? Conheça o case de sucesso da Nova Medicamentos!</title>
+        <meta name="description" content="Já pensou em aumentar o tráfego orgânico da sua marca com SEO em 139%? Descubra como a Nova Medicamentos atingiu esse marco!" />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
-				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
+        <meta property="og:description" content="Já pensou em aumentar o tráfego orgânico da sua marca com SEO em 139%? Descubra como a Nova Medicamentos atingiu esse marco!" />
+				<meta property="og:site_name" content="Como dobrar o faturamento com técnicas de SEO? Conheça o case de sucesso da Nova Medicamentos!" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />

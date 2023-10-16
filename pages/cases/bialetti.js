@@ -10,14 +10,14 @@ export default function Bialetti() {
   return (
     <div className="page-cases page-case-bialettishop">
       <Head>
-        <title>Nairuz - Bialettishop</title>
-        <meta name="description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
+        <title>Bialetti Shop aumentou seu faturamento em 800% em menos de 1 ano: descubra como</title>
+        <meta name="description" content="Venha conferir essa parceria de sucesso entre a Nairuz e a Bialetti Brasil, e como essa marca conseguiu superar suas metas de faturamento em um ano!" />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
-				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
+        <meta property="og:description" content="Venha conferir essa parceria de sucesso entre a Nairuz e a Bialetti Brasil, e como essa marca conseguiu superar suas metas de faturamento em um ano!" />
+				<meta property="og:site_name" content="Bialetti Shop aumentou seu faturamento em 800% em menos de 1 ano: descubra como" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />

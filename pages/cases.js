@@ -55,14 +55,14 @@ export default function Cases() {
   return (
     <div className="page-cases">
       <Head>
-        <title>Nairuz | Marketing Digital - Cases</title>
-        <meta name="description" content="Quer impulsionar os resultados da sua empresa por meio das estratégias de marketing digital? Acesse e conheça nossos cases de sucesso!" />
+        <title>Marcas que fazem parte do nossos Cases de Sucesso!</title>
+        <meta name="description" content="Quer impulsionar os resultados da sua empresa ainda hoje com estratégias de marketing digital? Acesse e conheça nossos cases de sucesso!" />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
-				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
+        <meta property="og:description" content="Quer impulsionar os resultados da sua empresa ainda hoje com estratégias de marketing digital? Acesse e conheça nossos cases de sucesso!" />
+				<meta property="og:site_name" content="Marcas que fazem parte do nossos Cases de Sucesso!" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />

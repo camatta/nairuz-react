@@ -19,14 +19,14 @@ export default function Vtex() {
   return (
     <>
       <Head>
-        <title>Nairuz | Marketing Digital - E-commerce VTEX</title>
-        <meta name="description" content="Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente! Somos uma agência VTEX certificada, entregamos soluções para atender os mais complexos desafios do seu e-commerce." />
+        <title>A Nairuz é Quadrante VTEX e está aqui para ajudar o seu negócio decolar!</title>
+        <meta name="description" content="A Nairuz é certificada pela VTEX, especializada em oferecer soluções sob medida para superar desafios! Descubra como impulsionar o sucesso da sua empresa." />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente! Somos uma agência VTEX certificada, entregamos soluções para atender os mais complexos desafios do seu e-commerce." />
-				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
+        <meta property="og:description" content="A Nairuz é certificada pela VTEX, especializada em oferecer soluções sob medida para superar desafios! Descubra como impulsionar o sucesso da sua empresa." />
+				<meta property="og:site_name" content="A Nairuz é Quadrante VTEX e está aqui para ajudar o seu negócio decolar!" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />

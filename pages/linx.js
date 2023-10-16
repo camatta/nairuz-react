@@ -24,14 +24,14 @@ export default function Linx() {
   return (
     <>
       <Head>
-        <title>Nairuz | Marketing Digital - E-commerce LINX</title>
-        <meta name="description" content="Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente! Somos uma agência VTEX certificada, entregamos soluções para atender os mais complexos desafios do seu e-commerce." />
+        <title>Uma parceria de sucesso, Nairuz e LINX ajudando o seu negócio decolar!</title>
+        <meta name="description" content="Somos uma agência LINX certificada, uma plataforma completa que permite adaptações rápidas às mudanças e às necessidades do cliente!" />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Uma plataforma completa, integrada e permite adaptações rápidas às mudanças no mercado e às necessidades do cliente! Somos uma agência VTEX certificada, entregamos soluções para atender os mais complexos desafios do seu e-commerce." />
-				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
+        <meta property="og:description" content="Somos uma agência LINX certificada, uma plataforma completa que permite adaptações rápidas às mudanças e às necessidades do cliente!" />
+				<meta property="og:site_name" content="Uma parceria de sucesso, Nairuz e LINX ajudando o seu negócio decolar!" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
