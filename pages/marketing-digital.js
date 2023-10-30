@@ -346,7 +346,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <a onClick={rollOrcamento} className="saiba-mais-temas">QUERO VENDER MAIS</a>
                   </div>
                   <div className="formRd-tema performance">
-                  <div role="main" id="lp-marketing-2022-16dd24c9f90b7c7f48ec"></div>
+                  <div role="main" id="marketing-digital-30c2c87edfdd6cc6aca2"></div>
                   </div>
                   <div className="form-tema">
                     <form>
@@ -462,7 +462,7 @@ $(document).ready(function(){
 });
  
   if (window.RDStationForms) {
-    new RDStationForms('lp-marketing-2022-16dd24c9f90b7c7f48ec', 'UA-48773259-1').createForm();
+    new RDStationForms('marketing-digital-30c2c87edfdd6cc6aca2', 'UA-48773259-1').createForm();
   }
 
   if($('.overlay-loading').length){
@@ -497,7 +497,8 @@ $(document).ready(function(){
 </Script>
 
 <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
-<Script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/58f2af1b-9339-4f1e-900b-b1cde4544bb4-loader.js" ></Script>
+<Script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/58f2af1b-9339-4f1e-900b-b1cde4544bb4-loader.js"></Script>
+
 <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCTM4JN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
 
