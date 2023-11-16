@@ -667,7 +667,8 @@
     width: 100%;
     flex-flow: row wrap;
     justify-content: center;
-    height: auto; 
+    height: auto;
+    display: none;
   }
 
   #content-instagram ul.insta {
@@ -1885,6 +1886,25 @@
     justify-content: center;
   }
 
+  .case-dcorp .col-6 {
+    width: 100%;
+  }
+
+  #conteudo-case-dcorp .sobre-dcorp .texto-destaque:before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 115px;
+  }
+
+  #conteudo-case-dcorp .sobre-dcorp .texto-destaque {
+    padding-left: 0;
+  }
+
+  #estudo-caso {
+    padding-bottom: 30px;
+  }
+
   #conteudo-case-transpalet .banner-empilhadeira span > img,
   #conteudo-case-transpalet .como-alavancou span > img{
     max-width: 450px !important;
@@ -2035,6 +2055,42 @@
   #conteudo-case-transpalet .sobre-transpalet .texto-destaque::before {
     height: 145px !important;
   }
+
+  /*CASE - DCORP*/
+  .text-estudo-case.case-dcorp {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .case-dcorp .button-resultado-cta a {
+    font-size: 10px;
+  }
+  .case-dcorp .col-6 {
+    width: 100%;
+  }
+  #notesecao .notebook-img {
+    top: 1.5rem;
+    left: 15%;
+    transform: translate(-9%);
+  }
+  #notesecao {
+    margin-bottom: 200px;
+  }
+  #conteudo-case-dcorp .sobre-dcorp .texto-destaque:before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 207px;
+  }
+  #conteudo-case-dcorp .sobre-dcorp .texto-destaque {
+    padding-left: 0;
+  }
+  #title-exp {
+    padding: 0 2rem;
+    margin: 2rem 0;
+    text-align: justify;
+  }
+  /*FIM CASE - DCORP*/
 
   /* CASE - MARAVILHAS DO LAR */
   #conteudo-case-maravilhas p{

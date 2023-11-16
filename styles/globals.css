@@ -1940,6 +1940,13 @@ a:hover, a {
   transition: opacity 1s ease-in-out;
 }
 
+.descricao-case.dcorp {
+  top: 8rem;
+}
+.case-item .seodcorp {
+  width: 43px;
+}
+
 .servicos-case {
   position: absolute;
   z-index: 2;
@@ -3449,16 +3456,16 @@ a:hover, a {
   color: #000000;
 }
 
-#conteudo-case-transpalet .sobre-transpalet strong{
+#conteudo-case-transpalet .sobre-transpalet strong, #conteudo-case-dcorp .case-dcorp strong {
   color: #392BA1;
 }
 
-#conteudo-case-transpalet .sobre-transpalet .texto-destaque{
+#conteudo-case-transpalet .sobre-transpalet .texto-destaque, #conteudo-case-dcorp .sobre-dcorp .texto-destaque{
   padding-left: 30px;
   position: relative;
 }
 
-#conteudo-case-transpalet .sobre-transpalet .texto-destaque:before{
+#conteudo-case-transpalet .sobre-transpalet .texto-destaque:before, #conteudo-case-dcorp .sobre-dcorp .texto-destaque:before{
   content: '';
   width: 50vw;
   height: 120px;
@@ -3502,6 +3509,148 @@ a:hover, a {
   font-weight: bold;
   width: 70%;
 }
+
+/*Página Case Dcorp*/
+
+#conteudo-case-dcorp .area-trafego-organico {
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+}
+#conteudo-case-dcorp .area-trafego-organico p {
+  color: #2D2D2D;
+    line-height: 1.6;
+    font-size: 0.825rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 2rem;
+}
+.text-estudo-case.case-dcorp {
+  position: relative;
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+  height: 270px;
+  padding-top: 6rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.text-estudo-case.case-dcorp .icon-note {
+  position: absolute;
+  top: -4.5rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.text-estudo-case.case-dcorp p {
+  width: 94%;
+  margin: auto
+}
+#conteudo-case-dcorp strong, #tecnologia-mercado strong, .titulo-tecnologia h4 strong, 
+#estudo-caso strong, #conte-conosco strong {
+  color: #392BA1
+}
+#conteudo-case-dcorp .segunda-parte h3 {
+  font-size: 24px;
+  line-height: 30px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#conteudo-case-dcorp .sobre p {
+  font-size: 0.825rem;
+  line-height: 1.6;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.sobre-dcorp {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#conteudo-case-dcorp .img-grafico {
+  margin: 40px 0;
+}
+#conteudo-case-dcorp .como-alavancou, #estudo-caso {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 60px;
+}
+#tecnologia-mercado h3 {
+  margin-top: 60px;
+}
+#conteudo-case-dcorp .como-alavancou p {
+  font-size: 0.800rem;
+  line-height: 1.6;
+  color: #000;
+}
+#tecnologia-mercado .sobre-tec p, .desc-tec p, #estudo-caso p, #conte-conosco p {
+  font-size: 0.825rem;
+  line-height: 1.6;
+  color: #2d2d2d;
+}
+#title-exp {
+  text-align: center;
+  padding: 50px 0;
+}
+.titulo-tecnologia h4 {
+  font-weight: bold;
+  color: #2D2D2D;
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+#notesecao {
+  position: relative;
+  margin-bottom: 270px;
+}
+#notesecao:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  background: #6316C9;
+  height: 167px;
+  width: 100%;
+}
+#conte-conosco {
+  padding-top: 50px;
+  text-align: center;
+}
+#conteudo-case-dcorp .title-descobrir {
+  margin-bottom: 110px;
+}
+#conte-conosco .descricao-conosco {
+  margin-bottom: 4rem;
+}
+#tecnologia-mercado .info-enve {
+  position: relative;
+  margin-top: 20px;
+}
+#tecnologia-mercado .info-enve p {
+  padding-left: 30px;
+}
+#tecnologia-mercado .iconenvelope {
+  position: absolute;
+  top: 30%;
+}
+#notesecao .area-note {
+  text-align: center;
+  position: relative;
+}
+#notesecao .notebook-img {
+  position: absolute;
+    top: -4.5rem;
+    left: 35%;
+    transform: translate(-32%);
+}
+#estudo-caso p {
+  margin-bottom: 20px;
+}
+#conte-conosco h4 {
+  font-weight: bold;
+  color: #2D2D2D;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+/*Fim página case dcorp*/
 
 /* Página Case Maravilhas */
 #conteudo-case-maravilhas .row{

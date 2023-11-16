@@ -50,6 +50,10 @@ const urlTranspalet = () => {
   document.location.href = '/cases/transpalet';
 }
 
+const urlDcorp = () => {
+  document.location.href = '/cases/dcorp';
+}
+
 
 export default function Cases() {
   return (
@@ -102,6 +106,34 @@ export default function Cases() {
             <div className="col-12">
               <div className="cases">
               <div className="owl-carousel carrossel-page-cases">
+              <div className="case-item">
+                    <div className="hide-case">
+                      <div className="tags-case">
+                        <span>Layout Personalizado</span>
+                        <span>Marketing full-service</span>
+                        <span className='seodcorp'>SEO</span>
+                      </div>
+                      <div className="descricao-case dcorp">
+                        <p>A Daros Corp é um grupo empresarial do setor pet, focada em comércio e desenvolvimento internacional, fundada em 1995, em Itajaí /SC. Hoje, a empresa é responsável por importar e comercializar as renomadas marcas Oster, Propetz e Choyer. Reconhecida como uma das empresas líderes de mercado em sua área de atuação, a Daros Corp tem uma trajetória marcada por inovação, responsabilidade social e transparência.</p>
+                      </div>
+                      <div className="servicos-case">
+                        <ul>
+                          <li><Image src="/dcorp/icon1.svg" width={30} height={30} /> <p>+ 81% tráfego orgânico;</p></li>
+                          <li><Image src="/dcorp/icon2.svg" width={30} height={30} /> <p>Queda de 92% na taxa de rejeição;</p></li>
+                          <li><Image src="/dcorp/icon3.svg" width={30} height={30} /> <p>Redução de 42% no tempo de<br></br> carregamento das páginas.</p></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="button-case">
+                      <a onClick={urlDcorp}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
+                    </div>
+                    <div className="visible-case">
+                      <Image className="img-fluid" src="/dcorp/fundo-case.png" alt="Dcorp" width={370} height={533} />
+                      <div className="logocase dcorp">
+                        <Image className="logo-case" src="/dcorp/icon4.svg" alt="Dcorp" width={69} height={48} />
+                      </div>
+                    </div>
+                  </div>
                   <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">
