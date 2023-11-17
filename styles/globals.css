@@ -3461,8 +3461,8 @@ a:hover, a {
 }
 
 #conteudo-case-transpalet .sobre-transpalet .texto-destaque, #conteudo-case-dcorp .sobre-dcorp .texto-destaque{
-  padding-left: 30px;
-  position: relative;
+  background-color: #f1f1f1;
+  padding: 17px 25px;
 }
 
 #conteudo-case-transpalet .sobre-transpalet .texto-destaque:before, #conteudo-case-dcorp .sobre-dcorp .texto-destaque:before{
@@ -3475,6 +3475,7 @@ a:hover, a {
   top: 50%;
   transform: translateY(-50%);
   z-index: -1;
+  display: none;
 }
 
 #conteudo-case-transpalet .img-grafico img{
@@ -3744,6 +3745,7 @@ a:hover, a {
 #conteudo-case-maravilhas .box-2{
   position: relative;
   padding: 17px 0 17px 29px;
+  background-color: #f1f1f1;
 }
 
 #conteudo-case-maravilhas .box-2::before{
@@ -3756,6 +3758,7 @@ a:hover, a {
   top: 50%;
   transform: translateY(-50%);
   z-index: -1;
+  display: none;
 }
 
 #conteudo-case-maravilhas .titulo-parceria h3{
