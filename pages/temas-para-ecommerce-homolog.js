@@ -277,8 +277,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
               </div>
             </div>
-            <div className="row justify-content-center">
-              <div className="col-12 col-md-6">
+            <div className="row">
+            <div className="col-12 col-md-6">
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
@@ -286,7 +286,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <Image src="/modelo-infantil.png" alt="Infantil Preview" width={535} height={262} />
                       </a>
                       <div className="efeito-previa">
-                        <a href="hhttps://xd.adobe.com/view/70062bb2-86df-4a67-88b0-c96a4b8e0f67-2555/?fullscreen" target="_blank" rel="noopener noreferrer">
+                        <a href="https://xd.adobe.com/view/70062bb2-86df-4a67-88b0-c96a4b8e0f67-2555/?fullscreen" target="_blank" rel="noopener noreferrer">
                           <div className="image-text">
                             <Image src="/icon-previa.png" alt="Preview" width={45} height={21} />
                             <p>Ver prévia</p>
@@ -301,6 +301,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className="footer-modelo">
                     <div className="descricao-modelo">
                       <p><b>Submarine</b>: Tema infantil com visual dinâmico e divertido.</p>
+                    </div>
+                    <div className="button-modelo">
+                      <button className="btn-modelo" id="set-tema-gaming" onClick={rollOrcamento}>Usar Tema</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="modelo-tema-card">
+                  <div className="header-modelo">
+                    <div className="img-modelo">
+                      <a href="https://xd.adobe.com/view/84a63a8f-4f24-4e33-993a-ca11a41fc8d3-d1f5/?fullscreen" target="_blank" rel="noopener noreferrer">
+                        <Image src="/TEMA_FARMA_HOME.png" alt="Infantil Preview" width={535} height={262} />
+                      </a>
+                      <div className="efeito-previa">
+                        <a href="https://xd.adobe.com/view/84a63a8f-4f24-4e33-993a-ca11a41fc8d3-d1f5/?fullscreen" target="_blank" rel="noopener noreferrer">
+                          <div className="image-text">
+                            <Image src="/icon-previa.png" alt="Preview" width={45} height={21} />
+                            <p>Ver prévia</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="logo-modelo">
+                      <Image src="/logo-farma.svg" alt="Gaming Logo" width={100} height={100} />
+                    </div>
+                  </div>
+                  <div className="footer-modelo">
+                    <div className="descricao-modelo">
+                      <p><b>Drogaria Farma</b>: Tema com visual atrativo do segmento farmacêutico.</p>
                     </div>
                     <div className="button-modelo">
                       <button className="btn-modelo" id="set-tema-gaming" onClick={rollOrcamento}>Usar Tema</button>
