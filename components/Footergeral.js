@@ -353,6 +353,10 @@ const Footergeral = () => (
       new RDStationForms('newsletter-2022-187ddf46c0b0d5987839', 'UA-48773259-1').createForm();
     }
 
+    if (window.RDStationForms) {
+      new RDStationForms('formulario-case-daros-corp-d5db2a17d2d8a3595a06', 'UA-48773259-1').createForm();
+    }
+
 
     $('#vaga1').click(function(){
       $('#vagas-popup .title-popup span').text('INBOUND MARKETING');
