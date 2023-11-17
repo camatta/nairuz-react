@@ -20,14 +20,14 @@ export default function Temas() {
   return (
     <div className="page-temas">
       <Head>
-        <title>Temas para e-commerce personalizáveis de acordo com o seu negócio! </title>
-        <meta name="description" content="Peça o seu tema para e-commerce para a Nairuz e descubra como as empresas online garantem o seu destaque no mercado digital!" />
+        <title>Nairuz | Marketing Digital - Temas para E-commerce</title>
+        <meta name="description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Peça o seu tema para e-commerce para a Nairuz e descubra como as empresas online garantem o seu destaque no mercado digital!" />
-				<meta property="og:site_name" content="Temas para e-commerce personalizáveis de acordo com o seu negócio! " />
+        <meta property="og:description" content="Conheça nossa Agência de Marketing Digital e Tecnologia e descubra como transformar os resultados da sua empresa. Acesse e saiba mais!" />
+				<meta property="og:site_name" content="Nairuz | Marketing Digital" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
@@ -250,9 +250,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="modelo-tema-card">
                   <div className="header-modelo">
                     <div className="img-modelo">
-                      <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/?fullscreen" target="_blank" rel="noopener noreferrer"><Image src="/modelo-gaming.png" alt="Gaming Preview" width={535} height={262} /></a>
+                      <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/?fullscreen" target="_blank" rel="noopener noreferrer">
+                        <Image src="/modelo-gaming.png" alt="Gaming Preview" width={535} height={262} />
+                      </a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/?fullscreen" target="_blank" rel="noopener noreferrer"><div className="image-text"><Image src="/icon-previa.png" alt="Preview" width={45} height={21} /><p>Ver prévia</p></div></a>
+                        <a href="https://xd.adobe.com/view/7e3d8b1c-6afe-4996-a465-1ce3a3047b2c-2b6e/?fullscreen" target="_blank" rel="noopener noreferrer">
+                          <div className="image-text">
+                          <Image src="/icon-previa.png" alt="Preview" width={45} height={21} />
+                          <p>Ver prévia</p>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div className="logo-modelo">
@@ -262,6 +269,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div className="footer-modelo">
                     <div className="descricao-modelo">
                       <p><b>T Gaming</b>: Tema de informática com fundo escuro e visual geek.</p>
+                    </div>
+                    <div className="button-modelo">
+                      <button className="btn-modelo" id="set-tema-gaming" onClick={rollOrcamento}>Usar Tema</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+            <div className="col-12 col-md-6">
+                <div className="modelo-tema-card">
+                  <div className="header-modelo">
+                    <div className="img-modelo">
+                      <a href="https://xd.adobe.com/view/70062bb2-86df-4a67-88b0-c96a4b8e0f67-2555/?fullscreen" target="_blank" rel="noopener noreferrer">
+                        <Image src="/modelo-infantil.png" alt="Infantil Preview" width={535} height={262} />
+                      </a>
+                      <div className="efeito-previa">
+                        <a href="https://xd.adobe.com/view/70062bb2-86df-4a67-88b0-c96a4b8e0f67-2555/?fullscreen" target="_blank" rel="noopener noreferrer">
+                          <div className="image-text">
+                            <Image src="/icon-previa.png" alt="Preview" width={45} height={21} />
+                            <p>Ver prévia</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="logo-modelo">
+                      <Image src="/logo-infantil.svg" alt="Gaming Logo" width={100} height={100} />
+                    </div>
+                  </div>
+                  <div className="footer-modelo">
+                    <div className="descricao-modelo">
+                      <p><b>Submarine</b>: Tema infantil com visual dinâmico e divertido.</p>
+                    </div>
+                    <div className="button-modelo">
+                      <button className="btn-modelo" id="set-tema-gaming" onClick={rollOrcamento}>Usar Tema</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="modelo-tema-card">
+                  <div className="header-modelo">
+                    <div className="img-modelo">
+                      <a href="https://xd.adobe.com/view/84a63a8f-4f24-4e33-993a-ca11a41fc8d3-d1f5/?fullscreen" target="_blank" rel="noopener noreferrer">
+                        <Image src="/TEMA_FARMA_HOME.png" alt="Infantil Preview" width={535} height={262} />
+                      </a>
+                      <div className="efeito-previa">
+                        <a href="https://xd.adobe.com/view/84a63a8f-4f24-4e33-993a-ca11a41fc8d3-d1f5/?fullscreen" target="_blank" rel="noopener noreferrer">
+                          <div className="image-text">
+                            <Image src="/icon-previa.png" alt="Preview" width={45} height={21} />
+                            <p>Ver prévia</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="logo-modelo">
+                      <Image src="/logo-farma.svg" alt="Gaming Logo" width={100} height={100} />
+                    </div>
+                  </div>
+                  <div className="footer-modelo">
+                    <div className="descricao-modelo">
+                      <p><b>Drogaria Farma</b>: Tema com visual atrativo do segmento farmacêutico.</p>
                     </div>
                     <div className="button-modelo">
                       <button className="btn-modelo" id="set-tema-gaming" onClick={rollOrcamento}>Usar Tema</button>
