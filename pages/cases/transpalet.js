@@ -157,7 +157,7 @@ export default function NovaMedicamentos2() {
           <div className="row mb-5">
             <div className="col-12">
               <div className="formRd-tema case-covabra">
-                <div role="main" id="formulario-case-covabra-9f569fed60a504ff45ae"></div>
+                <div role="main" id="formulario-case-transpalet-0544960c7770360b6197"></div>
               </div>
             </div>
           </div>

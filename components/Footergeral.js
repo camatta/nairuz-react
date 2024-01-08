@@ -357,6 +357,14 @@ const Footergeral = () => (
       new RDStationForms('formulario-case-daros-corp-d5db2a17d2d8a3595a06', 'UA-48773259-1').createForm();
     }
 
+    if (window.RDStationForms) {
+      new RDStationForms('formulario-case-maravilhas-do-lar-96d3eb667c8b892f99ce', 'UA-48773259-1').createForm();
+    }
+
+    if (window.RDStationForms) {
+      new RDStationForms('formulario-case-transpalet-0544960c7770360b6197', 'UA-48773259-1').createForm();
+    }
+
 
     $('#vaga1').click(function(){
       $('#vagas-popup .title-popup span').text('INBOUND MARKETING');
