@@ -27,8 +27,8 @@ const clientsData = [
     "height": 60
   },
   {
-    "client": "Maquiadoro",
-    "url": "/clientes/maquiadoro.png",
+    "client": "GPTW",
+    "url": "/clientes/gptw.svg",
     "width": 128,
     "height": 60
   },

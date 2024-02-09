@@ -214,7 +214,7 @@ export default function Home() {
                   <li><Image src="/clientes/gaggia.png" alt="Gaggia" width={116} height={55} loading="eager" /></li>
                   <li><Image src="/clientes/imeltron.png" alt="Imeltron" width={116} height={55} loading="eager" /></li>
                   <li><Image src="/clientes/lvstore.png" alt="LV Store" width={116} height={55} loading="eager" /></li>
-                  <li><Image src="/clientes/maquiadoro.png" alt="Maquiadoro" width={116} height={55} loading="eager" /></li>
+                  <li><Image src="/clientes/gptw.svg" alt="GPTW" width={116} height={55} loading="eager" /></li>
                 </ul>
                 <ul className="d-flex align-items-center row2-logos mb-5">
                   <li><Image src="/clientes/samsung.png" alt="Samsung CTDI" width={116} height={55} loading="eager" /></li>

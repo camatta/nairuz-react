@@ -112,7 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <li><Image src="/clientes/lvstore.png" width={116} height={55} /></li>
                   </ul>
                   <ul className="d-flex align-items-center row2-logos mb-5">
-                    <li><Image src="/clientes/maquiadoro.png" width={116} height={55} /></li>
+                    <li><Image src="/clientes/gptw.svg" width={116} height={55} /></li>
                     <li><Image src="/clientes/samsung.png" width={116} height={55} /></li>
                     <li><Image src="/clientes/docol.svg" width={116} height={55} /></li>
                     <li><Image src="/clientes/pedigree.png" width={116} height={55} /></li>
