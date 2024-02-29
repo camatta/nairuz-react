@@ -59,9 +59,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div className="col-4 social-contato">
             <div className="login-topo">
               <ul>
-              <li><a href="https://www.linkedin.com/company/nairuz" target='_blank'><Image src="/novaident/linkedinlogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
-                <li><a href="https://www.instagram.com/nairuzdigital/" target='_blank'><Image src="/novaident/instalogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target='_blank'><Image src="/novaident/whatslogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+              <li><a href="https://www.linkedin.com/company/nairuz" target='_blank' rel="noreferrer"><Image src="/novaident/linkedinlogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://www.instagram.com/nairuzdigital/" target='_blank' rel="noreferrer"><Image src="/novaident/instalogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target='_blank' rel="noreferrer"><Image src="/novaident/whatslogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
               </ul>
             </div>
             <div className="contato">
