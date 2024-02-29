@@ -2061,6 +2061,11 @@ a:hover, a {
 .descricao-case.dcorp {
   top: 8rem;
 }
+
+.descricao-case.athletic {
+  top: 6.5rem;
+}
+
 .case-item .seodcorp {
   width: 43px;
 }
@@ -3957,6 +3962,130 @@ a:hover, a {
 #conteudo-case-maravilhas .texto-cta p strong{
   color: #2D2D2D;
 }
+
+/* Case Athletic */
+.btn-default-cta a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1c1c1c;
+  padding: 8px 24px;
+  border-radius: 39px;
+  background-color: #61DCAB;
+  margin-top: 30px;
+}
+
+#conteudo-case-transpalet.case-athletic .row,
+.case-athletic .row {
+  margin-bottom: 60px;
+}
+
+.case-athletic strong {
+  color: #00175D;
+  font-weight: 800;
+}
+
+.case-athletic p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.case-athletic .subtitle-page h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.case-athletic .subtitle-page h4 span {
+  color: #00175D;
+}
+
+.case-athletic .resultados p {
+  margin-bottom: 19px;
+}
+
+.case-athletic .resultados p:last-child {
+  margin-bottom: 0;
+}
+
+#conteudo-case-transpalet.case-athletic .texto-destaque {
+  position: relative;
+  background-color: transparent;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 28px;
+}
+#conteudo-case-transpalet.case-athletic .texto-destaque::before {
+  content: '';
+  width: 50vw;
+  height: 100%;
+  display: block;
+  background-color: #F1F1F1;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+#conteudo-case-transpalet.case-athletic .row.entenda-estrategias {
+  margin-bottom: 90px;
+}
+
+.case-athletic .box-estrategias {
+  position: relative;
+  background-color: #ECECEC;
+  border-radius: 0px 40px 0px 40px;
+  padding: 47px 34px 24px 34px;
+}
+
+.case-athletic .box-estrategias h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+  color: #00175D;
+  margin-bottom: 15px;
+}
+
+.case-athletic .box-estrategias:not(:first-child) {
+  margin-top: 60px;
+}
+
+.case-athletic .box-estrategias .icon-estrategias {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.case-athletic .como-tornou-destaque h4 {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #00175D;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.case-athletic .como-tornou-destaque p:not(:first-child) {
+  margin-top: 30px;
+}
+
+.case-athletic .como-tornou-destaque .imagem-site {
+  position: relative;
+  margin-bottom: 38px;
+}
+
+.case-athletic .como-tornou-destaque .imagem-site::before {
+  content: '';
+  width: 40vw;
+  height: 222px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50%;
+  background-color: #00175D;
+}
+/* Fim Case Athletic*/
 
 /* Página Vagas */
 
