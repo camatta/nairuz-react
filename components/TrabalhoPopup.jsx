@@ -11,7 +11,7 @@ function TrabalhoPopup({isActive, onShow, activeIndex, popupInfo}){
                         <div className="row">
                             <div className="col-lg-7">
                                 <div className="image-top">
-                                    <Image className="img-fluid" src={`/projetos/${popupInfo.images}/${popupInfo.images}-banner.png`} alt="foto" width={676} height={182} />
+                                    <Image className="img-fluid" src={`/projetos/${popupInfo.images}/${popupInfo.images}-banner.svg`} alt="foto" width={676} height={182} />
                                 </div>
 
                                 <div className="history">

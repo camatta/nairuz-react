@@ -11,7 +11,7 @@ import { useState } from 'react';
 export default function Vagas() {
   const ourWork = [
     {
-      "image": "/projetos/bravuz.png",
+      "image": "/novaident/vagas/bannertrofeubravuz.svg",
       "name": "Bravuz",
       "description": "O Bravuz foi feito para homenagear os funcionairuz que se destacaram durante todo o ano",
       "popup":{
@@ -22,7 +22,7 @@ export default function Vagas() {
       }
     },
     {
-      "image": "/projetos/aureliuz.png",
+      "image":"/novaident/vagas/banneraureliuz.svg",
       "name": "Auréliuz",
       "description": "Aulas de Língua Portuguesa feitas para que os funcionairuz estejam em constante crescimento profissional e pessoal",
       "popup":{
@@ -33,13 +33,13 @@ export default function Vagas() {
           {"name": "Thaiane Pinha", "job": "Redatora"}, 
           {"name": "Marina Norato", "job": "Redatora"},
           {"name": "Claudimar Bezerra", "job": "Desenvolvedor"},
-          {"name": "Mariana Santos", "job": "ANALISTA FINANCEIRO"},
-          {"name": "Hugo Brito", "job": "CONSULTOR DE NOVOS NEGÓCIOS"},
+          {"name": "Mariana Santos", "job": "Aanalista Financeiro"},
+          {"name": "Hugo Brito", "job": "Head de CS"},
         ]
       }
     },
     {
-      "image": "/projetos/livruz.png",
+      "image": "/novaident/vagas/bannerclubelivruz.svg",
       "name": "Clube do Livruz",
       "description": "Projeto desenvolvido internamente para que os profissionais desenvolvam o hábito da leitura",
       "popup":{
@@ -68,6 +68,7 @@ export default function Vagas() {
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Headergeral />
@@ -77,12 +78,12 @@ export default function Vagas() {
         <section className="container-fluid" id="vagas">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md-4">
+              <div className="col-12 col-md-5">
                 <div className="title-funcionairuz">
                   <h1>#Funcionairuz</h1>
                 </div>
                 <div className="text-quemsomos">
-                  <p>Aceleramos o crescimento dos nossos clientes no ambiente digital através de projetos completos e escaláveis. Nossos times de desenvolvimento, design, marketing, atendimento e comercial atuam de forma colaborativa para entregar os melhores resultados de forma crescente e contínua, todos os dias.</p>
+                  <p>Aceleramos o crescimento dos nossos clientes no<br></br> ambiente digital através de projetos completos e<br></br> escaláveis. Nossos times de desenvolvimento, design,<br></br> marketing, atendimento e comercial atuam de forma colaborativa para entregar os melhores resultados<br></br> de forma crescente e contínua, todos os dias.</p>
                 </div>
               </div>
             </div>
@@ -98,7 +99,7 @@ export default function Vagas() {
             <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Inbound Marketing</span></h3>
-                <h4>DISPONÍVEL ATÉ 31/03/2022</h4>
+                <h4>Disponível até 31/03/2022</h4>
                 <h5>Descrição da vaga:</h5>
                 <p>Apoiar no planejamento e execução das ações estratégicas;
                     Desenvolvimento dos fluxos de nutrição das etapas que compreendem um funil de vendas e fluxos de automação;
@@ -115,8 +116,8 @@ export default function Vagas() {
             </div>
             <div className="col-12 col-md-4">
               <div className="card">
-                <h3>Vaga de<br></br><span>Designer Junior</span></h3>
-                <h4>DISPONÍVEL ATÉ 15/04/2022</h4>
+                <h3>Vaga de<br></br><span>Designer Júnior</span></h3>
+                <h4>Disponível até 15/04/2022</h4>
                 <h5>Descrição da vaga:</h5>
                 <p>Responsável por criar a comunicação visual dos clientes e avaliar junto a equipe de marketing a eficácia das peças produzidas;
                     Responsável pela comunicação visual institucional da Nairuz.</p>
@@ -134,7 +135,7 @@ export default function Vagas() {
             <div className="col-12 col-md-4">
               <div className="card">
                 <h3>Vaga de<br></br><span>Atendimento</span></h3>
-                <h4>DISPONÍVEL ATÉ 25/03/2022</h4>
+                <h4>Disponível até 25/03/2022</h4>
                 <h5>Descrição da vaga:</h5>
                 <p>Responsável por criar um elo entre os clientes e as equipes;
                     Gerenciar o relacionamento dos processos;
@@ -156,10 +157,10 @@ export default function Vagas() {
             <div className="col-12">
               <div className="outras-vagas">
                 <div className="title-outras-vagas">
-                  <p>NÃO ENCONTROU A VAGA DESEJADA?</p>
+                  <p>Não encontrou a vaga desejada?</p>
                 </div>
                 <div className="text-outras-vagas">
-                  <p>CADASTRE-SE NO NOSSO BANCO DE TALENTOS. ANALISAREMOS SEU PERFIL E DAREMOS PRIORIDADE NAS FUTURAS VAGAS.</p>
+                  <p>Cadastre-se no nosso banco de talentos.<br></br> Analisaremos seu perfil e daremos prioridade nas futuras vagas.</p>
                 </div>
                 <div className="button-outras-vagas">
                   <button>Cadastrar</button>
@@ -174,8 +175,8 @@ export default function Vagas() {
             <div className="col-lg-12">
               <div className="section--title">
                 <p className='title'>Projetos <span>internos</span></p>
-                <p className='subtitle'>CONHEÇA NOSSOS PROJETOS INTERNOS</p>
-                <p className='section-description'>OS PROJETOS INTERNOS SÃO FEITOS PARA O DESENVOLVIMENTOS PROFISSIONAL E PESSOAL DE CADA FUNCIONAIRUZ</p>
+                <p className='subtitle'>Conheça nossos projetos internos</p>
+                <p className='section-description'>Os projetos são feitos para o desenvolvimento<br></br>profissional e pessoal de cada funcionairuz</p>
               </div>
             </div>
           </div>

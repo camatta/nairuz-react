@@ -27,6 +27,7 @@ export default function CasaSaoPedro() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Headergeral />
@@ -45,9 +46,7 @@ export default function CasaSaoPedro() {
                 <div className="text-case">
                   <p>Estamos entrando em uma era onde a experiência do usuário dentro de e-commerce é tão importante quanto o preço e a qualidade dos produtos no site. Pois, hoje em dia, é preciso que as lojas online busquem um diferencial em relação aos seus concorrentes.</p>
                   <p>Por isso, pensando exatamente em aprimorar a sua loja virtual de forma a oferecer a melhor experiência para os seus clientes, a Casa São Pedro decidiu escolher a <span>Nairuz</span> para embarcar nessa jornada.</p>
-                  <p>Com o apoio de uma equipe de desenvolvedores qualificados, atualmente o e-commerce está funcionando a todo vapor!</p>
-                  <p><span>Vamos descobrir mais sobre como foi a trajetória da Casa São Pedro com a Nairuz?</span></p>
-                  <p><span>Confira!</span></p>
+                  
                 </div>
               </div>
             </div>
@@ -145,20 +144,7 @@ export default function CasaSaoPedro() {
             </div>
           </div>
         </section>
-        <section className="container-fluid" id="cases-home">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 col-md-6">
-                <div className="text-cases-home mobcenter">
-                  <div className="title-cases-home">
-                    <p>OUTROS CASES <span>DE SUCESSO</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <CarrosselCases />
+       
         <BehanceNz />
       </main>
 

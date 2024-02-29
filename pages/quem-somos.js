@@ -21,6 +21,7 @@ export default function QuemSomos() {
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Headergeral />
@@ -30,17 +31,17 @@ export default function QuemSomos() {
         <section className="container-fluid" id="quem-somos">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md-4">
+              <div className="col-12 col-md-5">
                 <div className="novo-title-quemsomos">
-                  <h1>Quem Somos</h1>
+                  <h1>Quem<br></br> Somos</h1>
                 </div>
                 <div className="text-quemsomos">
-                  <p>Nós somos uma agência de marketing digital e tecnologia, sendo assim, trabalhamos com soluções integradas para trazer resultado para os nossos clientes.<br></br><br></br>Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.<br></br><br></br>Afinal, somos pessoas cuidando de pessoas, por isso, levamos no peito nossa cultura. Somos uma empresa feita à mão! Hoje reconhecida por nossos parceiros e clientes como uma das agências referência de marketing digital de performance, desenvolvimento e design no estado de São Paulo.</p>
+                  <p>Nós somos uma agência de marketing digital e<br></br> tecnologia, sendo assim, trabalhamos com soluções<br></br> integradas para trazer resultado para os nossos clientes.<br></br><br></br>Deste modo, utilizamos tecnologia para conectar<br></br> marcas e consumidores, sem perder a essência de um<br></br> trabalho personalizado.<br></br><br></br>Afinal, somos pessoas cuidando de pessoas, por isso,<br></br> levamos no peito nossa cultura. <strong>Somos uma empresa<br></br> feita à mão!</strong> Hoje reconhecida por nossos parceiros<br></br> e clientes como uma das agências referência de<br></br> marketing digital de performance, desenvolvimento<br></br> e design no estado de São Paulo.</p>
                 </div>
               </div>
-              <div className="col-4 desktoponly">
+              <div className="col-12 col-md-3">
                 <div className="sub-title-quemsomos">
-                  <h2>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</h2>
+                  <h2>Utilizamos tecnologia<br></br> para conectar marcas<br></br> e consumidores, sem<br></br> perder a essência de um<br></br> trabalho personalizado.</h2>
                 </div>
               </div>
               <div className="col-4 desktoponly"></div>
@@ -52,28 +53,28 @@ export default function QuemSomos() {
             <div className="col-12 col-md-4">
               <div className="card missao">
                 <div className="icon-mvv mb-2">
-                  <Image src="/missao.svg" alt="Ícone Missão" width={32} height={32} />
+                  <Image src="/novaident/missao-icon.svg" alt="Ícone Missão" width={35} height={35} />
                 </div>
                 <h3>Missão</h3>
-                <p>Ser indispensável para os nossos clientes através da geração e atingimento de resultados com marketing digital estratégico e novas tecnologias aplicadas a obtenção, análise e uso de dados. Ser reconhecido nacionalmente como um dos líderes em geração de performance e rentabilidade através de dados objetivos.</p>
+                <p>Ser indispensável para os nossos<br></br> clientes através da geração e<br></br> atingimento de resultados com<br></br> marketing digital estratégico e novas tecnologias aplicadas a obtenção, análise e uso de dados. Ser<br></br> reconhecido nacionalmente como<br></br> um dos líderes em geração de performance e rentabilidade<br></br> através de dados objetivos.</p>
               </div>
             </div>
             <div className="col-12 col-md-4">
               <div className="card visao">
                 <div className="icon-mvv mb-2">
-                  <Image src="/visao.svg" alt="Ícone Visão" width={32} height={32} />
+                  <Image src="/novaident/visao-icon.svg" alt="Ícone Visão" width={35} height={35} />
                 </div>
                 <h3>Visão</h3>
-                <p>Trabalhar colaborativamente com foco no resultado de nossos clientes, gerando um ambiente sustentável de negócios através da inovação e uso de tecnologia de ponta, resultando no crescimento sólido e constante.</p>
+                <p>Trabalhar colaborativamente com<br></br> foco no resultado de nossos clientes, gerando um ambiente sustentável de negócios através da inovação e uso de<br></br> tecnologia de ponta, resultando no<br></br> crescimento sólido e constante.</p>
               </div>
             </div>
             <div className="col-12 col-md-4">
               <div className="card valores">
                 <div className="icon-mvv mb-2">
-                  <Image src="/valores.svg" alt="Ícone Valores" width={32} height={32} />
+                  <Image src="/novaident/valores-icon.svg" alt="Ícone Valores" width={35} height={35} />
                 </div>
                 <h3>Valores</h3>
-                <p>Honestidade, Zelo em todos os detalhes, Responsabilidade, Transparência e Inovação, sempre!</p>
+                <p>Honestidade, Zelo em todos<br></br> os detalhes, Responsabilidade,<br></br> Transparência e Inovação, sempre!</p>
               </div>
             </div>
           </div>
@@ -92,12 +93,12 @@ export default function QuemSomos() {
             </div>
             <div className="col-12 col-md-4 order2mob">
               <div className="img-cultura">
-                <Image src="/mao.png" className="img-fluid" alt="Uma empresa feita à mão!" width={350} height={283} />
+                <Image src="/novaident/palmairuz.svg" className="img-fluid" alt="Uma empresa feita à mão!" width={350} height={283} />
               </div>
             </div>
             <div className="col-12 col-md-4 order3mob">
               <div className="text-cultura mt-4">
-                <p>Apesar de grande parte das nossas ações serem digitais, somos uma empresa baseada em pessoas, por isso vemos o nosso time como o principal fator de sucesso em nossa empresa e acreditamos, também, que cada um é o maior responsável pelo seu próprio desenvolvimento profissional, desta forma desenvolvemos relacionamentos construtivos. Somos uma empresa feita à mão!</p>
+                <p>Apesar de grande parte das nossas ações serem digitais, somos uma empresa baseada em pessoas, por isso vemos o nosso time como o principal fator de sucesso em nossa empresa e acreditamos, também, que cada um é o maior responsável pelo seu próprio desenvolvimento profissional, desta forma desenvolvemos relacionamentos construtivos.<br></br> <strong>Somos uma empresa feita à mão!</strong></p>
               </div>
             </div>
           </div>
@@ -182,6 +183,7 @@ export default function QuemSomos() {
             </div>
           </div>
         </section>
+        
       </main>
 
       <Footergeral />

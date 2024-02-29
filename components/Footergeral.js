@@ -39,14 +39,14 @@ const Footergeral = () => (
       <div className="col-12">
         <div className="footer-logo">
           <div className="logo">
-            <Image src="/logo-footer.svg" alt="Nairuz" width={206} height={38} />
+            <Image src="/novaident/logorodapenairuz.svg" alt="Nairuz" width={206} height={38} />
           </div>
           <div className="sociais">
             <ul>
-              <li><a href="https://www.facebook.com/NairuzConsultoriaDigital" target="_blank" rel="noopener noreferrer"><Image src="/face.svg" alt="Facebook" width={40} height={40} /></a></li>
-              <li><a href="https://www.instagram.com/nairuzdigital/" target="_blank" rel="noopener noreferrer"><Image src="/instagram.svg" alt="Instagram" width={40} height={40}  /></a></li>
-              <li><a href="https://www.youtube.com/channel/UCu70MAqws64Vk2dYQlCFVYg" target="_blank" rel="noopener noreferrer"><Image src="/youtube.svg" alt="YouTube" width={40} height={40}  /></a></li>
-              <li><a href="https://www.linkedin.com/company/nairuz" target="_blank" rel="noopener noreferrer"><Image src="/linkedin.svg" alt="LinkedIn" width={40} height={40}  /></a></li>
+              <li><a href="https://www.facebook.com/NairuzConsultoriaDigital" target="_blank" rel="noopener noreferrer"><Image src="/novaident/facebookicon.svg" alt="Facebook" width={40} height={40} /></a></li>
+              <li><a href="https://www.instagram.com/nairuzdigital/" target="_blank" rel="noopener noreferrer"><Image src="/novaident/instagramicon.svg" alt="Instagram" width={40} height={40}  /></a></li>
+              <li><a href="https://www.youtube.com/channel/UCu70MAqws64Vk2dYQlCFVYg" target="_blank" rel="noopener noreferrer"><Image src="/novaident/youtubeicon.svg" alt="YouTube" width={40} height={40}  /></a></li>
+              <li><a href="https://www.linkedin.com/company/nairuz" target="_blank" rel="noopener noreferrer"><Image src="/novaident/linkedinlogo.svg" alt="LinkedIn" width={40} height={40}  /></a></li>
             </ul>
           </div>
         </div>
@@ -86,27 +86,26 @@ const Footergeral = () => (
       </div>
       <div className="col-12 col-md-3">
         <div className="contato-footer mobcenter">
-          <a className="title-footer" href="#">CONTATO</a>
+          <a className="title-footer" href="#">Contato</a>
             <div className="tel-footer">
               <div className="icon-tel">
-                <Image src="/icon-phone.svg" alt="Telefone" width={12} height={12} />
+                <Image src="/icon-phone.svg" alt="Telefone" width={16} height={16} />
               </div>
               <ul className="phone-footer">
                 <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer">+ 55 19 99140.6111</a></li>
                 <li><a href="tel:1932176400">+ 55 19 3217-6400</a></li>
-                <li><a href="tel:1147501714">+ 55 11 4750-1714 (São Paulo)</a></li>
               </ul>
             </div>
             <div className="mail-footer">
-              <Image src="/icon-mail.svg" alt="E-mail" width={12} height={12} />
+              <Image src="/icon-mail.svg" alt="E-mail" width={16} height={16} />
               <ul>
                 <li><a href="mailto:contato@nairuz.com.br">contato@nairuz.com.br</a></li>
               </ul>
             </div>
             <div className="local-footer">
-              <Image src="/icon-local.svg" alt="Localização" width={12} height={12} />
+              <Image src="/icon-local.svg" alt="Localização" width={16} height={16} />
               <ul>
-                <li><a href="https://goo.gl/maps/vbRekKqcfRnjm1si7" target="_blank" rel="noopener noreferrer">Rua 25 de Janeiro, nº 112 - Centro. Monte Mor - SP</a></li>
+                <li><a href="https://goo.gl/maps/vbRekKqcfRnjm1si7" target="_blank" rel="noopener noreferrer">Rua 25 de Janeiro, nº 112 - Centro. Monte Mor - SP<br></br>13193-060</a></li>
               </ul>
             </div>
         </div>
@@ -116,7 +115,7 @@ const Footergeral = () => (
       <div className="col-12">
         <div className="copyright d-flex align-items-center justify-content-center mobcenter">
           <Image src="/selo-br.png" alt="Brasil" width={17} height={12} />
-          <p>Nairuz Marketing e Tecnologia® 2023 / todos os direitos reservados</p>
+          <p>Nairuz Marketing e Tecnologia® 2024 / todos os direitos reservados</p>
         </div>
       </div>
     </div>
@@ -144,7 +143,7 @@ const Footergeral = () => (
     $(".owl-carousel.owl-default").owlCarousel({
       items: 3,
       nav: true,
-      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control'>"],
+      navText: ["<img src='/novaident/setinha-esquerda.svg' alt='Left Control'>","<img src='/novaident/setinha-direita.svg' alt='Right Control'>"],
       responsiveClass:true,
       responsive:{
           0:{
@@ -169,7 +168,7 @@ const Footergeral = () => (
     $(".owl-carousel.carrossel-header").owlCarousel({
       items: 1,
       nav: true,
-      navText: ["<img src='/arrow-left.svg' alt='Left Control'>","<img src='/arrow-right.svg' alt='Right Control'>"],
+      navText: ["<img src='/novaident/setinha-esquerda.svg' alt='Left Control'>","<img src='/novaident/setinha-direita.svg' alt='Right Control'>"],
     });
   });
 

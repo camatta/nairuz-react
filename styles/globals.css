@@ -49,7 +49,7 @@ table {
 
 h1, h2, h3, h4, h5, h6,
 p, span, li, button, a, input, label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container-fluid {
@@ -241,12 +241,6 @@ a:hover, a {
 
 /* Header */
 
-@media (min-width: 1200px) {
-  #header-home .container:first-child {
-      max-width: 1400px;
-  }
-}
-
 #header-home {
   background: transparent;
   padding: 4rem 0 0 0;
@@ -263,15 +257,19 @@ a:hover, a {
 }
 
 .title-h1-home h1 {
-  font-size: 22px;
+  font-size: 16px;
   color: #fff;
-  line-height: 1.5;
+  line-height: 24px;
   width: 60%;
+  font-weight: 400;
+}
+.title-h1-home h1 strong{
+  color: #61DCAB;
 }
 
 /*Alteração Maravilhas*/
 #bg-carrossel1 {
-  background-image: url(/bg-topo-main.png);
+  background-image: url(/novaident/bannerhomenovo.png);
   background-size: cover;
   background-position-x: right;
   background-position-y: bottom;
@@ -279,7 +277,7 @@ a:hover, a {
 /*Alteração Maravilhas*/
 
 #bg-carrossel2 {
-  background-image: url(/bg-maravilhas-topo-main.png);
+  background-image: url(/novaident/bannerhomenovo.png);
   background-size: cover;
   background-position-x: right;
   background-position-y: bottom;
@@ -332,9 +330,6 @@ a:hover, a {
   padding-right: 12px !important;
 }
 
-.owl-carousel.carrossel-header .owl-nav button img {
-  filter: brightness(20);
-}
 
 .owl-carousel.carrossel-header .owl-dots .owl-dot {
   position: absolute;
@@ -354,12 +349,15 @@ a:hover, a {
   margin: 0 10px;
   background-color: #fff;
   width: 10px;
-  height: 10px;
   border-radius: 50%;
+  height: 6px;
 }
 
 .owl-carousel.carrossel-header .owl-dots .active{
-  background-color: aqua;
+  background-color: #fff;
+  width: 20px;
+  border: 4px;
+  border-radius: 4px;
 }
 /*Alteração Maravilhas, navs e dots*/
 
@@ -375,52 +373,66 @@ a:hover, a {
 
 /* Header Menu */
 .menu ul li {
-  margin: auto;
   color: #fff;
   text-transform: uppercase;
 }
 
-.menu ul li a,
-.menu ul li button {
+#header-home .menu ul li a,
+#header-home .menu ul li button {
   margin: auto;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 3.36px;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
   cursor: pointer;
 }
 
 .logo {
   cursor: pointer;
+  text-align: center;
 }
 
-.page-home .menu ul li:nth-child(1) button,
+.page-home #header-home .menu ul li:nth-child(1) button,
 .page-quemsomos .menu ul li:nth-child(2) a,
 .page-servicos .menu ul li:nth-child(3) a,
 .page-cases .menu ul li:nth-child(4) a,
-.page-vagas .menu ul li:nth-child(5) a {
+.page-vagas .menu ul li:nth-child(3) button  {
   color: #68FC9C;
   font-weight: 600;
-  border-bottom: 4px solid #68FC9C;
-  padding-bottom: 0.5rem;
+}
+
+.social-contato {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 14px;
+}
+
+.login-topo ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Header Contato */
 
 .contato button {
-  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
   border-radius: 25px;
   padding: 0.7rem 1.4rem;
   font-size: 0.9rem;
-  color: #fff;
+  color: #1c1c1c;
   border: none;
+  background: #61DCAB;
 }
 
 /* Footer */
 
 #footer {
-  background: transparent linear-gradient(
-    180deg, #6316C9 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #024787 40%, #00175D 100%) 0% 0% no-repeat padding-box;
 }
 
 .insta li img {
@@ -499,6 +511,10 @@ a:hover, a {
   padding-right: 2rem;
 }
 
+.page-home .footer-logo, .page-vagas .footer-logo, .page-cases .footer-logo  {
+  border-top: 1px solid #CCCCCC;
+}
+
 .sociais ul {
   display: flex;
 }
@@ -510,10 +526,10 @@ a:hover, a {
 .sitemap-footer a,
 .sitemap-footer span {
   color: #fff;
-  letter-spacing: 2.2px;
-  line-height: 1.9;
-  font-size: 0.8rem;
-  text-transform: uppercase;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
   background-color: unset;
   border: unset;
   cursor: pointer;
@@ -535,6 +551,14 @@ a:hover, a {
   color: #fff;
   line-height: 1.9;
   font-size: 0.8rem;
+}
+
+#footer .title-footer {
+  color: #61DCAB;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: capitalize;
+  letter-spacing: 0;
 }
 
 .funcionairuz-footer span {
@@ -563,9 +587,15 @@ a:hover, a {
 
 .footer-infos a:hover,
 .footer-infos span:hover,
-.footer-infos a:not([href]):not([class]):hover {
-  color: #ed02bc;
+.footer-infos a:not([href]):not([class]):hover, 
+.contato-footer a:hover {
+  color: #fff;
   cursor: pointer;
+  text-decoration: underline;
+}
+
+#footer .title-footer:hover {
+  text-decoration: inherit;
 }
 
 .title-footer {
@@ -714,20 +744,21 @@ a:hover, a {
 }
 
 .button-form-temas.popup {
-  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  /*background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
     background: transparent -webkit-gradient( linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
     background: transparent -moz-linear-gradient( left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient( 
 90deg
-, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;*/
+    background-color: #61DCAB;
     border-radius: 30px;
     border: unset;
-    color: #fff;
+    color: #1c1c1c;
     margin-top: 2rem;
     padding: 1rem 2rem;
     letter-spacing: 0.5px;
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 400;
     width: 100%;
 }
 
@@ -777,14 +808,15 @@ a:hover, a {
 }
 
 .left-carrossel p {
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
-  line-height: 1.5;
+  line-height: 36px;
 }
 
 .left-carrossel p strong {
-  color: #58DBAA;
+  color: #61DCAB;
   font-weight: 800;
+  font-style: italic;
 }
 
 .left-carrossel, .text-left-carrossel {
@@ -816,13 +848,14 @@ a:hover, a {
 }
 
 .button-left-carrossel button {
-  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  background: transparent;
   border-radius: 25px;
-  padding: 0.7rem 1.4rem;
-  font-size: 14.4px;
+  padding: 8px 24px;
+  font-size: 16px;
   color: #fff;
-  border: none;
-  font-weight: 600;
+  line-height: 24px;
+  font-weight: 400;
+  border: 1px solid #61DCAB;
 }
 
 .title-card p {
@@ -991,25 +1024,20 @@ a:hover, a {
 
 /* Header Geral */
 
-@media (min-width: 1200px) {
-  #header-geral .container:first-child {
-      max-width: 1400px;
-  }
-}
-
 #header-geral {
-  background-color: #0D0326;
-  padding: 4rem 0;
+  background-color: #00175D;
+  padding: 2rem 0;
   background-size: cover;
   background-position-x: center;
   background-position-y: top;
+  border-bottom: 1px solid #fff;
 }
 
 /* Serviços Home */
 
 #servicos-home {
   padding: 8rem 0 12rem 0;
-  background: transparent linear-gradient(180deg, #362aa4  0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  background: #00175D;
 }
 
 #servicos-home > .container {
@@ -1027,6 +1055,7 @@ a:hover, a {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 2;
+  display: none;
 }
 
 .title-servicos {
@@ -1036,7 +1065,7 @@ a:hover, a {
 }
 
 .title-servicos span {
-  color: #68FC9C;
+  color: #61DCAB;
   font-weight: 700;
 }
 
@@ -1049,8 +1078,8 @@ a:hover, a {
 
 .text-servicos {
   color: #fff;
-  line-height: 1.6;
-  font-size: 0.9rem;
+  line-height: 21px;
+  font-size: 12px;
   width: 100%;
   margin-bottom: 1.5rem;
   height: 200px;
@@ -1061,13 +1090,13 @@ a:hover, a {
 #detalhes-servicos-seo,
 #detalhes-servicos-midias,
 #detalhes-servicos-inbound {
-  background-color: #221A61;
+  background-color: #fff;
   border-radius: 25px;
   padding: 0.7rem 1.4rem;
-  font-size: 14.4px;
-  color: #fff;
+  font-size: 14px;
+  color: #00175D;
   border: none;
-  font-weight: 600;
+  font-weight: 400;
   margin-right: 1rem;
 }
 
@@ -1078,11 +1107,15 @@ a:hover, a {
 #contratar-servicos-inbound {
   background-color: transparent;
   border-radius: 25px;
-  padding: 0.7rem 1.4rem;
-  font-size: 14.4px;
-  color: #fff;
+  padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
   border: 2px solid #fff;
-  font-weight: 600;
+  font-weight: 400;
+  color: #fff;
 }
 
 .nav-servicos ul li button {
@@ -1105,13 +1138,17 @@ a:hover, a {
   display: block;
 }
 
-.layout.ativo {
-  background-color: #48BAB8;
+.layout.ativo, .website.ativo, .midias.ativo, .inbound.ativo, .seo.ativo {
+  background-color: #61DCAB;
   font-weight: 600;
   border-radius: 0px 10px 10px 0px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  color: #1c1c1c;
 }
 
-.website.ativo {
+/*.website.ativo {
   background-color: #F500BB;
   font-weight: 600;
   border-radius: 0px 10px 10px 0px;
@@ -1133,7 +1170,7 @@ a:hover, a {
   background-color: #F500BB;
   font-weight: 600;
   border-radius: 0px 10px 10px 0px;
-}
+}*/
 
 .nav-servicos {
   float: right;
@@ -1160,7 +1197,7 @@ a:hover, a {
   display: block;
 }
 
-.bg-rosa {
+/*.bg-rosa {
   background: transparent linear-gradient(180deg, #362aa4 0%, #F500BB 100%) 0% 0% no-repeat padding-box !important;
 }
 
@@ -1170,7 +1207,7 @@ a:hover, a {
 
 .bg-azul {
   background: transparent linear-gradient(180deg, #362aa4 0%, #58DBAA 100%) 0% 0% no-repeat padding-box !important;
-}
+}*/
 
 /* Clientes Home */
 
@@ -1193,6 +1230,7 @@ a:hover, a {
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
+  display: none;
 }
 
 .title-clientes p {
@@ -1202,14 +1240,16 @@ a:hover, a {
 }
 
 .title-clientes p span{
-  color: #48BAB8;
+  color: #00175D;
   font-weight: 700;
 }
 
 .subtitle-clientes p {
-  color: #2D2D2D;
-  font-weight: 700;
-  font-size: 2rem;
+  color: #1C1C1C;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
   margin-bottom: 1.5rem;
 }
 
@@ -1244,7 +1284,7 @@ a:hover, a {
 }
 
 .title-cases-home p span {
-  color: #48BAB8;
+  color: #00175D;
   font-weight: 700;
 }
 
@@ -1257,24 +1297,32 @@ a:hover, a {
 }
 
 .buttons-cases .ver-cases {
-  background-color: transparent;
   border-radius: 25px;
   padding: 0.7rem 1.4rem;
-  font-size: 14.4px;
-  color: #2D2D2D;
-  border: 2px solid #2D2D2D;
-  font-weight: 600;
+  border: 0;
   margin-right: 1rem;
+  cursor: pointer;
+  background: #00175D;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
   cursor: pointer;
 }
 
 .buttons-cases .ser-case {
-  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  background: #fff;
     border-radius: 25px;
     padding: 0.7rem 1.4rem;
-    font-size: 14.4px;
-    color: #fff;
-    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00175D;
+    border: 1px solid #00175D;
 }
 
 .owl-nav .owl-prev {
@@ -1291,44 +1339,58 @@ a:hover, a {
   margin-bottom: 6rem;
 }
 
+#carrossel-cases .owl-nav {
+  display: none;
+}
+
 .card-cases {
   width: 360px;
   margin-bottom: 1rem;
 }
 
 .card1-case {
-  background-image: url('/bgcase-1.svg');
+  background-image: url(/novaident/bgcase1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.5rem;
+  justify-content: end;
+  gap: 10px;
 }
 
 .card2-case {
-  background-image: url('/bgcase-2.svg');
+  background-image: url('/novaident/bgcase2.svg');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.5rem;
+  justify-content: end;
+  gap: 10px;
 }
 
 .card3-case {
-  background-image: url('/bgcase-3.svg');
+  background-image: url('/novaident/bgcase3.svg');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.5rem;
+  justify-content: end;
+  gap: 10px;
 }
 
 .card4-case {
-  background-image: url('/bgcase-4.svg');
+  background-image: url('/novaident/bgcase4.svg');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.5rem;
+  justify-content: end;
+  gap: 10px;
 }
 
 .card5-case {
-  background-image: url('/bgcase-5.svg');
+  background-image: url('/novaident/bgcase5.svg');
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1.5rem;
+  justify-content: end;
+  gap: 10px;
 }
 
 .card-cases .infos-case ul li {
@@ -1362,9 +1424,12 @@ a:hover, a {
 /* Clientes Home */
 
 #bg-clientes-parcerias {
-  background-image: url(/bg-clientes.webp);
+  background-image: url(/novaident/fundo-clientes.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+#clientes-home .row {
+  align-items: center;
 }
 
 .clientes-nairuz {
@@ -1379,6 +1444,15 @@ a:hover, a {
   margin-bottom: 5rem;
 }
 
+.clientes-nairuz .title-clientes h4 {
+  background-color: transparent;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0;
+}
+
 .clientes-nairuz .owl-carousel .owl-stage-outer {
   position: relative;
   overflow-x: inherit;
@@ -1387,18 +1461,18 @@ a:hover, a {
 
 .cliente-nz {
   position: relative;
-  background-color: #58DBAA;
+  background-color: #fff;
   width: 21rem;
   padding: 1.5rem;
-  border-radius: 25px;
-  opacity: 0.9;
   margin-bottom: 2.5rem;
+  border-radius: 20px 0px 20px 0px;
 }
 
 .clientes-nairuz p {
-  color: #fff;
-  font-size: 0.8rem;
-  line-height: 1.4;
+  color: #1C1C1C;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .cliente-nz .img-cliente {
@@ -1418,20 +1492,29 @@ a:hover, a {
   justify-content: space-between;
 }
 
-.cliente-nz .assinatura-cliente .nome-cliente {
-  font-weight: 600;
+.cliente-nz .assinatura-cliente p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #00175D;
 }
 
-.clientes-nairuz .owl-nav img {
-  filter: brightness(7.0);
+.cliente-nz .assinatura-cliente .nome-cliente {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00175D;
 }
 
 /* Blog e Materiais Rico Home */
 
 #blog-materiais {
   padding: 6rem 0;
-  background: transparent linear-gradient(180deg, #0D0326 0%, #6316C9 100%) 0% 0% no-repeat padding-box;
-  background: linear-gradient(to right, #0D0326 0%, #6316C9 50%, #6316C9 51%, #F500BB 100%);
+  
 }
 
 .cards-blog {
@@ -1439,11 +1522,11 @@ a:hover, a {
 }
 
 #blog-materiais .title-cases-home p {
-  color: #ffffff;
+  color: #1c1c1c;
 }
 
 #blog-materiais .title-cases-home p span {
-  color: #68FC9C;
+  color: #00175D;
 }
 
 .materiais-home {
@@ -1456,13 +1539,17 @@ a:hover, a {
 }
 
 .post-blog .medium-blog {
-  background-color: #C100D6;
+  background-color: #00175D;
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 0px 0px 20px 0px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   color: #fff;
   line-height: 1.5;
+}
+
+.post-blog img {
+  border-radius: 20px 0px 0px 0px;
 }
 
 .img-post {
@@ -1477,12 +1564,11 @@ a:hover, a {
 
 #blog-materiais .title-post h5,
 #blog-materiais .title-rico h5 {
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 1rem;
   font-size: 0.85rem;
-  letter-spacing: 1.2px;
   text-transform: unset;
-  color: #fff;
+  color: #61DCAB;
 }
 
 .title-rico h6 {
@@ -1514,12 +1600,15 @@ a:hover, a {
 }
 
 .vermais-blog a {
-  color: #fff;
-    background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-    padding: 0.7rem 1.5rem;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 0.9rem;
+  color: #1c1c1c;
+  background: #61DCAB;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  font-size: 14px;  
+  font-weight: 400;
+  line-height: 21px;  
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .materiais-home {
@@ -1529,8 +1618,13 @@ a:hover, a {
 .text-materiais p {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  line-height: 1.5;
-  font-size: 0.9rem;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c1c1c;
 }
 
 .cards-ricos {
@@ -1541,10 +1635,10 @@ a:hover, a {
 }
 
 .post-rico {
-  background-color: #0D0326;
+  background-color: #00175D;
   padding: 1rem;
   margin-right: 1rem;
-  border-radius: 20px;
+  border-radius: 0px 0px 20px 0px;
 }
 
 .autor-data-rico p:last-child {
@@ -1554,28 +1648,37 @@ a:hover, a {
 /* Quem Somos */
 
 #quem-somos {
-  background-image: url('/bg-quemsomos.png');
+  background-image: url('/novaident/bannerquemsomos.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 11rem;
+  padding-top: 5rem;
   padding-bottom: 11rem;
   position: relative;
   background-position: center;
 }
 
 .novo-title-quemsomos h1 {
-  color: #48BAB8;
-  font-size: 2.2rem;
-  font-weight: 800;
+  color: #61DCAB;
   width: 60%;
   margin-bottom: 2rem;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .text-quemsomos p {
   color: #fff;
-  line-height: 1.5;
-  font-size: 0.95rem;
-  position: relative
+  font-size: 14px;
+  position: relative;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.text-quemsomos strong {
+  color: #61DCAB;
 }
 
 /* #quem-somos::before {
@@ -1592,21 +1695,21 @@ a:hover, a {
 
 .sub-title-quemsomos h2 {
   color: #fff;
-  line-height: 1.5;
-  font-size: 1.2rem;
-  font-weight: 300;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
   position: relative;
-  left: 5rem;
+  margin-top: 4rem;
 }
 
 .sub-title-quemsomos h2::before {
   content: '';
   position: absolute;
-  left: -3rem;
-  top: 0;
-  width: 32px;
+  left: 0rem;
+  bottom: 8rem;
+  width: 48px;
   height: 32px;
-  background-image: url(/citacao.svg);
+  background-image: url(/novaident/citacao.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1619,7 +1722,7 @@ a:hover, a {
 #mvv .card {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 20px #0000001A;
-  border-radius: 20px;
+  border-radius: 25px 0px 25px 0px;
   border: 0;
   padding: 2rem;
 }
@@ -1631,46 +1734,50 @@ a:hover, a {
 }
 
 #mvv .card h3 {
-  color: #0D0326;
-  line-height: 1.5;
-  font-size: 0.95rem;
+  color: #00175D;
+  line-height: 27px;
+  font-size: 18px;
   font-weight: 800;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
 #mvv .card p {
-  color: #2D2D2D;
-  line-height: 1.5;
-  font-size: 0.95rem;
+  color: #1C1C1C;
+  line-height: 21px;
+  font-size: 14px;
 }
 
 .title-cultura h4 {
-  color: #2D2D2D;
+  color: #1C1C1C;
   text-transform: uppercase;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 .title-cultura h4 span {
-  color: #48BAB8;
+  color: #00175D;
   font-weight: 700;
 }
 
 .text-cultura p {
-  color: #2D2D2D;
-  line-height: 1.5;
-  font-size: 0.95rem;
+  color: #1C1C1C;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.text-cultura strong {
+  color: #00175D;
 }
 
 .title-nossacasa h4 {
-  color: #2D2D2D;
+  color: #1c1c1c;
   text-transform: uppercase;
   margin-bottom: 2rem;
   margin-top: 5rem;
 }
 
 .title-nossacasa h4 span {
-  color: #48BAB8;
+  color: #00175D;
   font-weight: 700;
 }
 
@@ -1696,7 +1803,7 @@ a:hover, a {
 }
 
 #bg-video-parcerias {
-  background-image: url('/bg-parcerias.png');
+  background-image: url('/novaident/bgparcerias.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1746,17 +1853,19 @@ a:hover, a {
   text-transform: uppercase;
   margin-bottom: 2rem;
   margin-top: 5rem;
+  display: none;
 }
 
 .title-parcerias h4 span {
-  font-weight: 700;
+  font-weight: 400;
+  color: #61DCAB;
 }
 
 #cases {
-  background-image: url('/bg-cases.png');
+  background-image: url('/novaident/bg-casesnovo.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 11rem;
+  padding-top: 5rem;
   padding-bottom: 11rem;
   position: relative;
 }
@@ -1766,10 +1875,12 @@ a:hover, a {
 }
 
 .title-cases h1 {
-  color: #48BAB8;
-  font-size: 2.2rem;
+  color: #61DCAB;
+  font-size: 32px;
+  line-height: 40px;
   font-weight: 800;
-  width: 60%;
+  font-style: italic;
+  width: 58%;
   margin-bottom: 2rem;
 }
 
@@ -1783,22 +1894,25 @@ a:hover, a {
   background-image: url(/icon-cases.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: none;
 }
 
 .text-cases p {
   color: #fff;
-  line-height: 1.5;
-  font-size: 0.95rem;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
   position: relative;
   margin-bottom: 1.5rem;
 }
 
 .button-cases button {
-  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
+  background: #61DCAB;
   border-radius: 25px;
   padding: 0.7rem 1.4rem;
-  font-size: 14.4px;
-  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1C1C1C;
   border: unset;
 }
 
@@ -1815,6 +1929,9 @@ a:hover, a {
 
 .title-nossoscases h4 span {
   font-weight: 700;
+  color: #61DCAB;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 
@@ -1903,7 +2020,7 @@ a:hover, a {
 
 #nossos-cases .cases .owl-dots .owl-dot {
   width: 10px;
-  background: #ccc;
+  background: #d9d9d9;
   height: 4px;
   border-radius: 5px;
   margin: 0 5px;
@@ -1912,7 +2029,7 @@ a:hover, a {
 
 #nossos-cases .cases .owl-dots .owl-dot.active {
   width: 50px;
-  background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
+  background: #00175D;
   height: 4px;
   border-radius: 5px;
 }
@@ -1925,6 +2042,7 @@ a:hover, a {
   border-radius: 20px;
   letter-spacing: 0.8px;
   font-weight: 500;
+  font-size: 12px;
 }
 
 .descricao-case {
@@ -1982,9 +2100,9 @@ a:hover, a {
   width:100%;
   top:0;
   left:0;
-  background: transparent linear-gradient(180deg, #58DBAA80 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
+  /*background: transparent linear-gradient(180deg, #58DBAA80 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(180deg, #58DBAA00 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(180deg, #58DBAA80 0%, #0D0326 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #58DBAA80 0%, #0D0326 100%) 0% 0% no-repeat padding-box;*/
 }
 
 #nossos-cases .cases li:hover .visible-case:after {
@@ -2003,6 +2121,7 @@ a:hover, a {
 
 #behance-nairuz {
   background-color: #6316C9;
+  display: none;
 }
 
 .behance {
@@ -2037,20 +2156,23 @@ a:hover, a {
 /* Página Serviços */
 
 #servicos {
-  background-image: url(/bg-servicos.png);
+  background-image: url(/novaident/bannerservicos.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: 4rem;
   position: relative;
 }
 
 #servicos .text-cases p b {
-  font-weight: 600;
+  font-weight: 800;
+  color: #61DCAB;
+  font-size: 14px;
 }
 
 .icon-arrow-servico {
   margin-top: 2rem;
+  display: none;
 }
 
 #botoes-dinamicos {
@@ -2068,6 +2190,7 @@ a:hover, a {
   background-image: url(/icons-servicos.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: none;
 }
 
 #botoes-dinamicos::after {
@@ -2081,6 +2204,7 @@ a:hover, a {
   background-color: #68FC9C;
   opacity: .4;
   z-index: -1;
+  display: none;
 }
 
 .page-servicos .after-rosa::after {
@@ -2122,49 +2246,45 @@ a:hover, a {
   font-size: 0.9rem;
 }
 
-.categoria-nz h3 {
+.categoria-nz h3  {
   color: #2D2D2D;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
-
-.categoria-nz h3 span {
-  font-weight: 800;
-  color: #F500BB;
+.categoria-nz h3 span, .layout .categoria-nz h3 span {
+  color: #00175D;
 }
-
-.layout .categoria-nz h3 span {
-  color: #58DBAA;
-}
-
 .title-servico-nz h2 {
-  color: #2D2D2D;
+  color: #1C1C1C;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 24px;
+  line-height: 34px;
+  font-style: italic;
   margin-bottom: 2rem;
 }
 
 .desc-servico-nz p {
-  color: #2D2D2D;
-  line-height: 1.6;
-  font-size: 0.9rem;
+  color: #1c1c1c;
+  line-height: 21px;
+  font-size: 14px;
   width: 100%;
   margin-bottom: 1.5rem;
 }
 
 .accordion-servico-nz .title-accordion h4 {
-  text-transform: uppercase;
-  color: #2D2D2D;
+  text-transform: initial;
+  color: #1C1C1C;
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 18px;
+  line-height: 21px;
   margin: 3rem 0;
 }
 
 .accordion-servico-nz h5 {
   text-transform: uppercase;
-  color: #2D2D2D;
+  color: #1c1c1c;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
 }
 
@@ -2211,14 +2331,14 @@ a:hover, a {
 }
 
 #orcamento-servico {
-  width: 100%;
-  background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-  padding: 0.8rem;
-  color: #fff;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 600;
-  border-radius: 325px;
+  width: 60%;
+  background: #61DCAB;
+  padding: 12px 24px;
+  color: #1C1C1C;
+  text-transform: initial;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 39px;
   border: unset;
   margin-top: 1rem;
   margin-bottom: 4rem;
@@ -2233,33 +2353,22 @@ a:hover, a {
 }
 
 .layout-svc.ativo,
-.inbound-svc.ativo {
-  font-weight: 800;
-  background-color: #58DBAA;
-  color: #fff;
-  border: unset;
-}
-
+.inbound-svc.ativo,
 .website-svc.ativo,
-.seo-svc.ativo {
-  font-weight: 800;
-  background-color: #F500BB;
-  color: #fff;
+.seo-svc.ativo, 
+.midias-pagas-svc.ativo  {
+  font-weight: 700;
+  background-color: #61DCAB;
+  color: #1C1C1C;
   border: unset;
 }
 
-.midias-pagas-svc.ativo {
-  font-weight: 800;
-  background-color: #C100D6;
-  color: #fff;
-  border: unset;
-}
 
 
 /* Página Case Bialetti */
 
 #case-top {
-  background-image: url('/cases/bg-case-bialetti.png');
+  background-image: url('/novaident/cases//bialetti/casefundobialetti.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 6rem 0;
@@ -2272,15 +2381,17 @@ a:hover, a {
 }
 
 .subtitle-case h2 span {
-  color: #48BAB8;
+  color: #61DCAB;
   font-weight: 800;
 }
 
 .title-case h1 {
-  color: #48BAB8;
-  font-weight: 700;
-  font-size: 2rem;
+  color: #61DCAB;
+  font-weight: 800;
+  font-size: 32px;
   margin-bottom: 2rem;
+  line-height: 40px;
+  font-style: italic;
 }
 
 .text-case p {
@@ -2300,7 +2411,7 @@ a:hover, a {
 }
 
 .title-main-case h3 {
-  color: #2D2D2D;
+  color: #00175D;
   font-weight: 800;
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -2308,7 +2419,7 @@ a:hover, a {
 }
 
 .text-main-case p {
-  color: #2D2D2D;
+  color: #1c1c1c;
   line-height: 1.6;
   font-size: 0.9rem;
   width: 100%;
@@ -2334,29 +2445,25 @@ a:hover, a {
 }
 
 .page-case-bialettishop .title-resultados p span {
-  color: #48BAB8;
-  font-weight: 800;
+  color: #61DCAB;
+  font-weight: 700;
 }
 
 .page-case-bialettishop .button-resultados button {
-  background: transparent -webkit-gradient(linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
-  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(
-90deg
-, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-  border-radius: 30px;
+  background: #61DCAB;
+  border-radius: 39px;
   border: unset;
-  color: #fff;
-  padding: 1rem 6rem;
-  letter-spacing: 2.8px;
-  font-size: 0.8rem;
-  font-weight: 600;
+  color: #1C1C1C;
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
 }
 
 .page-case-bialettishop .icon-resultados ul li {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .page-case-bialettishop .icon-resultados {
@@ -2365,8 +2472,8 @@ a:hover, a {
 }
 
 .page-case-bialettishop .icon-resultados ul li p {
-  font-weight: 600;
-  color: #68FC9C;
+  font-weight: 800;
+  color: #61DCAB;
   font-size: 1.3rem;
   margin-left: 1rem;
 }
@@ -2377,7 +2484,7 @@ a:hover, a {
 }
 
 .title-post h3 {
-  color: #2D2D2D;
+  color: #00175D;
   font-weight: 800;
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -2391,7 +2498,7 @@ a:hover, a {
 }
 
 .post-content p {
-  color: #2D2D2D;
+  color: #1c1c1c;
   line-height: 1.6;
   font-size: 0.9rem;
   width: 100%;
@@ -2399,12 +2506,12 @@ a:hover, a {
 }
 
 .post-content p span {
-  color: #6316C9;
+  color: #00175D;
   font-weight: 700;
 }
 
 .post-content p span.destaque-text-post {
-  color: #48BAB8;
+  color: #00175D;
   font-weight: 600;
 }
 
@@ -2420,10 +2527,12 @@ a:hover, a {
   margin: 3rem 0;
   font-weight: 700;
   text-transform: uppercase;
+  color: #00175D;
+  font-size: 20px;
 }
 
 .title-sucesso-case h3 {
-  color: #2D2D2D;
+  color: #00175D;
   font-weight: 800;
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -2431,13 +2540,13 @@ a:hover, a {
 }
 
 .text-sucesso-case p {
-  color: #2D2D2D;
+  color: #1c1c1c;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 
 #resultados {
-  background: transparent url('/cases/bg-resultados.png') 0% 0% no-repeat padding-box;
+  background: transparent url('/novaident/cases/bialetti/fundobaixobialetti.png') 0% 0% no-repeat padding-box;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5rem 0;
@@ -2457,7 +2566,7 @@ a:hover, a {
 /* Pagina Cases - LV Store */
 
 .page-case-lvstore #case-top {
-  background-image: url('/cases/bg-case-lv.png');
+  background-image: url('/novaident/cases/lvstore/bannercaselv.png');
 }
 
 #case-top .text-case {
@@ -2467,6 +2576,10 @@ a:hover, a {
 .page-case-lvstore .post-content {
   width: 100%;
 }
+
+.page-case-lvstore .page-case-csp .title-main-case h3, .page-case-lvstore .post-content h4 {
+  color: #6411C6;
+} 
 
 .page-case-lvstore #banner-full {
   position: relative;
@@ -2514,9 +2627,9 @@ a:hover, a {
 }
 
 .page-case-lvstore .outros-cases a {
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: underline !important;
-  color: #2D2D2D;
+  color: #1C1C1C;
 }
 
 .page-case-lvstore .text-cases-home {
@@ -2527,7 +2640,7 @@ a:hover, a {
 /* Pagina Cases - Lojas RPM */
 
 .page-case-lojasrpm #case-top {
-  background-image: url('/cases/bg-case-rpm.png');
+  background-image: url('/novaident/cases/lojasrpm/fundocaseslojasrpm.png');
 }
 
 .page-case-lojasrpm .post-content {
@@ -2544,7 +2657,7 @@ a:hover, a {
 
 .page-case-lojasrpm #banner-full .row:before {
   content: '';
-  background: #6316C9;
+  background: #61DCAB;
   height: 15rem;
   width: 100%;
   position: absolute;
@@ -2638,7 +2751,7 @@ a:hover, a {
 /* Pagina Cases - Minassal */
 
 .page-case-minassal #case-top {
-  background-image: url('/cases/bg-case-minassal.png');
+  background-image: url('/novaident/cases/minassal/fundocaseminassal.png');
 }
 
 .page-case-minassal .post-content {
@@ -2647,7 +2760,7 @@ a:hover, a {
 
 .page-case-minassal #full-minassall {
   margin: 3rem 0;
-  background-color: #081b2c;
+  background-color: #24272e;
   padding: 1.5rem 0;
 }
 
@@ -2655,7 +2768,7 @@ a:hover, a {
 .page-case-minassal .text-main-case a {
   font-weight: 600;
   text-decoration: underline !important;
-  color: #2D2D2D;
+  color: #1c1c1c;
 }
 
 .page-case-minassal .text-cases-home {
@@ -2666,7 +2779,7 @@ a:hover, a {
 /* Pagina Cases - Infocards */
 
 .page-case-infocards #case-top {
-  background-image: url('/cases/bg-case-infocards.png');
+  background-image: url('/novaident/cases/infocards/fundocaseinfocards.png');
 }
 
 .page-case-infocards #main-case {
@@ -2681,7 +2794,7 @@ a:hover, a {
 }
 
 .text-banner-infocards h3 {
-  color: #fff;
+  color: #00175D;
   font-weight: 800;
   font-size: 1.6rem;
   padding-top: 3rem;
@@ -2689,8 +2802,8 @@ a:hover, a {
 }
 
 .text-banner-infocards p {
-  color: #fff;
-  line-height: 1.6;
+  color: #1C1C1C;
+  line-height: 21px;
   font-size: 0.9rem;
   width: 100%;
   margin-bottom: 1.5rem;
@@ -2704,7 +2817,7 @@ a:hover, a {
 #banner-infocards:before {
   content: '';
   height: 15rem;
-  background-color: #6316C9;
+  background-color: #61DCAB;
   position: absolute;
   left: 0;
   top: 0;
@@ -2828,14 +2941,13 @@ a:hover, a {
 .page-case-novamed #new-case-top {
   padding-top: 120px;
   padding-bottom: 120px;
-  background: rgb(34,26,97);
-  background: linear-gradient(180deg, rgba(34,26,97,1) 35%, rgba(88,219,170,1) 100%);
+  background: #00175D;
   text-align: center;
 }
 
 .page-case-novamed #new-case-top .title-case h1 {
   line-height: 40px;
-  width: 70%;
+  width: 71%;
   margin: auto;
 }
 
@@ -2860,8 +2972,8 @@ a:hover, a {
 }
 
 .page-case-novamed #new-video-case .text-video-case p span {
-  font-weight: 700;
-  color: #6316C9;
+  font-weight: 800;
+  color: #00175D;
 }
 
 #new-video-case {
@@ -2873,7 +2985,7 @@ a:hover, a {
   position: absolute;
   left: 0;
   top: 15rem;
-  background-color: #48BAB8;
+  background-color: #00175D;
   height: 200px;
   width: 100%;
 }
@@ -2906,18 +3018,18 @@ a:hover, a {
 }
 
 .page-case-novamed .cards-video-case .card-case-nova .text-card-case p {
-  color: #2D2D2D;
-  line-height: 1.6;
+  color: #1c1c1c;
+  line-height: 21px;
 }
 
 .page-case-novamed .cards-video-case .card-case-nova .text-card-case p span {
   font-weight: 800;
-  color: #6316C9;
+  color: #00175D;
 }
 
 .page-case-novamed .title-resultado-cta h2 {
   letter-spacing: 0px;
-  color: #2D2D2D;
+  color: #00175D;
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
@@ -2941,18 +3053,18 @@ a:hover, a {
 }
 
 .page-case-novamed .button-resultado-cta a {
-  color: #fff;
-  font-weight: 700;
-  font-size: 1.1rem;
-  background: transparent linear-gradient(90deg, #48BAB8 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
-  border-radius: 90px;
+  color: #1C1C1C;
+  font-weight: 400;
+  font-size: 16px;
+  background: #61DCAB;
+  border-radius: 39px;
   padding: 14px 100px;
   border: unset;
 }
 
 .page-case-novamed .title-trafego-organico h3 {
   letter-spacing: 0px;
-  color: #2D2D2D;
+  color: #00175D;
   font-size: 2rem;
   font-weight: 800;
   text-align: center;
@@ -2960,7 +3072,7 @@ a:hover, a {
 }
 
 .page-case-novamed .text-trafego-organico p {
-  color: #2D2D2D;
+  color: #1C1C1C;
   line-height: 1.6;
   font-size: 0.9rem;
   letter-spacing: 0;
@@ -2970,7 +3082,7 @@ a:hover, a {
 
 .page-case-novamed .title-estudo-case h3 {
   letter-spacing: 0px;
-  color: #2D2D2D;
+  color: #00175D;
   font-size: 2rem;
   font-weight: 800;
   text-align: center;
@@ -2991,7 +3103,7 @@ a:hover, a {
 
 .page-case-novamed .text-estudo-case p span {
   font-weight: 700;
-  color: #6316C9;
+  color: #00175D;
 }
 
 .page-case-novamed .text-estudo-case p.text-destaque {
@@ -3005,14 +3117,14 @@ a:hover, a {
 
 .page-case-novamed .title-numeros-nova h4 {
   letter-spacing: 0px;
-  color: #2D2D2D;
+  color: #00175D;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .page-case-novamed .text-numeros-nova p {
-  color: #2D2D2D;
+  color: #1c1c1c;
   line-height: 1.6;
   font-size: 0.9rem;
   letter-spacing: 0;
@@ -3022,14 +3134,14 @@ a:hover, a {
 
 .page-case-novamed .text-numeros-nova p span {
   font-weight: 700;
-  color: #6316C9;
+  color: #00175D;
 }
 
 .page-case-novamed  .resultado-destaque-nova {
   display: flex;
   align-items: center;
-  background: #F1F1F1 0% 0% no-repeat padding-box;
-  border-radius: 29px;
+  background: #ECECEC;
+  border-radius: 0 40px;
   justify-content: center;
   padding: 50px 100px;
   width: 80%;
@@ -3051,7 +3163,7 @@ a:hover, a {
 .text-resultado-destaque p span,
 .text-after-result p span {
   font-weight: 700;
-  color: #6316C9;
+  color: #00175D;
 }
 
 .text-after-result p {
@@ -3103,7 +3215,7 @@ a:hover, a {
 
 .text-conte-com-nairuz p span {
   font-weight: 700;
-  color: #6316C9;
+  color: #00175D;
 }
 
 .card-conte-com-nairuz {
@@ -3120,8 +3232,9 @@ a:hover, a {
 }
 
 .card-conte-com-nairuz .text-card-conte-com-nairuz p {
-  color: #2D2D2D;
-  line-height: 1.6;
+  color: #1c1c1c;
+  line-height: 21px;
+  font-size: 14px;
 }
 
 #form-case-nova #rd-form-kylvw1qc .bricks-form__label {
@@ -3147,17 +3260,25 @@ a:hover, a {
 /* Page Case Casa São Pedro */
 
 .page-case-csp #case-top {
-  background-image: url('/cases/bg-case-csp.png');
+  background-image: url('/novaident/cases/csp/fundocasecsp.png');
   background-position: center;
 }
-
+.video-casasaopedro {
+  margin-bottom: 4rem;
+}
+.page-case-csp .text-main-case p:first-child {
+  margin-top: 4rem;
+}
+.page-case-csp .title-main-case h3, .post-content h4 {
+  color: #00175D;
+}
 .page-case-csp .text-cases-home {
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
 .page-case-csp .text-main-case p span {
-  color: #6316C9;
+  color: #00175D;
   font-weight: 700;
 }
 
@@ -3200,8 +3321,8 @@ a:hover, a {
 }
 
 .case-covabra .text-seo-trafego {
-  background: #F1F1F1 0% 0% no-repeat padding-box;
-  border-radius: 29px;
+  background: #ECECEC 0% 0% no-repeat padding-box;
+  border-radius: 0 40px;
   padding: 70px 50px 40px;
   position: relative;
   height: 480px;
@@ -3244,14 +3365,14 @@ a:hover, a {
 
 .case-covabra .text-seo-trafego p span {
   font-weight: 700;
-    color: #6316C9;
+    color: #00175D;
 }
 
 .page-case-novamed .title-numeros-nova.case-covabra h4 {
   letter-spacing: 0px;
-  color: #2D2D2D;
+  color: #1c1c1c;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.4;
   width: 60%;
   margin: auto;
@@ -3260,7 +3381,8 @@ a:hover, a {
 }
 
 .page-case-novamed .title-numeros-nova.case-covabra h4 span {
-  font-weight: 800;
+  font-weight: 700;
+    color: #00175D;
 }
 
 .page-case-novamed .text-estudo-case p.bold-estudo-case {
@@ -3287,7 +3409,7 @@ a:hover, a {
 
 .page-case-novamed.case-covabra .text-resultado-cta p span {
   font-weight: 700;
-  color: #6316C9;
+  color: #00175D;
 }
 
 .page-case-novamed #new-video-case .text-video-case p {
@@ -3305,12 +3427,10 @@ a:hover, a {
   font-size: 20px !important;
 }
 
-.case-bonecario .text-video-case-destaque span {
-  font-weight: 700;
-}
+
 
 .title-seja-um-case h4 {
-  color: #2D2D2D;
+  color: #1C1C1C;
     line-height: 1.6;
     font-size: 20px;
     letter-spacing: 0;
@@ -3330,7 +3450,7 @@ a:hover, a {
 
 .page-case-novamed .text-trafego-organico.case-bonecario p span {
   font-weight: 700;
-  color: #6316C9;
+  color: #00175D;
 }
 
 .page-case-novamed .text-trafego-organico.case-bonecario {
@@ -3386,12 +3506,12 @@ a:hover, a {
 
 .target-bonecario-wrapper {
   position: absolute;
-  left: -22px;
-  background-color: #6316C9;
-  border-radius: 3px;
-  display: flex;
-  padding: 8px;
-  bottom: 7px;
+    left: -22px;
+    background-color: #00175D;
+    border-radius: 3px;
+    display: flex;
+    padding: 8px;
+    bottom: 12px;
 }
 
 /* Página Case Transpalet */
@@ -3408,29 +3528,27 @@ a:hover, a {
 }
 
 #conteudo-case-transpalet .points-case p{
-  width: 75%;
-  font-size: 18px;
+  width: 90%;
+  font-size: 14px;
   text-align: center;
-  line-height: 25px;
+  line-height: 21px;
 }
 
 #conteudo-case-transpalet .points-case span{
-  font-weight: 900;
-  color: #362aa4;
+  font-weight: 800;
+  color: #00175D;
 }
 
 #conteudo-case-transpalet .parceria{
   height: 131px;
-  background-color: #F1F1F1;
+  background-color: #ECECEC;
+  border-radius: 0 40px;
 }
 
-#conteudo-case-transpalet .parceria p{
-  font-weight: bold;
-}
 
 #conteudo-case-transpalet .parceria span{
-  font-weight: 900;
-  color: #392BA1;
+  font-weight: 800;
+  color: #00175D;
 }
 
 #conteudo-case-transpalet .titulo-sobre{
@@ -3453,11 +3571,11 @@ a:hover, a {
 #conteudo-case-transpalet .sobre-transpalet p{
   font-size: 0.825rem;
   line-height: 1.6;
-  color: #000000;
+  color: #1c1c1c;
 }
 
 #conteudo-case-transpalet .sobre-transpalet strong, #conteudo-case-dcorp .case-dcorp strong {
-  color: #392BA1;
+  color: #00175D;
 }
 
 #conteudo-case-transpalet .sobre-transpalet .texto-destaque, #conteudo-case-dcorp .sobre-dcorp .texto-destaque{
@@ -3478,10 +3596,6 @@ a:hover, a {
   display: none;
 }
 
-#conteudo-case-transpalet .img-grafico img{
-  opacity: 0.36;
-}
-
 #conteudo-case-transpalet .como-alavancou{
   border-bottom: 1px solid #eee;
   padding-bottom: 60px;
@@ -3489,16 +3603,21 @@ a:hover, a {
 
 #conteudo-case-transpalet .text-cta,
 #conteudo-case-transpalet .text-cta-link{
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 #conteudo-case-transpalet .text-cta .strongColor{
-  color: #392BA1;
+  color: #00175D;
 }
 
 #conteudo-case-transpalet .text-cta-link{
   margin-top: 22px;
-  margin-bottom: 50px;
+    margin-bottom: 50px;
+    color: #1A6FFF;
+    font-weight: 800;
+    text-decoration: underline !important;
+    font-size: 20px;
 }
 
 #conteudo-case-transpalet .button-resultado-cta{
@@ -3507,7 +3626,6 @@ a:hover, a {
 }
 
 #conteudo-case-transpalet .label-form{
-  font-weight: bold;
   width: 70%;
 }
 
@@ -3528,8 +3646,8 @@ a:hover, a {
 }
 .text-estudo-case.case-dcorp {
   position: relative;
-  background: #E8E8E8 0% 0% no-repeat padding-box;
-  border-radius: 29px;
+  background: #Ececec 0% 0% no-repeat padding-box;
+  border-radius: 0 40px;
   height: 270px;
   padding-top: 6rem;
   width: 80%;
@@ -3548,7 +3666,7 @@ a:hover, a {
 }
 #conteudo-case-dcorp strong, #tecnologia-mercado strong, .titulo-tecnologia h4 strong, 
 #estudo-caso strong, #conte-conosco strong {
-  color: #392BA1
+  color: #00175D;
 }
 #conteudo-case-dcorp .segunda-parte h3 {
   font-size: 24px;
@@ -3587,7 +3705,7 @@ a:hover, a {
 #tecnologia-mercado .sobre-tec p, .desc-tec p, #estudo-caso p, #conte-conosco p {
   font-size: 0.825rem;
   line-height: 1.6;
-  color: #2d2d2d;
+  color: #1c1c1c;
 }
 #title-exp {
   text-align: center;
@@ -3595,7 +3713,7 @@ a:hover, a {
 }
 .titulo-tecnologia h4 {
   font-weight: bold;
-  color: #2D2D2D;
+  color: #1c1c1c;
   font-size: 1.3rem;
   margin-bottom: 40px;
 }
@@ -3670,12 +3788,19 @@ a:hover, a {
   max-width: 696px;
 }
 
-#conteudo-case-maravilhas h3,
-#conteudo-case-maravilhas h4{
+#conteudo-case-maravilhas h3{
   letter-spacing: 0px;
-  color: #2D2D2D;
+  color: #00175D;
   font-weight: 800;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+#conteudo-case-maravilhas h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1c1c1c;
   margin-bottom: 50px;
 }
 
@@ -3683,24 +3808,22 @@ a:hover, a {
   font-size: 2rem;
 }
 
-#conteudo-case-maravilhas h4{
-  font-size: 1.5rem;
-}
 
 #conteudo-case-maravilhas p{
   font-size: 0.825rem;
   line-height: 1.6;
-  color: #2D2D2D;
+  color: #1c1c1c;
 }
 
 #conteudo-case-maravilhas p strong{
-  color: #392BA1;
+  color: #00175D;
 }
 
 #conteudo-case-maravilhas .bg-text.box-1,
 #conteudo-case-maravilhas .bg-text.box-3,
 #conteudo-case-maravilhas .bg-text.box-4{
   background-color: #F1F1F1; 
+  border-radius: 0 40px;
 }
 
 #conteudo-case-maravilhas .box-1{
@@ -3713,7 +3836,7 @@ a:hover, a {
 
 #conteudo-case-maravilhas .box-1 h5{
   font-size: 1rem;
-  color: #392BA1;
+  color: #00175D;
   margin-bottom: 0;
   text-transform: initial;
 }
@@ -3773,13 +3896,6 @@ a:hover, a {
   margin-bottom: 1rem;
 }
 
-#conteudo-case-maravilhas .texto-destaque p:nth-child(2){
-  font-weight: bold;
-}
-
-#conteudo-case-maravilhas .texto-destaque p span{
-  font-weight: bold;
-}
 
 #conteudo-case-maravilhas .estrategias{
   margin-bottom: 36px;
@@ -3792,7 +3908,6 @@ a:hover, a {
 
 #conteudo-case-maravilhas .lista{
   font-size: 0.825rem;
-  font-weight: bold;
   list-style: disc;
   list-style-position: inside;
 }
@@ -3802,7 +3917,7 @@ a:hover, a {
 }
 
 #conteudo-case-maravilhas .texto-black{
-  font-weight: 900 !important;
+  font-weight: 800 !important;
 }
 
 #conteudo-case-maravilhas .box-4{
@@ -3815,7 +3930,7 @@ a:hover, a {
 }
 
 #conteudo-case-maravilhas .box-4 .lista li strong{
-  color: #392BA1;
+  color: #00175D;
 }
 
 #conteudo-case-maravilhas .box-4 .lista li:not(:last-child){
@@ -3846,11 +3961,11 @@ a:hover, a {
 /* Página Vagas */
 
 #vagas {
-  background-image: url(/Banner_Topo.png);
+  background-image: url(/novaident/funcionairuz/bannerfunc.png);
   background-size: cover;
   background-position-y: unset;
   background-repeat: no-repeat;
-  padding-top: 11rem;
+  padding-top: 5rem;
   padding-bottom: 11rem;
   position: relative;
 }
@@ -3868,19 +3983,26 @@ a:hover, a {
 } */
 
 .title-funcionairuz {
-  color: #48BAB8;
-  font-size: 2.2rem;
+  color: #61DCAB;
+  font-size: 32px;
   font-weight: 800;
   width: 60%;
   margin-bottom: 2rem;
   text-transform: uppercase;
+  font-style: italic;
+}
+
+#vagas .text-quemsomos p {
+  margin-bottom: 4rem;
+  font-weight: 300;
 }
 
 .title-vagas {
-  color: #fff;
+  color: #61DCAB;
   text-transform: uppercase;
   margin-bottom: 2rem;
   font-weight: 700;
+  font-size: 16px;
 }
 
 #vagas-disponiveis {
@@ -3893,9 +4015,9 @@ a:hover, a {
 #vagas-disponiveis .card {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 20px #0000001A;
-  border-radius: 20px;
   border: 0;
   padding: 2rem;
+  border-radius: 0px 40px 0px 40px;
 }
 
 #vagas-disponiveis .card img {
@@ -3905,21 +4027,33 @@ a:hover, a {
 }
 
 #vagas-disponiveis .card h3 {
-  color: #0D0326;
+  color: #00175D;
   line-height: 1.5;
   font-size: 0.95rem;
   font-weight: 800;
   margin-bottom: 1rem;
+}
+
+#vagas-disponiveis .card h3 span {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 36px;
   text-transform: uppercase;
 }
 
 #vagas-disponiveis .card h4 {
-  color: #58DBAA;
+  color: #1c1c1c;
   line-height: 1.5;
-  font-size: 0.85rem;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 500;
   margin-bottom: 1rem;
-  text-transform: uppercase;
+}
+
+#vagas-disponiveis .card h5 {
+  color: #6411C6;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: initial;
 }
 
 h5 {
@@ -3932,22 +4066,21 @@ h5 {
 }
 
 #vagas-disponiveis .card p {
-  color: #2D2D2D;
+  color: #000;
   line-height: 1.5;
-  font-size: 0.85rem;
+  font-size: 12px;
   margin-bottom: 1rem;
 }
 
 #vagas-disponiveis .card button {
   border: unset;
-  background: transparent linear-gradient(
-90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-  border-radius: 25px;
-  color: #fff;
+  background: #61DCAB;
+  border-radius: 39px;
+  color: #1C1C1C;
   width: 60%;
   padding: 12px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 #vagas-off {
@@ -3959,28 +4092,29 @@ h5 {
 
 .button-outras-vagas button {
   border: unset;
-  background: transparent linear-gradient(
-90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-  border-radius: 25px;
-  color: #fff;
-  padding: 12px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  width: 40%;
+  background: #61DCAB;
+  border-radius: 39px;
+  color: #1C1C1C;
+  padding: 8px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 30%;
 }
 
 .title-outras-vagas p {
-  color: #0D0326;
-  font-weight: 800;
+  color: #1c1c1c;
+  font-weight: 700;
   margin-bottom: 1rem;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .text-outras-vagas p {
-  color: #A2A2A2;
-  letter-spacing: 0.7px;
+  color: #1c1c1c;
   margin-bottom: 1rem;
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 #vagas-popup {
@@ -3993,7 +4127,7 @@ h5 {
 }
 
 #vagas-popup .title-popup {
-  color: #0D0326;
+  color: #00175D;
   line-height: 1.5;
   font-size: 0.95rem;
   font-weight: 800;
@@ -4006,7 +4140,7 @@ h5 {
 }
 
 .conteudo-vaga .subtitle-vaga-popup p {
-  color: #48BAB8;
+  color: #6411C6;
   line-height: 1.5;
   font-size: 0.80rem;
   font-weight: 800;
@@ -4015,14 +4149,16 @@ h5 {
 }
 
 .conteudo-vaga .text-vaga-popup p {
-  color: #2D2D2D;
+  color: #000;
   line-height: 1.5;
-  font-size: 0.85rem;
+  font-size: 12px;
+  line-height: 18px;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 
 #vagas-popup .linha-form label {
-  color: #2D2D2D;
+  color: #000;
 }
 
 #vagas-popup .linha-form input {
@@ -4068,34 +4204,31 @@ h5 {
 }
 
 #work .section--title p.title{
-  font: normal normal normal 21px/42px Montserrat;
-  color: #2D2D2D;
+  font-size: 20px;
+  color: #00175D;
   text-transform: uppercase;
   margin-bottom: 20px;
-
+  font-weight: 800;
   border-top: 1px solid #ececec;
   padding-top: 4rem;
-}
-#work .section--title p.title span{
-  font-weight: 800;
-  color: #F500BB;
+  line-height: 30px;
 }
 
+
 #work .section--title .subtitle{
-  font: normal normal 800 21px/26px Montserrat;
-  letter-spacing: 0px;
-  color: #0D0326;
-  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1c1c1c;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 #work .section--title .section-description{
   width: 676px;
   margin: 0 auto;
-  font: normal normal 500 14px/22px Montserrat;
-  letter-spacing: 0.7px;
-  color: #A2A2A2;
-  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1c1c1c;
 }
 section#work .row.work--row{
   flex-wrap: wrap;
@@ -4123,28 +4256,31 @@ section#work .work-box .bodyContainer{
   flex-direction: column;
 }
 section#work .work-box .bodyContainer .name{
-  font: normal normal 800 21px/26px Montserrat;
-  letter-spacing: 0px;
+  font-size: 18px;
+  line-height:27px;
   color: #000000;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 27px;
+  font-weight: 800;
 
 }
 section#work .work-box .bodyContainer .description{
-  font: normal normal normal 14px/26px Montserrat;
-  letter-spacing: 0px;
-  color: #2D2D2D;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000;
   text-align: center;
 }
 
 section#work .work-box .bodyContainer button{
-  font: normal normal bold 18px/22px Montserrat;
-  background: transparent linear-gradient(90deg, #C100D6 0%, #F500BB 100%) 0% 0% no-repeat padding-box;
-  border-radius: 25px;
+  font-size: 16px;
+  background: #61DCAB;
+  border-radius: 39px;
+  line-height: 24px;
   border: none;
-  color: #fff;
-  padding: 9px 18px;
+  color: #1c1c1c;
+  padding: 8px 24px;
   width: 100%;
   margin-top: 40px;
 }
@@ -4181,14 +4317,16 @@ section#work .work-box .bodyContainer button{
 #projetos-popup .image-top{
   margin-bottom: 31px
 }
-#projetos-popup p.title{
-  font: normal normal 400 21px/42px Montserrat!important;
-  color: #2D2D2D;
+#projetos-popup .history p.title, .organizadores p.title, .release .title, #projetos-popup .title{
+  font: normal normal 800 19px/28px Poppins;
+  color: #00175D !important;
   text-transform: uppercase;
+  font-weight: 800;
+  font-style: italic;
 }
 
 #projetos-popup .title span{
-  color: #F500BB;
+  color: #00175D;
   font-weight: 800;
 }
 #projetos-popup .history{
@@ -4196,9 +4334,10 @@ section#work .work-box .bodyContainer button{
 }
 #projetos-popup .history p{
   margin-top: 18px;
-  font: normal normal normal 14px/18px Montserrat;
+  font-size: 12px;
+  line-height: 18px;
   letter-spacing: 0px;
-  color: #2D2D2D;
+  color: #1c1c1c;
 }
 
 #projetos-popup .bottom{
@@ -4210,32 +4349,29 @@ section#work .work-box .bodyContainer button{
 #projetos-popup .bottom ul li{
   display: flex;
   align-items: center;
-  gap: 8px
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
-#projetos-popup .bottom ul li p{
-  font: normal normal normal 14px/26px Montserrat;
-  color: #2D2D2D;
-}
-
-#projetos-popup .bottom ul li p,
-#projetos-popup .bottom .release p{
-  font: normal normal normal 14px/26px Montserrat;
-  color: #2D2D2D;
+#projetos-popup .bottom ul li p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;  
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 #projetos-popup .bottom ul li p:last-child{
-  color: #48BAB8;
-  font: normal normal normal 12px/12px Montserrat;
-  border-radius: 20px;
-  border: 1px solid #48BAB8;
-  padding: 3px 13px;
+  color: #A2A2A2;
+  font: normal normal normal 14px/21px Poppins;
+  border-radius: 27px;
+  border: 1px solid #A2A2A2;
+  padding: 1px 12px;
 }
 
 #projetos-popup .bottom .release button{
-  background: transparent linear-gradient(90deg, #C100D6 0%, #F500BB 100%) 0% 0% no-repeat padding-box;
+  
   border-radius: 25px;
-  font: normal normal bold 18px/22px Montserrat;
   letter-spacing: 0px;
   color: #FFFFFF;
 
@@ -4259,7 +4395,7 @@ section#work .work-box .bodyContainer button{
 /* Newsletter */
 
 #newsletter {
-  background: transparent linear-gradient(180deg, #C100D6 40%, #6316C9 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(100deg, #024787 100%, #00175D 100%) 0% 0% no-repeat padding-box;
 }
 
 #newsletter .row {
@@ -4280,11 +4416,13 @@ section#work .work-box .bodyContainer button{
 
 .text-news .news-upper {
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .text-news .news-destaque {
   font-weight: 800;
   font-size: 1.8rem;
+  color: #61DCAB;
 }
 
 .text-news p {
@@ -4337,9 +4475,9 @@ section#work .work-box .bodyContainer button{
 }
 
 #rd-form-kylrwgxz .bricks-form__label {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   color: #fff !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   font-size: 0.9rem !important;
   margin-bottom: 1rem !important;
 }
@@ -4354,13 +4492,13 @@ section#work .work-box .bodyContainer button{
 
 #rd-section-kylrwgxs .rd-button {
   border: unset !important;
-  background-color: #fff;
+  background-color: #61DCAB;
   color: #0D0326 !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
   height: 41px !important;
-  border-radius: 10px !important;
+  border-radius: 39px !important;
   font-size: 1rem !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 #rd-form-kylrwgxz .bricks-form__field {
@@ -4371,7 +4509,7 @@ section#work .work-box .bodyContainer button{
   height: 41px !important;
   background: transparent !important;
   border: 1px solid #fff !important;
-  border-radius: 10px !important;
+  border-radius: 39px !important;
   padding: 10px 20px !important;
   font-family: 'Montserrat', sans-serif !important;
   font-size: 0.9rem !important;

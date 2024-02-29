@@ -24,6 +24,7 @@ export default function NovaMedicamentos2() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Headergeral />
@@ -69,15 +70,15 @@ export default function NovaMedicamentos2() {
 
           <div className="row points-case justify-content-center">
             <div className="text-estudo-case col-4 d-flex flex-column align-items-center gap-4">
-              <Image src="/transpalet/persons.svg" width={80} height={80} alt="Persons" />
+              <Image src="/novaident/cases/transpalet/persons.svg" width={80} height={80} alt="Persons" />
               <p>A Nairuz faz com que os desvios e pontos fora da curva <span>sejam rapidamente detectados e corrigidos</span> para que os resultados voltem a aparecer.</p>
             </div>
             <div className="text-estudo-case col-4 d-flex flex-column align-items-center gap-4">
-              <Image src="/transpalet/cursor.svg" width={80} height={80} alt="Cursor" />
+              <Image src="/novaident/cases//transpalet/cursor.svg" width={80} height={80} alt="Cursor" />
               <p>O trabalho de captação de novos leads nos <span>trouxe novos clientes e mais visibilidade para nossa empresa</span>, que conseguiu se manter em <span>1° lugar</span> em vendas de peças de reposição Paletrans</p>
             </div>
             <div className="text-estudo-case col-4 d-flex flex-column align-items-center gap-4">
-              <Image src="/transpalet/growup.svg" width={80} height={80} alt="Grow up" />
+              <Image src="/novaident/cases/transpalet/growup.svg" width={80} height={80} alt="Grow up" />
               <p>Mesmo com esse cenário desafiador <span>o faturamento de 2022 foi de 17,82% maior que o faturamento de 2021</span>. A média mensal foi de <span>R$560,790</span></p>
             </div>
           </div>
@@ -114,7 +115,7 @@ export default function NovaMedicamentos2() {
 
           <div className="row">
             <div className="col-12 img-grafico">
-              <Image src="/transpalet/empresario-desenhar-grafico.png" width={1500} height={201} alt="Grafico" />
+              <Image src="/novaident/cases/transpalet/grafico.png" width={1500} height={201} alt="Grafico" />
             </div>
           </div>
 

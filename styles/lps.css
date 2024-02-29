@@ -1,14 +1,23 @@
 /* Geral */
 
-.menu ul li button {
+.menu ul li button, .menu ul li a {
   margin: auto;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 3.36px;
+  text-transform: capitalize;
   cursor: pointer;
   background: unset;
   border: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.page-quemsomos .menu ul li:nth-child(2) button, .page-servicos .menu ul li:nth-child(3) button, .page-cases .menu ul li:nth-child(4) button, .page-vagas .menu ul li:nth-child(5) button {
+  color: #68FC9C;
+  font-weight: 600;
 }
 
 /* Temas */

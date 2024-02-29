@@ -33,7 +33,6 @@ const MenuMobile = () => (
           <li><button onClick={urlQuemSomos}>Quem Somos</button></li>
           <li><button onClick={urlServicos}>Serviços</button></li>
           <li><button onClick={urlCases}>Cases</button></li>
-          <li><button onClick={urlVagas}>Funcionairuz</button></li>
           <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
         </ul>
       </nav>
@@ -41,7 +40,7 @@ const MenuMobile = () => (
         <button className="btn-contato open-popup-contato">Entrar em contato</button>
       </div>
       <div className="logo-menu-mobile">
-        <div onClick={urlHome}><Image src="/logo-header.svg" alt="Logo Nairuz" width={150} height={28}/></div>
+        <div onClick={urlHome}><Image src="/novaident/logonairuznovo.svg" alt="Logo Nairuz" width={150} height={28}/></div>
       </div>
     </div>
   </div>

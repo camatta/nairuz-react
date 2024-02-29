@@ -37,12 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <header className="container-fluid" id="header-home">
     <div className="container">
         <div className="row d-flex align-items-center desktoponly">
-          <div className="col-2">
-            <div className="logo">
-              <div onClick={urlHome}><Image src="/novo-logo-header.svg" alt="Logo Nairuz" width={150} height={50} /></div>
-            </div>
-          </div>
-          <div className="col-8">
+          <div className="col-4">
             <div className="menu">
               <nav>
                 <ul>
@@ -50,13 +45,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <li><button onClick={urlSobre}>Quem Somos</button></li>
                   <li><button onClick={urlServicos}>Serviços</button></li>
                   <li><button onClick={urlCases}>Cases</button></li>
-                  <li><button onClick={urlVagas}>Funcionairuz</button></li>
                   <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
                 </ul>
               </nav>
             </div>
           </div>
-          <div className="col-2 text-right">
+          <div className="col-4">
+            <div className="logo">
+              <div onClick={urlHome}><Image src="/novaident/logonairuznovo.svg" alt="Logo Nairuz" width={150} height={50} /></div>
+            </div>
+          </div>
+          <div className="col-4 social-contato">
+            <div className="login-topo">
+              <ul>
+                <li><a href="https://www.linkedin.com/company/nairuz" target='_blank'><Image src="/novaident/linkedinlogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://www.instagram.com/nairuzdigital/" target='_blank'><Image src="/novaident/instalogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target='_blank'><Image src="/novaident/whatslogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+              </ul>
+            </div>
             <div className="contato">
               <button className="btn-contato open-popup-contato">Entrar em contato</button>
             </div>
@@ -68,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <div className='carrossel-header owl-carousel'>
 
-  <div className="container-fluid" id="bg-carrossel2">
+    <div className="container-fluid" id="bg-carrossel1">
       <div className="container">
         <div className="row" id="carrossel">
           <div className="col-12">
@@ -76,21 +82,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="row">
                 <div className="col-12 col-md-5">
                   <div className="left-carrossel">
-                    <p>Veja como a Maravilhas do Lar <strong>aumentou sua receita em 44%</strong> nos 6 primeiros meses de projeto!</p>
-                  </div>
-                  <div className="text-left-carrossel">
-                    <p>O Marketing Digital, mais uma vez, mostrando-se essencial para o crescimento das empresas, independente do seu porte ou história no mercado, dessa forma trazendo resultados cada vez mais expressivos e entregando o seu produto diretamente ao seu consumidor almejado. Mas como isso foi possível? <strong>Conheça nossos Cases de Sucesso!</strong></p>
-                  </div>
-                  <div className="img-maravilhas-mobile mobileonly">
-                    <Image src="/img-maravilhas-main-topo-mobile.png" alt="Maravilhas do Lar" width={280} height={180} />
+                    <p>Unimos estratégias de<br></br> marketing e tecnologia para o<br></br> <strong>crescimento do seu negócio!</strong></p>
                   </div>
                   <div className="button-left-carrossel">
-                    <button onClick={urlCases}>Saiba Mais</button>
+                    <button onClick={urlCases}>Conheça nosso trabalho</button>
                   </div>
                 </div>
-                <div className="col-7 desktoponly">
-                  <div className="img-main-topo">
-                    <Image src="/img-maravilhas-main-topo.png" alt="Maravilhas do Lar" width={986} height={444} />
+                <div className="col-3 desktoponly"></div>
+                <div className="col-12 col-md-4">
+                  <div className="right-carrossel">
+                   
                   </div>
                 </div>
               </div>
@@ -100,21 +101,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
 
-    <div className="container-fluid" id="bg-carrossel1">
-      <div className="container">
+    <div className="container-fluid" id="bg-carrossel2">
+    <div className="container">
         <div className="row" id="carrossel">
           <div className="col-12">
             <div className="carrossel-principal">
               <div className="row">
                 <div className="col-12 col-md-5">
-                  <div className="left-carrossel">
-                    <p>Unimos estratégias de marketing e tecnologia para o <strong>crescimento do seu negócio!</strong></p>
-                  </div>
-                  <div className="text-left-carrossel">
-                    <p>Trabalhamos com soluções integradas para trazer sucesso para os nossos clientes. Deste modo, utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado.</p>
+                <div className="left-carrossel">
+                    <p>Unimos estratégias de<br></br> marketing e tecnologia para o<br></br> <strong>crescimento do seu negócio!</strong></p>
                   </div>
                   <div className="button-left-carrossel">
-                    <button onClick={urlCases}>Saiba Mais</button>
+                    <button onClick={urlCases}>Conheça nosso trabalho</button>
                   </div>
                 </div>
                 <div className="col-3 desktoponly"></div>
@@ -137,7 +135,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div className="row">
       <div className="col-12">
         <div className="title-h1-home">
-          <h1>Somos uma <strong>agência de marketing digital e tecnologia!</strong></h1>
+          <h1>Somos uma agência de <strong>marketing digital e tecnologia!</strong></h1>
         </div> 
       </div>
     </div>

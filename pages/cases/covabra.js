@@ -24,6 +24,7 @@ export default function NovaMedicamentos2() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Headergeral />
@@ -108,7 +109,7 @@ export default function NovaMedicamentos2() {
             <div className="col-12 col-md-6">
               <div className="text-seo-trafego">
                 <div className="icon-card-seo">
-                  <Image src="/covabra/icon-seo.png" width={80} height={80} alt="Supermercados Covabra" />
+                  <Image src="/novaident/cases/covabra/iconseo2.svg" width={80} height={80} alt="Supermercados Covabra" />
                 </div>
                 <p>Consideramos <span>tráfego orgânico</span> todo acesso ao site que não veio de uma mídia paga, ou seja, não houve investimento financeiro ou custos por clique do usuário. Isso significa que o seu usuário chegou até a sua marca atraído por algum conteúdo textual ou outro tipo de material disponível na web e que despertou seu interesse de alguma forma, seja no blog ou nas mídias sociais.</p>
                 <p>Por isso, é <span>fundamental</span> gerar, publicar e divulgar conteúdos de qualidade e que conversem diretamente com o seu <span>público-alvo</span>, respondendo às dúvidas mais frequentes em relação a determinado assunto ou oferecendo a <span>solução</span> para um problema recorrente. Entretanto, para que seu conteúdo tenha visibilidade e seja encontrado pelo seu usuário, é preciso investir também em estratégias de <span>SEO</span> que garantam que suas páginas sejam ranqueadas nos resultados de busca dos mais variados mecanismos e que ocupem as primeiras posições.</p>
@@ -117,7 +118,7 @@ export default function NovaMedicamentos2() {
             <div className="col-12 col-md-6">
               <div className="text-seo-trafego">
                 <div className="icon-card-seo">
-                  <Image src="/covabra/icon-seo.png" width={80} height={80} alt="Supermercados Covabra" />
+                  <Image src="/novaident/cases/covabra/iconseo1.svg" width={80} height={80} alt="Supermercados Covabra" />
                 </div>
                 <p>Já o <span>tráfego pago</span> consiste na aquisição dos usuários por meio de mídias digitais, desde investimentos em anúncios em mídias sociais, portais e aplicativos, até os mecanismos de busca mais populares. Todos os anúncios são exibidos àqueles que pesquisam resultados de busca relacionados às palavras-chave <span>adquiridas</span>. Por isso, ter um planejamento bem definido de palavras-chave relevantes para o seu negócio ou produto é tão importante! </p>
                 <p>Ambas as <span>estratégias</span> são muito eficientes na geração de resultados, mas enquanto os anúncios são imediatos, o ranqueamento das <span>palavras-chave</span> de forma orgânica podem levar um tempo um pouco maior. Qual é a diferença? Os anúncios demandam investimento financeiro, mas as palavras ranqueadas organicamente não geram custos de aquisição.</p>
@@ -143,7 +144,7 @@ export default function NovaMedicamentos2() {
               <div className="wrapper-resultados">
                 <div className="resultado-destaque-nova mt-0">
                   <div className="img-resultado-destaque">
-                    <Image src="/novamed/icon-resultados.svg" width={117} height={117} alt="Resultados" />
+                    <Image src="/novaident/cases/covabra/iconsresultados.svg" width={117} height={117} alt="Resultados" />
                   </div>
                   <div className="text-resultado-destaque">
                     <p><span>A decisão</span> varia de acordo com os objetivos da sua <span>marca</span> ou <span>empresa</span>, em quanto tempo você espera alcançá-los, se você conta com uma <span>equipe especializada</span> e qualificada para a operação e aplicação das estratégias e como anda a saúde financeira do seu negócio.</p>

@@ -61,6 +61,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>      
 
       <div className='page-home'>
@@ -156,31 +157,31 @@ export default function Home() {
                   <ul>
                     <li>
                       <div className="img-li ativo">
-                        <Image src="/layout.png" alt="Layout para e-commerce" width={247} height={349} loading="lazy" />
+                        <Image src="/novaident/fundolayout.png" alt="Layout para e-commerce" width={247} height={349} loading="lazy" />
                       </div>
                       <button id="layout" className="layout ativo">Layout para e-commerce</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/websites.png" alt="Websites" width={247} height={349} />
+                        <Image src="/novaident/fundowebsite.png" alt="Websites" width={247} height={349} />
                       </div>
                       <button id="website" className="website">Websites</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/midias-pagas.png" alt="Mídias Pagas" width={247} height={349}  />
+                        <Image src="/novaident/fundomidiaspagas.png" alt="Mídias Pagas" width={247} height={349}  />
                       </div>
                       <button id="midias-pagas" className="midias">Mídias Pagas</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/inbound.png" alt="Inbound Marketing" width={247} height={349} />
+                        <Image src="/novaident/fundomarketing.png" alt="Inbound Marketing" width={247} height={349} />
                       </div>
                       <button id="inbound" className="inbound">Inbound Marketing</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/seo.png" alt="SEO" width={247} height={349} />
+                        <Image src="/novaident/fundoseo.png" alt="SEO" width={247} height={349} />
                       </div>
                       <button id="seo" className="seo">SEO</button>
                     </li>
@@ -270,7 +271,7 @@ export default function Home() {
             <div className="col-12">
               <div className="clientes-nairuz">
                 <div className="title-clientes">
-                  <h4>O que nossos clientes dizem?</h4>
+                  <h4>O que nossos <br></br>clientes dizem?</h4>
                 </div>
                 <div className="carrossel-clientes owl-carousel owl-default">
                   <div className="cliente-nz">
@@ -435,7 +436,7 @@ export default function Home() {
                           <p>Thaiane Pinha</p>
                         </div>
                         <div className="button-post">
-                          <a href="https://blog.nairuz.com.br/conteudos-para-as-midias-sociais/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
+                          <a href="https://blog.nairuz.com.br/conteudos-para-as-midias-sociais/" target="_blank" rel="noopener noreferrer"><Image src="/novaident/setinha-direita.svg" alt="Ver Post" width={35} height={35} /></a>
                         </div>
                       </div>
                     </div>
@@ -457,14 +458,14 @@ export default function Home() {
                           <p>Marina Norato</p>
                         </div>
                         <div className="button-post">
-                          <a href="https://blog.nairuz.com.br/tik-tok/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-1.svg" alt="Ver Post" width={35} height={35} /></a>
+                          <a href="https://blog.nairuz.com.br/tik-tok/" target="_blank" rel="noopener noreferrer"><Image src="/novaident/setinha-direita.svg" alt="Ver Post" width={35} height={35} /></a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="vermais-blog">
-                  <a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Ver mais no Blog</a>
+                  <a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Ver mais no blog</a>
                 </div>
               </div>
             </div>
@@ -489,7 +490,7 @@ export default function Home() {
                         <p>08/06/2021</p>
                         <p>121 downloads</p>
                       </div>
-                      <div className="button-rico">
+                      <div className="button-rico d-none">
                         <a href="https://blog.nairuz.com.br/ux-design-qual-a-importancia-para-seu-e-commerce/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
                       </div>
                     </div>
@@ -506,7 +507,7 @@ export default function Home() {
                         <p>07/04/2021</p>
                         <p>096 downloads</p>
                       </div>
-                      <div className="button-rico">
+                      <div className="button-rico d-none">
                         <a href="https://blog.nairuz.com.br/layout-para-o-site-da-infocards/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
                       </div>
                     </div>

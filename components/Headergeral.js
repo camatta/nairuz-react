@@ -10,6 +10,10 @@ const urlQuemSomos = () => {
   document.location.href = '/quem-somos';
 }
 
+const urlSobre = () => {
+  document.location.href = '/quem-somos';
+}
+
 const urlServicos = () => {
   document.location.href = '/servicos';
 }
@@ -32,34 +36,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KCTM4JN');`}}></Script>
 
   <header className="container-fluid" id="header-geral">
-    <div className="container">
-      <div className="row d-flex align-items-center">
-        <div className="col-2">
-          <div className="logo">
-            <a onClick={urlHome}><Image src="/novo-logo-header.svg" alt="Logo Nairuz" width={150} height={50}/></a>
+  <div className="container">
+        <div className="row d-flex align-items-center desktoponly">
+          <div className="col-4">
+            <div className="menu">
+              <nav>
+                <ul>
+                  <li className="ativo"><button onClick={urlHome}>Home</button></li>
+                  <li><button onClick={urlSobre}>Quem Somos</button></li>
+                  <li><button onClick={urlServicos}>Serviços</button></li>
+                  <li><button onClick={urlCases}>Cases</button></li>
+                  <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
-        </div>
-        <div className="col-8">
-          <div className="menu">
-            <nav>
+          <div className="col-4">
+            <div className="logo">
+              <div onClick={urlHome}><Image src="/novaident/logonairuznovo.svg" alt="Logo Nairuz" width={150} height={50} /></div>
+            </div>
+          </div>
+          <div className="col-4 social-contato">
+            <div className="login-topo">
               <ul>
-                <li><a onClick={urlHome}>Home</a></li>
-                <li><a onClick={urlQuemSomos}>Quem Somos</a></li>
-                <li><a onClick={urlServicos}>Serviços</a></li>
-                <li><a onClick={urlCases}>Cases</a></li>
-                <li><a onClick={urlVagas}>Funcionairuz</a></li>
-                <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
+              <li><a href="https://www.linkedin.com/company/nairuz" target='_blank'><Image src="/novaident/linkedinlogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://www.instagram.com/nairuzdigital/" target='_blank'><Image src="/novaident/instalogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target='_blank'><Image src="/novaident/whatslogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
               </ul>
-            </nav>
-          </div>
-        </div>
-        <div className="col-2 text-right">
-          <div className="contato">
-            <button className="btn-contato open-popup-contato">Entrar em contato</button>
+            </div>
+            <div className="contato">
+              <button className="btn-contato open-popup-contato">Entrar em contato</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </header>
   </>
 );

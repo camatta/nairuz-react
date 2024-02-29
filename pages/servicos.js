@@ -21,6 +21,7 @@ export default function Servicos() {
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
@@ -40,7 +41,7 @@ export default function Servicos() {
                 </div>
                 <div className="text-cases">
                   <p>A era digital está cada vez mais presente na vida das pessoas. Por isso, adentrar esse mundo é o sucesso que você precisa para alavancar suas vendas virtuais e, nada melhor que fazer isso através de estratégias de marketing digital de qualidade, não é mesmo? Por isso, aqui na Nairuz contamos com especialistas no assunto!</p>
-                  <p>Mas afinal, como fazemos cada um desses processos de excelência em marketing digital para nossos clientes?<br></br><b>Confira nossos serviços abaixo:</b></p>
+                  <p>Mas afinal, como fazemos cada um desses processos<br></br> de excelência em marketing digital para nossos<br></br> clientes?<br></br><br></br><b>Confira nossos serviços abaixo:</b></p>
                 </div>
                 <div className="icon-arrow-servico">
                   <Image src="/arrow-down.svg" alt="Veja Abaixo" width={32} height={71}/>
@@ -81,7 +82,7 @@ export default function Servicos() {
                 </div>
                 <div className="accordion-servico-nz">
                   <div className="title-accordion">
-                    <h4>QUAIS TIPOS DE LAYOUT PODEMOS TE OFERECER?</h4>
+                    <h4>Quais tipos de layout podemos te oferecer?</h4>
                   </div>
                   <div className="content-accordion">
                     <div className="accordion">
@@ -108,7 +109,7 @@ O tema oferece uma excelente experiência de navegação, layout intuitivo, estr
             <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
-                  <Image src="/img-layout.png" alt="Layout Personalizado" width={540} height={966} loading="eager" />
+                  <Image src="/novaident/figmafortaleza.png" alt="Layout Personalizado" width={426} height={941} loading="eager" />
                 </div>
               </div>
             </div>
@@ -135,7 +136,7 @@ O tema oferece uma excelente experiência de navegação, layout intuitivo, estr
             <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
-                  <Image src="/img-website.png" alt="Website" width={540} height={882} loading="eager" />
+                  <Image src="/novaident/fundowebsites.png" alt="Website" width={426} height={760} loading="eager" />
                 </div>
               </div>
             </div>
@@ -189,7 +190,7 @@ O tema oferece uma excelente experiência de navegação, layout intuitivo, estr
             <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
-                  <Image src="/img-inbound.png" alt="Inbound Marketing" width={540} height={696} loading="eager" />
+                  <Image src="/novaident/fundoinbound.png" alt="Inbound Marketing" width={426} height={934} loading="eager" />
                 </div>
               </div>
             </div>
@@ -215,7 +216,7 @@ O tema oferece uma excelente experiência de navegação, layout intuitivo, estr
             <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
-                  <Image src="/img-seo.png" alt="SEO" width={540} height={597} loading="eager" />
+                  <Image src="/novaident/fundoseoserv.png" alt="SEO" width={426} height={934} loading="eager" />
                 </div>
               </div>
             </div>

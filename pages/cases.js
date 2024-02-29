@@ -72,6 +72,7 @@ export default function Cases() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Headergeral />
@@ -118,9 +119,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/dcorp/icon1.svg" width={30} height={30} /> <p>+ 81% tráfego orgânico;</p></li>
-                          <li><Image src="/dcorp/icon2.svg" width={30} height={30} /> <p>Queda de 92% na taxa de rejeição;</p></li>
-                          <li><Image src="/dcorp/icon3.svg" width={30} height={30} /> <p>Redução de 42% no tempo de<br></br> carregamento das páginas.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>+ 81% tráfego orgânico;</p></li>
+                          <li><Image src="/novaident/cases/iconcasedown.svg" width={16} height={16} /> <p>Queda de 92% na taxa de rejeição;</p></li>
+                          <li><Image src="/novaident/cases/iconcomputador.svg" width={16} height={16} /> <p>Redução de 42% no tempo de<br></br> carregamento das páginas.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -128,7 +129,7 @@ export default function Cases() {
                       <a onClick={urlDcorp}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/dcorp/fundo-case.png" alt="Dcorp" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasedcorp.png" alt="Dcorp" width={370} height={533} />
                       <div className="logocase dcorp">
                         <Image className="logo-case" src="/dcorp/icon4.svg" alt="Dcorp" width={69} height={48} />
                       </div>
@@ -144,9 +145,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Pontos fora da curva foram detectados<br />e corrigidos;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>1° lugar em vendas de peças de<br />reposição Paletrans;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>O faturamento de 2022 foi 17,82%<br /> maior que o faturamento de 2021.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>Pontos fora da curva foram detectados<br />e corrigidos;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>1° lugar em vendas de peças de<br />reposição Paletrans;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>O faturamento de 2022 foi 17,82%<br /> maior que o faturamento de 2021.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -154,7 +155,7 @@ export default function Cases() {
                       <a onClick={urlTranspalet}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-transpalet.png" alt="Transpalet" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasetranspalet.png" alt="Transpalet" width={370} height={533} />
                       <div className="logocase transpalet">
                         <Image className="logo-case" src="/cases/logo-transpalet.svg" alt="Transpalet" width={69} height={48} />
                       </div>
@@ -170,9 +171,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>20% no aumento de transações;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>9% de aumento em tráfego pago;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Aumento de 44% na receita nos<br />6 primeiros meses de projeto.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>20% no aumento de transações;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>9% de aumento em tráfego pago;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>Aumento de 44% na receita nos<br />6 primeiros meses de projeto.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -180,7 +181,7 @@ export default function Cases() {
                       <a onClick={urlMaravilhas}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-maravilhas.png" alt="Maravilhas do Lar" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasemaravilhas.png" alt="Maravilhas do Lar" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-maravilhas.svg" alt="Maravilhas do Lar" width={126} height={78} />
                       </div>
@@ -196,9 +197,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+ 127% acessos orgânicos;</p></li>
-                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+ 92% de aumento no faturamento<br />do e-commerce;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>ROAS maior que 1100% em campanhas pagas.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>+ 127% acessos orgânicos;</p></li>
+                          <li><Image src="/novaident/cases/iconcasedolar.svg" width={16} height={16} /> <p>+ 92% de aumento no faturamento<br />do e-commerce;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>ROAS maior que 1100% em campanhas pagas.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -206,7 +207,7 @@ export default function Cases() {
                       <a onClick={urlCovabra}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-covabra.png" alt="Covabra" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasecovabra.png" alt="Covabra" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-covabra.svg" alt="Covabra" width={126} height={78} />
                       </div>
@@ -222,9 +223,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Navegação clara e objetiva;</p></li>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Layout totalmente personalizado;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Mais de 1000 montagens disponíveis.</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>Navegação clara e objetiva;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>Layout totalmente personalizado;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>Mais de 1000 montagens disponíveis.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -232,7 +233,7 @@ export default function Cases() {
                       <a onClick={urlBonecario}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-bonecario.png" alt="Bonecário" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasebonecario.png" alt="Bonecário" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-bonecario.svg" alt="Bonecário" width={126} height={78} />
                       </div>
@@ -248,9 +249,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Criação de calculadora intuitiva;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Personalização de widgets nativos;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Design totalmente responsivo.</p></li>
+                          <li><Image src="/novaident/cases/iconcasecalc.svg" width={16} height={16} /> <p>Criação de calculadora intuitiva;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseengrenagem.svg" width={16} height={16} /> <p>Personalização de widgets nativos;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>Design totalmente responsivo.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -258,7 +259,7 @@ export default function Cases() {
                       <a onClick={urlCSP}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-csp.png" alt="Casa São Pedro" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasecsp.png" alt="Casa São Pedro" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-csp.svg" alt="Casa São Pedro" width={126} height={78} />
                       </div>
@@ -275,9 +276,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>+ de 14mil usuários mensais;</p></li>
-                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+ 800% de faturamento;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>27% de vendas em busca orgânica.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>+ de 14mil usuários mensais;</p></li>
+                          <li><Image src="/novaident/cases/iconcasedolar.svg" width={16} height={16} /> <p>+ 800% de faturamento;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>27% de vendas em busca orgânica.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -285,7 +286,7 @@ export default function Cases() {
                       <a onClick={urlBialetti}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-bialetti.png" alt="Bialetti" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasebialetti.png" alt="Bialetti" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-bialetti.svg" alt="Bialetti" width={100} height={50} />
                       </div>
@@ -302,9 +303,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>+ de 60mil usuários mensais;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>48% de vendas em busca orgânica;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+90% de taxa de conversão.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>+ de 60mil usuários mensais;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>48% de vendas em busca orgânica;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>+90% de taxa de conversão.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -312,7 +313,7 @@ export default function Cases() {
                       <a onClick={urlLVStore}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-lv.png" alt="LV Store" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocaselvstore.png" alt="LV Store" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-lv.svg" alt="LV Store" width={100} height={50} />
                       </div>
@@ -328,9 +329,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>91% de crescimento na base de leads;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>57,79% em taxa de abertura;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Aumento de 64,58% em CTR.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>91% de crescimento na base de leads;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>57,79% em taxa de abertura;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>Aumento de 64,58% em CTR.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -338,7 +339,7 @@ export default function Cases() {
                       <a onClick={urlMinassal}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-minassal.png" alt="Minassal" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocaseminassal.png" alt="Minassal" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-minassal-2.png" alt="Minassal" width={207} height={60} />
                       </div>
@@ -354,9 +355,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>Site totalmente renovado e user-friendly;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Entrega de alta performance;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>Site responsivo.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>Site totalmente renovado e user-friendly;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>Entrega de alta performance;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>Site responsivo.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -364,7 +365,7 @@ export default function Cases() {
                       <a onClick={urlInfocards}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-infocards.png" alt="Infocards" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocaseinfocards.png" alt="Infocards" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-infocards.png" alt="Infocards" width={187} height={56} />
                       </div>
@@ -381,9 +382,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon2-faturamento.svg" width={30} height={30} /> <p>+407,12% em faturamento;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>+357,10% em taxa de conversão no site;</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>+241,03% nas transações em mídias pagas.</p></li>
+                          <li><Image src="/novaident/cases/iconcasedolar.svg" width={16} height={16} /> <p>+407,12% em faturamento;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>+357,10% em taxa de conversão no site;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>+241,03% nas transações em mídias pagas.</p></li>
                         </ul>
                       </div>
                     </div>
@@ -391,7 +392,7 @@ export default function Cases() {
                       <a onClick={urlRPM}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-rpm.png" alt="Lojas RPM" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocaserpm.png" alt="Lojas RPM" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-rpm.png" alt="Lojas RPM" width={168} height={23} />
                       </div>
@@ -407,9 +408,9 @@ export default function Cases() {
                       </div>
                       <div className="servicos-case">
                         <ul>
-                          <li><Image src="/cases/icon1-user.svg" width={30} height={30} /> <p>139,73% em tráfego orgânico;</p></li>
-                          <li><Image src="/cases/icon3-acessos.svg" width={30} height={30} /> <p>Palavras-chave nas 3 primeiras posições de busca.</p></li>
-                          <li><Image src="/cases/icon-arrow.svg" width={30} height={30} /> <p>63% em vendas orgânicas;</p></li>
+                          <li><Image src="/novaident/cases/iconcaseuser.svg" width={16} height={16} /> <p>139,73% em tráfego orgânico;</p></li>
+                          <li><Image src="/novaident/cases/iconcasecursor.svg" width={16} height={16} /> <p>Palavras-chave nas 3 primeiras posições de busca.</p></li>
+                          <li><Image src="/novaident/cases/iconcaseup.svg" width={16} height={16} /> <p>63% em vendas orgânicas;</p></li>
                         </ul>
                       </div>
                     </div>
@@ -417,7 +418,7 @@ export default function Cases() {
                       <a onClick={urlNovaMed}><Image src="/cases/arrow-case.svg" alt="Ver Case" width={35} height={35} /></a>
                     </div>
                     <div className="visible-case">
-                      <Image className="img-fluid" src="/cases/case-nova.png" alt="Nova Medicamentos" width={370} height={533} />
+                      <Image className="img-fluid" src="/novaident/fundocasenova.png" alt="Nova Medicamentos" width={370} height={533} />
                       <div className="logocase">
                         <Image className="logo-case" src="/cases/logo-nova.svg" alt="Nova Medicamentos" width={100} height={50} />
                       </div>

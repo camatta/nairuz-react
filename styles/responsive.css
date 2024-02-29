@@ -29,9 +29,7 @@
 
   /* Header */
 
-  #bg-carrossel1 {
-    background-image: url(/banner-main-mobile.png);
-}
+  
 
 #bg-carrossel1,
 #bg-carrossel2 {
@@ -39,7 +37,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 105vh;
+  height: 77vh;
+}
+.button-left-carrossel button {
+  font-size: 13px;
 }
 
 .title-h1-home {
@@ -126,9 +127,10 @@
   #header-mob {
     position: fixed;
     top: 0;
-    background-color: #0D0326;
+    background-color: #00175D;
     padding: 2rem 0;
     z-index: 9;
+    border-bottom: 1px solid #fff;
   }
 
   #carrossel {
@@ -145,6 +147,7 @@
     background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
     padding: 8px;
     border-radius: 50%;
+    opacity: 0;
   }
 
   .card1 {
@@ -190,7 +193,7 @@
   #menu-mobile {
     width: 85%;
     height: 100vh;
-    background-color: #0d0326;
+    background-color: #00175D;
     padding-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -212,9 +215,9 @@
   .nav-mob ul li a,
   .nav-mob ul li button {
     color: #fff !important;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 3.36px;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 27px;
     background-color: unset;
     border: unset;
     padding-left: 0;
@@ -261,11 +264,11 @@
 
   #contratar-servicos {
     width: 15rem;
+    text-align: center;
   }
 
   #servicos-home {
     padding: 8rem 0 8rem 0;
-    background: transparent linear-gradient(180deg, #000d76 0%, #58DBAA 100%) 0% 0% no-repeat padding-box;
     position: relative;
   }
 
@@ -279,7 +282,6 @@
     color: #fff;
     font-weight: 700;
     letter-spacing: 6px;
-    line-height: 1.4;
     text-transform: uppercase;
     width: 60%;
     margin: auto;
@@ -347,11 +349,13 @@
     font-size: 1rem;
     margin-right: 0;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   .buttons-cases .ser-case {
     padding: 0.9rem 1.4rem;
     font-size: 1rem;
+    text-align: center;
   }
 
   .card1-case,
@@ -363,8 +367,7 @@
     background-size: contain;
     align-items: flex-start !important;
     border-radius: 20px;
-    background: rgb(245 5 211);
-    background: linear-gradient(107deg, rgba(59,88,203,1) 7%, rgba(176,36,190,1) 47%, rgb(245 5 211) 81%);
+    background: linear-gradient(255.19deg, #024787 0%, #00175D 100%);
   }
 
 
@@ -562,9 +565,7 @@
 
   /* Blog e Materiais Ricos */
 
-  #blog-materiais {
-    background: linear-gradient(to bottom, #0D0326 0%, #6316C9 50%, #6316C9 51%, #F500BB 100%);
-  }
+  
 
   .blog-home .post-blog:last-child,
   .materiais-home .post-rico:last-child {
@@ -720,16 +721,21 @@
     display: none;
   }
 
-  /* Quem Somos */
-
-  .text-quemsomos {
-    background-color: #0d032675;
-    padding: 1rem;
-    border-radius: 20px;  
+  .page-home .footer-logo, .page-vagas .footer-logo, .page-cases .footer-logo {
+    border: 0;
   }
 
+  /* Quem Somos */
+
+  .text-quemsomos p, .sub-title-quemsomos h2 {
+    font-size: 12px;
+  }
+
+  
+
   #quem-somos {
-    padding-top: 15rem;
+    padding-top: 9rem;
+    background-image: url(/novaident/bannermobquemsomos.png);
   }
 
   /* #quem-somos::before {
@@ -793,13 +799,15 @@
   }
 
   .page-servicos .text-cases {
-    background-color: #0d0326ab;
-    padding: 1rem;
     border-radius: 20px;
+  }
+  .page-servicos .text-cases p {
+    font-size: 12px;
   }
 
   #servicos {
-    background-position-x: right;
+    padding-top: 9rem;
+    background-image: url(/novaident/bannerservicosmobile.png);
   }
 
   .page-servicos .title-cases h1 {
@@ -837,14 +845,21 @@
 
   /* Cases */
 
+  #cases {
+    padding-top: 9rem;
+    background-image: url(/novaident/casesucessomobile.png);
+  }
+
   .title-cases:after {
     display: none;
   }
 
   .page-cases .text-cases {
-    background-color: #0d0326ab;
-    padding: 1rem;
     border-radius: 20px;
+  }
+
+  #cases .text-cases p {
+    font-size: 12px;
   }
 
   .cases ul {
@@ -877,6 +892,10 @@
   }
 
   /* Vagas */
+  
+  #vagas {
+    padding-top: 9rem;
+  }
 
   #vagas-disponiveis .card {
     margin-bottom: 1rem;
@@ -1752,7 +1771,6 @@
   }
 
   .page-case-novamed #new-case-top .title-case h1 {
-    color: #fff;
     font-size: 1.3rem;
     text-align: left;
     line-height: 1.4;

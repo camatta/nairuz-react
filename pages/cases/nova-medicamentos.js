@@ -24,6 +24,7 @@ export default function NovaMedicamentos2() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Headergeral />
@@ -56,7 +57,7 @@ export default function NovaMedicamentos2() {
             <div className="row">
               <div className="col-12">
                 <div className="text-video-case">
-                  <p>Para quem tem um negócio online, seja um e-commerce ou site institucional, o tráfego pago é uma métrica que tira o sono. O sonho de todo empreendedor que se aventura pelo universo digital é garantir o acesso à sua marca de forma orgânica e, na medida do possível, gratuita ou com custos muito baixos. Mas afinal, <span>como aumentar o tráfego orgânico com SEO?</span></p>
+                  <p>Para quem tem um negócio online, seja um e-commerce ou site institucional, o tráfego pago é uma métrica que tira o sono. O sonho de todo empreendedor que se aventura pelo universo digital é garantir o acesso à sua marca de forma orgânica e, na medida do possível, gratuita ou com custos muito baixos. Mas afinal, como aumentar o tráfego orgânico com SEO?</p>
                 </div>
               </div>
             </div>
@@ -65,7 +66,7 @@ export default function NovaMedicamentos2() {
                 <div className="cards-video-case">
                   <div className="card-case-nova">
                     <div className="icon-card-case">
-                      <Image src="/novamed/icon-trafego.svg" width={80} height={80} alt="Ícone Tráfego Orgânico" />
+                      <Image src="/novaident/cases/novamed/iconpeople.svg" width={80} height={80} alt="Ícone Tráfego Orgânico" />
                     </div>
                     <div className="text-card-case">
                       <p>Aumento de <span>139,73%</span> de tráfego orgânico com técnicas de SEO</p>
@@ -73,7 +74,7 @@ export default function NovaMedicamentos2() {
                   </div>
                   <div className="card-case-nova">
                     <div className="icon-card-case">
-                      <Image src="/novamed/icon-organico.svg" width={80} height={80} alt="Ícone SEO" />
+                      <Image src="/novaident/cases/novamed/iconcursor.svg" width={80} height={80} alt="Ícone SEO" />
                     </div>
                     <div className="text-card-case">
                       <p><span>63%</span> em faturamento orgânico com as técnicas de SEO</p>
@@ -81,7 +82,7 @@ export default function NovaMedicamentos2() {
                   </div>
                   <div className="card-case-nova">
                     <div className="icon-card-case">
-                      <Image src="/novamed/icon-keywords.svg" width={80} height={80} alt="Ícone Posicionamento" />
+                      <Image src="/novaident/cases/novamed/iconup.svg" width={80} height={80} alt="Ícone Posicionamento" />
                     </div>
                     <div className="text-card-case">
                       <p><span>75%</span> das palavras-chave na primeira posição do Google</p>
@@ -184,14 +185,14 @@ export default function NovaMedicamentos2() {
             <div className="col-12">
               <div className="resultado-destaque-nova">
                 <div className="img-resultado-destaque">
-                  <Image src="/novamed/icon-resultados.svg" width={117} height={117} alt="Resultados" />
+                  <Image src="/novaident/cases/novamed/graficoicon.svg" width={117} height={117} alt="Resultados" />
                 </div>
                 <div className="text-resultado-destaque">
-                  <p>O resultado não poderia ser melhor: em apenas um ano, a Nova Medicamentos apresentou crescimento de mais de <span>5.297,84%</span> em tráfego orgânico, além de ser essa a <span>origem de mais de 32% de todas as vendas realizadas</span>.</p>
+                  <p>O resultado não poderia ser melhor: em apenas um ano, a Nova Medicamentos apresentou crescimento de mais de 5.297,84% em tráfego orgânico, além de ser essa a origem de mais de 32% de todas as vendas realizadas.</p>
                 </div>
               </div>
               <div className="text-after-result">
-                <p>É preciso lembrar aqui que estamos falando, exclusivamente, de tráfego e vendas orgânicas de uma marca ainda em sua fase de introdução no mercado. Simultaneamente às estratégias de SEO, nossa equipe iniciou uma série de novas estratégias alinhadas aos objetivos e metas do cliente, que tornaram a Nova Medicamentos <span>uma marca consolidada</span>.</p>
+                <p>É preciso lembrar aqui que estamos falando, exclusivamente, de tráfego e vendas orgânicas de uma marca ainda em sua fase de introdução no mercado. Simultaneamente às estratégias de SEO, nossa equipe iniciou uma série de novas estratégias alinhadas aos objetivos e metas do cliente, que tornaram a Nova Medicamentos uma marca consolidada.</p>
               </div>
             </div>
           </div>
@@ -243,7 +244,7 @@ export default function NovaMedicamentos2() {
               </div>
               <div className="card-conte-com-nairuz">
                 <div className="icon-conte-com-nairuz">
-                  <Image src="/novamed/icon-conte.svg" width={117} height={117} alt="Conte com a Nairuz" />
+                  <Image src="/novaident/cases/novamed/seloverificado.svg" width={75} height={75} alt="Conte com a Nairuz" />
                 </div>
                 <div className="text-card-conte-com-nairuz">
                   <p>Temos uma equipe de profissionais altamente qualificados e preparados para entender a necessidade do seu negócio e traçar a estratégia ideal para a sua marca!</p>
