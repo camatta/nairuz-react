@@ -80,21 +80,21 @@ export default function NovaMedicamentos2() {
             </div>
           </div>
 
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-8">
-              <div class="text-center subtitle-page">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-8">
+              <div className="text-center subtitle-page">
                 <h4 className='mb-4'><span>Quer saber como transformar também os resultados do seu negócio?</span></h4>
                 <p>Não há segredo nenhum! Afinal, estamos aqui para te ajudar a conquistar os seus sonhos, com profissionais capacitados e que, acima de tudo, amam o que fazem. Entre em contato com um de nossos consultores para receber uma avaliação personalizada!</p>
-                <div class="btn-default-cta">
+                <div className="btn-default-cta">
                   <a href="#form-case-nova">Fale com a gente!</a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="row justify-content-center entenda-estrategias">
-            <div class="col-12 col-md-8">
-              <div class="text-center subtitle-page">
+          <div className="row justify-content-center entenda-estrategias">
+            <div className="col-12 col-md-8">
+              <div className="text-center subtitle-page">
                 <h4 className='mb-4'><span>Entenda quais estratégias usamos para alcançar esse sucesso</span></h4>
                 <p>Quando abordamos o universo do marketing digital, diversas <strong>estratégias</strong> emergem como peças-chave para impulsionar os negócios. Cada uma dessas estratégias desempenha um papel fundamental na busca pelos objetivos desejados. A essência está em identificar quais estratégias melhor se adequam às necessidades específicas de cada empreendimento. E foi o que fizemos. Após uma análise minuciosa e personalizada, chegamos a conclusão de que a Athletic necessitava de 4 estratégias.</p>
               </div>
@@ -172,7 +172,7 @@ export default function NovaMedicamentos2() {
           <div className="row text-center subtitle-page">
             <h4 className='mb-4'>Conte com a Nairuz para <span>impulsionar seus resultados</span></h4>
             <p>A Nairuz é a sua parceira estratégica em busca do sucesso. Com uma abordagem inovadora e soluções personalizadas, estamos aqui para potencializar os seus resultados e elevar o desempenho do seu negócio. Seja qual for o seu desafio, oferecemos conhecimento do mercado, proporcionando visibilidade, engajamento e crescimento. Conte conosco para <strong>transformar metas em conquistas</strong>, impulsionando o seu caminho para o sucesso!</p>
-            <div class="btn-default-cta">
+            <div className="btn-default-cta">
               <a href="#form-case-nova">Entre em contato conosco</a>
             </div>
           </div>
