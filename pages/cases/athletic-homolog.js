@@ -45,12 +45,12 @@ export default function NovaMedicamentos2() {
           </div>
         </section>
 
-        <section className="container-fluid" id="new-video-case">
+        <section style={{display: 'none'}} className="container-fluid" id="new-video-case">
           <div className="container">
             <div className="row">
               <div className="col-12">
                 <div className="video-case">
-                  <iframe width="850" height="500" src="https://www.youtube.com/embed/zZIXg9adnVc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                  <iframe width="850" height="500" src="" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function NovaMedicamentos2() {
         <section className="container case-athletic" id="conteudo-case-transpalet">
           <div className="row align-items-center justify-content-center">
             <div className="col-12 col-md-9">
-              <div className="text-center subtitle-page">
+              <div className="text-center mt-5 subtitle-page">
                 <h4>Com estratégias de <span>Marketing Full</span> e um <span>Design personalizado</span>, a Athletic conseguiu atingir resultados expressivos dentro de 1 ano.</h4>
               </div>
             </div> 
