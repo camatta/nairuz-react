@@ -138,7 +138,7 @@ export default function NovaMedicamentos2() {
 
           <div className="row">
             <div className="col-12 d-flex justify-content-center">
-              <p className="w-100 w-md-75 text-center">Ficou curioso e quer saber como anda o marketing digital da sua empresa? Então Preencha os campos abaixo e receba um diagnóstico personalizado do seu negócio com um raio-x completo, repleto de insights estratégicos para impulsionar sua empresa.</p>
+              <p className="w-75 text-center">Ficou curioso e quer saber como anda o marketing digital da sua empresa? Então Preencha os campos abaixo e receba um diagnóstico personalizado do seu negócio com um raio-x completo, repleto de insights estratégicos para impulsionar sua empresa.</p>
             </div>
           </div>
 

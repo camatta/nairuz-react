@@ -111,13 +111,13 @@ export default function Cases() {
             <div className="col-12">
               <div className="cases">
               <div className="owl-carousel carrossel-page-cases">
-                {/* <div className="case-item">
+                <div className="case-item">
                   <div className="hide-case">
                     <div className="tags-case">
                       <span>Marketing full-service</span>
                     </div>
                     <div className="descricao-case athletic">
-                      <p>A empresa Athletic, líder no mercado de equipamentosfitness na América Latina com mais de três décadas de experiência em oferecersoluções inovadoras para entusiastas de atividades físicas, enfrentou desafiossignificativos em sua busca por crescimento sustentável. Consciente dasconstantes mudanças no mercado e das crescentes expectativas dos consumidores,a empresa percebeu a necessidade de reinventar suas estratégias de marketing epresença online.</p>
+                      <p>A empresa Athletic, líder no mercado de equipamentos fitness na América Latina com mais de três décadas de experiência em oferecer soluções inovadoras para entusiastas de atividades físicas, enfrentou desafios significativos em sua busca por crescimento sustentável. Consciente das constantes mudanças no mercado e das crescentes expectativas dos consumidores,a empresa percebeu a necessidade de reinventar suas estratégias de marketing e presença online.</p>
                     </div>
                     <div className="servicos-case">
                       <ul>
@@ -135,7 +135,7 @@ export default function Cases() {
                       <Image className="logo-case" src="/novaident/cases/athletic/logo-athletic.svg" alt="Athletic" width={69} height={48} />
                     </div>
                   </div>
-                </div> */}
+                </div>
                 <div className="case-item">
                     <div className="hide-case">
                       <div className="tags-case">

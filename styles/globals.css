@@ -3245,6 +3245,15 @@ a:hover, a {
 #form-case-nova #rd-form-kylvw1qc .bricks-form__label {
   color: #4bc1b5 !important;
   font-weight: 600 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+#form-case-nova #rd-form-kylvw1qc .bricks-form__input {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+#form-case-nova #rd-section-kylvw1q5 .rd-button {
+  font-family: 'Poppins', sans-serif !important;
 }
 
 #form-case-nova #rd-form-kylvw1qc .bricks-form__field {
