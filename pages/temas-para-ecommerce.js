@@ -317,7 +317,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <Image src="/TEMA_FARMA_HOME.png" alt="Infantil Preview" width={535} height={262} />
                       </a>
                       <div className="efeito-previa">
-                        <a href="https://xd.adobe.com/view/84a63a8f-4f24-4e33-993a-ca11a41fc8d3-d1f5/?fullscreen" target="_blank" rel="noopener noreferrer">
+                        <a href="https://xd.adobe.com/view/741937f0-3e24-48f3-91a0-04549b39d23a-214a/?fullscreen" target="_blank" rel="noopener noreferrer">
                           <div className="image-text">
                             <Image src="/icon-previa.png" alt="Preview" width={45} height={21} />
                             <p>Ver prévia</p>
