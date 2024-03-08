@@ -926,14 +926,30 @@
   
   #vagas {
     padding-top: 9rem;
+    padding-bottom: 0rem
   }
 
   #vagas-disponiveis .card {
     margin-bottom: 1rem;
   }
 
+  #vagas-disponiveis {
+    bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #vagas-disponiveis .card p {
+    height: auto;
+  }
+
+  #vagas-disponiveis .card button {
+    width: auto;
+    font-size: 13px;
+  }
+
   #vagas-off {
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   .title-outras-vagas p {
@@ -1616,6 +1632,14 @@
 
   .page-case-lvstore iframe {
     width: 100%;
+  }
+
+  .button-outras-vagas button {
+    width: auto;
+  }
+
+  section#work .row.work--row {
+    margin-top: 50px;
   }
 
   .page-case-lvstore .img-post-lv {
