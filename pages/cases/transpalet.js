@@ -74,11 +74,11 @@ export default function NovaMedicamentos2() {
               <p>A Nairuz faz com que os desvios e pontos fora da curva <span>sejam rapidamente detectados e corrigidos</span> para que os resultados voltem a aparecer.</p>
             </div>
             <div className="text-estudo-case col-4 d-flex flex-column align-items-center gap-4">
-              <Image src="/novaident/cases//transpalet/cursor.svg" width={80} height={80} alt="Cursor" />
+              <Image src="/novaident/cases//transpalet/growup.svg" width={80} height={80} alt="Cursor" />
               <p>O trabalho de captação de novos leads nos <span>trouxe novos clientes e mais visibilidade para nossa empresa</span>, que conseguiu se manter em <span>1° lugar</span> em vendas de peças de reposição Paletrans</p>
             </div>
             <div className="text-estudo-case col-4 d-flex flex-column align-items-center gap-4">
-              <Image src="/novaident/cases/transpalet/growup.svg" width={80} height={80} alt="Grow up" />
+              <Image src="/novaident/cases/transpalet/cursor.svg" width={80} height={80} alt="Grow up" />
               <p>Mesmo com esse cenário desafiador <span>o faturamento de 2022 foi de 17,82% maior que o faturamento de 2021</span>. A média mensal foi de <span>R$560,790</span></p>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function NovaMedicamentos2() {
               <p className="text-cta">Então, quer fazer da sua empresa um <strong>case de sucesso</strong> da Nairuz? Entre em contato com os nossos consultores e garanta você também o futuro do seu negócio no mundo digital!</p>
 
               <div className="button-resultado-cta">
-                <a href="#form-case-nova">QUERO SOLICITAR UM ORÇAMENTO</a>
+                <a href="#form-case-nova">Quero Solicitar um orçamento</a>
               </div>
             </div>
           </div>

@@ -44,12 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <header className="container-fluid" id="header-geral">
           <div className="container">
             <div className="row d-flex align-items-center">
-              <div className="col-2">
-                <div className="logo">
-                  <Image src="/logo-header.svg" alt="Logo Nairuz" width={150} height={28}/>
-                </div>
-              </div>
-              <div className="col-8">
+            <div className="col-4">
                 <div className="menu">
                   <nav>
                     <ul>
@@ -60,11 +55,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </nav>
                 </div>
               </div>
-              <div className="col-2 text-right">
-                <div className="contato">
-                  <button onClick={rollOrcamento} className="btn-contato">Entrar em contato</button>
+              <div className="col-4">
+                <div className="logo">
+                  <Image src="/novaident/logonairuznovo.svg" alt="Logo Nairuz" width={150} height={28}/>
                 </div>
               </div>
+              <div className="col-4 social-contato">
+            <div className="login-topo">
+              <ul>
+              <li><a href="https://www.linkedin.com/company/nairuz" target='_blank' rel="noreferrer"><Image src="/novaident/linkedinlogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://www.instagram.com/nairuzdigital/" target='_blank' rel="noreferrer"><Image src="/novaident/instalogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target='_blank' rel="noreferrer"><Image src="/novaident/whatslogo.svg" alt="Logo Nairuz" width={33} height={33} /></a></li>
+              </ul>
+            </div>
+            <div className="contato">
+              <button onClick={rollOrcamento} className="btn-contato open-popup-contato">Entrar em contato</button>
+            </div>
+          </div>
             </div>
           </div>
         </header>
@@ -447,7 +454,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div className="col-12">
               <div className="copyright d-flex align-items-center justify-content-center mobcenter">
                 <Image src="/selo-br.png" alt="Brasil" width={17} height={12} />
-                <p>Nairuz Marketing e Tecnologia® 2021 / todos os direitos reservados</p>
+                <p>Nairuz Marketing e Tecnologia® 2024 / todos os direitos reservados</p>
               </div>
             </div>
           </div>

@@ -126,7 +126,7 @@ export default function NovaMedicamentos2() {
                 <p>Pensando na <span>inclusão e na representatividade</span> na forma de brincadeiras, o Bonecário é uma marca, assim como a Nairuz, feita à mão. As duas sócias, Elis e Lalenia, desejam emocionar pelas mãos, incluir pelo representar, transformar pelo brincar e fazer feliz a criança em cada um, mesmo que você não seja mais uma!</p>
               </div>
               <div className="button-resultado-cta">
-                  <a href="#form-case-nova">QUERO SOLICITAR UM ORÇAMENTO</a>
+                  <a href="#form-case-nova">Quero solicitar um orçamento</a>
               </div>
             </div>
           </div>
@@ -194,7 +194,7 @@ export default function NovaMedicamentos2() {
                     <h4>Quer ser mais um de nossos <span>cases de sucesso?</span> Então entre em contato com a nossa equipe comercial!</h4>
                   </div>
                   <div className="button-resultado-cta">
-                    <a href="#form-case-nova">QUERO SOLICITAR UM ORÇAMENTO</a>
+                    <a href="#form-case-nova">Quero solicitar um orçamento</a>
                   </div>
                 </div>
               </div>

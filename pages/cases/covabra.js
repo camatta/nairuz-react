@@ -93,7 +93,7 @@ export default function NovaMedicamentos2() {
                   <p>Ficou curioso para saber o passo a passo de um planejamento eficiente e que entrega resultados como esses? Então entra em contato com nossa equipe de marketing estratégico de performance e solicite uma avaliação personalizada!</p>
                 </div>
                 <div className="button-resultado-cta">
-                  <a href="#form-case-nova">FALE COM UM CONSULTOR</a>
+                  <a href="#form-case-nova">Fale com um consultor</a>
                 </div>
               </div>
             </div>
@@ -205,7 +205,7 @@ export default function NovaMedicamentos2() {
                     <p>Somos verdadeiros <span>especialistas em SEO</span> e estratégias para mídias pagas. Acompanhamos todas as etapas do planejamento com estudos de mercado, planejamento de palavras-chave e produção de conteúdo qualificado.</p>
                   </div>
                   <div className="button-resultado-cta">
-                    <a href="#form-case-nova">ENTRE EM CONTATO CONOSCO</a>
+                    <a href="#form-case-nova">Entre em contato conosco</a>
                   </div>
                 </div>
               </div>

@@ -4,6 +4,7 @@ import Headergeral from '../components/Headergeral'
 import HeaderMob from '../components/HeaderMob'
 import Footergeral from '../components/Footergeral'
 import BehanceNz from '../components/BehanceNz'
+import NewsletterNz from '../components/NewsletterNz'
 import Script from 'next/script'
 
 export default function Servicos() {
@@ -164,7 +165,7 @@ O tema oferece uma excelente experiência de navegação, layout intuitivo, estr
             <div className="col-6 desktoponly">
               <div className="right-servico">
                 <div className="imagens-servico">
-                  <Image src="/img-midias.png" alt="Mídias Pagas" width={540} height={575} loading="eager" />
+                  <Image src="/novaident/imgmidias.png" alt="Mídias Pagas" width={480} height={509} loading="eager" />
                 </div>
               </div>
             </div>
@@ -223,6 +224,7 @@ O tema oferece uma excelente experiência de navegação, layout intuitivo, estr
           </div>
         </section>
         <BehanceNz />
+        <NewsletterNz />
       </main>
 
       <Footergeral />

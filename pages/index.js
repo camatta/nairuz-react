@@ -157,31 +157,31 @@ export default function Home() {
                   <ul>
                     <li>
                       <div className="img-li ativo">
-                        <Image src="/novaident/fundolayout.png" alt="Layout para e-commerce" width={247} height={349} loading="lazy" />
+                        <Image src="/novaident/fundolayout.png" alt="Layout para e-commerce" width={245} height={344} loading="lazy" />
                       </div>
                       <button id="layout" className="layout ativo">Layout para e-commerce</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/novaident/fundowebsite.png" alt="Websites" width={247} height={349} />
+                        <Image src="/novaident/fundowebsite.png" alt="Websites" width={245} height={344} />
                       </div>
                       <button id="website" className="website">Websites</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/novaident/fundomidiaspagas.png" alt="Mídias Pagas" width={247} height={349}  />
+                        <Image src="/novaident/fundomidiaspagas.png" alt="Mídias Pagas" width={245} height={344}  />
                       </div>
                       <button id="midias-pagas" className="midias">Mídias Pagas</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/novaident/fundomarketing.png" alt="Inbound Marketing" width={247} height={349} />
+                        <Image src="/novaident/fundomarketing.png" alt="Inbound Marketing" width={245} height={344} />
                       </div>
                       <button id="inbound" className="inbound">Inbound Marketing</button>
                     </li>
                     <li>
                       <div className="img-li">
-                        <Image src="/novaident/fundoseo.png" alt="SEO" width={247} height={349} />
+                        <Image src="/novaident/fundoseo.png" alt="SEO" width={245} height={344} />
                       </div>
                       <button id="seo" className="seo">SEO</button>
                     </li>
@@ -195,20 +195,20 @@ export default function Home() {
       <section className="container-fluid" id="clientes-home">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-5">
               <div className="text-clientes mobcenter">
                 <div className="title-clientes">
                   <p>NOSSOS <span>CLIENTES</span></p>
                 </div>
                 <div className="subtitle-clientes">
-                  <p>Crescimento mútuo e contínuo</p>
+                  <p>Crescimento mútuo<br></br> e contínuo</p>
                 </div>
                 <div className="desc-clientes">
-                  <p>Veja alguns dos projetos que fazem parte da história da Nairuz, permitindo um crescimento recíproco, cumprimento de metas e grandes experiências.</p>
+                  <p>Veja alguns dos projetos que fazem parte da história<br></br> da Nairuz, permitindo um crescimento recíproco,<br></br> cumprimento de metas e grandes experiências.</p>
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-7">
               <div className="logos-clientes ps-5">
                 <ul className="d-flex align-items-center row1-logos mb-5">
                   <li><Image src="/clientes/bialetti.png" alt="BialettiShop" width={116} height={55} loading="eager" /></li>
@@ -253,7 +253,7 @@ export default function Home() {
                   <p>CASES <span>DE SUCESSO</span></p>
                 </div>
                 <div className="desc-cases">
-                  <p>Através de estratégias personalizadas, atingimos números e objetivos acima do esperado, listamos abaixo alguns de nossos cases de sucesso. Que tal ser o próximo?</p>
+                  <p>Através de estratégias personalizadas, atingimos<br></br> números e objetivos acima do esperado, listamos<br></br> abaixo alguns de nossos cases de sucesso. Que tal<br></br> ser o próximo?</p>
                 </div>
                 <div className="buttons-cases">
                   <button onClick={urlCases} className="ver-cases">Ver Cases</button>
@@ -374,18 +374,18 @@ export default function Home() {
               <div className="parcerias-certificacoes">
                 <div className="parcerias">
                   <ul className="d-flex align-items-center mb-4">
-                    <li><Image src="/parcerias/signa.png" alt="Signa" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/uol.png" alt="Uol" width={105} height={49} /></li>
                     <li><Image src="/parcerias/biz.png" alt="BizCommerce" width={105} height={49} /></li>
                     <li><Image src="/parcerias/bis2bis.png" alt="Bis2Bis" width={105} height={49} /></li>
                     <li><Image src="/parcerias/linx.png" alt="Linx Commerce" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/PluggTo-Original-Logo-Green.svg" alt="pluggto" width={105} height={49} /></li>
                     <li><Image src="/parcerias/mage.png" alt="Mageshop" width={105} height={49} /></li>
-                    <li><Image src="/parcerias/uol.png" alt="Uol" width={105} height={49} /></li>
                     <li><Image src="/parcerias/vindi.png" alt="Vindi" width={105} height={49} /></li>
-                    <li><Image src="/parcerias/pagarme.png" alt="pagar.me" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/Nuvemshop-logo.svg" alt="NuvemShop" width={105} height={49} /></li>
                   </ul>
                   <ul className="d-flex align-items-center mb-4">
                     <li><Image src="/parcerias/amazon.png" alt="Amazon" width={105} height={49} /></li>
-                    <li><Image src="/parcerias/jet-logo.png" alt="Jetcommerce" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/mercado-pago-logo.svg" alt="MercadoPago" width={105} height={49} /></li>
                     <li><Image src="/parcerias/anymarket.png" alt="AnyMarket" width={105} height={49} /></li>
                     <li><Image src="/parcerias/shopback.png" alt="Shopback" width={105} height={49} /></li>
                     <li><Image src="/parcerias/hubspot.png" alt="Hubspot" width={105} height={49} /></li>
@@ -396,13 +396,14 @@ export default function Home() {
                 </div>
                 <div className="certificacoes">
                   <ul className="d-flex align-items-center">
-                    <li><Image src="/parcerias/google-partner-novo.png" alt="Google Partner" width={99} height={97} /></li>
+                    <li><Image src="/novaident/parcerias/google-partner-logo.svg" alt="Google Partner" width={99} height={97} /></li>
                     <li><Image src="/parcerias/rdplatinum22.png" alt="RD Platinum" width={105} height={49} /></li>
                     <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
                     <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
-                    <li><Image src="/parcerias/magento.png" alt="Magento" width={105} height={49} /></li>
-                    <li><Image src="/parcerias/linxpartners.png" alt="Linx Partners" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/shopify-partners.svg" alt="Magento" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/linx-commerce-selo.svg" alt="Linx Partners" width={105} height={49} /></li>
                     <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/nuvempartners-selo-platinum.svg" alt="Nuvem Partners" width={105} height={49} /></li>
                   </ul>
                 </div>
               </div>
@@ -421,11 +422,11 @@ export default function Home() {
                 <div className="cards-blog">
                   <div className="post-blog">
                     <div className="img-post">
-                      <Image src="/post1-blog.png" alt="Post Blog" width={290} height={135} />
+                      <Image src="/post1-blog.png" alt="Post Blog" width={290} height={182} />
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h5>CAMPANHAS SAZONAIS: ENTENDA A IMPORTÂNCIA DESSA...</h5>
+                        <h5>Campanhas sazonais: Entenda a importância dessa...</h5>
                       </div>
                       <div className="content-post">
                         <p>Quem trabalha com marketing, ou mesmo na área de vendas e planejamentos, já sabe...</p>
@@ -443,11 +444,11 @@ export default function Home() {
                   </div>
                   <div className="post-blog">
                     <div className="img-post">
-                      <Image src="/post2-blog.png" alt="Post Blog" width={290} height={135} />
+                      <Image src="/post2-blog.png" alt="Post Blog" width={290} height={182} />
                     </div>
                     <div className="medium-blog">
                       <div className="title-post">
-                        <h5>HELP SUPORTE NAIRUZ: CONHEÇA NOSSA SOLUÇÃO PARA O SEU...</h5>
+                        <h5>Help suporte Nairuz: Conheça nossa solução para o seu...</h5>
                       </div>
                       <div className="content-post">
                         <p>Assim como muitos donos de e-commerce, você deve estar em busca de uma forma...</p>
@@ -475,7 +476,7 @@ export default function Home() {
                   <p>ÚLTIMOS <span>MATERIAIS RICOS</span></p>
                 </div>
                 <div className="text-materiais">
-                  <p>São guias completos sobre os principais assuntos relacionados ao Marketing Digital. Conteúdos que irão auxiliar você, empreendedor, a ter melhores resultados. E o melhor, é tudo DE GRAÇA.</p>
+                  <p>São guias completos sobre os principais assuntos<br></br> relacionados ao Marketing Digital. Conteúdos que irão<br></br> auxiliar você, empreendedor, a ter melhores resultados.<br></br> E o melhor, é tudo DE GRAÇA.</p>
                 </div>
                 <div className="cards-ricos">
                   <div className="post-rico">

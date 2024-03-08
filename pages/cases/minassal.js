@@ -4,7 +4,9 @@ import Headergeral from '../../components/Headergeral'
 import HeaderMob from '../../components/HeaderMob'
 import Footergeral from '../../components/Footergeral'
 import BehanceNz from '../../components/BehanceNz'
+import NewsletterNz from '../../components/NewsletterNz'
 import CarrosselCases from '../../components/CarrosselCases'
+import Script from 'next/script'
 
 export default function Minassal() {
   return (
@@ -177,9 +179,27 @@ export default function Minassal() {
         </section>
         <CarrosselCases />
         <BehanceNz />
+        <NewsletterNz />
       </main>
 
       <Footergeral />
+
+      <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+
+      <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          strategy="beforeInteractive" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+          strategy="beforeInteractive" />
+
+        <Script id="show-bannerx" strategy="lazyOnload">
+        {`
+          if (window.RDStationForms) {
+            new RDStationForms('formulario-case-bonecario-0c8124a798e6d980d81c', 'UA-48773259-1').createForm();
+          }
+
+        `
+        }
+      </Script>
     </div>
   )
 }

@@ -52,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
           <div className="col-4">
             <div className="logo">
-              <div onClick={urlHome}><Image src="/novaident/logonairuznovo.svg" alt="Logo Nairuz" width={150} height={50} /></div>
+              <div onClick={urlHome}><Image src="/novaident/logonairuznovo.svg" alt="Logo Nairuz" width={129} height={27} /></div>
             </div>
           </div>
           <div className="col-4 social-contato">
@@ -64,7 +64,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </ul>
             </div>
             <div className="contato">
-              <button className="btn-contato open-popup-contato">Entrar em contato</button>
+              <button className="btn-contato open-popup-contato">Entre em contato</button>
             </div>
           </div>
         </div>

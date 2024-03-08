@@ -39,7 +39,7 @@ const Footergeral = () => (
       <div className="col-12">
         <div className="footer-logo">
           <div className="logo">
-            <Image src="/novaident/logorodapenairuz.svg" alt="Nairuz" width={206} height={38} />
+            <Image src="/novaident/logorodapenairuz.svg" alt="Nairuz" width={129} height={26} />
           </div>
           <div className="sociais">
             <ul>
@@ -89,7 +89,7 @@ const Footergeral = () => (
           <a className="title-footer" href="#">Contato</a>
             <div className="tel-footer">
               <div className="icon-tel">
-                <Image src="/icon-phone.svg" alt="Telefone" width={16} height={16} />
+                <Image src="/novaident/rodape/iconfone.svg" alt="Telefone" width={16} height={16} />
               </div>
               <ul className="phone-footer">
                 <li><a href="https://api.whatsapp.com/send?phone=5519991406111" target="_blank" rel="noopener noreferrer">+ 55 19 99140.6111</a></li>
@@ -97,13 +97,13 @@ const Footergeral = () => (
               </ul>
             </div>
             <div className="mail-footer">
-              <Image src="/icon-mail.svg" alt="E-mail" width={16} height={16} />
+              <Image src="/novaident/rodape/iconmail.svg" alt="E-mail" width={16} height={16} />
               <ul>
                 <li><a href="mailto:contato@nairuz.com.br">contato@nairuz.com.br</a></li>
               </ul>
             </div>
             <div className="local-footer">
-              <Image src="/icon-local.svg" alt="Localização" width={16} height={16} />
+              <Image src="/novaident/rodape/iconmarker.svg" alt="Localização" width={16} height={16} />
               <ul>
                 <li><a href="https://goo.gl/maps/vbRekKqcfRnjm1si7" target="_blank" rel="noopener noreferrer">Rua 25 de Janeiro, nº 112 - Centro. Monte Mor - SP<br></br>13193-060</a></li>
               </ul>

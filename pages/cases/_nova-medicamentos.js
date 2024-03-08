@@ -5,6 +5,8 @@ import HeaderMob from '../../components/HeaderMob'
 import Footergeral from '../../components/Footergeral'
 import BehanceNz from '../../components/BehanceNz'
 import CarrosselCases from '../../components/CarrosselCases'
+import NewsletterNz from '../../components/NewsletterNz'
+import Script from 'next/script'
 
 const urlCaseMinassal = () => {
   document.location.href = '/cases/minassal';
@@ -186,9 +188,26 @@ export default function NovaMedicamentos() {
         </section>
         <CarrosselCases />
         <BehanceNz />
+        <NewsletterNz />
       </main>
 
       <Footergeral />
+      <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+
+      <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          strategy="beforeInteractive" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+          strategy="beforeInteractive" />
+
+        <Script id="show-bannerx" strategy="lazyOnload">
+        {`
+          if (window.RDStationForms) {
+            new RDStationForms('formulario-case-bonecario-0c8124a798e6d980d81c', 'UA-48773259-1').createForm();
+          }
+
+        `
+        }
+      </Script>
     </div>
   )
 }

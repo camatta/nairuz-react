@@ -174,7 +174,7 @@ export default function NovaMedicamentos2() {
           <div className="crescimento bd-bottom row d-flex justify-content-center align-items-center">
               <div className="bg-text box-4 col-9 d-flex gap-4 justify-content-center align-items-center">
                   <div className='col-6 col-md-3 d-flex justify-content-center align-items-center'>
-                    <Image src="/maravilhas/indicativos.svg" width={119} height={119} />
+                    <Image src="/novaident/cases/maravilhas/indicativos.svg" width={119} height={119} />
                   </div>
                   <ul className='lista col-6 col-md-9 d-flex flex-column'>
                     <li><strong>20% no aumento</strong> de transações;</li>
@@ -194,7 +194,7 @@ export default function NovaMedicamentos2() {
               <p>Quer ser mais um de nossos <strong>cases de sucesso?</strong> Entre em contato com a nossa equipe comercial e agende um horário com os nossos consultores!</p>
 
               <div className="button-resultado-cta">
-                <a href="#form-case-nova">QUERO SOLICITAR UM ORÇAMENTO</a>
+                <a href="#form-case-nova">Quero solicitar um orçamento</a>
               </div>
             </div>
           </div>

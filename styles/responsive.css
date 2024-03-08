@@ -59,7 +59,7 @@
   }
 
   .button-left-carrossel button {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .title-h1-home {
@@ -157,6 +157,10 @@
     padding-bottom: 5rem;
   }
 
+  .left-carrossel p strong {
+    font-size: 16px;
+  }
+
   .right-carrossel {
     position: relative;
     top: 7.3rem;
@@ -210,7 +214,7 @@
   }
 
   #menu-mobile {
-    width: 85%;
+    width: 100%;
     height: 100vh;
     background-color: #00175D;
     padding-left: 2rem;
@@ -318,17 +322,17 @@
 
   .sub-servicos {
     font-size: 1.5rem;
-    width: 60%;
+    width: 100%;
     margin: auto;
     line-height: 1.2;
     margin-bottom: 1.5rem;
   }
 
-  .text-servicos {
-    height: 310px;
-  }
-
   /* Clientes Home */
+
+  #clientes-home > .container {
+    padding-top: 4rem;
+  }
 
   #clientes-home > .container::before {
     left: 50%;
@@ -644,6 +648,10 @@
     margin-bottom: 0.5rem !important;
   }
 
+  #newsletter .row {
+    padding-bottom: 0;
+  }
+
   .text-news p {
     width: 60%;
     margin: auto;
@@ -740,8 +748,12 @@
     display: none;
   }
 
-  .page-home .footer-logo, .page-vagas .footer-logo, .page-cases .footer-logo {
+  .page-home .footer-logo, .page-vagas .footer-logo, .page-cases .footer-logo, .page-quemsomos .footer-logo {
     border: 0;
+  }
+
+  .contato-footer ul li {
+    margin-left: 0;
   }
 
   /* Quem Somos */
@@ -774,6 +786,10 @@
     margin-top: 1rem;
   }
 
+  .page-quemsomos .order1mob, .page-quemsomos .order2mob {
+    order: inherit;
+  }
+
   .order1mob {
     order: 1;
   }
@@ -791,7 +807,7 @@
   }
 
   .img-cultura {
-    margin-bottom: 3rem;
+    margin-top: 2rem;
   }
 
   /* Serviços */
@@ -827,10 +843,6 @@
   #servicos {
     padding-top: 9rem;
     background-image: url(/novaident/bannerservicosmobile.png);
-  }
-
-  .page-servicos .title-cases h1 {
-    color: #68FC9C;
   }
 
   .icon-arrow-servico {
@@ -1533,6 +1545,16 @@
   .page-case-bialettishop .title-post h3,
   .page-case-lvstore .title-post h3 {
     width: 100%;
+    font-size: 20px;
+  }
+
+  .title-sucesso-case h3 {
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+
+  .page-case-bialettishop .post-content h4 {
+    line-height: 24px;
   }
 
   .page-case-bialettishop .post-content,
@@ -1542,22 +1564,45 @@
 
   .page-case-bialettishop .icon-resultados ul li p {
     font-weight: 600;
-    color: #68FC9C;
-    font-size: 0.8rem;
+    font-size: 16px;
+    line-height: 24px;
     margin-left: 1rem;
+  }
+
+  .page-case-minassal .title-case h1 {
+    width: 100%;
+    font-size: 30px;
   }
 
   .page-case-bialettishop .icon-resultados {
     padding-left: 0;
   }
 
-  .page-case-bialettishop .button-resultados button {
-    padding: 1rem 2rem;
-    line-height: 1.1rem;
+  .page-case-bialettishop .button-resultados {
+    margin-top: 0;
+  }
+
+  #resultados {
+    background:  url(/novaident/cases/bialetti/fundocasebialetti.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+  }
+
+  .page.case-csp .title-main-case h3 {
+    padding-top: 3rem;
+    padding-bottom: 0;
+  }
+
+  .page-case-bialettishop .title-case h1 {
+    font-size: 30px;
+  }
+
+  .title-main-case h3 {
+    font-size: 20px;
+    padding-top: 2rem;
   }
 
   #case-top {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 
   .page-case-lvstore #banner-full .row {
@@ -1566,6 +1611,7 @@
 
   .page-case-lojasrpm #banner-full .row {
     width: 100%;
+    margin: auto;
   }
 
   .page-case-lvstore iframe {
@@ -1578,6 +1624,11 @@
     top: 0;
   }
 
+  .title-case h1, .page-case-infocards .title-case h1, .page-case-lojasrpm .title-case h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+
   .page-case-lvstore #banner-full .row:before {
     height: 7rem;
   }
@@ -1587,12 +1638,16 @@
     top: 1rem;
   }
 
-  .page-case-lojasrpm .title-main-case h3 {
+  .page-case-minassal .title-post h3, .page-case-infocards .post-content h4,
+  .text-banner-infocards h3, .page-case-lojasrpm .title-main-case h3,
+  .page-case-csp .title-main-case h3, .post-content h4, .page-case-lojasrpm .post-content h4 {
     width: 100%;
+    font-size: 20px;
+    line-height: 30px;
   }
 
-  .page-case-minassal .title-post h3 {
-    width: 100%;
+  .page-case-lojasrpm .title-post {
+    margin-top: 0;
   }
 
   .page-case-minassal .post-content {
@@ -1609,7 +1664,7 @@
   }
 
   #banner-infocards {
-    background-color: #6316C9;
+    background-color: #61DCAB;
     padding-bottom: 2rem;
   }
 
@@ -1649,7 +1704,7 @@
   }
 
   #new-video-case:after {
-    top: 6rem;
+    top: 9rem;
   }
 
   .page-case-novamed #new-video-case .text-video-case {
@@ -1662,6 +1717,7 @@
 
   .page-case-novamed #new-case-top {
     padding-bottom: 50px;
+    padding-top: 140px;
   }
 
   .page-case-novamed .cards-video-case .card-case-nova .text-card-case p {
@@ -1692,11 +1748,7 @@
     margin-bottom: 20px;
   }
 
-  .page-case-novamed .text-estudo-case p {
-    text-align: justify;
-    font-size: 0.9rem;
-  }
-
+  .page-case-novamed .text-estudo-case p,
   .page-case-novamed .text-numeros-nova p,
   .page-case-novamed .text-resultado-destaque p {
     text-align: justify;
@@ -1705,15 +1757,14 @@
   .page-case-novamed .title-resultado-cta h2,
   .page-case-novamed .title-trafego-organico h3,
   .page-case-novamed .title-estudo-case h3 {
-    line-height: 1.3;
-    text-align: justify;
-    font-size: 1.3rem;
+    text-align: left;
+    font-size: 19px;
+    line-height: 30px;
+    width: 100%;
   }
 
-  .page-case-novamed .button-resultado-cta a {
-    padding: 14px 15px;
-    line-height: 1.3;
-    font-size: 13px;
+  .banner-empilhadeira {
+    margin-bottom: 1rem;
   }
 
   .img-estudo-case {
@@ -1790,9 +1841,13 @@
   }
 
   .page-case-novamed #new-case-top .title-case h1 {
-    font-size: 1.3rem;
+    font-size: 19px;
     text-align: left;
-    line-height: 1.4;
+    line-height: 30px;
+  }
+
+  .subtitle-case h2 {
+    margin-bottom: 2rem;
   }
 
   .page-case-novamed .text-estudo-case.case-covabra {
@@ -1881,17 +1936,15 @@
     width: 100%;
   }
   .page-case-csp #case-top {
-    background-image: url(/cases/bg-case-csp.png);
     background-position: left;
+  }
+
+  .page-case-csp .title-case h1 {
+    font-size: 30px;
   }
 
 
   /* Página Case - Transpalet */
-  #conteudo-case-transpalet p,
-  #conteudo-case-transpalet .text-estudo-case p,
-  .case-athletic p {
-    font-size: 0.625rem;
-  }
 
   #conteudo-case-transpalet .text-estudo-case span > img{
     width: 50px !important;
@@ -1935,10 +1988,6 @@
     height: 115px;
   }
 
-  #conteudo-case-dcorp .sobre-dcorp .texto-destaque {
-    padding-left: 0;
-  }
-
   #estudo-caso {
     padding-bottom: 30px;
   }
@@ -1955,10 +2004,6 @@
     margin-bottom: 24px;
   }
 
-  #conteudo-case-transpalet .sobre-transpalet .texto-destaque{
-    padding-left: 0;
-  }
-
   #conteudo-case-transpalet .sobre-transpalet .texto-destaque::before{
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1970,15 +2015,11 @@
     height: 106px !important;
   }
 
-  #conteudo-case-transpalet .text-cta,
-  #conteudo-case-transpalet .text-cta-link {
-    font-size: 0.825rem;
+  #conteudo-case-transpalet .label-form {
+    width: 100%;
   }
 
   /* CASE MARAVILHAS DO LAR */
-  .page-case-novamed #new-case-top .titulo-maravilhas h1{
-    text-align: center;
-  }
 
   #conteudo-case-maravilhas .container-sobre-maravilhas{
     flex-direction: column;
@@ -1995,7 +2036,7 @@
   }
 
   #conteudo-case-maravilhas .box-1{
-    padding: 0;
+    padding: 30px;
   }
 
   #conteudo-case-maravilhas h3,
@@ -2047,10 +2088,6 @@
 
   #conteudo-case-maravilhas .box-3 .col-6{
     width: 100%;
-  }
-
-  #conteudo-case-maravilhas .lista{
-    font-size: 0.625rem;
   }
 
   #conteudo-case-maravilhas .container-parceria-nairuz .col-6{
@@ -2166,9 +2203,7 @@
     height: auto;
     padding-bottom: 20px;
   }
-  .case-dcorp .button-resultado-cta a {
-    font-size: 10px;
-  }
+
   .case-dcorp .col-6 {
     width: 100%;
   }
@@ -2186,9 +2221,6 @@
     width: 100vw;
     height: 157px;
   }
-  #conteudo-case-dcorp .sobre-dcorp .texto-destaque {
-    padding-left: 0;
-  }
   #title-exp {
     padding: 0 2rem;
     margin: 2rem 0;
@@ -2197,10 +2229,6 @@
   /*FIM CASE - DCORP*/
 
   /* CASE - MARAVILHAS DO LAR */
-  #conteudo-case-maravilhas p{
-    font-size: 0.675rem;
-  }
-
   #conteudo-case-maravilhas h3,
   #conteudo-case-maravilhas h4{
     font-size: 1rem;

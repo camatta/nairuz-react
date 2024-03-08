@@ -4,7 +4,9 @@ import Headergeral from '../../components/Headergeral'
 import HeaderMob from '../../components/HeaderMob'
 import Footergeral from '../../components/Footergeral'
 import BehanceNz from '../../components/BehanceNz'
+import NewsletterNz from '../../components/NewsletterNz'
 import CarrosselCases from '../../components/CarrosselCases'
+import Script from 'next/script'
 
 export default function Bialetti() {
   return (
@@ -70,23 +72,9 @@ export default function Bialetti() {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-12">
               <div className="mosaico-posts-bialetti">
-                <ul>
-                  <li><Image src="/cases/post1-bialetti.png" alt="Bialetti - Post Instagram" width={345} height={345} /></li>
-                  <li><Image src="/cases/post2-bialetti.png" alt="Bialetti - Post Instagram" width={345} height={345} /></li>
-                  <li><Image src="/cases/post3-bialetti.png" alt="Bialetti - Post Instagram" width={345} height={345} /></li>
-                </ul>
-                <ul>
-                  <li><Image src="/cases/post4-bialetti.png" alt="Bialetti - Post Instagram" width={345} height={345} /></li>
-                  <li><Image src="/cases/post5-bialetti.png" alt="Bialetti - Post Instagram" width={345} height={345} /></li>
-                  <li><Image src="/cases/post6-bialetti.png" alt="Bialetti - Post Instagram" width={345} height={345} /></li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="mockup-bialetti">
-                <Image src="/cases/mockup-bialetti.png" alt="Bialetti - E-commerce" width={600} height={690} />
+              <Image src="/novaident/cases/bialetti/fundomockupbialetti.png" alt="Bialetti - Post Instagram" width={1108} height={509} />
               </div>
             </div>
           </div>
@@ -123,11 +111,12 @@ export default function Bialetti() {
                 <p>Através de todo o trabalho realizado com a parceria entre Bialetti Shop e a agência de marketing digital Nairuz, o sucesso foi garantido, tanto no processo de inserção da nova loja no Brasil, quanto para a sua performance em vendas.</p><br></br><br></br>
                 <p>Cada estratégia implementada foi responsável por um grande resultado positivo, que por sua vez, geraram números vantajosos para a empresa mês a mês.</p><br></br><br></br>
                 <p>No Inbound Marketing, por exemplo, foram muitos benefícios conquistados, como:</p><br></br><br></br>
-                <p>Um crescimento exemplar no que se diz respeito ao alcance orgânico, o SEO. Foram somados mais de 668% de alcance orgânico ao mês, adquiridos através de um bom levantamento de palavras-chave relevantes, avaliando também o estudo de volume e competitividade desta mesma palavra, que por sua vez tiveram um papel fundamental para este resultado.</p><br></br><br></br>
+                <p>Um crescimento exemplar no que se diz respeito ao alcance orgânico, o SEO. Foram somados mais de 668% de alcance orgânico ao mês,</p><br></br><br></br>
               </div>
             </div>
             <div className="col-12 col-md-6">
               <div className="text-sucesso-case">
+                <p>adquiridos através de um bom levantamento de palavras-chave relevantes, avaliando também o estudo de volume e competitividade desta mesma palavra, que por sua vez tiveram um papel fundamental para este resultado.</p><br></br><br></br>
                 <p>Isso sem contar a taxa de abertura de e-mails que subiram de 0 para 40%. Uma porcentagem que, se comparada ao mercado, encontra-se bem acima da média, já que uma boa taxa de abertura já se instaura a partir de 20%.</p><br></br><br></br>
                 <p>Além disso, cada trabalho de Branding feito através das mídias, também auxiliou para um grande aumento de vendas, além de colaborar para educar os clientes de maneira eficaz, mostrando a verdadeira motivação da marca e seus principais diferenciais.</p><br></br><br></br>
               </div>
@@ -179,9 +168,27 @@ export default function Bialetti() {
         </section>
         <CarrosselCases />
         <BehanceNz />
+        <NewsletterNz />
       </main>
 
       <Footergeral />
+
+      <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
+
+      <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          strategy="beforeInteractive" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+          strategy="beforeInteractive" />
+
+        <Script id="show-bannerx" strategy="lazyOnload">
+        {`
+          if (window.RDStationForms) {
+            new RDStationForms('formulario-case-bonecario-0c8124a798e6d980d81c', 'UA-48773259-1').createForm();
+          }
+
+        `
+        }
+      </Script>
     </div>
   )
 }

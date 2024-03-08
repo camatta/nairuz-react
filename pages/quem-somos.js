@@ -147,35 +147,36 @@ export default function QuemSomos() {
                 <div className="parcerias-certificacoes">
                   <div className="parcerias">
                     <ul className="d-flex align-items-center mb-4">
-                      <li><Image src="/parcerias/signa.png" alt="Signa" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/biz.png" alt="BizCommerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/bis2bis.png" alt="Bis2Bis" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/linx.png" alt="Linx Commerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/mage.png" alt="Mageshop" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/uol.png" alt="Uol" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/vindi.png" alt="Vindi" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/pagarme.png" alt="pagar.me" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/uol.png" alt="Uol" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/biz.png" alt="BizCommerce" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/bis2bis.png" alt="Bis2Bis" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/linx.png" alt="Linx Commerce" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/PluggTo-Original-Logo-Green.svg" alt="pluggto" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/mage.png" alt="Mageshop" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/vindi.png" alt="Vindi" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/Nuvemshop-logo.svg" alt="NuvemShop" width={105} height={49} /></li>
                     </ul>
                     <ul className="d-flex align-items-center mb-4">
-                      <li><Image src="/parcerias/amazon.png" alt="Amazon" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/jet-logo.png" alt="Jetcommerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/anymarket.png" alt="AnyMarket" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/shopback.png" alt="Shopback" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/hubspot.png" alt="Hubspot" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/rd.png" alt="RD Station" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/semrush.png" alt="SemRush" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/appcampinas.png" alt="APP Campinas" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/amazon.png" alt="Amazon" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/mercado-pago-logo.svg" alt="MercadoPago" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/anymarket.png" alt="AnyMarket" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/shopback.png" alt="Shopback" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/hubspot.png" alt="Hubspot" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/rd.png" alt="RD Station" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/semrush.png" alt="SemRush" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/appcampinas.png" alt="APP Campinas" width={105} height={49} /></li>
                     </ul>
                   </div>
                   <div className="certificacoes">
                     <ul className="d-flex align-items-center justify-content-space-around">
-                      <li><Image src="/parcerias/google-partner-novo.png" alt="Google Partner" width={99} height={97} /></li>
-                      <li><Image src="/parcerias/rdplatinum22.png" alt="RD Platinum" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/magento.png" alt="Magento" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/linxpartners.png" alt="Linx Partners" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/google-partner-logo.svg" alt="Google Partner" width={99} height={97} /></li>
+                    <li><Image src="/parcerias/rdplatinum22.png" alt="RD Platinum" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/shopify-partners.svg" alt="Magento" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/linx-commerce-selo.svg" alt="Linx Partners" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/nuvempartners-selo-platinum.svg" alt="Nuvem Partners" width={105} height={49} /></li>
                     </ul>
                   </div>
                 </div>
@@ -183,7 +184,7 @@ export default function QuemSomos() {
             </div>
           </div>
         </section>
-        
+        <NewsletterNz />
       </main>
 
       <Footergeral />

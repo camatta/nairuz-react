@@ -154,8 +154,8 @@ export default function NovaMedicamentos2() {
                 <div className="icon-note">
                   <Image
                     src="/novaident/cases/daros/notelogo.svg"
-                    width={131}
-                    height={131}
+                    width={74}
+                    height={66}
                     alt="dcorp"
                   />
                 </div>
@@ -175,7 +175,7 @@ export default function NovaMedicamentos2() {
               </div>
               <div className="button-resultado-cta">
                 <a href="#form-case-nova">
-                  SOLICITE UMA AVALIAÇÃO PERSONALIZADA
+                  Solicite uma avaliação personalizada
                 </a>
               </div>
             </div>
@@ -298,7 +298,7 @@ export default function NovaMedicamentos2() {
               <div className="info-enve">
                 <div className="iconenvelope">
                   <Image
-                    src="/dcorp/iconenvelope.svg"
+                    src="/novaident/envelope.svg"
                     width={24}
                     height={24}
                     alt="Envelope"
@@ -314,7 +314,7 @@ export default function NovaMedicamentos2() {
               <div className="info-enve">
                 <div className="iconenvelope">
                   <Image
-                    src="/dcorp/iconenvelope.svg"
+                    src="/novaident/envelope.svg"
                     width={24}
                     height={24}
                     alt="Envelope"
@@ -507,7 +507,7 @@ export default function NovaMedicamentos2() {
                 </p>
               </div>
               <div className="button-resultado-cta">
-                <a href="#form-case-nova">ENTRE EM CONTATO CONOSCO</a>
+                <a href="#form-case-nova">Entre em contato conosco</a>
               </div>
             </div>
           </div>

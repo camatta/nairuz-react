@@ -8,7 +8,7 @@
   background: unset;
   border: none;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
@@ -16,8 +16,8 @@
 }
 
 .page-quemsomos .menu ul li:nth-child(2) button, .page-servicos .menu ul li:nth-child(3) button, .page-cases .menu ul li:nth-child(4) button, .page-vagas .menu ul li:nth-child(5) button {
-  color: #68FC9C;
-  font-weight: 600;
+  color: #61DCAB;
+  font-weight: 800;
 }
 
 /* Temas */
@@ -315,21 +315,16 @@
 
 
 #rd-section-kylvw1q5 .rd-button {
-  background: transparent -moz-linear-gradient(left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-    background: transparent -webkit-gradient( linear, left top, right top, from(#58DBAA), to(#48BAB8)) 0% 0% no-repeat padding-box;
-    background: transparent -moz-linear-gradient( left, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(90deg, #58DBAA 0%, #48BAB8 100%) 0% 0% no-repeat padding-box;
-    border-radius: 30px !important;
-    border: unset !important;
-    color: #fff !important;
-    margin-top: 2rem !important;
-    padding: 1rem 6rem !important;
-    letter-spacing: 2.8px !important;
-    font-size: 0.8rem !important;
-    font-weight: 600!important;
-    font-family: 'Montserrat', sans-serif !important;
-    height: auto !important;
-    text-transform: uppercase;
+  background: #61DCAB;
+  border-radius: 30px !important;
+  border: unset !important;
+  color: #1c1c1c !important;
+  margin-top: 2rem !important;
+  padding: 1rem 6rem !important;
+  font-size: 14px !important;
+  font-weight: 400!important;
+  font-family: 'Poppins', sans-serif !important;
+  height: auto !important;
 }
 
 #rd-form-kylvw1qc .bricks-form__submit {
