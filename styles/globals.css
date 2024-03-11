@@ -862,6 +862,12 @@ a:hover, a {
   font-weight: 400;
   border: 1px solid #61DCAB;
   margin-top: 20px;
+  transition: 0.4s all;
+}
+
+.button-left-carrossel button:hover {
+  background: #001146;
+  border: 1px solid #001146;
 }
 
 .title-card p {
@@ -1126,6 +1132,13 @@ a:hover, a {
   color: #fff;
 }
 
+#contratar-servicos:hover, #contratar-servicos-website:hover, #contratar-servicos-seo:hover,
+#contratar-servicos-midias:hover, #contratar-servicos-inbound:hover {
+  background: #fff;
+  color: #00175D;
+  font-weight: 400;
+}
+
 .nav-servicos ul li button {
   background-color: transparent;
   border: unset;
@@ -1331,6 +1344,12 @@ a:hover, a {
     text-align: left;
     color: #00175D;
     border: 1px solid #00175D;
+    transition: 0.4s all;
+}
+
+.buttons-cases .ser-case:hover {
+  background: #00175D;
+  color: #fff;
 }
 
 .owl-nav .owl-prev {
@@ -3145,7 +3164,8 @@ a:hover, a {
 }
 
 .page-case-novamed .button-resultado-cta a:hover, .page-case-bialettishop .button-resultados button:hover, 
-#vagas-disponiveis .card button:hover, .button-outras-vagas button:hover, section#work .work-box .bodyContainer button:hover  {
+#vagas-disponiveis .card button:hover, .button-outras-vagas button:hover, section#work .work-box .bodyContainer button:hover, 
+.btn-default-cta a:hover, #rd-section-kylrwgxs .rd-button:hover, #header-home .contato button:hover {
   background: #52D09E;
 }
 
