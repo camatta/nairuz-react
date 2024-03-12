@@ -108,17 +108,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div className="carrossel-principal">
               <div className="row">
                 <div className="col-12 col-md-5">
-                <div className="left-carrossel">
-                    <p>Unimos estratégias de<br></br> marketing e tecnologia para o<br></br> <strong>crescimento do seu negócio!</strong></p>
+                  <div className="left-carrossel">
+                    <p>Veja como a Maravilhas do <br></br>Lar <strong>aumentou sua receita<br></br> em 44%</strong> nos 6 primeiros<br></br> meses de projeto!</p>
                   </div>
-                  <div className="button-left-carrossel">
-                    <button onClick={urlCases}>Conheça nosso trabalho</button>
+                  <div className="img-maravilhas-mobile mobileonly d-none">
+                    <Image src="/img-maravilhas-main-topo-mobile.png" alt="Maravilhas do Lar" width={280} height={180} />
                   </div>
                 </div>
-                <div className="col-3 desktoponly"></div>
-                <div className="col-12 col-md-4">
-                  <div className="right-carrossel">
-                   
+                <div className="col-7 desktoponly">
+                  <div className="img-main-topo">
+                    <div className='textosbanners'>
+                      <div className='descricaobanner'>
+                        <div className='icone'>
+                        <Image src="/novaident/bannertopo/users.svg" alt="Maravilhas do Lar" width={20} height={20} />
+                        </div>
+                      <p>+ de 46 % de aumento<br></br>em transações<br></br><span>Média mensal de transações<br></br>concluídas no e-commerce</span></p>
+                      </div>
+                      <div className='descricaobanner'>
+                        <div className='icone'>
+                        <Image src="/novaident/bannertopo/dolar.svg" alt="Maravilhas do Lar" width={20} height={20} />
+                        </div>
+                      <p>+ de 12 % de tráfego<br></br><span>Aumento alcançado sem<br></br>alterações na verba média<br></br>de investimentos em Ads.</span></p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

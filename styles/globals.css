@@ -277,7 +277,7 @@ a:hover, a {
 /*Alteração Maravilhas*/
 
 #bg-carrossel2 {
-  background-image: url(/novaident/bannerhomenovo.png);
+  background-image: url(/novaident/bannertopo/fundomaravilhas.jpg);
   background-size: cover;
   background-position-x: right;
   background-position-y: bottom;
@@ -814,6 +814,7 @@ a:hover, a {
   font-size: 24px;
   color: #fff;
   line-height: 36px;
+  font-weight: 300;
 }
 
 .left-carrossel p strong {
@@ -829,7 +830,7 @@ a:hover, a {
 }
 
 .left-carrossel {
-  height: 83px;
+  height: 110px;
 }
 
 .text-left-carrossel {
@@ -849,7 +850,19 @@ a:hover, a {
 
 .img-main-topo {
   position: relative;
-  bottom: 4.5rem;
+  z-index: 0;
+  bottom: 1.5rem;
+}
+.img-main-topo:before {
+  content: '';
+  background: url(/novaident/bannertopo/bannermaravilhastexto.png) no-repeat;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  right: 45%;
+  top: -30%;
+  z-index: 1;
 }
 
 .button-left-carrossel button {
@@ -926,6 +939,44 @@ a:hover, a {
   margin-bottom: 1.5rem;
   line-height: 1.5;
   font-size: 0.85rem;
+}
+
+.descricaobanner {
+  background: #61ddac;
+    padding: 1rem;
+    border-radius: 0 40px;
+    width: 50%;
+    margin-left: auto;
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 12px;
+}
+.descricaobanner:last-child {
+  margin-bottom: 0;
+}
+
+.descricaobanner p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+
+.descricaobanner p span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #0d0d0d;
+}
+
+.maravilhasicon {
+  position: absolute;
+}
+
+.descricaobanner .icone {
+  background: #fff;
+    border-radius: 100%;
+    padding: 11px
 }
 
 #bg-carrossel1 .descricao-right p{
