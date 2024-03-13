@@ -75,6 +75,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div className='carrossel-header owl-carousel'>
 
     <div className="container-fluid" id="bg-carrossel1">
+      <video className='desktoponly' src='/novaident/bannertopo/videonairuz.mp4' autoPlay loop muted/> 
       <div className="container">
         <div className="row" id="carrossel">
           <div className="col-12">

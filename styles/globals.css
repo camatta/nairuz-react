@@ -806,6 +806,14 @@ a:hover, a {
   padding-bottom: 8rem;
 }
 
+.carrossel-header video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
 #carrossel .carrossel-principal {
   margin-top: 8rem;
 }
@@ -1099,7 +1107,7 @@ a:hover, a {
 /* Serviços Home */
 
 #servicos-home {
-  padding: 8rem 0 12rem 0;
+  padding: 6rem 0 6rem 0;
   background: #00175D;
 }
 
