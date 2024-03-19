@@ -1,0 +1,251 @@
+.bannerPrincipal {
+  background-image: url('../../../public/volt/background-principal.webp');
+  height: 911px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+.bannerTexto {
+  position: absolute;
+  z-index: 1;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  color: #fff;
+}
+.bannerTexto h1 {
+  max-width: 439px;
+  width: 100%;
+  font-size: 81px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 77px;
+  min-height: 263px;
+}
+.bannerTexto h1 span {
+  display: inline-block;
+  line-height: 0;
+  overflow: hidden;
+}
+.animate .bannerTexto h1 span:nth-child(1) {
+  animation: fadeAndShow .5s .1s forwards;
+}
+.animate .bannerTexto h1 span:nth-child(2) {
+  animation: fadeAndShow .5s .3s forwards;
+}
+.animate .bannerTexto h1 span:nth-child(3) {
+  animation: fadeAndShow .5s .5s forwards;
+}
+.animate .bannerTexto h1 span:nth-child(4) {
+  animation: fadeAndShow .5s .7s forwards;
+}
+.animate .bannerTexto h1 span:nth-child(5) {
+  animation: fadeAndShow .5s .9s forwards;
+}
+@keyframes fadeAndShow {
+  0% {
+    line-height: 0;
+    overflow: hidden;
+    transform: translateY(77px);
+    opacity: 0;
+  }
+  100% {
+    line-height: inherit;
+    transform: translateY(0);
+    overflow: initial;
+    opacity: 1;
+  }
+}
+.bannerTexto h2 {
+  max-width: 391px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.5px;
+  margin: 15px 0 34px;
+  opacity: 0;
+}
+.animate .bannerTexto h2 {
+  animation: fadeIn .3s 1s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.bannerTexto button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #58DCAF;
+  border-radius: 28px;
+  padding: 6px 40px;
+  background: 0;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+  opacity: 0;
+}
+.animate .bannerTexto button {
+  animation: fadeIn .3s 1s forwards;
+}
+.bannerTexto button:hover {
+  color: #010F52;
+  background: #59DFB2;
+}
+
+.upperBall {
+  position: absolute;
+  top: -85px;
+  right: -85px;
+}
+.animate .upperBall {
+  animation: scaleDownToNormal .5s;
+}
+@keyframes scaleDownToNormal {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+    right: 50%;
+  }
+  100% {
+    transform: scale(1);
+    right: -85px;
+    opacity: 1;
+  }
+}
+
+.bannerStickers {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: right;
+}
+.hostAndMark {
+  position: relative;
+}
+.hostMan {
+  transform: translateX(0);
+}
+.animate .hostMan {
+  animation: moveToTheRight 1.5s;
+}
+@keyframes moveToTheRight {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.nNairuz {
+  position: absolute;
+  right: -10%;
+  bottom: 17%;
+  z-index: -1;
+  opacity: 0;
+}
+.animate .nNairuz {
+  animation: fadeLogoAndScale .4s .75s forwards;
+}
+@keyframes fadeLogoAndScale {
+  0% {
+    transform: scale(0.75);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .upperBall {
+    max-width: 300px;
+  }
+
+  .bannerPrincipal {
+    height: 840px;
+  }
+
+  .bannerTexto h1 {
+    font-size: 60px;
+    line-height: 56px;
+    min-height: 180px;
+  }
+
+  .hostAndMark {
+    max-width: 60%;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .upperBall {
+    max-width: 250px;
+  }
+
+  .bannerPrincipal {
+    height: 625px;
+  }
+  .bannerTexto {
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  .hostAndMark {
+    max-width: 50%;
+  }
+
+  .bannerTextoContext {
+    max-width: 50%;
+  }
+
+  .bannerTexto h2 {
+    font-size: 22px;
+  }
+
+  .bannerTexto button {
+    padding: 6px 30px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bannerPrincipal {
+    height: 515px;
+  }
+
+  .bannerTexto h1 {
+    font-size: 32px;
+    line-height: 42px;
+    min-height: 128px;
+  }
+  .bannerTexto h2 {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+  .bannerTexto button {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .bannerTextoContext {
+    max-width: 65%;
+  }
+}

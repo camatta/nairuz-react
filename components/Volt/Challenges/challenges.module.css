@@ -1,0 +1,128 @@
+.challenges {
+  padding-top: 75px;
+  padding-bottom: 65px;
+  background-image: url(../../../public/volt/background-grass.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.challenges::before,
+.challenges::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 81%;
+  height: 63px;
+  background: url(../../../public/volt/background-grass.webp);
+  border-radius: 32px;
+  z-index: 1;
+}
+.challenges::before {
+  top: -31.5px;
+}
+.challenges::after {
+  bottom: -31.5px;
+}
+
+.challengesContent h2 {
+  font-size: 37px;
+  line-height: 45px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto 58px;
+  opacity: 0;
+}
+.animate .challengesContent h2 {
+  animation: fadeIn .5s .5s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.challengesList {
+  max-width: 820px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+.challengeCard {
+  max-width: 220px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  opacity: 0;
+}
+.animate .challengeCard:nth-child(1) {
+  animation: fadeInAndSlideUp .5s .6s forwards;
+}
+.animate .challengeCard:nth-child(2) {
+  animation: fadeInAndSlideUp .5s .8s forwards;
+}
+.animate .challengeCard:nth-child(3) {
+  animation: fadeInAndSlideUp .5s 1s forwards;
+}
+@keyframes fadeInAndSlideUp {
+  0% {
+    bottom: -388px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.challengeIcon {
+  width: 153px;
+  height: 153px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 3px #FFFFFF;
+  border-radius: 100%;
+  margin: auto;
+}
+.challengeCard h3 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 32px;
+  margin: 42px 0 17px;
+}
+.challengeCard p {
+  max-width: 208px;
+  width: 100%;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .challengesContent h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .challengesList {
+    row-gap: 60px;
+    column-gap: 30px;
+  }
+  .challengeIcon {
+    width: 120px;
+    height: 120px;
+  }
+  .challengeCard h3 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0;
+  }
+}

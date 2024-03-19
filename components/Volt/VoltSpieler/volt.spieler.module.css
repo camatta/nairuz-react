@@ -1,0 +1,182 @@
+.voltSpieler {
+  padding-top: 109px;
+  padding-bottom: 62px;
+  background: #010F52;
+  position: relative;
+  margin-top: -40px;
+}
+.voltSpieler::before,
+.voltSpieler::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 81%;
+  height: 63px;
+  background: #010F52;
+  border-radius: 32px;
+  z-index: 1;
+}
+.voltSpieler::before {
+  top: -45px;
+}
+.voltSpieler::after {
+  bottom: -31.5px;
+}
+
+.middleBall {
+  position: absolute;
+  top: -115px;
+  left: -60px;
+  z-index: 1;
+  animation: fromCenterToTheLeft .5s .5s forwards;
+  transform: scale(1);
+  opacity: 0;
+}
+@keyframes fromCenterToTheLeft {
+  0% {
+    left: 40%;
+    top: -50%;
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    top: -115px;
+    left: -60px;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.voltSpielerContent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.voltSpielerImage {
+  transform: scale(0);
+}
+@keyframes scaleToNormal {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.voltSpielerContent > div {
+  width: calc(100% / 2 - 15px);
+  color: #fff;
+}
+
+.voltSpielerText h2 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 48px;
+  opacity: 0;
+}
+.voltSpielerText h2 strong {
+  color: #61DCAB;
+}
+.voltSpielerText p {
+  font-size: 20px;
+  line-height: 25px;
+  max-width: 440px;
+  width: 100%;
+  margin: 30px 0;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.voltSpielerLogos {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.voltLogo,
+.spielerLogo {
+  transform: scale(1.5);
+  opacity: 0;
+}
+@keyframes scaleBigToNormal {
+  0% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate .voltSpielerImage {
+  animation: scaleToNormal .75s .3s forwards;
+}
+.animate .voltSpielerText h2,
+.animate .voltSpielerText p {
+  animation: fadeIn .6s .5s forwards;
+}
+
+.animate .voltLogo {
+  animation: scaleBigToNormal .6s .6s forwards;
+}
+.animate .spielerLogo {
+  animation: scaleBigToNormal .6s .8s forwards;
+}
+
+@media screen and (max-width: 991px) {
+  .voltSpieler {
+    padding-top: 40px;
+  }
+
+  .middleBall {
+    max-width: 150px;
+  }
+
+  .voltSpielerText h2 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .voltSpielerText p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .voltSpielerImage {
+    display: none;
+  }
+  .middleBall {
+    max-width: 100px;
+  }
+  .voltSpielerContent > div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  @keyframes fromCenterToTheLeft {
+    0% {
+      left: 40%;
+      top: -50%;
+      transform: scale(2);
+      opacity: 0;
+    }
+    100% {
+      top: -65px;
+      left: -60px;
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
