@@ -18,8 +18,8 @@ const FormCase = () => {
             <h3>Preencha o formulário e fale com de nossos <strong>especialistas</strong></h3>
             
             <div role="main" id="formulario-case-volt-spieler-0602c6b88900310b04d5"></div>
-            <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></Script>
-            <Script type="text/javascript" strategy='lazyOnload'>
+            <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js" id="formcaserd"></Script>
+            <Script type="text/javascript" strategy='lazyOnload' id="formcaserdwindow">
               {`
               if(window?.RDStationForms) {
                 new RDStationForms('formulario-case-volt-spieler-0602c6b88900310b04d5', 'UA-48773259-1').createForm()

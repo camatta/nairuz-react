@@ -24,7 +24,7 @@ const Projects = () => {
             {CLUBS.map(({ id, logo, siteUrl }) => (
               <React.Fragment key={id}>
               {siteUrl != '' ? (
-                <a className={`${styles.clubCard} ${styles.unlocked}`} href={siteUrl} title='Conhecer loja' target='_blank'>
+                <a className={`${styles.clubCard} ${styles.unlocked}`} href={siteUrl} title='Conhecer loja' target='_blank' rel='noreferrer'>
                   <div className={styles.clubLogo}>
                     <Image src={logo} />
                   </div>
