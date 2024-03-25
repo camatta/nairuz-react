@@ -14,7 +14,7 @@ import ProjectSummary from "../../components/Volt/ProjectSummary";
 
 export default function Volt() {
   return (
-    <>
+    <div className="page-cases case-volt-spieler">
     <Head>
         <title>A Nairuz entrou em campo!</title>
         <meta name="description" content="2024 começou com a nossa escalação em um super projeto em parceria com a Volt e Spieler." />
@@ -34,7 +34,7 @@ export default function Volt() {
     <Headergeral />
     <HeaderMob />
 
-    <main className="page-cases case-volt-spieler">
+    <main>
       <MainBanner />
       <VoltSpieler />
       <Projects />
@@ -45,6 +45,6 @@ export default function Volt() {
     </main>
 
     <Footergeral />
-    </>
+    </div>
   )
 }
