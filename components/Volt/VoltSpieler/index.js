@@ -16,7 +16,7 @@ const VoltSpieler = () => {
   const isVisible = useIsVisible(ref);
 
   return (
-    <section className={`${styles.voltSpieler} ${isVisible ? styles.animate : ''}`} ref={ref}>
+    <section className={`${styles.voltSpieler} ${isVisible ? styles.animate : ''}`} ref={ref} id='VoltSpieler'>
       <div className={styles.middleBall}>
         <Image src={middleBallImage} alt='Bola de futebol' width={229} height={229} />
       </div>

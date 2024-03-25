@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import Image from 'next/image'
-
+import { Link } from "react-scroll";
 
 import styles from './main.banner.module.css'
 import { useIsVisible } from '../../../hooks/useIsVisible'
@@ -24,10 +24,10 @@ const MainBanner = () => {
         <div className={styles.bannerTextoContext}>
           <h1><span>A</span> <span>Nairuz</span> <span>entrou</span> <span>em</span> <span>campo!</span></h1>
           <h2>2024 começou com a nossa escalação em <strong>super projeto</strong> em parceria com Volt e Spieler</h2>
-          <button>
+          <Link to="VoltSpieler" smooth={true}>
             <span>Saiba Mais</span>
             <ArrowDown />
-          </button>
+          </Link>
         </div>
       </div>
 

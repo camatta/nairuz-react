@@ -55,7 +55,9 @@
 .ProjectSummaryContent p:not(:first-of-type) {
   margin-top: 19px;
 }
-.ProjectSummaryContent button {
+.ProjectSummaryContent a {
+  display: inline-block;
+  cursor: pointer;
   border: 0;
   background: 0;
   box-shadow: inset 0 0 0 1px #fff;
@@ -68,7 +70,7 @@
   transition: all .3s ease-in-out;
   margin-top: 19px;
 }
-.ProjectSummaryContent button:hover {
+.ProjectSummaryContent a:hover {
   background: #61DCAB;
   color: #010F52;
   box-shadow: inset 0 0 0 1px #61DCAB;

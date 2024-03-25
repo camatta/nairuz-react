@@ -9,7 +9,7 @@ const FormCase = () => {
   const isVisible = useIsVisible(ref)
 
   return (
-    <section className={`${styles.formCase} ${isVisible ? styles.animate : ''}`} ref={ref}>
+    <section className={`${styles.formCase} ${isVisible ? styles.animate : ''}`} ref={ref} id='formCase'>
       <div className={`container`}>
         <div className={styles.formCaseContent}>
           <h2>Transforme seu negócio em um <strong>case de sucesso!</strong></h2>

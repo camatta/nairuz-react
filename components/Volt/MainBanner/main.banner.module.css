@@ -80,8 +80,8 @@
     opacity: 1;
   }
 }
-.bannerTexto button {
-  display: flex;
+.bannerTexto a {
+  display: inline-flex;
   align-items: center;
   gap: 12px;
   border: 1px solid #58DCAF;
@@ -94,11 +94,12 @@
   font-weight: 600;
   transition: all .3s ease-in-out;
   opacity: 0;
+  cursor: pointer;
 }
-.animate .bannerTexto button {
+.animate .bannerTexto a {
   animation: fadeIn .3s 1s forwards;
 }
-.bannerTexto button:hover {
+.bannerTexto a:hover {
   color: #010F52;
   background: #59DFB2;
 }
@@ -217,7 +218,7 @@
     font-size: 22px;
   }
 
-  .bannerTexto button {
+  .bannerTexto a {
     padding: 6px 30px;
     font-size: 22px;
     line-height: 28px;
@@ -238,7 +239,7 @@
     font-size: 15px;
     line-height: 22.5px;
   }
-  .bannerTexto button {
+  .bannerTexto a {
     font-size: 16px;
     line-height: 22px;
   }

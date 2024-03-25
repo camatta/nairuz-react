@@ -20,6 +20,7 @@
     "react-dom": "^17.0.2",
     "react-owl-carousel": "^2.3.3",
     "react-player": "^2.11.0",
+    "react-scroll": "^1.9.0",
     "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^3.3.2",
     "webfontloader": "^1.6.28"
@@ -40,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/camatta/nairuz-react/issues"
   },
-  "engines":{
+  "engines": {
     "node": "18.x"
   },
   "homepage": "https://github.com/camatta/nairuz-react#readme"
