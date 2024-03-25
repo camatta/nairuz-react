@@ -61,7 +61,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles.projectsBall}>
-        <Image src={bottomBall} alt='Bola de futebol' width={238} height={233} loading='lazy' />
+        <Image src={bottomBall} alt='Bola de futebol' width={238} height={233} />
       </div>
     </section>
   )

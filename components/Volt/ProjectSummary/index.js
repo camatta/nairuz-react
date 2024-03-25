@@ -24,7 +24,7 @@ const ProjectSummary = () => {
       </div>
 
       <div className={styles.goalImage}>
-        <Image src={goal} alt='Bola na rede' width={532} height={867} loading='lazy' />
+        <Image src={goal} alt='Bola na rede' width={532} height={867} />
       </div>
     </section>
   )
