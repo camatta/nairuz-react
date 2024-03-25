@@ -73,6 +73,12 @@
 .animate .challengeCard:nth-child(3) {
   animation: fadeInAndSlideUp .5s 1s forwards;
 }
+.animate .challengeCard:nth-child(4) {
+  animation: fadeInAndSlideUp .5s 1.2s forwards;
+}
+.animate .challengeCard:nth-child(5) {
+  animation: fadeInAndSlideUp .5s 1.4s forwards;
+}
 @keyframes fadeInAndSlideUp {
   0% {
     bottom: -388px;

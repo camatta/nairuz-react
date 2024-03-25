@@ -1,4 +1,4 @@
-import { Medal, Management, Cursor } from "../../Icons"
+import { Medal, Management, Cursor, Team, Shopping } from "../../Icons"
 
 export const CHALLENGES = [
   {
@@ -11,12 +11,24 @@ export const CHALLENGES = [
     id: 2,
     Icon: Management,
     title: 'Gestão',
-    description: 'Foi necessário aplicar uma gestão impecável de forma direta a um total de <strong>5 equipes</strong> envolvidas em todo o projeto.'
+    description: 'Gerenciar múltiplos projetos simultaneamente, exigindo uma cuidadosa gestão de prioridades e comunicação clara entre os jogadores em campo de Design UX/UI e Desenvolvimento.'
   },
   {
     id: 3,
     Icon: Cursor,
     title: 'Navegabilidade',
-    description: 'Foi desenvolvido um layout seguindo as boas práticas de usabilidade de forma a garantir uma boa navegação para todos os e-commerces.'
+    description: 'Projetar um único layout que atendesse aos requisitos de todos os times, garantindo uma experiência de navegação de qualidade independente do clube ou identidade.'
+  },
+  {
+    id: 4,
+    Icon: Team,
+    title: 'Mais de 5 equipes no projeto',
+    description: 'Integrar-se com diversas empresas envolvidas no processo, atuando como um "hub de integração" para conectar todos os envolvidos, incluindo o time de marketing do cliente, time de ERP e plataforma de e-commerce.'
+  },
+  {
+    id: 5,
+    Icon: Shopping,
+    title: 'Prazo e Qualidade',
+    description: 'Manter o equilíbrio entre garantir a entrega dos projetos no prazo e manter a qualidade do trabalho em cada um deles, marcando um gol com todo o processo sendo cumprido na íntegra.'
   }
 ]

@@ -29,7 +29,8 @@ const VoltSpieler = () => {
 
           <div className={styles.voltSpielerText}>
             <h2>Jogando para <strong>ganhar!</strong></h2>
-            <p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por "lorem ipsum" irá encontrar muitos websites ainda na sua infância</p>
+            <p>A Volt Sport é um talento emergente nos negócios esportivos brasileiros. Com estilo arrojado e técnica refinada, oferece produtos de alta qualidade e inovação. Em apenas dois anos, já veste 9 clubes, ganhando a torcida por seus materiais de elite e designs inovadores. Produzindo 2 milhões de peças anualmente, planeja expandir-se ainda mais.</p>
+            <p>Já a Spieler Sports é uma veterana nos campos do mercado nacional. Com um jogo focado na precisão, tecnologia e entrega de primeira linha, ela veste o esporte amador com a excelência dos profissionais, oferecendo preços competitivos e materiais de primeira categoria. Sua busca incansável por inovação é um chute certeiro que reflete sua paixão pelo esporte e satisfação do cliente.</p>
             <div className={styles.voltSpielerLogos}>
               <div className={styles.voltLogo}>
                 <Image src={voltLogo} alt='Volt' width={125} height={60} />

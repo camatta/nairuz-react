@@ -16,13 +16,13 @@ export default function Volt() {
   return (
     <>
     <Head>
-        <title>Volt e Spieler | Nairuz Agência de Marketing Digital e Tecnologia</title>
-        <meta name="description" content="Descubra como a Agência de Marketing Digital e Tecnologia pode alavancar os resultados da sua empresa! Aproveite a oportunidade! Saiba mais agora!" />
+        <title>A Nairuz entrou em campo!</title>
+        <meta name="description" content="2024 começou com a nossa escalação em um super projeto em parceria com a Volt e Spieler." />
         <meta property="og:image" content="https://nairuz.com.br/og-nairuz.png" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="600" />
 				<meta property="og:image:height" content="400" />
-        <meta property="og:description" content="Descubra como a Agência de Marketing Digital e Tecnologia pode alavancar os resultados da sua empresa! Aproveite a oportunidade! Saiba mais agora!" />
+        <meta property="og:description" content="2024 começou com a nossa escalação em um super projeto em parceria com a Volt e Spieler." />
 				<meta property="og:site_name" content="Nairuz Agência de Marketing Digital e Tecnologia" />
 				<meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />

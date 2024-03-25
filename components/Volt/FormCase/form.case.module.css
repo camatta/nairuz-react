@@ -3,7 +3,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 73px;
+  background-position: top center;
+  padding-top: 150px;
   padding-bottom: 150px;
   position: relative;
 }
