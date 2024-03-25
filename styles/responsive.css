@@ -1,3 +1,9 @@
+@media(min-width: 1100px) {
+  #bg-carrossel1 {
+    background: inherit;
+  }
+}
+
 @media (max-width: 991px) {
   .formRd form .bricks-form__fieldset {
     max-width: 640px;

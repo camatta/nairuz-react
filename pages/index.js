@@ -157,7 +157,7 @@ export default function Home() {
                   <ul>
                     <li>
                       <div className="img-li ativo">
-                        <Image src="/novaident/fundolayout.png" alt="Layout para e-commerce" width={245} height={344} loading="lazy" />
+                        <Image src="/novaident/hectar.png" alt="Layout para e-commerce" width={245} height={344} loading="lazy" />
                       </div>
                       <button id="layout" className="layout ativo">Layout para e-commerce</button>
                     </li>
