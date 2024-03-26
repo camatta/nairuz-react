@@ -23,7 +23,7 @@ const MainBanner = () => {
       <div className={`container ${styles.bannerTexto}`}>
         <div className={styles.bannerTextoContext}>
           <h1><span>A</span> <span>Nairuz</span> <span>entrou</span> <span>em</span> <span>campo!</span></h1>
-          <h2>2024 começou com a nossa escalação em <strong>super projeto</strong> em parceria com Volt e Spieler</h2>
+          <h2>2024 começou com a nossa escalação em um <strong>super projeto</strong> em parceria com Volt e Spieler</h2>
           <Link to="VoltSpieler" smooth={true}>
             <span>Saiba Mais</span>
             <ArrowDown />
