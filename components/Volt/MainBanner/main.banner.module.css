@@ -100,7 +100,7 @@
   animation: fadeIn .3s 1s forwards;
 }
 .bannerTexto a:hover {
-  color: #010F52;
+  color: #010F52 !important;
   background: #59DFB2;
 }
 

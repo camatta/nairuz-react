@@ -15,7 +15,7 @@ const FormCase = () => {
           <h2>Transforme seu negócio em um <strong>case de sucesso!</strong></h2>
 
           <div className={styles.formCaseArea}>
-            <h3>Preencha o formulário e fale com de nossos <strong>especialistas</strong></h3>
+            <h3>Preencha o formulário e fale com um de nossos <strong>especialistas</strong></h3>
             
             <div role="main" id="formulario-case-volt-spieler-0602c6b88900310b04d5"></div>
             <Script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js" id="formcaserd"></Script>

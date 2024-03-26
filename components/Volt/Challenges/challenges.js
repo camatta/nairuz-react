@@ -28,7 +28,7 @@ export const CHALLENGES = [
   {
     id: 5,
     Icon: Shopping,
-    title: 'Prazo e Qualidade',
+    title: 'Prazo e <br/>Qualidade',
     description: 'Manter o equilíbrio entre garantir a entrega dos projetos no prazo e manter a qualidade do trabalho em cada um deles, marcando um gol com todo o processo sendo cumprido na íntegra.'
   }
 ]

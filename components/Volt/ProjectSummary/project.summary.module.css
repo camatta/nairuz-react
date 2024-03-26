@@ -68,11 +68,11 @@
   line-height: 25px;
   padding: 12px 50px;
   transition: all .3s ease-in-out;
-  margin-top: 19px;
+  margin-top: 30px;
 }
 .ProjectSummaryContent a:hover {
   background: #61DCAB;
-  color: #010F52;
+  color: #010F52 !important;
   box-shadow: inset 0 0 0 1px #61DCAB;
 }
 
