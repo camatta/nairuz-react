@@ -23,6 +23,9 @@ const urlCases = () => {
   document.location.href = '/cases';
 }
 
+const urlCaseVolt = () => {
+  document.location.href = '/cases/volt-spieler'
+}
 
 const Headerhome = () => (
   <>
@@ -44,7 +47,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <li className="ativo"><button onClick={urlHome}>Home</button></li>
                   <li><button onClick={urlSobre}>Quem Somos</button></li>
                   <li><button onClick={urlServicos}>Serviços</button></li>
-                  <li><button onClick={urlCases}>Cases</button></li>
+                  <li>
+                    <button onClick={urlCases}>Cases</button>
+                    <ul className='sub-menu'>
+                      <li><button onClick={urlCaseVolt}>Volt/Spieler</button></li>
+                    </ul>
+                  </li>
                   <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
                 </ul>
               </nav>

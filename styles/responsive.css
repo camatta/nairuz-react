@@ -241,6 +241,28 @@
     margin-bottom: 1.5rem;
   }
 
+  .sub-menu {
+    display: none;
+    padding-left: 10px;
+  }
+  .com-sub-menu.active-sub .sub-menu {
+    display: block;
+  }
+  .nav-mob .com-sub-menu > button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .nav-mob .com-sub-menu .sub-menu li {
+    margin-bottom: 0;
+  }
+  .nav-mob .com-sub-menu .sub-menu li + li {
+    margin-top: 0.75rem;
+  }
+  .nav-mob .com-sub-menu .sub-menu li button {
+    font-size: 16px;
+  }
+
   .nav-mob ul li a,
   .nav-mob ul li button {
     color: #fff !important;
