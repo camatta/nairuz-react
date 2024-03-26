@@ -1,10 +1,14 @@
+/**
+ * Forma como deve ser importado a imagem do logo do time
+ * para informar como valor na chave logo dentro do array de objetos CLUBS
+ */
 import fortaleza from '../../../public/volt/simbolo-fortaleza.webp'
 
 export const CLUBS = [
   {
     id: 1,
-    logo: fortaleza,
-    siteUrl: 'https://spielersports.core.dcg.com.br/'
+    logo: '',
+    siteUrl: ''
   },
   {
     id: 2,
