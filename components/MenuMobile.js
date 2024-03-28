@@ -25,6 +25,10 @@ const urlCaseVolt = () => {
   document.location.href = '/cases/volt-spieler'
 }
 
+const urlAtlhetic = () => {
+  document.location.href = '/cases/athletic'
+}
+
 const MenuMobile = () => {
   const [activeSub, setActiveSub] = useState(false)
 
@@ -48,6 +52,7 @@ const MenuMobile = () => {
 
               <ul className='sub-menu'>
                 <li><button onClick={urlCases}>Ver todos</button></li>
+                <li><button onClick={urlAtlhetic}>Athletic</button></li>
                 <li><button onClick={urlCaseVolt}>Volt/Spieler</button></li>
               </ul>
             </li>

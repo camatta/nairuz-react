@@ -29,6 +29,9 @@ const urlVagas = () => {
 const urlCaseVolt = () => {
   document.location.href = '/cases/volt-spieler'
 }
+const urlAtlhetic = () => {
+  document.location.href = '/cases/athletic'
+}
 
 const Headergeral = () => (
 
@@ -52,7 +55,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <li>
                     <button onClick={urlCases}>Cases</button>
                     <ul className='sub-menu'>
+                      <li><button onClick={urlAtlhetic}>Athletic</button></li>
                       <li><button onClick={urlCaseVolt}>Volt/Spieler</button></li>
+                      <li><button onClick={urlCases} className='menu-button underline'>Ver todos</button></li>
                     </ul>
                   </li>
                   <li><a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Blog</a></li>
