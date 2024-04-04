@@ -76,16 +76,16 @@ const VagasPopup = () => (
                     </div>
                     <div className="linha-form grid mb-0">
                       <div className="form-email form-selects">
-                        <label htmlFor="email">Linkedin</label>
-                        <input type="email" className="input-email mb-4" name="email" id="email" placeholder="URL do perfil" />
+                        <label htmlFor="linkedin">Linkedin</label>
+                        <input type="url" className="input-email mb-4" name="linkedin" id="linkedin" placeholder="URL do perfil" />
                       </div>
                       <div className="form-email form-selects">
-                        <label htmlFor="email">Vaga para qual está se candidatando?</label>
-                        <input type="email" className="input-email mb-4" name="email" id="email" placeholder="Selecione" />
+                        <label htmlFor="vaga">Vaga para qual está se candidatando?</label>
+                        <input type="text" className="input-email mb-4" name="vaga" id="vaga" placeholder="Selecione" />
                       </div>
                       <div className="form-email form-selects upload-curriculo">
-                        <label htmlFor="email">Anexe seu currículo abaixo (máximo 3MB - PDF / JPG / DOC)</label>
-                        <input type="file" className="input-email mb-4" name="email" id="email" placeholder="Selecione" />
+                        <label htmlFor="curriculo">Anexe seu currículo abaixo (máximo 3MB - PDF / JPG / DOC)</label>
+                        <input type="file" className="input-email mb-4" name="curriculo" id="curriculo" placeholder="Selecione" />
                       </div>
                     </div>
                     <div className="button-form-consultor">
