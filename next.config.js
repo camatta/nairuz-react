@@ -10,6 +10,7 @@ module.exports = {
         hostname: '**.cdninstagram.com',
       },
     ],
+    domains: ['blog.nairuz.com.br']
   },
 
   i18n: {
