@@ -9,6 +9,7 @@ import CarrosselCases from '../components/CarrosselCases'
 import Script from 'next/script'
 import { useState, useEffect } from 'react'
 import UltimosBlog from '../components/UltimosBlog'
+import UltimosMateriaisRicos from '../components/UltimosMateriaisRicos'
 
 
 const urlHome = () => {
@@ -49,12 +50,11 @@ const urlVagas = () => {
 
 
 export default function Home() {
+  // Requisição Últimos Posts Blog
   const [ postData, setPostData ] = useState([]);
-
-  const [ postImg, setPostImg ] = useState([]);
   const [ loadingBlog, setLoadingBlog ] = useState(false);
-
   const urlBlog = "https://blog.nairuz.com.br/wp-json/wp/v2/posts/";
+
   const fetchAllDataBlog = async () => {
     try {
       setLoadingBlog(true);
@@ -68,27 +68,6 @@ export default function Home() {
         const doisPrimeirosPosts = data.slice(0, 2);
         setPostData(doisPrimeirosPosts);
       }
-
-      const reqImagem = async (url) => {
-        const response = await fetch(url);
-        const dataImg = await response.json();
-        // setPostImg(prevImgs => [...prevImgs, dataImg.source_url]);
-        console.log(dataImg.source_url);
-      }
-
-      postData.map((item) => {
-        const urlImg = `https://blog.nairuz.com.br/wp-json/wp/v2/media/${item.featured_media}`;
-        reqImagem(urlImg);
-
-        // author: fetch
-        // const urlAuthor = `https://blog.nairuz.com.br/wp-json/wp/v2/users/${item.author}`;
-        // const reqAuthor = async () => {
-        //   const response = await fetch(urlAuthor);
-        //   const dataAuthor = await response.json();
-        //   console.log(dataAuthor)
-        // }
-        // reqAuthor();
-      });
       
     } catch (error) {
       console.error(error);
@@ -97,7 +76,37 @@ export default function Home() {
     }
   }
 
-  useEffect(() => fetchAllDataBlog(), []);
+  // Requisição Últimos Posts Materiais Ricos Blog
+  const [ postMateriaisRicos, setPostMateriaisRicos] = useState([]);
+  const [ loadingMateriaisRicos, setLoadingMateriaisRicos ] = useState(false);
+  const urlMateriaisRicos = "https://blog.nairuz.com.br/wp-json/wp/v2/posts?categories=466";
+
+  const fetchAllDataMateriaisRicos = async () => {
+    try {
+      setLoadingMateriaisRicos(true);
+
+      const response = await fetch(urlMateriaisRicos);
+      const data = await response.json();
+      console.log(data);
+      
+      if(!data) {
+        throw 'Falha na requisição';
+      } else {
+        const doisPrimeirosPosts = data.slice(0, 2);
+        setPostMateriaisRicos(doisPrimeirosPosts);
+      }
+
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setLoadingMateriaisRicos(false);
+    }
+  }
+
+  useEffect(() => {
+    fetchAllDataBlog();
+    fetchAllDataMateriaisRicos();
+  }, []);
 
   return (
     <>
@@ -474,68 +483,26 @@ export default function Home() {
                     <p>ÚLTIMAS DO <span>BLOG</span></p>
                     </div>
                     <div className="cards-blog">
-                      <div className="post-blog">
-                          <div className="img-post">
-                          <Image src="/post1-blog.png" alt="Post Blog" width={290} height={182} />
-                          </div>
-                          <div className="medium-blog">
-                          <div className="title-post">
-                              <h5>Campanhas sazonais: Entenda a importância dessa...</h5>
-                          </div>
-                          <div className="content-post">
-                              <p>Quem trabalha com marketing, ou mesmo na área de vendas e planejamentos, já sabe...</p>
-                          </div>
-                          <div className="footer-post">
-                              <div className="autor-data-post">
-                              <p>12.04.2022</p>
-                              <p>Thaiane Pinha</p>
-                              </div>
-                              <div className="button-post">
-                              <a href="https://blog.nairuz.com.br/conteudos-para-as-midias-sociais/" target="_blank" rel="noopener noreferrer"><Image src="/novaident/setinha-direita.svg" alt="Ver Post" width={35} height={35} /></a>
-                              </div>
-                          </div>
-                          </div>
-                      </div>
-                      <div className="post-blog">
-                          <div className="img-post">
-                          <Image src="/post2-blog.png" alt="Post Blog" width={290} height={182} />
-                          </div>
-                          <div className="medium-blog">
-                          <div className="title-post">
-                              <h5>Help suporte Nairuz: Conheça nossa solução para o seu...</h5>
-                          </div>
-                          <div className="content-post">
-                              <p>Assim como muitos donos de e-commerce, você deve estar em busca de uma forma...</p>
-                          </div>
-                          <div className="footer-post">
-                              <div className="autor-data-post">
-                              <p>05.04.2022</p>
-                              <p>Marina Norato</p>
-                              </div>
-                              <div className="button-post">
-                              <a href="https://blog.nairuz.com.br/tik-tok/" target="_blank" rel="noopener noreferrer"><Image src="/novaident/setinha-direita.svg" alt="Ver Post" width={35} height={35} /></a>
-                              </div>
-                          </div>
-                          </div>
-                      </div>
 
-                      {/*
+                      {
                         loadingBlog ? (
                           <p>Carregando posts...</p>
                         ) : (
                           postData.map((item) => (
                             <UltimosBlog
-                              img={postImg}
+                              key={item.id}
+                              img={item.yoast_head_json.og_image[0].url}
                               title={item.title.rendered}
                               content={item.excerpt.rendered}
                               date={item.date}
-                              author={'teste'}
+                              author={item.yoast_head_json.author}
                               link={item.link}
                               rel="noopener noreferrer"
                             />
                           ))
                         )
-                      */}
+                      }
+
                     </div>
                     <div className="vermais-blog">
                       <a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Ver mais no blog</a>
@@ -551,40 +518,22 @@ export default function Home() {
                     <p>São guias completos sobre os principais assuntos<br></br> relacionados ao Marketing Digital. Conteúdos que irão<br></br> auxiliar você, empreendedor, a ter melhores resultados.<br></br> E o melhor, é tudo DE GRAÇA.</p>
                   </div>
                   <div className="cards-ricos">
-                    <div className="post-rico">
-                      <div className="title-rico">
-                        <h5>UX Design: qual a importância para seu e-commerce</h5>
-                      </div>
-                      <div className="content-rico">
-                        <p>Com o passar dos anos, a evolução da tecnologia e da rotina das pessoas fez com que as vendas online crescessem cada vez mais Assim, a maior competitividade também faz com que…</p>
-                      </div>
-                      <div className="footer-rico">
-                        <div className="autor-data-rico">
-                          <p>08/06/2021</p>
-                          <p>121 downloads</p>
-                        </div>
-                        <div className="button-rico d-none">
-                          <a href="https://blog.nairuz.com.br/ux-design-qual-a-importancia-para-seu-e-commerce/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="post-rico">
-                      <div className="title-rico">
-                        <h5>Nova identidade: conheça mais sobre o layout para o site da Infocards!</h5>
-                      </div>
-                      <div className="content-rico">
-                        <p>Há mais de 20 anos, a Infocards vem atuando na área de gestão de cartões de crédito private label – cartões de loja. Dessa forma, tornando possível as compras de muitos brasileiros.</p>
-                      </div>
-                      <div className="footer-rico">
-                        <div className="autor-data-rico">
-                          <p>07/04/2021</p>
-                          <p>096 downloads</p>
-                        </div>
-                        <div className="button-rico d-none">
-                          <a href="https://blog.nairuz.com.br/layout-para-o-site-da-infocards/" target="_blank" rel="noopener noreferrer"><Image src="/icon-arrow-blog-2.svg" alt="Ver Post" width={35} height={35} /></a>
-                        </div>
-                      </div>
-                    </div>
+                    {
+                        loadingMateriaisRicos ? (
+                          <p>Carregando materiais...</p>
+                        ) : (
+                          postMateriaisRicos.map((item) => (
+                            <UltimosMateriaisRicos
+                              key={item.id}
+                              title={item.title.rendered}
+                              content={item.excerpt.rendered}
+                              author={item.yoast_head_json.author}
+                              date={item.date}
+                              link={item.link}
+                            />
+                          ))
+                        )
+                      }
                   </div>
                 </div>
               </div>

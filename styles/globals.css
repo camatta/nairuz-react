@@ -1632,6 +1632,7 @@ a:hover, a {
 
 .cards-blog {
   display: flex;
+  gap: 1rem;
 }
 
 #blog-materiais .title-cases-home p {
@@ -1647,8 +1648,8 @@ a:hover, a {
 }
 
 .post-blog {
-  padding: 1rem;
-  padding-left: 0;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 .post-blog .medium-blog {
@@ -1760,6 +1761,7 @@ a:hover, a {
 }
 
 .autor-data-rico p:last-child {
+  text-transform: capitalize;
   color: #58DBAA;
 }
 
