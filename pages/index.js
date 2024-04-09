@@ -483,10 +483,8 @@ export default function Home() {
                     <p>ÚLTIMAS DO <span>BLOG</span></p>
                     </div>
                     <div className="cards-blog">
-
-                      {
-                        loadingBlog ? (
-                          <p>Carregando posts...</p>
+                      { loadingBlog ? (
+                        <p>Carregando posts...</p>
                         ) : (
                           postData.map((item) => (
                             <UltimosBlog
@@ -502,7 +500,6 @@ export default function Home() {
                           ))
                         )
                       }
-
                     </div>
                     <div className="vermais-blog">
                       <a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Ver mais no blog</a>
@@ -518,22 +515,21 @@ export default function Home() {
                     <p>São guias completos sobre os principais assuntos<br></br> relacionados ao Marketing Digital. Conteúdos que irão<br></br> auxiliar você, empreendedor, a ter melhores resultados.<br></br> E o melhor, é tudo DE GRAÇA.</p>
                   </div>
                   <div className="cards-ricos">
-                    {
-                        loadingMateriaisRicos ? (
-                          <p>Carregando materiais...</p>
-                        ) : (
-                          postMateriaisRicos.map((item) => (
-                            <UltimosMateriaisRicos
-                              key={item.id}
-                              title={item.title.rendered}
-                              content={item.excerpt.rendered}
-                              author={item.yoast_head_json.author}
-                              date={item.date}
-                              link={item.link}
-                            />
-                          ))
-                        )
-                      }
+                    { loadingMateriaisRicos ? (
+                        <p>Carregando materiais...</p>
+                      ) : (
+                        postMateriaisRicos.map((item) => (
+                          <UltimosMateriaisRicos
+                            key={item.id}
+                            title={item.title.rendered}
+                            content={item.excerpt.rendered}
+                            author={item.yoast_head_json.author}
+                            date={item.date}
+                            link={item.link}
+                          />
+                        ))
+                      )
+                    }
                   </div>
                 </div>
               </div>
