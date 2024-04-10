@@ -275,7 +275,7 @@ export default function Home() {
                 <div className="logos-clientes ps-5">
                   <ul className="d-flex align-items-center row1-logos mb-5">
                     <li><Image src="/clientes/bialetti.png" alt="BialettiShop" width={116} height={55} loading="eager" /></li>
-                    <li><Image src="/clientes/gaggia.png" alt="Gaggia" width={116} height={55} loading="eager" /></li>
+                    <li><Image src="/clientes/farmelhor.svg" alt="Farmelhor" width={116} height={55} loading="eager" /></li>
                     <li><Image src="/clientes/imeltron.png" alt="Imeltron" width={116} height={55} loading="eager" /></li>
                     <li><Image src="/clientes/lvstore.png" alt="LV Store" width={116} height={55} loading="eager" /></li>
                     <li><Image src="/clientes/gptw.svg" alt="GPTW" width={116} height={55} loading="eager" /></li>
@@ -285,7 +285,7 @@ export default function Home() {
                     <li><Image src="/clientes/docol.svg" alt="Docol" width={116} height={55} loading="eager" /></li>
                     <li><Image src="/clientes/pedigree.png" alt="Pedigree" width={116} height={55} loading="eager" /></li>
                     <li><Image src="/clientes/minassal.png" alt="Minassal" width={116} height={55} loading="eager" /></li>
-                    <li><Image src="/clientes/cybelar.png" alt="Cybelar" width={116} height={55} loading="eager" /></li>
+                    <li><Image src="/clientes/cybelar.svg" alt="Cybelar" width={116} height={55} loading="eager" /></li>
                   </ul>
                   <ul className="d-flex align-items-center row3-logos mb-5">
                     {/* <li><Image src="/clientes/gptw.svg" alt="GPTW" width={116} height={55} /></li> */}
@@ -296,7 +296,7 @@ export default function Home() {
                     <li><Image src="/clientes/novamed.png" alt="Nova Medicamentos" width={116} height={55} /></li>
                   </ul>
                   <ul className="d-flex align-items-center row4-logos">
-                    <li><Image src="/clientes/rcrio.png" alt="R-Crio" width={116} height={55} /></li>
+                    <li><Image src="/clientes/clark.svg" alt="Clark" width={116} height={55} /></li>
                     <li><Image src="/clientes/athletic.svg" alt="Athletic Store" width={116} height={55} /></li>
                     <li><Image src="/clientes/udiaco.png" alt="Udiaço" width={116} height={55} /></li>
                     <li><Image src="/clientes/maravilhas.png" alt="Maravilhas do Lar" width={116} height={55} /></li>
@@ -460,7 +460,7 @@ export default function Home() {
                   <div className="certificacoes">
                     <ul className="d-flex align-items-center">
                       <li><Image src="/novaident/parcerias/google-partner-logo.svg" alt="Google Partner" width={99} height={97} /></li>
-                      <li><Image src="/parcerias/rdplatinum22.png" alt="RD Platinum" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/rdplatinum24.svg" alt="RD Platinum" width={80} height={37} /></li>
                       <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
                       <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
                       <li><Image src="/novaident/parcerias/shopify-partners.svg" alt="Magento" width={105} height={49} /></li>
