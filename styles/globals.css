@@ -62,15 +62,15 @@ p, span, li, button, a, input, label {
 
 /*SCROLL */
 *::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 *::-webkit-scrollbar-track {
-  background: #0D0326;
+  background: #00175D;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: #362aa4;
-  border-radius: 20px;
-  border: 3px solid #362aa4;
+  background-color: #61DCAB;
+  border-radius: 10px;
+  border: 2px solid #61DCAB;
 }
 
 /* body {
@@ -1172,6 +1172,10 @@ a:hover, a {
 
 .carrossel-header .swiper-pagination {
   bottom: 4rem !important;
+}
+
+.carrossel-header {
+  background-color: #081e67;
 }
 
 /* Serviços Home */
