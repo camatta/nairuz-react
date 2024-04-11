@@ -123,6 +123,15 @@
     display: none;
   }
 
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+
+  .carrossel-header .swiper-pagination {
+    bottom: 3rem !important;
+  }
+
   .owl-carousel.carrossel-header {
     background: transparent linear-gradient(0deg, #011177 0%, #011177 100%) 0% 0% no-repeat padding-box;
     position: relative;

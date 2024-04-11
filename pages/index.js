@@ -12,6 +12,7 @@ import UltimosBlog from '../components/UltimosBlog'
 import UltimosMateriaisRicos from '../components/UltimosMateriaisRicos'
 
 
+
 const urlHome = () => {
   document.location.href = '/';
 }
@@ -132,6 +133,7 @@ export default function Home() {
 
       <Headerhome />
       <HeaderMob />
+
 
       <main>
         <section className="container-fluid" id="servicos-home">

@@ -1131,6 +1131,49 @@ a:hover, a {
   border-bottom: 1px solid #fff;
 }
 
+.swiper-button-next {
+  background-image: url(../public/novaident/setinha-direita.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 40px !important;
+  height: 40px !important;
+  right: var(--swiper-navigation-sides-offset, 8rem) !important;
+}
+
+.swiper-button-prev {
+  background-image: url(../public/novaident/setinha-esquerda.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 40px !important;
+  height: 40px !important;
+  left: var(--swiper-navigation-sides-offset, 8rem) !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.carrossel-header .swiper-pagination-bullet {
+  background-color: #fff;
+  width: 10px;
+  border-radius: 4px;
+  height: 4px;
+}
+
+.carrossel-header .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fff;
+  width: 20px;
+  border: 4px;
+  border-radius: 4px;
+}
+
+.carrossel-header .swiper-pagination {
+  bottom: 4rem !important;
+}
+
 /* Serviços Home */
 
 #servicos-home {

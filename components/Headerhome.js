@@ -1,6 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Script from 'next/script'
+import Script from 'next/script';
+import { Navigation, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
 const urlHome = () => {
@@ -84,65 +89,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
   </header>
 
-
-  <div className='carrossel-header owl-carousel'>
-
-    <div className="container-fluid" id="bg-carrossel1">
-      <video className='desktoponly' src='/novaident/bannertopo/videonairuz.mp4' autoPlay loop muted/> 
-      <div className="container">
-        <div className="row" id="carrossel">
-          <div className="col-12">
-            <div className="carrossel-principal">
-              <div className="row">
-                <div className="col-12 col-md-5">
-                  <div className="left-carrossel">
-                    <p>Unimos estratégias de<br></br> marketing e tecnologia para o<br></br> <strong>crescimento do seu negócio!</strong></p>
-                  </div>
-                  <div className="button-left-carrossel">
-                    <button onClick={urlCases}>Conheça nosso trabalho</button>
-                  </div>
-                </div>
-                <div className="col-3 desktoponly"></div>
-                <div className="col-12 col-md-4">
-                  <div className="right-carrossel">
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="container-fluid" id="bg-carrossel2">
-    <div className="container">
-        <div className="row" id="carrossel">
-          <div className="col-12">
-            <div className="carrossel-principal">
-              <div className="row">
-                <div className="col-12 col-md-5">
-                  <div className="left-carrossel">
-                    <p>Veja como a Maravilhas do <br></br>Lar <strong>aumentou sua receita<br></br> em 44%</strong> nos 6 primeiros<br></br> meses de projeto!</p>
-                  </div>
-                  <div className="img-maravilhas-mobile mobileonly d-none">
-                    <Image src="/img-maravilhas-main-topo-mobile.png" alt="Maravilhas do Lar" width={280} height={180} />
-                  </div>
-                </div>
-                <div className="col-7 desktoponly">
-                  <div className="img-main-topo">
-                    <div className='textosbanners'>
-                      <div className='descricaobanner'>
-                        <div className='icone'>
-                        <Image src="/novaident/bannertopo/users.svg" alt="Maravilhas do Lar" width={20} height={20} />
-                        </div>
-                      <p>+ de 46 % de aumento<br></br>em transações<br></br><span>Média mensal de transações<br></br>concluídas no e-commerce</span></p>
+  <div className='carrossel-header'>
+  <Swiper
+      modules={[Navigation, Pagination]}
+      navigation
+      pagination={{ clickable: true }}
+      loop={true}
+      spaceBetween={0}
+      slidesPerView={1}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>
+        <div className="container-fluid" id="bg-carrossel1">
+          <video className='desktoponly' src='/novaident/bannertopo/videonairuz.mp4' autoPlay loop muted/> 
+          <div className="container">
+            <div className="row" id="carrossel">
+              <div className="col-12">
+                <div className="carrossel-principal">
+                  <div className="row">
+                    <div className="col-12 col-md-5">
+                      <div className="left-carrossel">
+                        <p>Unimos estratégias de<br></br> marketing e tecnologia para o<br></br> <strong>crescimento do seu negócio!</strong></p>
                       </div>
-                      <div className='descricaobanner'>
-                        <div className='icone'>
-                        <Image src="/novaident/bannertopo/dolar.svg" alt="Maravilhas do Lar" width={20} height={20} />
-                        </div>
-                      <p>+ de 12 % de tráfego<br></br><span>Aumento alcançado sem<br></br>alterações na verba média<br></br>de investimentos em Ads.</span></p>
+                      <div className="button-left-carrossel">
+                        <button onClick={urlCases}>Conheça nosso trabalho</button>
+                      </div>
+                    </div>
+                    <div className="col-3 desktoponly"></div>
+                    <div className="col-12 col-md-4">
+                      <div className="right-carrossel">
+                      
                       </div>
                     </div>
                   </div>
@@ -151,9 +127,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
           </div>
         </div>
-      </div>
-    </div>
-   
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <div className="container-fluid" id="bg-carrossel2">
+          <div className="container">
+            <div className="row" id="carrossel">
+              <div className="col-12">
+                <div className="carrossel-principal">
+                  <div className="row">
+                    <div className="col-12 col-md-5">
+                      <div className="left-carrossel">
+                        <p>Veja como a Maravilhas do <br></br>Lar <strong>aumentou sua receita<br></br> em 44%</strong> nos 6 primeiros<br></br> meses de projeto!</p>
+                      </div>
+                      <div className="img-maravilhas-mobile mobileonly d-none">
+                        <Image src="/img-maravilhas-main-topo-mobile.png" alt="Maravilhas do Lar" width={280} height={180} />
+                      </div>
+                    </div>
+                    <div className="col-7 desktoponly">
+                      <div className="img-main-topo">
+                        <div className='textosbanners'>
+                          <div className='descricaobanner'>
+                            <div className='icone'>
+                            <Image src="/novaident/bannertopo/users.svg" alt="Maravilhas do Lar" width={20} height={20} />
+                            </div>
+                          <p>+ de 46 % de aumento<br></br>em transações<br></br><span>Média mensal de transações<br></br>concluídas no e-commerce</span></p>
+                          </div>
+                          <div className='descricaobanner'>
+                            <div className='icone'>
+                            <Image src="/novaident/bannertopo/dolar.svg" alt="Maravilhas do Lar" width={20} height={20} />
+                            </div>
+                          <p>+ de 12 % de tráfego<br></br><span>Aumento alcançado sem<br></br>alterações na verba média<br></br>de investimentos em Ads.</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </SwiperSlide>
+    </Swiper>
 
   </div>
 
