@@ -411,7 +411,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div className="row">
             <div className="col-12">
               <ul className="d-flex align-items-center justify-content-center">
-                <li><Image src="/plataforma-nexaasSigna.png" alt="Signativa Logo" width={128} height={29} /></li>
+                <li><Image src="/novaident/nuvemshop-seeklogo.svg" alt="Signativa Logo" width={128} height={80} /></li>
                 <li><Image src="/plataforma-linx.png" alt="Linx Logo" width={117} height={56} /></li>
                 <li><Image src="/plataforma-mage.png" alt="Mageshop Logo" width={117} height={56} /></li>
                 <li><Image src="/VTEX_Logo.svg" alt="Vtex Logo" width={128} height={30} /></li>
