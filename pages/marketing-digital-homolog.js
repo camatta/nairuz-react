@@ -824,33 +824,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </section>
 
         <NewsletterNz />
-        </main>
 
-        <Script id="carrossel-lp" strategy="lazyOnload">
-        {`
-        // Carrossel LP Marketing
-  $(document).ready(function(){
-    $(".carrossel-nairuzclientes.owl-carousel").owlCarousel({
-      items: 7,
-      dots: true,
-      nav: true,
-      autoplay:true,
-      autoplayTimeout:3000,
-      autoplayHoverPause:true,
-      responsive:{
-          0:{
-              items:1,
-          },
-          800:{
-              items:7,
-          },
-          1000:{
-              items:7,
-          }
-      }
-    });
-  });`}
-        </Script>
+        </main>
 
         <Footergeral />
         
@@ -921,8 +896,30 @@ $(document).ready(function(){
     });
   });
 
-  
+  // Carrossel LP Marketing
+  $(document).ready(function(){
+    $(".carrossel-nairuzclientes.owl-carousel").owlCarousel({
+      items: 7,
+      dots: true,
+      nav: true,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true,
+      responsive:{
+          0:{
+              items:1,
+          },
+          800:{
+              items:7,
+          },
+          1000:{
+              items:7,
+          }
+      }
+    });
+  });
 
+  
   if($('.overlay-loading').length){
     setTimeout(function() { 
       $('body').addClass('loaded');
