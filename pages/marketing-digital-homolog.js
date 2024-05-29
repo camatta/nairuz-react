@@ -345,14 +345,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div className="row">
               <div className="col-12 col-md-3">
                 <div className="box-cases athletic">
-                <div class="conteudo-cases primeiro">
+                <div className="conteudo-cases primeiro">
                   <div className="box-primeiro">
                     <div className="logo-cases">
                       <Image src="/lpmarketing/logo-athletic-cases.png" width={166} height={37} />
                     </div>
                   </div>
                   </div>
-                  <div class="conteudo-cases segundo">
+                  <div className="conteudo-cases segundo">
                   <div className="box-segundo">
                       <div className="logo-cases">
                         <Image src="/lpmarketing/logo-athletic-cases.png" width={166} height={37} />
@@ -401,7 +401,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
                 <div className="col-12 col-md-3">
                   <div className="box-cases covabra">
-                  <div class="conteudo-cases primeiro">
+                  <div className="conteudo-cases primeiro">
                     <div className="box-primeiro">
                       <div className="logo-cases">
                         <Image src="/lpmarketing/logo-covabra-cases.png" width={147} height={52} />
@@ -429,7 +429,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
                 <div className="col-12 col-md-3">
                   <div className="box-cases transpalet">
-                    <div class="conteudo-cases primeiro">
+                    <div className="conteudo-cases primeiro">
                     <div className="box-primeiro">
                       <div className="logo-cases">
                         <Image src="/lpmarketing/logo-transpalet-cases.png" width={104} height={89} />
@@ -670,7 +670,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <section className="container-fluid" id="sobremark">
           <div className="container">
             <div className="row">
-              <div class="box-resultadosmark">
+              <div className="box-resultadosmark">
                 <ul>
                   <li><p><span>12</span> diferentes<br></br><strong>segmentos</strong> de atuação.</p></li>
                   <li><p><strong>SLA</strong> de resposta dos<br></br>chamados em até <span>1 dia útil.</span></p></li>
@@ -826,7 +826,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <NewsletterNz />
         </main>
 
-        <Script>
+        <Script id="carrossel-lp">
         {`
         // Carrossel LP Marketing
   $(document).ready(function(){
