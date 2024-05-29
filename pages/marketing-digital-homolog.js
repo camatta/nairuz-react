@@ -373,7 +373,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
                 <div className="col-12 col-md-3">
                   <div className="box-cases nova-med">
-                  <div class="conteudo-cases primeiro">
+                  <div className="conteudo-cases primeiro">
                     <div className="box-primeiro">
                       <div className="logo-cases">
                         <Image src="/lpmarketing/logo-nova-medica-cases.png" width={141} height={48} />
@@ -827,6 +827,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         </main>
 
+        <Script id="carrossel-lp" strategy="lazyOnload">
+        {`
+        // Carrossel LP Marketing
+  $(document).ready(function(){
+    $(".carrossel-nairuzclientes.owl-carousel").owlCarousel({
+      items: 7,
+      dots: true,
+      nav: true,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true,
+      responsive:{
+          0:{
+              items:1,
+          },
+          800:{
+              items:7,
+          },
+          1000:{
+              items:7,
+          }
+      }
+    });
+  });
+  `}
+  </Script>
+        
+
         <Footergeral />
         
 
@@ -896,30 +924,7 @@ $(document).ready(function(){
     });
   });
 
-  // Carrossel LP Marketing
-  $(document).ready(function(){
-    $(".carrossel-nairuzclientes.owl-carousel").owlCarousel({
-      items: 7,
-      dots: true,
-      nav: true,
-      autoplay:true,
-      autoplayTimeout:3000,
-      autoplayHoverPause:true,
-      responsive:{
-          0:{
-              items:1,
-          },
-          800:{
-              items:7,
-          },
-          1000:{
-              items:7,
-          }
-      }
-    });
-  });
 
-  
   if($('.overlay-loading').length){
     setTimeout(function() { 
       $('body').addClass('loaded');
