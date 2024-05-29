@@ -1763,6 +1763,7 @@ a:hover {
   background: url(/lpmarketing/fundoatuamos.jpg) no-repeat;
   padding: 4rem 0;
   position: relative;
+  background-size: cover;
 }
 .page-marketing #certificacoes #certn {
   position: relative;
