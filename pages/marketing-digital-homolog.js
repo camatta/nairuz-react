@@ -826,7 +826,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <NewsletterNz />
         </main>
 
-        <Script id="carrossel-lp">
+        <Script id="carrossel-lp" strategy="lazyOnload">
         {`
         // Carrossel LP Marketing
   $(document).ready(function(){
