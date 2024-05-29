@@ -1414,7 +1414,24 @@ a:hover {
 /* LP Marketing */
 
 .page-marketing #header-geral {
-  padding: 1.6rem 0;
+  padding: 2.6rem 0;
+  border: 0;
+  padding-bottom: 0;
+}
+
+.page-marketing .social-contato .contato {
+  gap: 10px;
+  display: flex;
+}
+
+.page-marketing .menu ul li button {
+  text-transform: capitalize;
+}
+
+.page-marketing .contato button {
+  color: #00175D;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
 }
 
 .page-marketing #performance {
@@ -1625,6 +1642,633 @@ a:hover {
   position: relative;
 }
 
+/*nova lp marketing*/
+.page-marketing.pg-homologmark #oque-fazemos, .page-marketing #cases-sucesso {
+  background: #001249;
+  padding: 5rem 0;
+}
+.page-marketing #cases-sucesso {
+  position: relative;
+}
+.page-marketing #cases-sucesso:before {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  background-image: url(/lpmarketing/detalhes/detalhe-case.svg);
+  right: -70px;
+  top: 20%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page-marketing.pg-homologmark #performance {
+  background-image: url(/lpmarketing/fundolp.jpg);
+  padding: 15rem 0;
+  padding-top: 10rem;
+}
+.page-marketing.pg-homologmark #performance h1 {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-weight: 200;
+  font-size: 58px;
+  text-transform: uppercase;
+  line-height: 56px;
+}
+.page-marketing.pg-homologmark #performance h1 span {
+  color: #61DCAB;
+  font-weight: 700;
+  font-size: 81px;
+  font-style: italic;
+}
+.page-marketing.pg-homologmark #performance h1 span strong {
+  color: #fff;
+  font-style: normal;
+}
+.page-marketing .texto-digital p, .page-marketing.pg-homologmark #oque-fazemos .descricao-quem p {
+  position: relative;
+  width: 59%;
+  margin-bottom: 1rem;
+  font: normal normal 300 17px / 25px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.page-marketing .texto-digital p {
+  margin-bottom: 2rem;
+}
+.page-marketing .falar-com, .button-especialista .fale-com {
+  border: 1px solid #61DCAB;
+  border-radius: 31px;
+  padding: 11px 19px;
+  text-transform: uppercase;
+  font: normal normal 600 14px / 27px Poppins;
+  letter-spacing: 0.45px;
+  color: #FFFFFF;
+}
+.page-marketing .falar-com:hover, .button-especialista .fale-com:hover, .box-cases .button-resultados p:hover {
+  color: #00175D;
+  background-color: #61DCAB;
+  cursor: pointer;
+}
+.page-marketing .fundo-borda{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.page-marketing .fundo-borda:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: url(/lpmarketing/detalhes/fundoborda.svg) no-repeat;
+  animation: rotate 5s linear infinite;
+  background-position: center;
+}
+.page-marketing .fundo-borda:after {
+  content: "";
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  width: 100px;
+  height: 70px;
+  left: 50px;
+  background: url(/lpmarketing/logonairuz.svg) no-repeat;
+  background-position: center;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.page-marketing.pg-homologmark #oque-fazemos .descricao-quem p {
+  width: 100%;
+}
+.page-marketing.pg-homologmark #oque-fazemos .descricao-quem .fazer {
+  color: #61DCAB;
+  text-transform: uppercase;
+}
+#oque-fazemos .descricao-quem h2 {
+  font: normal normal 800 27px / 36px Poppins;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+#como-atuamos {
+  background: url(/lpmarketing/fundoatuamos.jpg) no-repeat;
+  padding: 4rem 0;
+  position: relative;
+}
+.page-marketing #certificacoes #certn {
+  position: relative;
+}
+.page-marketing #certificacoes:before {
+  content: '';
+  background: url(/lpmarketing/detalhes/detalhe1-premium.svg) no-repeat;
+  position: absolute;
+  width: 352px;
+  height: 92px;
+  right: 0;
+  left: -40px;
+  top: 50%;
+  display: block;
+}
+.page-marketing #certificacoes:after {
+  content: '';
+  background: url(/lpmarketing/detalhes/detalhe2-premium.svg) no-repeat;
+  position: absolute;
+  width: 332px;
+  height: 92px;
+  right: -128px;
+  top: 64%;
+  display: block;
+  transform: rotate(270deg);
+  background-size: 100%;
+}
+.page-marketing #como-atuamos:before, .page-marketing #certificacoes #certn:before {
+  content: '';
+  background: url(/lpmarketing/detalhes/arrow-down.svg) no-repeat;
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  right: 0;
+  left: 48%;
+  top: -24px;
+}
+.page-marketing #certificacoes #certn:before {
+  top: -101px;
+}
+.page-marketing #como-atuamos:after {
+  content: '';
+  background: url(/lpmarketing/detalhes/arrow-down.svg) no-repeat;
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  right: 0;
+  left: 48%;
+  bottom: -24px;
+  z-index: 1;
+}
+#como-atuamos .titulo-atuamos, #como-atuamos .button-especialista, #cases-sucesso .titulo-cases, .page-marketing .descricao-premios p,
+#cases-sucesso .logo-cases, .page-marketing #o-quedizem .titulo-cases, .page-marketing #certificacoes .titulo-secao,
+#o-quedizem .button-especialista  {
+  text-align: center;
+}
+#como-atuamos .titulo-atuamos h3, .page-marketing #cases-sucesso h3, .page-marketing #o-quedizem .titulo-cases h3,
+#certificacoes .titulo-secao h3, #junte-se .texto-form h3  {
+  text-transform: uppercase;
+  font: normal normal 20px / 87px Poppins;
+  color: #61DCAB;
+}
+#como-atuamos .titulo-atuamos p, .page-marketing #cases-sucesso .titulo-cases p, .page-marketing #o-quedizem .titulo-cases p,
+.page-marketing .descricao-premios p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+#como-atuamos .titulo-atuamos p strong, .page-marketing #cases-sucesso .titulo-cases strong, .page-marketing #o-quedizem .titulo-cases strong,
+.page-marketing .descricao-premios strong {
+  font-weight: 700;
+}
+#como-atuamos .box-accordion {
+  border: 2px solid #61DCAB;
+  border-radius: 0 30px;
+  text-align: center;
+  width: 310px;
+  min-height: 350px;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+#como-atuamos .box-accordion .icone-topo {
+  position: absolute;
+  top: -40px;
+  left: 28%;
+}
+#como-atuamos .titulo-atuacao h3 {
+  color: #61DCAB;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 2rem 0;
+}
+#como-atuamos .texto-accordion {
+  padding: 0 2rem;
+}
+#como-atuamos .texto-accordion details {
+  border-bottom: 1px solid #fff;
+  padding: 12px 0;
+  color: #fff;
+  font-family: 'Poppins';
+  position: relative;
+}
+#como-atuamos .texto-accordion details p {
+  margin: 1rem 0;
+  font-weight: 300;
+  text-align: left;
+  line-height: 22px;
+}
+#como-atuamos .texto-accordion details .saibamais {
+  margin-bottom: 1rem;
+}
+#como-atuamos .texto-accordion details .saibamais a {
+  color: #61DCAB;
+  text-transform: uppercase;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+#como-atuamos .texto-accordion details:last-child {
+  border: 0;
+}
+#como-atuamos summary {
+  position: relative;
+}
+#como-atuamos summary:after {
+	content: "";
+	background: url(/lpmarketing/detalhes/play-down.svg) no-repeat;
+  background-position: center;
+	font-size: 20px;
+	margin: 0 5px;
+	padding: 0;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+  display: inline-block;
+  position: absolute;
+}
+#como-atuamos details[open] summary:after {
+	content: "";
+	background: url(/lpmarketing/detalhes/play-up.svg) no-repeat;
+	background-position: center;
+	font-size: 20px;
+	margin: 0 5px;
+	padding: 0;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+  display: inline-block;
+  position: absolute;
+}
+.page-marketing #o-quedizem .titulo-cases p {
+  margin-bottom: 4rem;
+}
+#como-atuamos details summary::marker {
+  font-size: 0;
+}
+.box-cases .conteudo-cases {
+  border: 2px solid #61DCAB;
+  border-radius: 40px;
+  padding: 2rem;
+  position: relative;
+  height: 420px;
+  width: 226px;
+}
+.box-cases.athletic .conteudo-cases .box-primeiro:before {
+  content: '';
+  position: absolute;
+  background: url(/lpmarketing/ATHLETIC.png) no-repeat;
+  width: 282px;
+  height: 243px;
+  left: -29px;
+  top: 30%;
+  background-position: center;
+  background-size: 100%;
+}
+.box-cases.nova-med .conteudo-cases .box-primeiro:before {
+  content: '';
+  position: absolute;
+  background: url(/lpmarketing/nova-med.png) no-repeat;
+  width: 282px;
+  height: 243px;
+  left: -29px;
+  top: 30%;
+  background-position: center;
+  background-size: 100%;
+}
+.box-cases.covabra .conteudo-cases .box-primeiro:before {
+  content: '';
+  position: absolute;
+  background: url(/lpmarketing/covabra.png) no-repeat;
+  width: 282px;
+  height: 243px;
+  left: -29px;
+  top: 30%;
+  background-position: center;
+  background-size: 100%;
+}
+.box-cases.transpalet .conteudo-cases .box-primeiro:before {
+  content: '';
+  position: absolute;
+  background: url(/lpmarketing/TRANPALET.png) no-repeat;
+  width: 282px;
+  height: 243px;
+  left: -29px;
+  top: 30%;
+  background-position: center;
+  background-size: 100%;
+}
+.box-cases .button-resultados p {
+  border: 1px solid #61DCAB;
+  border-radius: 31px;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  font: normal normal 600 16px / 27px Poppins;
+  letter-spacing: 0.45px;
+  width: 85%;
+  color: #fff;
+}
+.conteudo-cases.primeiro {
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.conteudo-cases.segundo {
+  background: #215A77;
+  transition: background-color 0.5s ease;
+  border-color: #215A77;
+  display: none;
+}
+.conteudo-cases.segundo:before {
+  content: '';
+  position: absolute;
+  background: url(/lpmarketing/detalhes/fundoboxsegundo.png) no-repeat;
+  width: 301px;
+  height: 407px;
+  top: 1%;
+  left: -40px;
+  z-index: -1;
+}
+.page-marketing #carrossel-clientes, #o-quedizem {
+  background: #00175D;
+}
+.page-marketing .box-cases .conteudo-secao li {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 10px;
+  line-height: 19px;
+  font-weight: 300;
+  width: 78%;
+}
+.page-marketing .box-segundo .logo-cases {
+  margin-bottom: 2rem;
+}
+.page-marketing .box-cases .conteudo-secao li strong {
+  font-weight: 800;
+}
+.page-marketing .box-dizer {
+  border: 2px solid #61DCAB;
+  border-radius: 50px 0px;
+  text-align: center;
+  width: 340px;
+  height: 390px;
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+.page-marketing .box-dizer .imagem-cliente {
+  position: absolute;
+  top: -40px;
+  left: 30%;
+}
+.page-marketing #materiaismkt {
+  padding-top: 9rem;
+  padding-bottom: 3rem;
+  position: relative;
+}
+.page-marketing #materiaismkt:before {
+  content: '';
+  background: url(/lpmarketing/detalhes/arrow-down.svg) no-repeat;
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  right: 0;
+  left: 47%;
+  top: 56px;
+}
+#como-atuamos .titulo-atuamos p {
+  margin-bottom: 5rem;
+}
+.page-marketing .box-dizer .descricao-cliente p {
+  font: normal normal normal 14px / 21px Poppins;
+  color: #FFFFFF;
+  font-weight: 300;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.page-marketing #sobremark, .page-marketing #junte-se {
+  background: #001249;
+}
+.page-marketing .box-resultadosmark, .page-marketing .descricao-cert {
+  background: url(/lpmarketing/detalhes/fundoresultadomark.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.page-marketing .box-resultadosmark ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.page-marketing .box-resultadosmark p, .page-marketing .descricao-cert p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 19px;
+}
+.page-marketing .box-resultadosmark p strong, .page-marketing .descricao-cert strong {
+  font-weight: 700;
+}
+.page-marketing .box-resultadosmark span {
+  color: #61DCAB;
+  font-weight: 700;
+}
+.page-marketing #certificacoes {
+  background: url(/lpmarketing/fundo-bg-final.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 5rem;
+}
+.page-marketing .descricao-cert {
+  padding: 2rem;
+}
+.page-marketing .box-cert {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 6px solid #61DCAB;
+  border-radius: 20px;
+  width: 530px;
+  height: 320px;
+  padding: 2rem 4rem;
+}
+.page-marketing .area-certificados {
+  text-align: center;
+  margin-top: 2rem;
+}
+.page-marketing .box-cert ul {
+  justify-content: space-between;
+}
+.page-marketing .btn-cert {
+  border: 3px solid #61DCAB;
+  border-radius: 41px;
+  font: normal normal 17px / 42px Poppins;
+  color: #FFFFFF;
+  width: 54%;
+  margin: auto;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  position: relative;
+}
+#o-quedizem {
+  padding-bottom: 6rem;
+}
+.page-marketing .box-resultadosmark {
+  position: relative;
+  bottom: 50px;
+}
+.page-marketing .btn-cert:after {
+  content: '';
+  position: absolute;
+  height: 70px;
+  width: 3px;
+  background: #61DCAB;
+  top: 43px;
+  left: 48%;
+}
+.mockups-secao {
+  position: relative;
+  padding-bottom: 4rem;
+}
+.mockups-secao:before {
+  content: '';
+  background: #61DCAB 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  height: 139px;
+  width: 1130px;
+  left: -6px;
+  position: absolute;
+  display: inline-block;
+  top: 21%;
+}
+.baixar-material {
+  background: #6411C6 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  padding: 15px;
+  text-align: center;
+  width: 69%;
+  margin: auto;
+  font: normal normal 600 14px / 17px Poppins;
+  letter-spacing: 0.45px;
+  color: #FFFFFF;
+}
+.page-marketing #junte-se {
+  padding: 4rem;
+  padding-top: 0;
+  position: relative;
+}
+.page-marketing #junte-se .texto-form p {
+  font: normal normal 300 16px / 30px Poppins;
+  color: #FFFFFF;
+}
+.page-marketing #junte-se .secao-form {
+  padding: 0 5rem;
+  position: relative;
+}
+.page-marketing #junte-se .secao-form:before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 170px;
+  background: url(/lpmarketing/detalhes/foguete-juntese.svg) no-repeat;
+  background-size: 100%;
+  top: 27%;
+  left: 10px;
+}
+.page-marketing #junte-se .texto-form {
+  padding: 0 25px;
+}
+#o-quedizem .titulo-cliente h3 {
+  font: normal normal normal 20px / 28px Poppins;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#o-quedizem .titulo-cliente p {
+  font: normal normal 600 18px / 28px Poppins;
+  color: #61DCAB;
+}
+.page-marketing .carrossel-nairuzclientes.owl-carousel .owl-prev {
+  background: url(/lpmarketing/detalhes/leftblue.svg) no-repeat;
+  position: absolute;
+  left: 20px;
+  top: -50%;
+  width: 40px;
+  height: 40px;
+}
+.page-marketing .carrossel-nairuzclientes.owl-carousel .owl-next {
+  background: url(/lpmarketing/detalhes/rightblue.svg) no-repeat;
+  position: absolute;
+  right: 20px;
+  top: -50%;
+  width: 40px;
+  height: 40px;
+}
+.carrossel-nairuzclientes .owl-prev span, .carrossel-nairuzclientes .owl-next span {
+  opacity: 0;
+}
+.page-marketing .carrossel-nairuzclientes {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  top: -40px;
+  padding: 0 4rem;
+}
+.page-marketing .carrossel-nairuzclientes.owl-carousel .owl-stage {
+  padding-top: 20px;
+}
+
+.page-marketing .secao-form .row {
+  align-items: center;
+}
+
+.page-marketing .carrossel-nairuzclientes .owl-nav, .page-marketing .oquedizem-clientes .owl-nav, .page-marketing .carrossel-atuacao .owl-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 27%;
+  height: 0;
+}
+.page-marketing .oquedizem-clientes .owl-nav, .page-marketing .carrossel-atuacao .owl-nav {
+  top: 45%;
+}
+.page-marketing .oquedizem-clientes .owl-nav .owl-prev, .carrossel-atuacao .owl-nav .owl-prev  {
+  position: absolute;
+  left: -55px;
+  top: -50%;
+}
+.page-marketing .oquedizem-clientes .owl-nav .owl-next, .carrossel-atuacao .owl-nav .owl-next  {
+  position: absolute;
+  right: -30px;
+  top: -50%;
+}
+.carrossel-atuacao.owl-carousel .owl-stage-outer, .oquedizem-clientes.owl-carousel .owl-stage-outer {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+.carrossel-atuacao .owl-nav .owl-next {
+  right: 6px;
+}
+.page-marketing #como-atuamos .button-especialista, #o-quedizem .button-especialista {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+/*fim nova lp marketing*/
+
 @media (min-width: 1400px) {
   .page-marketing #mkt-bialetti .container {
       max-width: 1300px;
@@ -1753,10 +2397,6 @@ a:hover {
 
 .page-marketing .cliente-nz .assinatura-cliente .nome-cliente {
   font-weight: 600;
-}
-
-.page-marketing .carrossel-clientes {
-  padding-top: 3rem;
 }
 
 .page-marketing .clientes-nairuz .owl-nav img {

@@ -194,7 +194,7 @@ const Footergeral = () => (
       }
     });
   });
-  
+
   //Open Modal Contato
   $('.open-popup-contato').click(function(){
       $('.modal-overlay').show(500);

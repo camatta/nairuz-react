@@ -22,6 +22,81 @@
   #new-video-case iframe {
     height: 392px;
   }
+  /*custom page marketing*/
+  .page-marketing .logonairuz {
+    margin-top: 4rem;
+  }
+  .mockups-secao:before, .page-marketing .box-cert, .box-cases .button-resultados p, 
+  .page-marketing .texto-digital p, .page-marketing.pg-homologmark #oque-fazemos .descricao-quem p {
+    width: 100%;
+  }
+  .page-marketing.pg-homologmark #oque-fazemos {
+    padding-top: 0;
+  }
+  .page-marketing.pg-homologmark #oque-fazemos .descricao-quem .fazer {
+    padding-top: 2rem;
+  }
+  .page-marketing .box-dizer {
+    margin: auto;
+  }
+  .carrossel-atuacao .owl-nav .owl-prev {
+    left: 5px;
+  }
+  .page-marketing .oquedizem-clientes .owl-nav .owl-prev {
+    left: -7px;
+  }
+  .page-marketing .oquedizem-clientes .owl-nav .owl-next {
+    right: -7px;
+  }
+  .page-marketing .box-resultadosmark ul {
+    display: block;
+  }
+  .page-marketing .box-resultadosmark li {
+    margin-bottom: 1rem;
+  }
+  .page-marketing #junte-se .secao-form {
+    padding: 0;
+  }
+  .page-marketing #junte-se {
+    padding: 1rem;
+  }
+  .box-cases .conteudo-cases, #como-atuamos .box-accordion {
+    margin: auto;
+  }
+  .button-resultados {
+    margin: 2rem 0;
+  }
+  .page-marketing #como-atuamos:before, .page-marketing #certificacoes:before,
+  .page-marketing #como-atuamos:after {
+    left: 44%;
+  }
+  .page-marketing .btn-cert {
+    width: 70%;
+  }
+  .page-marketing .box-resultadosmark, .page-marketing .descricao-cert {
+    background: transparent;
+  }
+  .page-marketing .box-resultadosmark {
+    bottom: 0;
+  }
+  .page-marketing .box-resultadosmark p {
+    text-align: center;
+    line-height: 21px;
+  }
+  .page-marketing #junte-se .secao-form:before, .mockups-secao:before, .page-marketing #cases-sucesso:before,
+  .page-marketing #certificacoes:after, .page-marketing #certificacoes:before  {
+    display: none;
+  }
+  .page-marketing .box-cert {
+    height: 280px;
+  }
+  .page-marketing .imagem-cliente {
+    text-align: center;
+  }
+  .page-marketing.pg-homologmark #performance h1 {
+    padding-top: 0;
+  }
+  /*fim custom page marketing*/
 }
 
 @media (max-width: 769px) {
@@ -1495,10 +1570,6 @@
   }
 
   .page-marketing #cronograma-performance .icon-cronograma {
-    display: none;
-  }
-
-  .page-marketing .bar-menumob {
     display: none;
   }
 

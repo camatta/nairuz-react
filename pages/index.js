@@ -465,7 +465,7 @@ export default function Home() {
                       <li><Image src="/parcerias/rdplatinum24.svg" alt="RD Platinum" width={80} height={37} /></li>
                       <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
                       <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
-                      <li><Image src="/novaident/parcerias/shopify-partners.svg" alt="Magento" width={105} height={49} /></li>
+                      <li><Image src="/novaident/parcerias/shopify-partners.svg" alt="Shopify" width={105} height={49} /></li>
                       <li><Image src="/novaident/parcerias/linx-commerce-selo.svg" alt="Linx Partners" width={105} height={49} /></li>
                       <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
                       <li><Image src="/novaident/parcerias/nuvempartners-selo-platinum.svg" alt="Nuvem Partners" width={105} height={49} /></li>

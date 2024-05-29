@@ -1,0 +1,13 @@
+<svg id="Grupo_2636" data-name="Grupo 2636" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.413" y1="0.78" x2="1.226" y2="-0.404" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00175d"/>
+      <stop offset="0.392" stop-color="#205877"/>
+      <stop offset="1" stop-color="#61dcab"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_2734" data-name="Grupo 2734">
+    <circle id="Elipse_104" data-name="Elipse 104" cx="20" cy="20" r="20" fill="url(#linear-gradient)"/>
+    <path id="Icon_akar-arrow-up" data-name="Icon akar-arrow-up" d="M6.269,14.887V0M0,6.513,6.269,0l6.269,6.513" transform="translate(27.951 13.668) rotate(90)" fill="none" stroke="#61dcab" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>
