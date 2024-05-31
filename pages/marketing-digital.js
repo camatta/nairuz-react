@@ -1,16 +1,43 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Headergeral from '../components/Headergeral'
 import HeaderMob from '../components/HeaderMob'
+import Footergeral from '../components/Footergeral'
+import NewsletterNz from '../components/NewsletterNz'
 import Script from 'next/script'
+
 
 const rollServicos = () => {
   document.location.href = '#apresentacao-performance';
 }
 
 const rollOrcamento = () => {
-  document.location.href = '#form-temas';
+  document.location.href = '#junte-se';
 }
 
+const urlHome = () => {
+  document.location.href = '/';
+}
+
+const rollQuemSomos = () => {
+  document.location.href = '#oque-fazemos';
+}
+
+const rollComoAtuamos = () => {
+  document.location.href = '#como-atuamos';
+}
+
+const rollCases = () => {
+  document.location.href = '#cases-sucesso';
+}
+
+const rollParceirosCertificacoes = () => {
+  document.location.href = '#certificacoes';
+}
+
+const rollMateriais = () => {
+  document.location.href = '#materiaismkt';
+}
 
 
 export default function Marketing() {
@@ -40,392 +67,800 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KCTM4JN');`}}></Script>
 
-      <div className="page-marketing">
+      <div className="page-marketing pg-homologmark">
 
-        <header className="container-fluid" id="header-geral">
+      <header className="container-fluid" id="header-geral">
+  <div className="container">
+        <div className="row d-flex align-items-center desktoponly">
+          <div className="col-2">
+            <div className="logo">
+              <div onClick={urlHome}><Image src="/novaident/logonairuznovo.svg" alt="Logo Nairuz" width={129} height={27} /></div>
+            </div>
+          </div>
+          <div className="col-6">
+            <div className="menu">
+              <nav>
+                <ul>
+                  <li className="ativo"><button onClick={urlHome}>Início</button></li>
+                  <li><button onClick={rollQuemSomos}>O que fazemos</button></li>
+                  <li><button onClick={rollComoAtuamos}>Como Atuamos</button></li>
+                  <li><button onClick={rollCases}>Cases</button></li>
+                  <li><button onClick={rollParceirosCertificacoes}>Parceiros e Certificações</button></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div className="col-4 social-contato">
+            <div className="contato">
+              <button onClick={rollOrcamento} className="btn-fale">Fale Conosco</button>
+              <button onClick={rollMateriais} className="btn-fale">Baixar Materiais</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+        <HeaderMob />
+        <main>
+        <section className="container-fluid" id="performance">
           <div className="container">
-            <div className="row d-flex align-items-center">
-              <div className="col-2">
-                <div className="logo">
-                  <Image src="/logo-header.svg" alt="Logo Nairuz" width={150} height={28}/>
+            <div className="row">
+              <div className="col-12 col-md-8">
+                <div className="title-temas">
+                  <h1>Marketing<br></br><span>Full <strong>Service</strong></span></h1>
+                </div>
+                <div className="texto-digital">
+                  <p>Em busca de soluções integradas de marketing digital, que conectam marcas e consumidores com serviços personalizados, visando resultados efetivos, com aquele cuidado humano? Então está no lugar certo.</p>
+                </div>
+                <div className="button-fale">
+                  <a className="falar-com" onClick={rollOrcamento}>Falar com um especialista</a>
                 </div>
               </div>
-              <div className="col-8">
-              </div>
-              <div className="col-2 text-right">
-                <div className="contato">
-                  <button onClick={rollOrcamento} className="btn-contato">Entrar em contato</button>
+              <div className="col-12 col-md-4">
+                <div className="logonairuz">
+                  <div className="fundo-borda"></div>
                 </div>
               </div>
             </div>
           </div>
-        </header>
-        <HeaderMob />
-        <main>
-          <section className="container-fluid" id="performance">
+        </section>
+        <section className="container-fluid" id="oque-fazemos">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <div className="imagemquem">
+                <Image src="/lpmarketing/quemsomossecao.png" width={635} height={675} />
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="descricao-quem">
+                <p className="fazer">O que fazemos?</p>
+                <h2>Transformamos oportunidades<br></br>em cases de sucesso!</h2>
+                <p>Isso mesmo! Exploramos as possibildades de<br></br> aproximar marcas de seus públicos-alvo, utilizando<br></br>insights derivados de análise de dados, para assim<br></br>criar experiências digitais valiosas e impulsionar o <br></br>crescimentos das receitas. Como parceiros das<br></br>melhores empresas de soluções digitais, nossa<br></br>equipe diversificada de especialistas colabora com<br></br>nossos clientes para garantir acesso ao mercado<br></br>digital, oferencendo estratégias de marketing digital<br></br> de qualidade que alavancam as marcas rumo ao<br></br>sucesso.</p>
+                <div className="button-especialista">
+                  <a className="fale-com" onClick={rollOrcamento}>Falar com um especialista</a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <section className="container-fluid" id="como-atuamos">
             <div className="container">
               <div className="row">
                 <div className="col-12">
-                  <div className="title-temas">
-                    <h1>Impulsione o seu e-commerce: venda mais, com um ticket maior, para mais pessoas e em vários canais.</h1>
+                  <div className="titulo-atuamos">
+                    <h3>Como Atuamos</h3>
+                    <p>Contamos com uma ampla variedade de soluções para alcançar resultados<br></br> surpreendentes com <strong>excelência e entregar serviços extremamente personalizados.</strong></p>
                   </div>
-                  <div className="buttons-temas">
-                    <a className="saiba-mais-temas" onClick={rollOrcamento}>Quero vender mais</a>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                <div className="carrossel-atuacao owl-carousel owl-default">
+                  <div className="box-accordion">
+                    <div className="icone-topo">
+                    <Image src="/lpmarketing/icon-trafegopago.svg" width={127} height={127} />
+                    </div>
+                    <div className="titulo-atuacao">
+                      <h3>Tráfego Pago</h3>
+                    </div>
+                    <div className="texto-accordion">
+                      <details>
+										    <summary>Em multiplataformas</summary>
+                          <p>Estratégias de anúncios pagos em diversas plataformas, bem como Google Ads, Meta Ads e LinkedIn Ads, para aumentar a visibilidade e atrair visitantes qualificados ao site.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Para E-commerces</summary>
+                          <p>Campanhas publicitárias focadas em conversões, visando aumentar as vendas online por meio de anúncios segmentados em plataformas como Google Shopping e mídias sociais.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Captação de leads</summary>
+                          <p>Utilização de anúncios pagos para coletar informações de contato de potenciais clientes, oferecendo conteúdos valiosos ou promoções em troca dos dados.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Reconhecimento de Marca</summary>
+                          <p>Investimento em publicidade para aumentar a visibilidade e fortalecer a presença da marca no mercado, utilizando campanhas de alcance e engajamento nas mídias sociais e motores de busca.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                    </div>
+                  </div>
+                  <div className="box-accordion">
+                    <div className="icone-topo">
+                    <Image src="/lpmarketing/icon-inbound.svg" width={127} height={127} />
+                    </div>
+                    <div className="titulo-atuacao">
+                      <h3>Inbound Marketing</h3>
+                    </div>
+                    <div className="texto-accordion">
+                      <details>
+										    <summary>Redação</summary>
+                          <p>Criação de conteúdos persuasivos e personalizados para e-mails marketing e Landing Pages, visando atrair, engajar e converter leads, fortalecendo a autoridade da marca e impulsionando ações específicas.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Segmentação de leads</summary>
+                          <p>Classificação dos leads com base em critérios específicos, como demografia, comportamento, interesses e outros, para personalizar as estratégias de marketing e melhorar a eficácia das campanhas.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Fluxos de nutrição</summary>
+                          <p>Desenvolvimento de sequências automatizadas de comunicação, como e-mails e conteúdos personalizados, para guiar os leads ao longo da jornada de compra e aumentar as chances de conversão.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                    </div>
+                  </div>
+                  <div className="box-accordion">
+                    <div className="icone-topo">
+                    <Image src="/lpmarketing/icon-seo.svg" width={127} height={127} />
+                    </div>
+                    <div className="titulo-atuacao">
+                      <h3>SEO</h3>
+                    </div>
+                    <div className="texto-accordion">
+                      <details>
+										    <summary>Redação</summary>
+                          <p>Produção de conteúdos estruturados e otimizados com palavras-chave relevantes para melhorar o ranking nos motores de busca e gerar tráfego orgânico qualificado.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Link building</summary>
+                         <p>Táticas para adquirir backlinks de qualidade de outros sites relevantes, aumentando a autoridade do domínio e melhorando a visibilidade nos motores de busca.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Otimização On-page</summary>
+                          <p>Ajustes técnicos e de conteúdo dentro das páginas do site, incluindo meta tags, cabeçalhos e estrutura de URL, para melhorar a indexação e a relevância nos motores de busca.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                    </div>
+                  </div>
+                  <div className="box-accordion">
+                    <div className="icone-topo">
+                    <Image src="/lpmarketing/icon-design.svg" width={127} height={127} />
+                    </div>
+                    <div className="titulo-atuacao">
+                      <h3>Design</h3>
+                    </div>
+                    <div className="texto-accordion">
+                      <details>
+										    <summary>Design publicitário</summary>
+										      <p>Criação de peças visuais impactantes e atraentes para campanhas publicitárias, incluindo banners, anúncios digitais e impressos e vídeos que capturam a atenção e promovem produtos e/ou serviços.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Design UX/UI</summary>
+                          <p>Desenvolvimento de interfaces visualmente atraentes, intuitivas e agradáveis para sites e plataformas, focando na usabilidade, acessibilidade e eficiência dos sites e aplicativos para melhorar a satisfação do usuário.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Marca e Identidade</summary>
+                          <p>Construção e manutenção da identidade visual de uma marca, incluindo logotipos, paletas de cores, tipografia e outros elementos gráficos, para garantir uma presença única que ressoa com os consumidores, aumentando a lembrança e a preferência.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                    </div>
+                  </div>
+                  <div className="box-accordion">
+                    <div className="icone-topo">
+                    <Image src="/lpmarketing/icon-performance.svg" width={127} height={127} />
+                    </div>
+                    <div className="titulo-atuacao">
+                      <h3>Performance</h3>
+                    </div>
+                    <div className="texto-accordion">
+                      <details>
+										    <summary>Web Analytics</summary>
+										      <p>Coleta, análise e interpretação de dados de navegação para entender o comportamento dos usuários em um site, identificar tendências e tomar decisões informadas.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Desk research</summary>
+                          <p>Pesquisa em busca de dados, tendências de mercado e sazonalidade para obter insights, apoiar decisões estratégicas e investir em oportunidades.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                      <details>
+										    <summary>Costumer Success</summary>
+                          <p>Especialistas focados em garantir, de perto, que nossos clientes alcancem seus objetivos e tenham uma experiência positiva na busca por seus resultados, de forma personalizada.</p>
+                          <div className="saibamais">
+                            <a className="linkarea" onClick={rollOrcamento}>Saiba Mais</a>
+                          </div>
+									    </details>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                <div className="button-especialista">
+                    <a className="fale-com" onClick={rollOrcamento}>Falar com um especialista</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="separator-temas">
-              <Image src="/icon-nairuz-full.svg" alt="Logo Nairuz" width={100} height={100} />
-            </div>
           </section>
-          <section className="container-fluid" id="problemas-performance">
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                <div className="col-12">
-                  <div className="text-apresentacao">
-                    <ul>
-                      <li><div className="bg-lista"><span>1.</span></div><p>Você tem um e-commerce e realiza vendas na internet, mas sente que não tem crescimento?</p></li>
-                      <li><div className="bg-lista"><span>2.</span></div><p>Ou pior, elas estão caindo nos últimos meses?</p></li>
-                      <li><div className="bg-lista"><span>3.</span></div><p>Seu faturamento não está como você necessita para ter um negócio saudável?</p></li>
-                    </ul>
-                    <div className="button-servico-performance">
-                      <a onClick={rollOrcamento} className="saiba-mais-temas">FALE COM UM ESPECIALISTA</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section className="container-fluid" id="cronograma-performance">
+
+        <section className="container-fluid" id="cases-sucesso">
             <div className="container">
               <div className="row">
-                <div className="col-12 col-md-3">
-                  <div className="icon-cronograma">
-                    <Image src="/icon-digital.svg" width={95} height={95} />
-                  </div>
-                </div>
-                <div className="col-12 col-md-9">
-                  <div className="content-cronograma">
-                    <div className="title-cronograma">
-                      <p>O digital está cada vez mais presente na vida das pessoas.</p>
-                    </div>
-                    <div className="text-cronograma">
-                      <p>Em 2022, e-commerce brasileiro tem o maior crescimento da América Latina. Levantamento baseado em dados do e-commerce nos países da América Latina, mostra que o país foi analisado com o maior crescimento no ano — a receita das vendas <span>cresceu US$ 8,1 bilhões em 2022</span> em relação ao ano anterior ano.</p><br></br><br></br>
-                      <p>Além disso, o Brasil também apresenta alguns números que o destacam na liderança entre os países latinos, como: US$ 49,2 bilhões em receita; maior parcela de tráfego da web para varejistas da América Latina, com 84%.</p>
-                    </div>
+                <div className="col-12">
+                  <div className="titulo-cases">
+                    <h3>Cases de Sucesso</h3>
+                    <p>Conheça nossos cases de sucesso e veja como a Nairuz <strong>impulsionou diversos negócios online,</strong><br></br> ao passo que descobre por que nossas estratégias e resultados conquistaram nossos clientes.</p>
                   </div>
                 </div>
               </div>
               <div className="row">
               <div className="col-12 col-md-3">
-                  <div className="icon-cronograma">
-                    <Image src="/icon-engrenagem.svg" width={95} height={95} />
-                  </div>
-                </div>
-                <div className="col-12 col-md-9">
-                  <div className="content-cronograma">
-                    <div className="title-cronograma">
-                      <p>O que a Nairuz faz?</p>
-                    </div>
-                    <div className="text-cronograma">
-                      <p>Unimos Tecnologia e Marketing Digital, focados em performance, com uma equipe multidisciplinar de especialistas experientes para conquistar o resultado que seu negócio precisa.</p><br></br><br></br>
-                      <p>Utilizamos tecnologia para conectar marcas e consumidores, sem perder a essência de um trabalho personalizado. Afinal, somos pessoas cuidando de pessoas, por isso, levamos no peito nossa cultura.</p><br></br><br></br>
-                      <p>Nossa meta é o <span>crescimento contínuo de nossos clientes</span> parceiros e, por isso, promovemos um atendimento personalizado e planos sólidos de marketing digital, totalmente adaptados às necessidades de cada empresa.</p>
+                <div className="box-cases athletic">
+                <div className="conteudo-cases primeiro">
+                  <div className="box-primeiro">
+                    <div className="logo-cases">
+                      <Image src="/lpmarketing/logo-athletic-cases.png" width={166} height={37} />
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12">
-                  <div className="button-servico-performance">
-                    <a onClick={rollOrcamento} className="saiba-mais-temas">FALE COM UM ESPECIALISTA</a>
                   </div>
-                </div>
-              </div>
-            </div>
-          </section>
-            <section className="container-fluid" id="mkt-bialetti">
-              <div className="container">
-                <div className="row">
-                  <div className="col-12">
-                    <h3>Case de Sucesso:</h3>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-12 col-md-4">
-                    <div className="case-marketing">
-                      <div className="video-case-mkt">
-                        <iframe width="560" height="250" src="https://www.youtube.com/embed/MJBFkV03N0s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                  <div className="conteudo-cases segundo">
+                  <div className="box-segundo">
+                      <div className="logo-cases">
+                        <Image src="/lpmarketing/logo-athletic-cases.png" width={166} height={37} />
                       </div>
-                      <div className="nome-case-mkt">
-                        <p>Nova Medicamentos</p>
-                      </div>
-                      <div className="lista-case-mkt">
+                      <div className="conteudo-secao">
                         <ul>
-                          <li><p>Aumento de 139,73% de <span>tráfego orgânico</span> com técnicas de SEO;</p></li>
-                          <li><p>63% em <span>faturamento orgânico</span> com as técnicas de SEO;</p></li>
-                          <li><p>75% das palavras-chave na <span>primeira posição do Google</span>.</p></li>
+                          <li>• Crescimento de <strong>105,41%</strong></li>
+                          <li>• Aumento de <strong>221%</strong> no tráfego do site</li>
+                          <li>• Resultados em <strong>1 ano</strong> de parceria</li>
                         </ul>
                       </div>
                     </div>
+                    </div>
+                  <div className="button-resultados">
+                    <p>Ver resultados</p>
                   </div>
-                  <div className="col-12 col-md-4">
-                    <div className="case-marketing">
-                      <div className="video-case-mkt">
-                        <iframe width="560" height="250" src="https://www.youtube.com/embed/EEkEZIJ8FX4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+              </div>
+                <div className="col-12 col-md-3">
+                  <div className="box-cases nova-med">
+                  <div className="conteudo-cases primeiro">
+                    <div className="box-primeiro">
+                      <div className="logo-cases">
+                        <Image src="/lpmarketing/logo-nova-medica-cases.png" width={141} height={48} />
                       </div>
-                      <div className="nome-case-mkt">
-                        <p>Maravilhas do Lar</p>
+                    </div>
+                    </div>
+                    <div className="conteudo-cases segundo">
+                    <div className="box-segundo">
+                      <div className="logo-cases">
+                        <Image src="/lpmarketing/logo-nova-medica-cases.png" width={141} height={48} />
                       </div>
-                      <div className="lista-case-mkt">
+                      <div className="conteudo-secao">
                         <ul>
-                          <li><p><span>Aumento de 44% da receita</span> nos 6 primeiros meses do projeto;</p></li>
-                          <li><p>Mais de 46% de <span>aumento no número de transações</span> médio mensal;</p></li>
-                          <li><p>Aumento de mais de 12% no tráfego, <span>sem alterações da verba média</span>.</p></li>
+                          <li>• Aumento de <strong>139%</strong> no tráfego orgânico.</li>
+                          <li>• <strong>63%</strong> em faturamento orgânico.</li>
+                          <li>• <strong>75%</strong> das palavras-chave na primeira posição do Google.</li>
                         </ul>
                       </div>
                     </div>
+                    </div>
+                    <div className="button-resultados">
+                      <p>Ver resultados</p>
+                    </div>
                   </div>
-                  <div className="col-12 col-md-4">
-                    <div className="case-marketing">
-                      <div className="video-case-mkt">
-                        <iframe width="560" height="250" src="https://www.youtube.com/embed/RgcEgNTjTLg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+                <div className="col-12 col-md-3">
+                  <div className="box-cases covabra">
+                  <div className="conteudo-cases primeiro">
+                    <div className="box-primeiro">
+                      <div className="logo-cases">
+                        <Image src="/lpmarketing/logo-covabra-cases.png" width={147} height={52} />
                       </div>
-                      <div className="nome-case-mkt">
-                        <p>Covabra</p>
+                    </div>
+                    </div>
+                    <div className="conteudo-cases segundo">
+                    <div className="box-segundo">
+                      <div className="logo-cases">
+                        <Image src="/lpmarketing/logo-covabra-cases.png" width={147} height={52} />
                       </div>
-                      <div className="lista-case-mkt">
+                      <div className="conteudo-secao">
                         <ul>
-                          <li><p>+127% de <span>acessos orgânicos</span> em menos de um ano;</p></li>
-                          <li><p><span>92% de crescimento</span> no faturamento em menos de um ano;</p></li>
-                          <li><p>ROAS maior que <span>1100% em campanhas pagas</span>.</p></li>
+                          <li>• Crescimento de <strong>92%</strong> no faturamento.</li>
+                          <li>• Aumento de <strong>127%</strong> nas visitas orgânicas no site.</li>
+                          <li>• ROAS maior que <strong>1.100%.</strong></li>
                         </ul>
                       </div>
                     </div>
+                    </div>
+                    <div className="button-resultados">
+                      <p>Ver resultados</p>
+                    </div>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-12">
-                    <div className="button-servico-performance">
-                      <a onClick={rollOrcamento} className="saiba-mais-temas">QUERO ME TORNAR UM CASE DE SUCESSO</a>
+                <div className="col-12 col-md-3">
+                  <div className="box-cases transpalet">
+                    <div className="conteudo-cases primeiro">
+                    <div className="box-primeiro">
+                      <div className="logo-cases">
+                        <Image src="/lpmarketing/logo-transpalet-cases.png" width={104} height={89} />
+                      </div>
+                    </div>
+                    </div>
+                    <div className="conteudo-cases segundo">
+                    <div className="box-segundo">
+                      <div className="logo-cases">
+                        <Image src="/lpmarketing/logo-transpalet-cases.png" width={104} height={89} />
+                      </div>
+                      <div className="conteudo-secao">
+                        <ul>
+                          <li>• Crescimento de <strong>92%</strong> no faturamento.</li>
+                          <li>• Aumento de <strong>127%</strong> nas visitas orgânicas no site.</li>
+                          <li>• ROAS maior que <strong>1.100%.</strong></li>
+                        </ul>
+                      </div>
+                    </div>
+                    </div>
+                    <div className="button-resultados">
+                      <p>Ver resultados</p>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
+        </section>
 
-          <section className="container" id="clientes-nz">
-            <div className="row">
-              <div className="col-12">
-                <div className="parcerias-certificacoes">
-                  <div className="parcerias">
-                    <div className="title-clientes-vtex">
-                      <h4>Clientes que confiam em nosso trabalho</h4>
-                    </div>
-                    <ul className="d-flex align-items-center mb-5">
-                      <li><Image src="/clientes/bialetti.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/gaggia.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/imeltron.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/lvstore.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/gptw.svg" width={116} height={55} /></li>
-                    </ul>
-                    <ul className="d-flex align-items-center mb-5">
-                      <li><Image src="/clientes/samsung.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/docol.svg" width={116} height={55} /></li>
-                      <li><Image src="/clientes/pedigree.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/minassal.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/cybelar.png" width={116} height={55} /></li>
-                    </ul>
-                    <ul className="d-flex align-items-center mb-5">
-                      {/* <li><Image src="/clientes/gptw.svg" width={116} height={55} /></li> */}
-                      <li><Image src="/clientes/logo-farma-delivery.png" alt="Farma Delivery" width={110} height={35} /></li>
-                      <li><Image src="/clientes/grupo-card.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/azul.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/sempreviva.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/novamed.png" width={116} height={55} /></li>
-                    </ul>
-                    <ul className="d-flex align-items-center">
-                      <li><Image src="/clientes/rcrio.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/athletic.svg" width={116} height={55} /></li>
-                      <li><Image src="/clientes/udiaco.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/maravilhas.png" width={116} height={55} /></li>
-                      <li><Image src="/clientes/covabra.png" width={116} height={55} /></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="container" id="aumentar-vendas">
-            <div className="row">
-              <div className="col-12">
-                <div className="chamada-vendas">
-                  <h4>Aumente suas vendas e lucro, sem aumentar a equipe:</h4>
-                  <h5>Para fazer o marketing da sua empresa, você precisaria de no MÍNIMO, <span>5 funcionários:</span></h5>
-                </div>
-                <div className="lista-profissionais">
-                  <ul>
-                    <li><p><span>1.</span>Profissional de SEO</p></li>
-                    <li><p><span>2.</span>Designer gráfico</p></li>
-                    <li><p><span>3.</span>Gestor de tráfego</p></li>
-                    <li><p><span>4.</span>Profissional de Inbound Marketing</p></li>
-                    <li><p><span>5.</span>Consultor de e-commerce</p></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="row align-items-center">
-              <div className="col-12 col-md-6">
-                <div className="text-aumentar-vendas">
-                  <p>Além disso, contamos com uma equipe completa, especializada e certificada pelas melhores e mais buscadas plataformas de e-commerce.</p>
-                  <p>Desenvolvemos, integramos e ajustamos os componentes da plataforma para atender às demandas únicas da sua empresa!</p>
-                  <p>Aqui na Nairuz você vai ter todo nosso time de especialistas certificados para atender as demandas da sua empresa, reduzindo seu custo em contratar cada um deles, sem falar na otimização do seu tempo para gerir esses profissionais.</p>
-                  <p><span>Aqui você terá suporte totalmente dedicado ao seu negócio.</span></p>
-                </div>
-              </div>
-              <div className="col-12 col-md-6">
-                <div className="img-aumentar-vendas">
-                  <Image src="/aumentar-vendas.png" alt="Analista de E-commerce" width={542} height={432} />
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="container" id="parcerias-marketing">
-            <div className="row">
-              <div className="col-12">
-                <div className="parcerias-certificacoes">
-                  <div className="parcerias">
-                    <ul className="d-flex align-items-center mb-4">
-                      <li><Image src="/parcerias/signa.png" alt="Signa" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/biz.png" alt="BizCommerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/bis2bis.png" alt="Bis2Bis" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/linx.png" alt="Linx Commerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/mage.png" alt="Mageshop" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/uol.png" alt="Uol" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/vindi.png" alt="Vindi" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/pagarme.png" alt="pagar.me" width={105} height={49} /></li>
-                    </ul>
-                    <ul className="d-flex align-items-center mb-4">
-                      <li><Image src="/parcerias/amazon.png" alt="Amazon" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/jet-logo.png" alt="Jetcommerce" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/anymarket.png" alt="AnyMarket" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/shopback.png" alt="Shopback" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/hubspot.png" alt="Hubspot" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/rd.png" alt="RD Station" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/semrush.png" alt="SemRush" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/appcampinas.png" alt="APP Campinas" width={105} height={49} /></li>
-                    </ul>
-                  </div>
-                  <div className="certificacoes">
-                    <ul className="d-flex align-items-center">
-                      <li><Image src="/parcerias/google-partner-novo.png" alt="Google Partner" width={99} height={97} /></li>
-                      <li><Image src="/parcerias/rdplatinum22.png" alt="RD Platinum" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/hubacademy.png" alt="HubSport Academy" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/magento.png" alt="Magento" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/linxpartners.png" alt="Linx Partners" width={105} height={49} /></li>
-                      <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="container-fluid" id="form-temas">
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <div className="text-header-form text-center">
-                    <p>Vamos juntos AUMENTAR AS VENDAS DO SEU E-COMMERCE?</p>
-                    <p className="descricao-form">Preencha o formulário abaixo e receba o contato da nossa equipe</p>
-                  </div>
-                  <div className="button-servico-performance">
-                    <a onClick={rollOrcamento} className="saiba-mais-temas">QUERO VENDER MAIS</a>
-                  </div>
-                  <div className="formRd-tema performance">
-                  <div role="main" id="marketing-digital-30c2c87edfdd6cc6aca2"></div>
-                  </div>
-                  <div className="form-tema">
-                    <form>
-                      <div className="linha-form">
-                        <div className="form-nome">
-                          <label htmlFor="nome">Nome *</label>
-                          <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" />
-                        </div>
-                        <div className="form-email">
-                          <label htmlFor="email">E-mail *</label>
-                          <input type="email" className="input-email" name="email" id="email" placeholder="Seu melhor e-mail" />
-                        </div>
-                      </div>
-                      <div className="linha-form">
-                        <div className="form-nome">
-                          <label htmlFor="nome">Telefone *</label>
-                          <input type="text" name="nome" id="nome" placeholder="+55" />
-                        </div>
-                        <div className="form-email">
-                          <label htmlFor="email">Empresa</label>
-                          <input type="email" className="input-email" name="email" id="email" placeholder="Nome da sua empresa" />
-                        </div>
-                      </div>
-                      <div className="linha-form">
-                        <div className="form-email form-selects">
-                          <label htmlFor="email">Qual dos temas mais se assemelha ao seu modelo de negócio?</label>
-                          <input type="email" className="input-email" name="email" id="email" placeholder="Selecione" />
-                        </div>
-                      </div>
-                      <div className="button-form-consultor">
-                        <input className="button-form-temas" type="submit" value="FALAR COM UM DE NOSSOS CONSULTORES" />
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </main>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="footer-logo">
-                <div className="logo">
-                  <Image src="/logo-footer.svg" alt="Nairuz" width={154} height={28} />
-                </div>
-                <div className="nav-footer">
-                  <ul>
-                    <li><a href="https://nairuz.com.br">SITE OFICIAL</a></li>
-                    <li><a href="https://blog.nairuz.com.br">BLOG</a></li>
-                    <li><a href="https://nairuz.com.br/quem-somos">SOBRE NÓS</a></li>
-                    <li><a href="https://nairuz.com.br/cases">CASES DE SUCESSO</a></li>
-                  </ul>
-                </div>
-                <div className="sociais">
-                  <ul>
-                    <li><a href="https://www.facebook.com/NairuzConsultoriaDigital" target="_blank" rel="noopener noreferrer"><Image src="/icon-face-tema.png" alt="Facebook" width={25} height={25} /></a></li>
-                    <li><a href="https://www.instagram.com/nairuzconsultoria" target="_blank" rel="noopener noreferrer"><Image src="/icon-instagram-tema.png" alt="Instagram" width={25} height={25}  /></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCu70MAqws64Vk2dYQlCFVYg" target="_blank" rel="noopener noreferrer"><Image src="/icon-youtube-tema.png" alt="YouTube" width={25} height={25}  /></a></li>
-                    <li><a href="https://www.linkedin.com/company/nairuz" target="_blank" rel="noopener noreferrer"><Image src="/icon-linkedin-tema.png" alt="LinkedIn" width={25} height={25}  /></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid" id="copy-temas">
+        <section className="container-fluid" id="carrossel-clientes">
           <div className="container">
             <div className="row">
-              <div className="col-12">
-                <div className="copyright d-flex align-items-center justify-content-center mobcenter">
-                  <Image src="/selo-br.png" alt="Brasil" width={17} height={12} />
-                  <p>Nairuz Marketing e Tecnologia® 2023 / todos os direitos reservados</p>
+            <div className="col-12">
+                <div className="carrossel-nairuzclientes owl-carousel owl-default">
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-azul.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-clark.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-cybelar.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-farmelhor.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/docol-logo.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-grupocard.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-farma.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-athletic.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-bialetti.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-candybrown.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-casasaopedro.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-choyer.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-covabra.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-dronline.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-dwz.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-elevage.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-farmaciaviva.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-gaggia.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-gptw.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-imeltron.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-lojasrpm.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-lvstore.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-maravilhas.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-minassal.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-mundomarcolina.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-novamed.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-pedigree.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-propetz.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-puramagia.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-samsung.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-udiaco.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-venture.png" width={162} height={76} />
+                  </div>
+                  <div className="imagem-cliente">
+                    <Image src="/lpmarketing/logoclientes/logo-chris.png" width={162} height={76} />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <section className="container-fluid" id="o-quedizem">
+          <div className="container">
+            <div className="row">
+            <div className="col-12">
+                  <div className="titulo-cases">
+                    <h3>O que dizem nossos clientes</h3>
+                    <p>Leia os depoimentos e experiências que nossos clientes compartilham conosco, ouça<br></br> suas vozes e <strong>descubra como a Nairuz tem impactado positivamente suas empresas.</strong></p>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+              <div className="col-12">
+                <div className="oquedizem-clientes owl-carousel owl-default">
+                  <div className="box-dizer">
+                    <div className="imagem-cliente">
+                    <Image src="/lpmarketing/clientes/lv-store.png" width={144} height={144} />
+                    </div>
+                    <div className="titulo-cliente">
+                      <h3>Letícia Vaz</h3>
+                      <p>LV Store</p>
+                    </div>
+                    <div className="descricao-cliente">
+                      <p>Fiquei muito feliz ao ver o resultado<br></br> final do projeto e também todo o<br></br> caminho para chegarmos nele. Todas as solicitações e dúvidas<br></br> foram atendidas de prontidão e da<br></br> melhor forma possível.</p>
+                    </div>
+                  </div>
+                  <div className="box-dizer">
+                    <div className="imagem-cliente">
+                    <Image src="/lpmarketing/clientes/ludka.png" width={144} height={144} />
+                    </div>
+                    <div className="titulo-cliente">
+                      <h3>Marcelo Arruda</h3>
+                      <p>Ludka Homewear</p>
+                    </div>
+                    <div className="descricao-cliente">
+                    <p>A Nairuz está com a Ludka desde a<br></br> criação e concepção da nossa<br></br> marca. Estamos construindo juntos<br></br> o nosso futuro. Ainda temos muitos<br></br> passos pela frente, rumo ao nosso<br></br> sucesso!</p>
+                    </div>
+                  </div>
+                  <div className="box-dizer">
+                    <div className="imagem-cliente">
+                    <Image src="/lpmarketing/clientes/gaggia.png" width={144} height={144} />
+                    </div>
+                    <div className="titulo-cliente">
+                      <h3>Umberto Milo</h3>
+                      <p>Gaggia | Bialetti</p>
+                    </div>
+                    <div className="descricao-cliente">
+                    <p>Os projetos superaram todas as<br></br> expectativas, conseguindo<br></br> “transmitir” requinte e sofisticação<br></br> para o nosso público. A<br></br> performance das lojas também<br></br> estão acima das expectativas.</p>
+                    </div>
+                  </div>
+                  <div className="box-dizer">
+                    <div className="imagem-cliente">
+                    <Image src="/lpmarketing/clientes/casa-sao-pedro.png" width={144} height={144} />
+                    </div>
+                    <div className="titulo-cliente">
+                      <h3>Marcos Tomazi</h3>
+                      <p>Casa São Pedro</p>
+                    </div>
+                    <div className="descricao-cliente">
+                    <p>Fiquei muito satisfeito com o nosso projeto, superaram nossas expectativas. Do projeto ao Go-live estiveram presentes em todas etapas. E estão conosco até hoje, mantendo a evolução contínua.</p>
+                    </div>
+                  </div>
+                  <div className="box-dizer">
+                    <div className="imagem-cliente">
+                    <Image src="/lpmarketing/clientes/congelados-sonia.png" width={144} height={144} />
+                    </div>
+                    <div className="titulo-cliente">
+                      <h3>Adriana Carpegiani</h3>
+                      <p>Congelados da Sônia</p>
+                    </div>
+                    <div className="descricao-cliente">
+                    <p>A Nairuz esteve num momento de transição difícil e nos troue soluções. Todas decisões são avaliadas visando um melhor resultado! Recomendo como agência de marketing 360º.</p>
+                    </div>
+                  </div>
+                  <div className="box-dizer">
+                    <div className="imagem-cliente">
+                    <Image src="/lpmarketing/clientes/rpm.png" width={144} height={144} />
+                    </div>
+                    <div className="titulo-cliente">
+                      <h3>Renato Soares</h3>
+                      <p>Lojas RPM</p>
+                    </div>
+                    <div className="descricao-cliente">
+                    <p>A nossa história com a Nairuz tem uma longa jornada, sempre contribuíram conosco em todas as etapas. Recomendamos como agência full service, somos de fato parceiros.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                <div className="button-especialista">
+                    <a className="fale-com" onClick={rollOrcamento}>Falar com um especialista</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="container-fluid" id="sobremark">
+          <div className="container">
+            <div className="row">
+              <div className="box-resultadosmark">
+                <ul>
+                  <li><p><span>12</span> diferentes<br></br><strong>segmentos</strong> de atuação.</p></li>
+                  <li><p><strong>SLA</strong> de resposta dos<br></br>chamados em até <span>1 dia útil.</span></p></li>
+                  <li><p>Gerencimento de + <span>RS 3M</span><br></br>em <strong>verbas publicitárias.</strong></p></li>
+                  <li><p><strong>NPS</strong> geral em<br></br><span>9,6 pontos.</span></p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="container-fluid" id="junte-se">
+          <div className="container secao-form">
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <div className="area-form">
+                <div className="texto-form">
+                  <h3>Junte-se a nós!</h3>
+                  <p>Não perca mais tempo! Assista seus<br></br> números dispararem rumo ao sucesso.<br></br> Basta deixar suas informações abaixo e<br></br> nossa equipe entrará em contato com<br></br> você!</p>
+                </div>
+                  <div role="main" id="lp-performance-2022-e3e11f834cac8208347b"></div>
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="banner-junte">
+                <Image src="/lpmarketing/banner-juntar.png" width={636} height={675} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="container-fluid" id="certificacoes">
+          <div className="container" id="certn">
+            <div className="row">
+              <div className="col-12">
+                <div className="titulo-secao">
+                  <h3>Prêmios e certificações</h3>
+                </div>
+                <div className="descricao-cert">
+                <p>Nosso compromisso com a <strong>excelência se traduz em certificações e premiações.</strong><br></br>Que tal confiar em uma agência reconhecida para impulsionar seu negócio?</p>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <div className="area-certificados">
+                  <div className="btn-cert">
+                    Nossos certificados
+                  </div>
+                </div>
+                <div className="box-cert">
+                  <ul className="d-flex align-items-center mb-4">
+                    <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
+                    <li><Image src="/lpmarketing/google-partner.jpg" alt="Google Partner" width={101} height={72} /></li>
+                    <li><Image src="/parcerias/hubspot.png" alt="Hubspot" width={105} height={49} /></li>
+                  </ul>
+                  <ul className="d-flex align-items-center mb-4">
+                    <li><Image src="/parcerias/rdplatinum22.png" alt="RD Platinum" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/shopify-partners.svg" alt="Shopify" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/ecommerce.png" alt="E-commerce Ouro" width={105} height={49} /></li>
+                  </ul>
+                  <ul className="d-flex align-items-center mb-4">
+                    <li><Image src="/novaident/parcerias/nuvempartners-selo-platinum.svg" alt="Nuvem Partners" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/linx-commerce-selo.svg" alt="Linx Partners" width={105} height={49} /></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="area-certificados parceiros">
+                  <div className="btn-cert">
+                    Nossos parceiros
+                  </div>
+                </div>
+                <div className="box-cert">
+                  <ul className="d-flex align-items-center mb-4">
+                      <li><Image src="/parcerias/uol.png" alt="Uol" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/biz.png" alt="BizCommerce" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/linx.png" alt="Linx Commerce" width={105} height={49} /></li>
+                      <li><Image src="/parcerias/mage.png" alt="Mageshop" width={105} height={49} /></li>
+                  </ul>
+                  <ul className="d-flex align-items-center mb-4">
+                    <li><Image src="/novaident/parcerias/Nuvemshop-logo.svg" alt="NuvemShop" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/shopify-partners.svg" alt="Shopify" width={105} height={49} /></li>
+                    <li><Image src="/parcerias/vtexpartner.png" alt="vTex" width={105} height={49} /></li>
+                  </ul>
+                  <ul className="d-flex align-items-center mb-4">
+                    <li><Image src="/novaident/parcerias/mercado-pago-logo.svg" alt="MercadoPago" width={105} height={49} /></li>
+                    <li><Image src="/novaident/parcerias/PluggTo-Original-Logo-Green.svg" alt="pluggto" width={105} height={49} /></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container" id="materiaismkt">
+            <div className="row">
+              <div className="col-12">
+                <div className="titulo-secao">
+                  <h3>Conteúdos Premium</h3>
+                </div>
+                <div className="descricao-premios">
+                  <p>Explore nossos materiais exclusivos, descubra <strong>insights valiosos e veja como fazemos marketing</strong><br></br> <strong>digital.</strong> Baixe agora e tenha acesso às melhores estratégias com nosso conteúdo especializado.</p>
+                </div>
+              </div>
+            </div>
+            <div className="mockups-secao">
+                <div className="row">
+                  <div className="col-12 col-md-3 removeraqui">
+                    <div className="materiais">
+                      <div className="imagem-materiais">
+                        <Image src="/lpmarketing/mockups/planejamento-projecao.png" alt="Mockup 1" width={800} height={996} />
+                      </div>
+                      <div className="baixar-material">
+                        Baixar Material
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <div className="materiais">
+                      <div className="imagem-materiais">
+                        <Image src="/lpmarketing/mockups/taxa-absorcao.png" alt="Mockup 2" width={800} height={996} />
+                      </div>
+                      <a href="https://materiais.nairuz.com.br/download_taxadeabsorcao" target="_blank" rel="noopener noreferrer"><div className="baixar-material">
+                        Baixar Material
+                      </div></a>
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-3">
+                    <div className="materiais">
+                      <div className="imagem-materiais">
+                        <Image src="/lpmarketing/mockups/importancia-layout-ecommerce.png" alt="Mockup 3" width={800} height={996} />
+                      </div>
+                      <a href="https://materiais.nairuz.com.br/e-book-a-importancia-do-layout-para-sua-loja-virtual" target="_blank" rel="noopener noreferrer"><div className="baixar-material">
+                        Baixar Material
+                      </div></a>
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-3 removeraqui">
+                    <div className="materiais">
+                      <div className="imagem-materiais">
+                        <Image src="/lpmarketing/mockups/contratar-agenciamarketing.png" alt="Mockup 4" width={800} height={996} />
+                      </div>
+                      <div className="baixar-material">
+                        Baixar Material
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <NewsletterNz />
+
+        </main>
+
+        <Script id="carrossel-lp" strategy="lazyOnload">
+        {`
+        // Carrossel LP Marketing
+  $(document).ready(function(){
+    $(".carrossel-nairuzclientes.owl-carousel").owlCarousel({
+      items: 7,
+      dots: true,
+      nav: true,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true,
+      responsive:{
+          0:{
+              items:1,
+          },
+          800:{
+              items:7,
+          },
+          1000:{
+              items:7,
+          }
+      }
+    });
+  });
+
+  if (window.RDStationForms) {
+    new RDStationForms('lp-performance-2022-e3e11f834cac8208347b', 'UA-48773259-1').createForm();
+  }
+  `}
+  </Script>
+        
+
+        <Footergeral />
+        
 
         </div>
 
@@ -437,34 +872,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <Script id="show-bannerx" strategy="lazyOnload">
   {`
 
-// Carrossel geral
+
+
 $(document).ready(function(){
-  $(".owl-carousel.owl-default").owlCarousel({
-    items: 3,
-    nav: true,
-    navText: ["<img src='/arrow-left.svg'>","<img src='/arrow-right.svg'>"],
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:1,
-            nav:false
-        },
-        1000:{
-            items:3,
-            nav:true,
-            loop:false
-        }
-    }
+  $(".box-cases.athletic .button-resultados").click(function(){
+    $(".box-cases.athletic .conteudo-cases.primeiro").toggle();
+    $(".box-cases.athletic .conteudo-cases.segundo").toggle();
   });
+
+  $(".box-cases.nova-med .button-resultados").click(function(){
+    $(".box-cases.nova-med .conteudo-cases.primeiro").toggle();
+    $(".box-cases.nova-med .conteudo-cases.segundo").toggle();
+  });
+
+  $(".box-cases.covabra .button-resultados").click(function(){
+    $(".box-cases.covabra .conteudo-cases.primeiro").toggle();
+    $(".box-cases.covabra .conteudo-cases.segundo").toggle();
+  });
+
+  $(".box-cases.transpalet .button-resultados").click(function(){
+    $(".box-cases.transpalet .conteudo-cases.primeiro").toggle();
+    $(".box-cases.transpalet .conteudo-cases.segundo").toggle();
+  });
+
 });
- 
-  if (window.RDStationForms) {
-    new RDStationForms('marketing-digital-30c2c87edfdd6cc6aca2', 'UA-48773259-1').createForm();
-  }
+
+  // Carrossel LP Marketing
+  $(document).ready(function(){
+    $(".carrossel-atuacao.owl-carousel.carrossel").owlCarousel({
+      items: 3,
+      dots: true,
+      nav: false,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true,
+      responsive:{
+          0:{
+              items:1,
+          },
+          800:{
+              items:1,
+          },
+          1000:{
+              items:3,
+          }
+      }
+    });
+  });
+
 
   if($('.overlay-loading').length){
     setTimeout(function() { 

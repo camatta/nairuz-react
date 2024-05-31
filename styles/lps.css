@@ -1643,7 +1643,7 @@ a:hover {
 }
 
 /*nova lp marketing*/
-.page-marketing.pg-homologmark #oque-fazemos, .page-marketing #cases-sucesso {
+.page-marketing #oque-fazemos, .page-marketing #cases-sucesso {
   background: #001249;
   padding: 5rem 0;
 }
@@ -1661,12 +1661,12 @@ a:hover {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.page-marketing.pg-homologmark #performance {
+.page-marketing #performance {
   background-image: url(/lpmarketing/fundolp.jpg);
   padding: 15rem 0;
   padding-top: 10rem;
 }
-.page-marketing.pg-homologmark #performance h1 {
+.page-marketing #performance h1 {
   width: 100%;
   text-align: left;
   margin-bottom: 2rem;
@@ -1681,11 +1681,11 @@ a:hover {
   font-size: 81px;
   font-style: italic;
 }
-.page-marketing.pg-homologmark #performance h1 span strong {
+.page-marketing #performance h1 span strong {
   color: #fff;
   font-style: normal;
 }
-.page-marketing .texto-digital p, .page-marketing.pg-homologmark #oque-fazemos .descricao-quem p {
+.page-marketing .texto-digital p, .page-marketing #oque-fazemos .descricao-quem p {
   position: relative;
   width: 59%;
   margin-bottom: 1rem;
@@ -1696,7 +1696,7 @@ a:hover {
 .page-marketing .texto-digital p {
   margin-bottom: 2rem;
 }
-.page-marketing .falar-com, .button-especialista .fale-com {
+.page-marketing .falar-com, .page-marketing .button-especialista .fale-com {
   border: 1px solid #61DCAB;
   border-radius: 31px;
   padding: 11px 19px;
@@ -1705,7 +1705,7 @@ a:hover {
   letter-spacing: 0.45px;
   color: #FFFFFF;
 }
-.page-marketing .falar-com:hover, .button-especialista .fale-com:hover, .box-cases .button-resultados p:hover {
+.page-marketing .falar-com:hover, .page-marketing .button-especialista .fale-com:hover, .page-marketing .box-cases .button-resultados p:hover {
   color: #00175D;
   background-color: #61DCAB;
   cursor: pointer;
@@ -1754,12 +1754,12 @@ a:hover {
   color: #61DCAB;
   text-transform: uppercase;
 }
-#oque-fazemos .descricao-quem h2 {
+.page-marketing #oque-fazemos .descricao-quem h2 {
   font: normal normal 800 27px / 36px Poppins;
   color: #FFFFFF;
   margin-bottom: 1rem;
 }
-#como-atuamos {
+.page-marketing #como-atuamos {
   background: url(/lpmarketing/fundoatuamos.jpg) no-repeat;
   padding: 4rem 0;
   position: relative;
@@ -1815,18 +1815,18 @@ a:hover {
   bottom: -24px;
   z-index: 1;
 }
-#como-atuamos .titulo-atuamos, #como-atuamos .button-especialista, #cases-sucesso .titulo-cases, .page-marketing .descricao-premios p,
-#cases-sucesso .logo-cases, .page-marketing #o-quedizem .titulo-cases, .page-marketing #certificacoes .titulo-secao,
-#o-quedizem .button-especialista  {
+.page-marketing #como-atuamos .titulo-atuamos, .page-marketing #como-atuamos .button-especialista, .page-marketing #cases-sucesso .titulo-cases, .page-marketing .descricao-premios p,
+.page-marketing #cases-sucesso .logo-cases, .page-marketing #o-quedizem .titulo-cases, .page-marketing #certificacoes .titulo-secao,
+.page-marketing #o-quedizem .button-especialista  {
   text-align: center;
 }
-#como-atuamos .titulo-atuamos h3, .page-marketing #cases-sucesso h3, .page-marketing #o-quedizem .titulo-cases h3,
-#certificacoes .titulo-secao h3, #junte-se .texto-form h3  {
+.page-marketing #como-atuamos .titulo-atuamos h3, .page-marketing #cases-sucesso h3, .page-marketing #o-quedizem .titulo-cases h3,
+.page-marketing #certificacoes .titulo-secao h3, #junte-se .texto-form h3  {
   text-transform: uppercase;
   font: normal normal 20px / 87px Poppins;
   color: #61DCAB;
 }
-#como-atuamos .titulo-atuamos p, .page-marketing #cases-sucesso .titulo-cases p, .page-marketing #o-quedizem .titulo-cases p,
+.page-marketing #como-atuamos .titulo-atuamos p, .page-marketing #cases-sucesso .titulo-cases p, .page-marketing #o-quedizem .titulo-cases p,
 .page-marketing .descricao-premios p {
   color: #fff;
   font-size: 20px;
@@ -1834,11 +1834,11 @@ a:hover {
   margin-bottom: 3rem;
   font-weight: 300;
 }
-#como-atuamos .titulo-atuamos p strong, .page-marketing #cases-sucesso .titulo-cases strong, .page-marketing #o-quedizem .titulo-cases strong,
+.page-marketing #como-atuamos .titulo-atuamos p strong, .page-marketing #cases-sucesso .titulo-cases strong, .page-marketing #o-quedizem .titulo-cases strong,
 .page-marketing .descricao-premios strong {
   font-weight: 700;
 }
-#como-atuamos .box-accordion {
+.page-marketing #como-atuamos .box-accordion {
   border: 2px solid #61DCAB;
   border-radius: 0 30px;
   text-align: center;
@@ -1848,49 +1848,49 @@ a:hover {
   padding-top: 5rem;
   padding-bottom: 0rem;
 }
-#como-atuamos .box-accordion .icone-topo {
+.page-marketing #como-atuamos .box-accordion .icone-topo {
   position: absolute;
   top: -40px;
   left: 28%;
 }
-#como-atuamos .titulo-atuacao h3 {
+.page-marketing #como-atuamos .titulo-atuacao h3 {
   color: #61DCAB;
   text-transform: uppercase;
   font-weight: 700;
   padding: 2rem 0;
 }
-#como-atuamos .texto-accordion {
+.page-marketing #como-atuamos .texto-accordion {
   padding: 0 2rem;
 }
-#como-atuamos .texto-accordion details {
+.page-marketing #como-atuamos .texto-accordion details {
   border-bottom: 1px solid #fff;
   padding: 12px 0;
   color: #fff;
   font-family: 'Poppins';
   position: relative;
 }
-#como-atuamos .texto-accordion details p {
+.page-marketing #como-atuamos .texto-accordion details p {
   margin: 1rem 0;
   font-weight: 300;
   text-align: left;
   line-height: 22px;
 }
-#como-atuamos .texto-accordion details .saibamais {
+.page-marketing #como-atuamos .texto-accordion details .saibamais {
   margin-bottom: 1rem;
 }
-#como-atuamos .texto-accordion details .saibamais a {
+.page-marketing #como-atuamos .texto-accordion details .saibamais a {
   color: #61DCAB;
   text-transform: uppercase;
   text-decoration: underline !important;
   cursor: pointer;
 }
-#como-atuamos .texto-accordion details:last-child {
+.page-marketing #como-atuamos .texto-accordion details:last-child {
   border: 0;
 }
-#como-atuamos summary {
+.page-marketing #como-atuamos summary {
   position: relative;
 }
-#como-atuamos summary:after {
+.page-marketing #como-atuamos summary:after {
 	content: "";
 	background: url(/lpmarketing/detalhes/play-down.svg) no-repeat;
   background-position: center;
@@ -1903,7 +1903,7 @@ a:hover {
   display: inline-block;
   position: absolute;
 }
-#como-atuamos details[open] summary:after {
+.page-marketing #como-atuamos details[open] summary:after {
 	content: "";
 	background: url(/lpmarketing/detalhes/play-up.svg) no-repeat;
 	background-position: center;
@@ -1919,10 +1919,10 @@ a:hover {
 .page-marketing #o-quedizem .titulo-cases p {
   margin-bottom: 4rem;
 }
-#como-atuamos details summary::marker {
+.page-marketing #como-atuamos details summary::marker {
   font-size: 0;
 }
-.box-cases .conteudo-cases {
+.page-marketing .box-cases .conteudo-cases {
   border: 2px solid #61DCAB;
   border-radius: 40px;
   padding: 2rem;
@@ -1930,7 +1930,7 @@ a:hover {
   height: 420px;
   width: 226px;
 }
-.box-cases.athletic .conteudo-cases .box-primeiro:before {
+.page-marketing .box-cases.athletic .conteudo-cases .box-primeiro:before {
   content: '';
   position: absolute;
   background: url(/lpmarketing/ATHLETIC.png) no-repeat;
@@ -1941,7 +1941,7 @@ a:hover {
   background-position: center;
   background-size: 100%;
 }
-.box-cases.nova-med .conteudo-cases .box-primeiro:before {
+.page-marketing .box-cases.nova-med .conteudo-cases .box-primeiro:before {
   content: '';
   position: absolute;
   background: url(/lpmarketing/nova-med.png) no-repeat;
@@ -1952,7 +1952,7 @@ a:hover {
   background-position: center;
   background-size: 100%;
 }
-.box-cases.covabra .conteudo-cases .box-primeiro:before {
+.page-marketing .box-cases.covabra .conteudo-cases .box-primeiro:before {
   content: '';
   position: absolute;
   background: url(/lpmarketing/covabra.png) no-repeat;
@@ -1963,7 +1963,7 @@ a:hover {
   background-position: center;
   background-size: 100%;
 }
-.box-cases.transpalet .conteudo-cases .box-primeiro:before {
+.page-marketing .box-cases.transpalet .conteudo-cases .box-primeiro:before {
   content: '';
   position: absolute;
   background: url(/lpmarketing/TRANPALET.png) no-repeat;
@@ -1974,7 +1974,7 @@ a:hover {
   background-position: center;
   background-size: 100%;
 }
-.box-cases .button-resultados p {
+.page-marketing .box-cases .button-resultados p {
   border: 1px solid #61DCAB;
   border-radius: 31px;
   padding: 6px 10px;
@@ -1984,16 +1984,16 @@ a:hover {
   width: 85%;
   color: #fff;
 }
-.conteudo-cases.primeiro {
+.page-marketing .conteudo-cases.primeiro {
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
-.conteudo-cases.segundo {
+.page-marketing .conteudo-cases.segundo {
   background: #215A77;
   transition: background-color 0.5s ease;
   border-color: #215A77;
   display: none;
 }
-.conteudo-cases.segundo:before {
+.page-marketing .conteudo-cases.segundo:before {
   content: '';
   position: absolute;
   background: url(/lpmarketing/detalhes/fundoboxsegundo.png) no-repeat;
@@ -2050,7 +2050,7 @@ a:hover {
   left: 47%;
   top: 56px;
 }
-#como-atuamos .titulo-atuamos p {
+.page-marketing #como-atuamos .titulo-atuamos p {
   margin-bottom: 5rem;
 }
 .page-marketing .box-dizer .descricao-cliente p {
@@ -2129,7 +2129,7 @@ a:hover {
   text-transform: uppercase;
   position: relative;
 }
-#o-quedizem {
+.page-marketing #o-quedizem {
   padding-bottom: 6rem;
 }
 .page-marketing .box-resultadosmark {
@@ -2145,23 +2145,26 @@ a:hover {
   top: 43px;
   left: 48%;
 }
-.mockups-secao {
+.page-marketing .mockups-secao {
   position: relative;
   padding-bottom: 4rem;
 }
-.mockups-secao:before {
-  content: '';
-  background: #61DCAB 0% 0% no-repeat padding-box;
+.page-marketing .mockups-secao:before {
+  content: "";
+  background: #61dcab 0 0 no-repeat padding-box;
   border: 1px solid #707070;
   height: 139px;
-  width: 1130px;
-  left: -6px;
+  width: 890px;
+  left: 114px;
   position: absolute;
   display: inline-block;
   top: 21%;
 }
-.baixar-material {
-  background: #6411C6 0% 0% no-repeat padding-box;
+.page-marketing .removeraqui {
+  opacity: 0;
+}
+.page-marketing .baixar-material {
+  background: #620ec3 0% 0% no-repeat padding-box;
   border-radius: 24px;
   padding: 15px;
   text-align: center;
@@ -2170,6 +2173,9 @@ a:hover {
   font: normal normal 600 14px / 17px Poppins;
   letter-spacing: 0.45px;
   color: #FFFFFF;
+}
+.page-marketing .baixar-material:hover {
+  background: #400c7b;
 }
 .page-marketing #junte-se {
   padding: 4rem;
@@ -2197,12 +2203,12 @@ a:hover {
 .page-marketing #junte-se .texto-form {
   padding: 0 25px;
 }
-#o-quedizem .titulo-cliente h3 {
+.page-marketing #o-quedizem .titulo-cliente h3 {
   font: normal normal normal 20px / 28px Poppins;
   color: #FFFFFF;
   text-transform: uppercase;
 }
-#o-quedizem .titulo-cliente p {
+.page-marketing #o-quedizem .titulo-cliente p {
   font: normal normal 600 18px / 28px Poppins;
   color: #61DCAB;
 }
@@ -2222,7 +2228,7 @@ a:hover {
   width: 40px;
   height: 40px;
 }
-.carrossel-nairuzclientes .owl-prev span, .carrossel-nairuzclientes .owl-next span {
+.page-marketing .carrossel-nairuzclientes .owl-prev span, .page-marketing .carrossel-nairuzclientes .owl-next span {
   opacity: 0;
 }
 .page-marketing .carrossel-nairuzclientes {
@@ -2260,11 +2266,11 @@ a:hover {
   right: -30px;
   top: -50%;
 }
-.carrossel-atuacao.owl-carousel .owl-stage-outer, .oquedizem-clientes.owl-carousel .owl-stage-outer {
+.page-marketing .carrossel-atuacao.owl-carousel .owl-stage-outer, .page-marketing .oquedizem-clientes.owl-carousel .owl-stage-outer {
   overflow-x: clip;
   overflow-y: visible;
 }
-.carrossel-atuacao .owl-nav .owl-next {
+.page-marketing .carrossel-atuacao .owl-nav .owl-next {
   right: 6px;
 }
 .page-marketing #como-atuamos .button-especialista, #o-quedizem .button-especialista {

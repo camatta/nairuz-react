@@ -778,7 +778,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             <div className="mockups-secao">
                 <div className="row">
-                  <div className="col-12 col-md-3">
+                  <div className="col-12 col-md-3 removeraqui">
                     <div className="materiais">
                       <div className="imagem-materiais">
                         <Image src="/lpmarketing/mockups/planejamento-projecao.png" alt="Mockup 1" width={800} height={996} />
@@ -793,9 +793,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <div className="imagem-materiais">
                         <Image src="/lpmarketing/mockups/taxa-absorcao.png" alt="Mockup 2" width={800} height={996} />
                       </div>
-                      <div className="baixar-material">
+                      <a href="https://materiais.nairuz.com.br/download_taxadeabsorcao" target="_blank" rel="noopener noreferrer"><div className="baixar-material">
                         Baixar Material
-                      </div>
+                      </div></a>
                     </div>
                   </div>
                   <div className="col-12 col-md-3">
@@ -803,12 +803,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <div className="imagem-materiais">
                         <Image src="/lpmarketing/mockups/importancia-layout-ecommerce.png" alt="Mockup 3" width={800} height={996} />
                       </div>
-                      <div className="baixar-material">
+                      <a href="https://materiais.nairuz.com.br/e-book-a-importancia-do-layout-para-sua-loja-virtual" target="_blank" rel="noopener noreferrer"><div className="baixar-material">
                         Baixar Material
-                      </div>
+                      </div></a>
                     </div>
                   </div>
-                  <div className="col-12 col-md-3">
+                  <div className="col-12 col-md-3 removeraqui">
                     <div className="materiais">
                       <div className="imagem-materiais">
                         <Image src="/lpmarketing/mockups/contratar-agenciamarketing.png" alt="Mockup 4" width={800} height={996} />
@@ -896,10 +896,6 @@ $(document).ready(function(){
   });
 
 });
- 
-  if (window.RDStationForms) {
-    new RDStationForms('marketing-digital-30c2c87edfdd6cc6aca2', 'UA-48773259-1').createForm();
-  }
 
   // Carrossel LP Marketing
   $(document).ready(function(){

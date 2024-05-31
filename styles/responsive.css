@@ -26,7 +26,7 @@
   .page-marketing .logonairuz {
     margin-top: 4rem;
   }
-  .mockups-secao:before, .page-marketing .box-cert, .box-cases .button-resultados p, 
+  .page-marketing .mockups-secao:before, .page-marketing .box-cert, .page-marketing .box-cases .button-resultados p, 
   .page-marketing .texto-digital p, .page-marketing.pg-homologmark #oque-fazemos .descricao-quem p {
     width: 100%;
   }
@@ -39,7 +39,7 @@
   .page-marketing .box-dizer {
     margin: auto;
   }
-  .carrossel-atuacao .owl-nav .owl-prev {
+  .page-marketing .carrossel-atuacao .owl-nav .owl-prev {
     left: 5px;
   }
   .page-marketing .oquedizem-clientes .owl-nav .owl-prev {
@@ -60,7 +60,7 @@
   .page-marketing #junte-se {
     padding: 1rem;
   }
-  .box-cases .conteudo-cases, #como-atuamos .box-accordion {
+  .page-marketing .box-cases .conteudo-cases, .page-marketing #como-atuamos .box-accordion {
     margin: auto;
   }
   .button-resultados {
@@ -83,8 +83,8 @@
     text-align: center;
     line-height: 21px;
   }
-  .page-marketing #junte-se .secao-form:before, .mockups-secao:before, .page-marketing #cases-sucesso:before,
-  .page-marketing #certificacoes:after, .page-marketing #certificacoes:before  {
+  .page-marketing #junte-se .secao-form:before, .page-marketing .mockups-secao:before, .page-marketing #cases-sucesso:before,
+  .page-marketing #certificacoes:after, .page-marketing #certificacoes:before, .page-marketing .removeraqui  {
     display: none;
   }
   .page-marketing .box-cert {
