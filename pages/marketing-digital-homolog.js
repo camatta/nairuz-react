@@ -851,6 +851,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
     });
   });
+
+  if (window.RDStationForms) {
+    new RDStationForms('lp-performance-2022-e3e11f834cac8208347b', 'UA-48773259-1').createForm();
+  }
   `}
   </Script>
         
@@ -895,10 +899,6 @@ $(document).ready(function(){
  
   if (window.RDStationForms) {
     new RDStationForms('marketing-digital-30c2c87edfdd6cc6aca2', 'UA-48773259-1').createForm();
-  }
-
-  if (window.RDStationForms) {
-    new RDStationForms('lp-performance-2022-e3e11f834cac8208347b', 'UA-48773259-1').createForm();
   }
 
   // Carrossel LP Marketing

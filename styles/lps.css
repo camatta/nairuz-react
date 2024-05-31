@@ -1846,7 +1846,7 @@ a:hover {
   min-height: 350px;
   position: relative;
   padding-top: 5rem;
-  padding-bottom: 4rem;
+  padding-bottom: 0rem;
 }
 #como-atuamos .box-accordion .icone-topo {
   position: absolute;
@@ -2114,6 +2114,9 @@ a:hover {
 }
 .page-marketing .box-cert ul {
   justify-content: space-between;
+}
+.page-marketing .box-cert ul:last-child {
+  justify-content: space-evenly;
 }
 .page-marketing .btn-cert {
   border: 3px solid #61DCAB;
