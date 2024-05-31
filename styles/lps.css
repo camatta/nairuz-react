@@ -1843,7 +1843,7 @@ a:hover {
   border-radius: 0 30px;
   text-align: center;
   width: 310px;
-  min-height: 410px;
+  min-height: 370px;
   position: relative;
   padding-top: 5rem;
   padding-bottom: 0rem;
@@ -1868,6 +1868,7 @@ a:hover {
   color: #fff;
   font-family: 'Poppins';
   position: relative;
+  font-size: 14px;
 }
 .page-marketing #como-atuamos .texto-accordion details p {
   margin: 1rem 0;
