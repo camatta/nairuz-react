@@ -319,6 +319,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									    </details>
                     </div>
                   </div>
+                  <div className="box-accordion tec">
+                    <div className="icone-topo">
+                    <Image src="/lpmarketing/icon-tec.svg" width={127} height={127} />
+                    </div>
+                    <div className="titulo-atuacao">
+                      <h3>Tecnologia</h3>
+                    </div>
+                    <div className="texto-accordion">
+                      <details>
+										    <summary>Help Suporte</summary>
+									    </details>
+                      <details>
+										    <summary>Desenvolvimento de Website </summary>
+									    </details>
+                      <details>
+										    <summary>Sustentação para e-commerce</summary>
+									    </details>
+                      <details>
+										    <summary>Implantação de e-commerce</summary>
+									    </details>
+                      <details>
+										    <summary>CRO</summary>
+									    </details>
+                    </div>
+                  </div>
                 </div>
                 </div>
               </div>
