@@ -7,8 +7,8 @@ import fortaleza from '../../../public/volt/simbolo-fortaleza.webp'
 export const CLUBS = [
   {
     id: 1,
-    logo: '',
-    siteUrl: ''
+    logo: fortaleza,
+    siteUrl: 'https://www.leao1918.com.br/'
   },
   {
     id: 2,
