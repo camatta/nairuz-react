@@ -476,6 +476,76 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="container-fluid" id="blog-materiais">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <div className="blog-home">
+                    <div className="title-cases-home">
+                    <p>ÚLTIMAS DO <span>BLOG</span></p>
+                    </div>
+                    <div className="cards-blog">
+                      {loadingBlog ? (
+                        <p>Carregando posts...</p>
+                      ) : (
+                        postData.map((item) => {
+                          const hasImage = item.yoast_head_json?.og_image?.[0]?.url;
+                          const hasAuthor = item.yoast_head_json?.author;
+
+                          if (hasImage && hasAuthor) {
+                            return (
+                              <UltimosBlog
+                                key={item.id}
+                                img={item.yoast_head_json.og_image[0].url}
+                                title={item.title.rendered}
+                                content={item.excerpt.rendered}
+                                date={item.date}
+                                author={item.yoast_head_json.author}
+                                link={item.link}
+                                rel="noopener noreferrer"
+                              />
+                            );
+                          } else {
+                            return null;
+                          }
+                        })
+                      )}
+                    </div>
+                    <div className="vermais-blog">
+                      <a href="https://blog.nairuz.com.br" target="_blank" rel="noopener noreferrer">Ver mais no blog</a>
+                    </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="materiais-home">
+                  <div className="title-cases-home">
+                    <p>ÚLTIMOS <span>MATERIAIS RICOS</span></p>
+                  </div>
+                  <div className="text-materiais">
+                    <p>São guias completos sobre os principais assuntos<br></br> relacionados ao Marketing Digital. Conteúdos que irão<br></br> auxiliar você, empreendedor, a ter melhores resultados.<br></br> E o melhor, é tudo DE GRAÇA.</p>
+                  </div>
+                  <div className="cards-ricos">
+                    { loadingMateriaisRicos ? (
+                        <p>Carregando materiais...</p>
+                      ) : (
+                        postMateriaisRicos.map((item) => (
+                          <UltimosMateriaisRicos
+                            key={item.id}
+                            title={item.title.rendered}
+                            content={item.excerpt.rendered}
+                            author={item.yoast_head_json.author}
+                            date={item.date}
+                            link={item.link}
+                          />
+                        ))
+                      )
+                    }
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <NewsletterNz />
       </main>
 
