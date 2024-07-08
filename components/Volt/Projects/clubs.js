@@ -3,6 +3,7 @@
  * para informar como valor na chave logo dentro do array de objetos CLUBS
  */
 import fortaleza from '../../../public/volt/simbolo-fortaleza.webp'
+import vitoria from '../../../public/volt/simbolo-vitoria.webp'
 
 export const CLUBS = [
   {
@@ -12,8 +13,8 @@ export const CLUBS = [
   },
   {
     id: 2,
-    logo: '',
-    siteUrl: ''
+    logo: vitoria,
+    siteUrl: 'https://www.lojasounego.com.br/'
   },
   {
     id: 3,
