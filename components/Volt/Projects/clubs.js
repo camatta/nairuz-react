@@ -4,6 +4,7 @@
  */
 import fortaleza from '../../../public/volt/simbolo-fortaleza.webp'
 import vitoria from '../../../public/volt/simbolo-vitoria.webp'
+import criciuma from '../../../public/volt/simbolo-criciuma.svg'
 
 export const CLUBS = [
   {
@@ -18,8 +19,8 @@ export const CLUBS = [
   },
   {
     id: 3,
-    logo: '',
-    siteUrl: ''
+    logo: criciuma,
+    siteUrl: 'https://tigremaniacos.com.br/'
   },
   {
     id: 4,
