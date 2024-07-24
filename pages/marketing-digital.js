@@ -714,7 +714,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="area-form">
                 <div className="texto-form">
                   <h3>Junte-se a nós!</h3>
-                  <p>Não perca mais tempo! Assista seus<br></br> números dispararem rumo ao sucesso.<br></br> Basta deixar suas informações abaixo e<br></br> nossa equipe entrará em contato com<br></br> você!</p>
+                  <p>Não perca mais tempo! Assista seus números dispararem rumo ao sucesso. Basta deixar suas informações abaixo e nossa equipe entrará em contato com você!</p>
                 </div>
                   <div role="main" id="lp-performance-2022-e3e11f834cac8208347b"></div>
                 </div>

@@ -1428,10 +1428,18 @@ a:hover {
   text-transform: capitalize;
 }
 
+.page-marketing .menu ul li button:hover {
+  border-bottom: 1px solid #fff;
+}
+
 .page-marketing .contato button {
   color: #00175D;
   font-weight: 600;
   padding: 0.4rem 1.4rem;
+}
+
+.page-marketing .contato button:hover {
+  background: #4dc595;
 }
 
 .page-marketing #performance {
@@ -1660,6 +1668,7 @@ a:hover {
   top: 20%;
   background-repeat: no-repeat;
   background-size: 100%;
+  display: none;
 }
 .page-marketing #performance {
   background-image: url(/lpmarketing/fundolp.jpg);
@@ -1725,7 +1734,6 @@ a:hover {
   bottom: 0px;
   left: 0px;
   background: url(/lpmarketing/detalhes/fundoborda.svg) no-repeat;
-  animation: rotate 5s linear infinite;
   background-position: center;
 }
 .page-marketing .fundo-borda:after {
@@ -1760,7 +1768,7 @@ a:hover {
   margin-bottom: 1rem;
 }
 .page-marketing #como-atuamos {
-  background: url(/lpmarketing/fundoatuamos.jpg) no-repeat;
+  background: #010f58;
   padding: 4rem 0;
   position: relative;
   background-size: cover;
@@ -1777,7 +1785,7 @@ a:hover {
   right: 0;
   left: -40px;
   top: 50%;
-  display: block;
+  display: none;
 }
 .page-marketing #certificacoes:after {
   content: '';
@@ -1787,7 +1795,7 @@ a:hover {
   height: 92px;
   right: -128px;
   top: 64%;
-  display: block;
+  display: none;
   transform: rotate(270deg);
   background-size: 100%;
 }
@@ -1800,6 +1808,7 @@ a:hover {
   right: 0;
   left: 48%;
   top: -24px;
+  display: none;
 }
 .page-marketing #certificacoes #certn:before {
   top: -101px;
@@ -1814,6 +1823,7 @@ a:hover {
   left: 48%;
   bottom: -24px;
   z-index: 1;
+  display: none;
 }
 .page-marketing #como-atuamos .titulo-atuamos, .page-marketing #como-atuamos .button-especialista, .page-marketing #cases-sucesso .titulo-cases, .page-marketing .descricao-premios p,
 .page-marketing #cases-sucesso .logo-cases, .page-marketing #o-quedizem .titulo-cases, .page-marketing #certificacoes .titulo-secao,
@@ -1919,6 +1929,9 @@ a:hover {
 	text-align: center;
   display: inline-block;
   position: absolute;
+}
+.page-marketing #como-atuamos .tec details[open] summary:after {
+  display: none;
 }
 .page-marketing #o-quedizem .titulo-cases p {
   margin-bottom: 4rem;
@@ -2053,6 +2066,7 @@ a:hover {
   right: 0;
   left: 47%;
   top: 56px;
+  display: none;
 }
 .page-marketing #como-atuamos .titulo-atuamos p {
   margin-bottom: 5rem;
@@ -2095,7 +2109,7 @@ a:hover {
   font-weight: 700;
 }
 .page-marketing #certificacoes {
-  background: url(/lpmarketing/fundo-bg-final.jpg) no-repeat;
+  background: #001161;
   background-size: cover;
   background-position: center;
   position: relative;
