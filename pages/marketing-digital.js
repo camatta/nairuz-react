@@ -468,9 +468,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       </div>
                       <div className="conteudo-secao">
                         <ul>
-                          <li>• Crescimento de <strong>92%</strong> no faturamento.</li>
-                          <li>• Aumento de <strong>127%</strong> nas visitas orgânicas no site.</li>
-                          <li>• ROAS maior que <strong>1.100%.</strong></li>
+                          <li>• Aumento de <strong>18%</strong> em faturamento no primeiro ano.</li>
+                          <li>• Meta de oportunidades em 644% atingida com sucesso.</li>
                         </ul>
                       </div>
                     </div>
