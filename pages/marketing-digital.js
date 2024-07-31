@@ -135,7 +135,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div className="descricao-quem">
                 <p className="fazer">O que fazemos?</p>
                 <h2>Transformamos oportunidades<br></br>em cases de sucesso!</h2>
-                <p>Isso mesmo! Exploramos as possibildades de<br></br> aproximar marcas de seus públicos-alvo, utilizando<br></br>insights derivados de análise de dados, para assim<br></br>criar experiências digitais valiosas e impulsionar o <br></br>crescimentos das receitas. Como parceiros das<br></br>melhores empresas de soluções digitais, nossa<br></br>equipe diversificada de especialistas colabora com<br></br>nossos clientes para garantir acesso ao mercado<br></br>digital, oferencendo estratégias de marketing digital<br></br> de qualidade que alavancam as marcas rumo ao<br></br>sucesso.</p>
+                <p>Isso mesmo! Exploramos as possibilidades de<br></br> aproximar marcas de seus públicos-alvo, utilizando<br></br>insights derivados de análise de dados, para assim<br></br>criar experiências digitais valiosas e impulsionar o <br></br>crescimentos das receitas. Como parceiros das<br></br>melhores empresas de soluções digitais, nossa<br></br>equipe diversificada de especialistas colabora com<br></br>nossos clientes para garantir acesso ao mercado<br></br>digital, oferecendo estratégias de marketing digital<br></br> de qualidade que alavancam as marcas rumo ao<br></br>sucesso.</p>
                 <div className="button-especialista">
                   <a className="fale-com" onClick={rollOrcamento}>Falar com um especialista</a>
                 </div>
