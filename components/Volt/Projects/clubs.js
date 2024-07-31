@@ -5,6 +5,7 @@
 import fortaleza from '../../../public/volt/simbolo-fortaleza.webp'
 import vitoria from '../../../public/volt/simbolo-vitoria.webp'
 import criciuma from '../../../public/volt/simbolo-criciuma.svg'
+import avai from '../../../public/volt/simbolo-avai.svg'
 
 export const CLUBS = [
   {
@@ -24,8 +25,8 @@ export const CLUBS = [
   },
   {
     id: 4,
-    logo: '',
-    siteUrl: ''
+    logo: avai,
+    siteUrl: 'https://lojaleaodailha.com.br/'
   },
   {
     id: 5,
